@@ -8,7 +8,6 @@ const profesores = JSON.parse(fs.readFileSync("profesores.json", "utf8"));
 
 
 // crea la matriz vacia para cada turno de un semestre, depende del turno pone 7 u 8 bloques
-// cada bloque dura 50 minutos predeterminado
 function crearMatrizHorario(grupo) {
   const bloquesPorTurno = { //objeto de los turnous para acceder al num de bloq en turno
     "Matutino": {
@@ -48,29 +47,62 @@ function filtrarMateriasPorSemestre(materias, semestre) {
 
 function asignarMateriasAMatriz(matriz, materias) {
   let indexMateria = 0;
-  let horasRestantes = materias[indexMateria].horas_semanales;
-  let nombreMateria = materias[indexMateria].nombre;
+  let materiaActual = materias[indexMateria];
+  let horasRestantes = materiaActual.horas_semanales;
+  let nombreMateria = materiaActual.nombre;
+  let tipoMateria = materiaActual.tipo;
 
-  const dias = Object.keys(matriz); // los days of the week
+  const dias = Object.keys(matriz); // los days of the week que se usan como keys en la matriz
 
-  for (let dia of dias) {
-    const bloquesEnDia = matriz[dia];
+  while (indexMateria < materias.length){
+    let seAsignoHoraEstaVuelta = false;
 
-    for (let bloque in bloquesEnDia) {
-      if (bloquesEnDia[bloque] === null) {
-        bloquesEnDia[bloque] = nombreMateria;
-        horasRestantes--;
+    for (let dia of dias) {
+      const bloquesEnDia = matriz[dia]; 
+      let horasAsignadasHoy = 0;
 
-        if (horasRestantes === 0) {
-          indexMateria++;
-          if (indexMateria >= materias.length) return matriz; // ya no hay más materias
-          nombreMateria = materias[indexMateria].nombre;
-          horasRestantes = materias[indexMateria].horas_semanales;
+      for (let bloque in bloquesEnDia) {
+        if (bloquesEnDia[bloque] === nombreMateria) {
+          horasAsignadasHoy++;
         }
+      }
+
+      const maximoPorDia = maximoHorasDeMateriaPorDia(materiaActual);
+
+        for (let bloque in bloquesEnDia) {
+        if (bloquesEnDia[bloque] === null && horasAsignadasHoy < maximoPorDia) {
+          bloquesEnDia[bloque] = nombreMateria;
+          horasRestantes--;
+          horasAsignadasHoy++;
+          seAsignoHoraEstaVuelta = true;
+
+          if (horasRestantes === 0) {
+            break; // salir del día
+          }
+        }
+      }
+      if (horasRestantes === 0) break;
+    }
+    if (horasRestantes === 0) {
+      indexMateria++;
+      if (indexMateria < materias.length) {
+        materiaActual = materias[indexMateria];
+        nombreMateria = materiaActual.nombre;
+        tipoMateria = materiaActual.tipo;
+        horasRestantes = materiaActual.horas_semanales;
+      }
+    } else if (!seAsignoHoraEstaVuelta) {
+      // no se pudo asignar nada más y aún hay horas restantes
+      console.warn(`No se pudo asignar todas las horas de "${nombreMateria}"`);
+      indexMateria++; // cambio de materia
+      if (indexMateria < materias.length) {
+        materiaActual = materias[indexMateria];
+        nombreMateria = materiaActual.nombre;
+        tipoMateria = materiaActual.tipo;
+        horasRestantes = materiaActual.horas_semanales;
       }
     }
   }
-
   return matriz;
 }
 
@@ -101,12 +133,17 @@ function acomodoPreferenteModuloProfesional(matriz, materiaModulo) {
 // restricciones de la asignación
 function maximoHorasDeMateriaPorDia(materia){
 
-  const horasPorMateria {
-    "modulo_profesional": 4, // máximo de horas por día para modulo profesional
-    "tronco_comun": 2, // máximo de horas por día para tronco común
-    "extracurricular": 1 // máximo de horas por día para extracurricular
+  const horasPorMateria = {
+    "modulo_profesional": 5, // máximo de horas por día para modulo profesional
+    "tronco_comun": 2, 
+    "extracurricular": 1 
   };
+
+  return horasPorMateria[materia.tipo] || 2;
 }
+
+
+
 
 // PRUEBA DEL ALGORÍTMO -------------------------------
 const grupo = grupos[0]; //escoger un grupo de grupos.json
@@ -116,7 +153,7 @@ const materiasDelGrupo = filtrarMateriasPorSemestre(materias, grupo.semestre);
 const moduloProfesional = materiasDelGrupo.find(m => m.tipo === "modulo_profesional") //busca las materias del tipo modulo profesional que corresponde al semestre
 
 if (moduloProfesional) {
-  acomodoPreferenteModuloProfesional(matriz, moduloProfesional); //en un futuro poner alguna validación de si es 1er semestre no ejecute esto?
+  acomodoPreferenteModuloProfesional(matriz, moduloProfesional); 
 }
 const otrasMaterias = materiasDelGrupo.filter(m => m.id !== moduloProfesional?.id);
 
