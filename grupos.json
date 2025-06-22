@@ -1,0 +1,16 @@
+[
+    {
+        "semestre": 2,
+        "grupo": "B",
+        "nomenclatura": "202B",
+        "especialidad": "Programación",
+        "turno": "Matutino"
+    },
+    {
+        "semestre": 2,
+        "grupo": "G",
+        "nomenclatura": "207G",
+        "especialidad": "Programación",
+        "turno": "Vespertino"
+    }
+]

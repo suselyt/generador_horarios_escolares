@@ -1,0 +1,26 @@
+[
+    {
+        "semestre": [1, 2],
+        "inicio": "8:40",
+        "fin": "9:10",
+        "turno": "matutino"
+    },
+    {
+        "semestre": [3, 4],
+        "inicio": "9:30",
+        "fin": "10:00",
+        "turno": "matutino"
+    },
+    {
+        "semestre": [5, 6],
+        "inicio": "9:30",
+        "fin": "10:00",
+        "turno": "matutino"
+    },
+    {
+        "semestre": [1, 2, 3, 4, 5, 6],
+        "inicio": "15:50",
+        "fin": "16:20",
+        "turno": "vespertino"
+    }
+]

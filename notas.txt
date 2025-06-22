@@ -1,0 +1,77 @@
+
+11 grupos por semestre
+6to = 8 mat - 3 vesp = 11 grupos
+4to = 8 mat - 3 vesp = 11 grupos
+2do = 6 mat - 5 vesp = 11 grupos
+
+prox semestre
+1ro = 6 mat - 5 vesp
+3ro = 6 mat - 5 vesp
+5to = 8 mat - 3 vesp
+
+notas
+1ro tiene horarios mas cortos pq no tienen especialidad
+hasta el F en matutino y a partir del G son vesp 201G
+
+el horario vespertino tiene 7 horas
+horario matutino tiene 8 horas
+
+
+restricciones:
+- una clase tiene sus horas semanales máximas
+- una clase no puede ser de más de 2 hrs seguidas
+- una clase no puede estar separada 1hr y 1hr
+- los maestros tienen horas semanales máximas
+- poder editar las horas dadas y mover a los maestros (en caso que el criterio sea necesario)
+- horario de los maestros corrido (sin huecos) / en caso de no posible está bien, pero priorizarlo
+
+submódulos:
+- aunque el módulo profesional está separado por submódulos los manejan juntos (creo se refiere que un maestro lo da todo)
+- lo que se maneja ahora son bloques de 4hrs para los submódulos
+
+preferencias: 
+- clubs que caigan en las últimas horas
+- tal vez hacer que el programa aprenda de maso las preferencias de ciertos maestros dando en las tardes o así
+
+ideas:
+- un maestro de la misma clase seguida a varios grupos para que no tenga huecos y que no dure más de 2hrs con la clase
+- los módulos se aplican directamente a un maestro, no se separan
+- pero en el horario de los maestros, los módulos se separan
+
+las extracurriculares funcionan:
+- un maestro le da la misma hora a todo el semestre (premilitar)
+- los que no están en premilitar se van a clubes (danza, pintura, rondalla y banda de guerra)
+- todo el semestre se ocupa a esas horas
+- *no estoy segura cómo funcionan en el turno vespertino por el corte de una hora menos 
+
+*fortalecimiento academico:
+- los docentes tienen horas frente a grupo y horas de fortalecimiento
+- estas se pueden usar para rellenar su horario y no tenga huecos
+
+recesos:
+- estos deberían poder asignados por el usuario antes si es que los quiere mover para tener diferentes recesos o iguales en los semestres
+
+info general:
+- una clase dura 50min
+- matutino 7:00 - 14:10
+- vespertino 13:20 - 19:40
+
+horario de alumnos:
+- van por semestres, (es decir, una tabla de horarios para 2do semestre, otra para 4to..)
+- solo muestra que es hora de extracurriculares para todo el semestre, pero no dice cuál extracurricular o quienes
+- solo muestra módulo profesional pero no muestra ni el nombre ni el submódulos
+- columna de número de horas
+- segunda columna bloques de hora (7:00 - 7:50)
+- 3ra columna todos los grupos del semestre (201,202,203...)
+- días de la semana en las siguientes columnas
+
+horario de profesores: 
+- nombre arriba
+- primera columna horas (7:00 - 19:40)
+- días de la semana en las demás columnas
+- abajo un resumen con otra tabla:
+    - 1ra columna semestre del grupo
+    - 2da columna materia (en este caso sí se muestra el submódulos o el nombre de la extracurricular o lo de fortalecimiento)
+    - 3ra columna grupos (si aplica)
+    - 4ta columna número de horas semanales
+    - abajo el total de horas

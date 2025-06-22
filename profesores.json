@@ -1,0 +1,24 @@
+[
+    {
+        "nombre": "Heredia Blanco Laura",
+        "abreviatura": "H.B. Laura",
+        "materias": ["CD2", "CDLEYSI2", "LYC2", "I2", "PM2", "CS2", "T"],
+        "horas_semanales": 40,
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Multidisciplinarias",
+                "horas": 4
+            },
+            {
+                "nombre": "Asesorías académicas",
+                "horas": 2
+            }
+        ]
+    },
+    {
+        "nombre": "Herrera Garc'ia Brenda Itzel",
+        "abreviatura": "H.G. Brenda",
+        "materias": ["MPP2"],
+        "horas_semanales": 17
+    }
+]

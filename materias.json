@@ -1,0 +1,75 @@
+[
+  {
+    "id": "CD2",
+    "nombre": "Cultura digital II",
+    "semestre": 2,
+    "tipo": "Tronco común",
+    "horas_semanales": 2
+  },
+  {
+    "id": "CDLEYSI2",
+    "nombre": "Conservación de la energía y sus interacciones",
+    "semestre": 2,
+    "tipo": "Tronco común",
+    "horas_semanales": 4
+  },
+  {
+    "id": "MPP2",
+    "nombre": "Modulo profesional",
+    "semestre": 2,
+    "tipo": "modulo_profesional",
+    "submodulos": [
+        {
+          "nombre": "POO",
+          "horas": 8
+        },
+        {
+          "nombre": "Bases de datos",
+          "horas": 9
+        }
+    ],
+    "especialidad": "Programación",
+    "horas_semanales": 17,
+    "bloques_recomendados": [4, 4, 4, 5]
+  },
+  {
+    "id": "LYC2",
+   "nombre": "Lengua y comunicación II",
+    "semestre": 2,
+    "tipo": "Tronco común",
+    "horas_semanales": 3
+  },
+  {
+    "id": "I2",
+   "nombre": "Inglés II",
+    "semestre": 2,
+    "tipo": "Tronco común",
+    "horas_semanales": 3
+  },
+  {
+    "id": "PM2",
+   "nombre": "Pensamiento matemático II",
+    "semestre": 2,
+    "tipo": "Tronco común",
+    "horas_semanales": 4
+  },
+  {
+    "id": "CS2",
+   "nombre": "Ciencias sociales II",
+    "semestre": 2,
+    "tipo": "Tronco común",
+    "horas_semanales": 2
+  },
+  {
+    "id": "T",
+    "nombre": "Tutorías",
+    "horas_semanales": 1
+  },
+  {
+    "id": "EXTRA2 ",
+    "nombre": "Extracurriculares",
+    "semestre": 2,
+    "horas_semanales": 3,
+    "tipo": "Extracurricular"
+  }
+]
