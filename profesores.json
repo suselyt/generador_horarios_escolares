@@ -4,6 +4,7 @@
         "abreviatura": "H.B. Laura",
         "materias": ["CD2", "CDLEYSI2", "LYC2", "I2", "PM2", "CS2", "T"],
         "horas_semanales": 40,
+        "bloques_recomendados_asignar": [1, 2, 3, 4],
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Multidisciplinarias",
@@ -19,6 +20,7 @@
         "nombre": "Herrera Garc'ia Brenda Itzel",
         "abreviatura": "H.G. Brenda",
         "materias": ["MPP2"],
-        "horas_semanales": 17
+        "horas_semanales": 17,
+        "bloques_recomendados_asignar": [3, 4, 5, 6, 7]
     }
 ]

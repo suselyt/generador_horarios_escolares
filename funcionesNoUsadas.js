@@ -159,3 +159,31 @@ const horario1ro = generarHorario(materias1ro);
 mostrarHorarioHorizontal(horario1ro);
 
 
+// crea la matriz vacia para cada turno de un semestre, depende del turno pone 7 u 8 bloques
+function crearMatrizHorario(grupo) {
+  const bloquesPorTurno = { //objeto de los turnous para acceder al num de bloq en turno
+    "Matutino": {
+      bloques: 8
+    },
+    "Vespertino": {
+      bloques: 7
+    }
+  };
+
+  const dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"];
+  const turno = bloquesPorTurno[grupo.turno];
+
+  if (!turno) throw new Error("Turno no válido: " + grupo.turno); //validacion de turno
+
+  const bloques = turno.bloques;
+  const matriz = {};
+
+  dias.forEach(dia => {
+    matriz[dia] = {}; // nuevo objeto llamado dia para poder acceder usando matriz["Lunes"][1]
+    for (let i = 1; i <= bloques; i++) {
+      matriz[dia][i] = null;
+    }
+  });
+
+  return matriz;
+}

@@ -1,41 +1,33 @@
 const { log } = require('console');
 const fs = require('fs'); //modulo para leer archivos
+const { parse } = require('path');
+const { json } = require('stream/consumers');
 
 // leer archivos json con info que estoy usando
 const materias = JSON.parse(fs.readFileSync("materias.json", "utf8"));
 const grupos = JSON.parse(fs.readFileSync("grupos.json", "utf8"));
 const profesores = JSON.parse(fs.readFileSync("profesores.json", "utf8"));
+const config = JSON.parse(fs.readFileSync("general.json", "utf8"));
 
 
-// crea la matriz vacia para cada turno de un semestre, depende del turno pone 7 u 8 bloques
-function crearMatrizHorario(grupo) {
-  const bloquesPorTurno = { //objeto de los turnous para acceder al num de bloq en turno
-    "Matutino": {
-      bloques: 8
-    },
-    "Vespertino": {
-      bloques: 7
-    }
-  };
-
+function crearMatrizHorario(config){
   const dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"];
-  const turno = bloquesPorTurno[grupo.turno];
-
-  if (!turno) throw new Error("Turno no válido: " + grupo.turno); //validacion de turno
-
-  const bloques = turno.bloques;
   const matriz = {};
+  const { bloques_matutino, bloques_vespertino, bloque_inicio_vespertino } = config;
 
-  dias.forEach(dia => {
-    matriz[dia] = {}; // nuevo objeto llamado dia para poder acceder usando matriz["Lunes"][1]
-    for (let i = 1; i <= bloques; i++) {
-      matriz[dia][i] = null;
+  const totalBloques = bloques_matutino + bloques_vespertino;
+  let bloqueActual = 1;
+
+  for (let dia of dias) {
+    matriz[dia] = {};
+    for (let i = 0; i < totalBloques; i++){
+      matriz[dia][bloqueActual] = null;
+      bloqueActual++;
     }
-  });
-
+    bloqueActual = 1;
+  }
   return matriz;
 }
-
 
 function filtrarMateriasPorSemestre(materias, semestre) {
   return materias.filter(materia => 
@@ -61,7 +53,8 @@ function asignarMateriasAMatriz(matriz, materias) {
       const bloquesEnDia = matriz[dia]; 
       let horasAsignadasHoy = 0;
 
-      for (let bloque in bloquesEnDia) {
+      for (let bloqueStr in bloquesEnDia) {
+        const bloque = parseInt(bloqueStr);
         if (bloquesEnDia[bloque] === nombreMateria) {
           horasAsignadasHoy++;
         }
@@ -69,18 +62,19 @@ function asignarMateriasAMatriz(matriz, materias) {
 
       const maximoPorDia = maximoHorasDeMateriaPorDia(materiaActual);
 
-        for (let bloque in bloquesEnDia) {
-        if (bloquesEnDia[bloque] === null && horasAsignadasHoy < maximoPorDia) {
-          bloquesEnDia[bloque] = nombreMateria;
-          horasRestantes--;
-          horasAsignadasHoy++;
-          seAsignoHoraEstaVuelta = true;
+        for (let bloqueStr in bloquesEnDia) {
+          const bloque = parseInt(bloqueStr);
+          if (bloquesEnDia[bloque] === null && horasAsignadasHoy < maximoPorDia) {
+            bloquesEnDia[bloque] = nombreMateria;
+            horasRestantes--;
+            horasAsignadasHoy++;
+            seAsignoHoraEstaVuelta = true;
 
-          if (horasRestantes === 0) {
-            break; // salir del día
+            if (horasRestantes === 0) {
+              break; // salir del día
+            }
           }
         }
-      }
       if (horasRestantes === 0) break;
     }
     if (horasRestantes === 0) {
@@ -119,7 +113,8 @@ function acomodoPreferenteModuloProfesional(matriz, materiaModulo) {
 
     let bloquesAsignados = 0;
 
-    for (let bloque in bloquesDia) {
+    for (let bloqueStr in bloquesDia) {
+      const bloque = parseInt(bloqueStr);
       if (bloquesDia[bloque] === null && bloquesAsignados < bloquesDelDia){
         bloquesDia[bloque] = nombre;
         bloquesAsignados++;
@@ -141,7 +136,8 @@ function acomodoExtracurricularesAlFinal(matriz, materiaExtracurricular) {
     const bloques = Object.keys(matriz[dia]).reverse(); // empieza desde el final del dia
     let horasAsignadasHoy = 0;
 
-    for (let bloque of bloques) {
+    for (let bloqueStr of bloques) {
+      const bloque = parseInt(bloqueStr);
       if (matriz[dia][bloque] === null && horasAsignadasHoy < maximoPorDia) {
         matriz[dia][bloque] = nombre;
         horasRestantes--;
@@ -167,12 +163,15 @@ function maximoHorasDeMateriaPorDia(materia){
   return horasPorMateria[materia.tipo] || 2;
 }
 
+function obtenerTurnoDeBloque(bloque, config) {
+  const { bloque_inicio_vespertino } = config;
+  return bloque < bloque_inicio_vespertino ? "Matutino" : "Vespertino";
+}
 
 
 
 // PRUEBA DEL ALGORÍTMO ------------------------------- usa "node.js algoritmo.js" en terminal
-const grupo = grupos[0]; //escoger un grupo de grupos.json
-const matriz = crearMatrizHorario(grupo); //crea la matriz dependiendo del turno del grupo
+const matriz = crearMatrizHorario(config); //crea la matriz dependiendo de la config de general.json
 const materiasDelGrupo = filtrarMateriasPorSemestre(materias, grupo.semestre);
 
 const moduloProfesional = materiasDelGrupo.find(m => m.tipo === "modulo_profesional") //busca las materias del tipo modulo profesional que corresponde al semestre
@@ -191,7 +190,6 @@ const otrasMaterias = materiasDelGrupo.filter(m =>
 asignarMateriasAMatriz(matriz, otrasMaterias);
 
 console.log(matriz);
-
 
 
 // CAMBIOS QUE AGREGAR PARA DESPUES >
