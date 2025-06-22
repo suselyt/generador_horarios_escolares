@@ -130,6 +130,31 @@ function acomodoPreferenteModuloProfesional(matriz, materiaModulo) {
   return matriz;
 }
 
+// primero asigna las materias extracurriculares al final de la semana
+function acomodoExtracurricularesAlFinal(matriz, materiaExtracurricular) {
+  const dias = Object.keys(matriz);
+  const nombre = materiaExtracurricular.nombre;
+  let horasRestantes = materiaExtracurricular.horas_semanales;
+  const maximoPorDia = maximoHorasDeMateriaPorDia(materiaExtracurricular);
+
+  for (let dia of dias) {
+    const bloques = Object.keys(matriz[dia]).reverse(); // empieza desde el final del dia
+    let horasAsignadasHoy = 0;
+
+    for (let bloque of bloques) {
+      if (matriz[dia][bloque] === null && horasAsignadasHoy < maximoPorDia) {
+        matriz[dia][bloque] = nombre;
+        horasRestantes--;
+        horasAsignadasHoy++;
+
+        if (horasRestantes === 0) return matriz;
+      }
+    }
+  }
+
+  return matriz;
+}
+
 // restricciones de la asignación
 function maximoHorasDeMateriaPorDia(materia){
 
@@ -145,17 +170,23 @@ function maximoHorasDeMateriaPorDia(materia){
 
 
 
-// PRUEBA DEL ALGORÍTMO -------------------------------
+// PRUEBA DEL ALGORÍTMO ------------------------------- usa "node.js algoritmo.js" en terminal
 const grupo = grupos[0]; //escoger un grupo de grupos.json
 const matriz = crearMatrizHorario(grupo); //crea la matriz dependiendo del turno del grupo
 const materiasDelGrupo = filtrarMateriasPorSemestre(materias, grupo.semestre);
 
 const moduloProfesional = materiasDelGrupo.find(m => m.tipo === "modulo_profesional") //busca las materias del tipo modulo profesional que corresponde al semestre
 
-if (moduloProfesional) {
+if (moduloProfesional) { // si hubo al menos una de tipo modulo profesional
   acomodoPreferenteModuloProfesional(matriz, moduloProfesional); 
 }
-const otrasMaterias = materiasDelGrupo.filter(m => m.id !== moduloProfesional?.id);
+
+const extracurriculares = materiasDelGrupo.filter(m => m.tipo === "extracurricular");
+extracurriculares.forEach(m => acomodoExtracurricularesAlFinal(matriz, m));
+
+const otrasMaterias = materiasDelGrupo.filter(m =>
+  m.id !== moduloProfesional?.id && m.tipo !== "extracurricular"
+);
 
 asignarMateriasAMatriz(matriz, otrasMaterias);
 
@@ -163,117 +194,16 @@ console.log(matriz);
 
 
 
+// CAMBIOS QUE AGREGAR PARA DESPUES >
+//          agregar recesos para la matriz // tal vez no haga falta y se pueda hacer en el front
+//          agregar profesores a las materias
+//          validaciones
+//          turno vespertino cambiar los bloques empiecen despues del 8
+//          asignar horas preferentes para los maestros en json y tener en cuenta al asignar
+//          hacer que los maestros tengan horario seguido
 
-// agregar recesos para la matriz?
-// validaciones-
+// ERROR CON ULTIMO COMMIT> aun falla en agregar ciertas materias, hacer que recorra las materias y primero 
+//                          asigne de forma preferencial, es decir, si el maximo es 2, asignar esas 2 donde se pueda
 
-//turno vespertino cambiar los bloques que continuen después 8
-
-
-
-//funciones anteriores
-// function validarAsignacion(profesor, materia, horario) {
-//     // horas máximas
-//     if (profesor.horas_asignadas + materia.horas_semanales > profesor.horas_maximas) {
-//         return false;
-//     }
-    
-//     // si puede dar la materia
-//     if (!profesor.materias.includes(materia.id)) {
-//         return false;
-//     }
-    
-//     return true;
-// }
-
-// function generarHorario(materias, horasPorDia = 8, dias = 5) {
-//   const horario = Array.from({ length: dias }, () => 
-//     Array(horasPorDia).fill(null)
-//   ); 
-
-//  //ordenar las materias de mayor a menor pq es m'as sencillo asignar las de mayor carga primero
-//   const materiasOrdenadas = [...materias].sort((a, b) =>  //sort comparator
-//     b.horas_semanales - a.horas_semanales
-//   );
-
-//   for (const materia of materiasOrdenadas) {
-//     let horasAsignadas = 0;
-    
-//     //si la materia es de tronco común, tiene un máximo de 2 hrs por día
-    
-//     //si la materia es de tipo extracurricular, asignar 1 hora por día y en las ultimas horas
-    
-
-//     // Intentar asignar en bloques consecutivos primero
-//     for (let dia = 0; dia < dias && horasAsignadas < materia.horas_semanales; dia++) {
-//       for (let hora = 0; hora < horasPorDia && horasAsignadas < materia.horas_semanales; hora++) {
-//         if (horario[dia][hora] === null) {
-//           // Intentar bloque de 2 horas si es posible
-//           const horasDisponibles = Math.min(2, materia.horas_semanales - horasAsignadas);
-//           let bloqueValido = true;
-          
-//           // Verificar si hay espacio para el bloque
-//           for (let h = 0; h < horasDisponibles; h++) {
-//             if (hora + h >= horasPorDia || horario[dia][hora + h] !== null) {
-//               bloqueValido = false;
-//               break;
-//             }
-//           }
-          
-//           if (bloqueValido) {
-//             for (let h = 0; h < horasDisponibles; h++) {
-//               horario[dia][hora + h] = materia.nombre;
-//             }
-//             horasAsignadas += horasDisponibles;
-//             hora += horasDisponibles - 1; // Saltar horas asignadas
-//           } else if (horasDisponibles === 1) {
-//             // Asignar solo 1 hora si no cabe el bloque
-//             horario[dia][hora] = materia.nombre;
-//             horasAsignadas += 1;
-//           }
-//         }
-//       }
-//     }
-    
-//     if (horasAsignadas < materia.horas_semanales) {
-//       console.warn(`No se asignaron todas las horas para ${materia.nombre} (${horasAsignadas}/${materia.horas_semanales} horas)`);
-//     }
-//   }
-
-//   return horario;
-// }
-
-// function mostrarHorarioHorizontal(horario) {
-//   const dias = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes'];
-  
-//   console.log("\nHORARIO ESCOLAR");
-//   console.log("===============\n");
-  
-//   // Encabezado con días
-//   let header = "Hora   |";
-//   dias.forEach(dia => {
-//     header += ` ${dia.padEnd(20)}|`;
-//   });
-//   console.log(header);
-//   console.log("-".repeat(header.length));
-
-//   // Filas por hora
-//   for (let hora = 0; hora < horario[0].length; hora++) {
-//     let fila = `${(hora + 1 + "ª").padEnd(6)}|`;
-    
-//     for (let dia = 0; dia < dias.length; dia++) {
-//       const texto = horario[dia][hora] || "Libre";
-//       fila += ` ${texto.padEnd(20)}|`;
-//     }
-    
-//     console.log(fila);
-//     console.log("-".repeat(header.length));
-//   }
-// }
-
-// Ejemplo de uso
-// const materias1ro = filtrarMateriasPorSemestre(materias, 1);
-// const horario1ro = generarHorario(materias1ro);
-// mostrarHorarioHorizontal(horario1ro);
-
-
+// DUDAS>
+//         los del turno vespertino tienen horas extracurriculares?
