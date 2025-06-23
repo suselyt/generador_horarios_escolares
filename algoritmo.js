@@ -13,21 +13,23 @@ const config = JSON.parse(fs.readFileSync("general.json", "utf8"));
 function crearMatrizHorario(config){
   const dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"];
   const matriz = {};
-  const { bloques_matutino, bloques_vespertino, bloque_inicio_vespertino } = config;
+  const { bloques_matutino, bloques_vespertino} = config;
 
   const totalBloques = bloques_matutino + bloques_vespertino;
-  let bloqueActual = 1;
 
   for (let dia of dias) {
     matriz[dia] = {};
-    for (let i = 0; i < totalBloques; i++){
-      matriz[dia][bloqueActual] = null;
-      bloqueActual++;
+    for (let bloque = 1; bloque <= totalBloques; bloque++){
+      matriz[dia][bloque] = {
+        materia: null,
+        profesor: null,
+        aula: null
+      };
     }
-    bloqueActual = 1;
   }
   return matriz;
 }
+
 
 function filtrarMateriasPorSemestre(materias, semestre) {
   return materias.filter(materia => 
@@ -55,7 +57,7 @@ function asignarMateriasAMatriz(matriz, materias, grupo, config) {
 
       for (let bloqueStr in bloquesEnDia) {
         const bloque = parseInt(bloqueStr);
-        if (bloquesEnDia[bloque] === nombreMateria && esBloqueDelTurno(bloque, grupo.turno, config)) {
+        if (bloquesEnDia[bloque].materia === nombreMateria && esBloqueDelTurno(bloque, grupo.turno, config)) {
           horasAsignadasHoy++;
         }
       }
@@ -64,8 +66,8 @@ function asignarMateriasAMatriz(matriz, materias, grupo, config) {
 
         for (let bloqueStr in bloquesEnDia) {
           const bloque = parseInt(bloqueStr);
-          if (bloquesEnDia[bloque] === null && horasAsignadasHoy < maximoPorDia && esBloqueDelTurno(bloque, grupo.turno, config)) {
-            bloquesEnDia[bloque] = nombreMateria;
+          if (bloquesEnDia[bloque].materia === null && horasAsignadasHoy < maximoPorDia && esBloqueDelTurno(bloque, grupo.turno, config)) {
+            bloquesEnDia[bloque].materia = nombreMateria;
             horasRestantes--;
             horasAsignadasHoy++;
             seAsignoHoraEstaVuelta = true;
@@ -115,8 +117,8 @@ function acomodoPreferenteModuloProfesional(matriz, materiaModulo) {
 
     for (let bloqueStr in bloquesDia) {
       const bloque = parseInt(bloqueStr);
-      if (bloquesDia[bloque] === null && bloquesAsignados < bloquesDelDia){
-        bloquesDia[bloque] = nombre;
+      if (bloquesDia[bloque].materia === null && bloquesAsignados < bloquesDelDia){
+        bloquesDia[bloque].materia = nombre;
         bloquesAsignados++;
       }
     }
@@ -142,8 +144,8 @@ function acomodoExtracurricularesAlFinal(matriz, materiaExtracurricular, grupo, 
     let horasAsignadasHoy = 0;
 
     for (let bloque of bloquesValidos) {
-      if (matriz[dia][bloque] === null && horasAsignadasHoy < maximoPorDia) {
-        matriz[dia][bloque] = nombre;
+      if (matriz[dia][bloque].materia === null && horasAsignadasHoy < maximoPorDia) {
+        matriz[dia][bloque].materia = nombre;
         horasRestantes--;
         horasAsignadasHoy++;
 
@@ -182,6 +184,19 @@ function esBloqueDelTurno(bloque, turno, config) {
   }
 
   return false;
+}
+
+function asignarProfesoresAMateria(materia, profesores){
+  const horasRestantesProfesor = profesores.horas_semanales;
+
+
+
+}
+
+function validarMateriaDeProfesor(materia, profesor){
+  if (profesor.materias.includes(materia.id)){
+    return true;
+  }
 }
 
 
