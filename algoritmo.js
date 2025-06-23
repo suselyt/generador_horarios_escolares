@@ -37,7 +37,7 @@ function filtrarMateriasPorSemestre(materias, semestre) {
 }
 
 
-function asignarMateriasAMatriz(matriz, materias) {
+function asignarMateriasAMatriz(matriz, materias, grupo, config) {
   let indexMateria = 0;
   let materiaActual = materias[indexMateria];
   let horasRestantes = materiaActual.horas_semanales;
@@ -55,7 +55,7 @@ function asignarMateriasAMatriz(matriz, materias) {
 
       for (let bloqueStr in bloquesEnDia) {
         const bloque = parseInt(bloqueStr);
-        if (bloquesEnDia[bloque] === nombreMateria) {
+        if (bloquesEnDia[bloque] === nombreMateria && esBloqueDelTurno(bloque, grupo.turno, config)) {
           horasAsignadasHoy++;
         }
       }
@@ -64,7 +64,7 @@ function asignarMateriasAMatriz(matriz, materias) {
 
         for (let bloqueStr in bloquesEnDia) {
           const bloque = parseInt(bloqueStr);
-          if (bloquesEnDia[bloque] === null && horasAsignadasHoy < maximoPorDia) {
+          if (bloquesEnDia[bloque] === null && horasAsignadasHoy < maximoPorDia && esBloqueDelTurno(bloque, grupo.turno, config)) {
             bloquesEnDia[bloque] = nombreMateria;
             horasRestantes--;
             horasAsignadasHoy++;
@@ -126,18 +126,22 @@ function acomodoPreferenteModuloProfesional(matriz, materiaModulo) {
 }
 
 // primero asigna las materias extracurriculares al final de la semana
-function acomodoExtracurricularesAlFinal(matriz, materiaExtracurricular) {
+function acomodoExtracurricularesAlFinal(matriz, materiaExtracurricular, grupo, config) {
   const dias = Object.keys(matriz);
   const nombre = materiaExtracurricular.nombre;
   let horasRestantes = materiaExtracurricular.horas_semanales;
   const maximoPorDia = maximoHorasDeMateriaPorDia(materiaExtracurricular);
 
   for (let dia of dias) {
-    const bloques = Object.keys(matriz[dia]).reverse(); // empieza desde el final del dia
+    // validacion de de turno
+    const bloquesValidos = Object.keys(matriz[dia])
+    .map(bloqueStr => parseInt(bloqueStr))
+    .filter(bloque => esBloqueDelTurno(bloque, grupo.turno, config))
+    .sort((a, b) => b - a); // ordena de mayor a menor, o sea el bloque del final
+
     let horasAsignadasHoy = 0;
 
-    for (let bloqueStr of bloques) {
-      const bloque = parseInt(bloqueStr);
+    for (let bloque of bloquesValidos) {
       if (matriz[dia][bloque] === null && horasAsignadasHoy < maximoPorDia) {
         matriz[dia][bloque] = nombre;
         horasRestantes--;
@@ -168,9 +172,21 @@ function obtenerTurnoDeBloque(bloque, config) {
   return bloque < bloque_inicio_vespertino ? "Matutino" : "Vespertino";
 }
 
+function esBloqueDelTurno(bloque, turno, config) {
+  const { bloques_matutino, bloque_inicio_vespertino } = config;
+
+  if (turno === "Matutino") {
+    return bloque <= bloque_inicio_vespertino;
+  } else if (turno === "Vespertino") {
+    return bloque >= bloque_inicio_vespertino;
+  }
+
+  return false;
+}
 
 
 // PRUEBA DEL ALGORÍTMO ------------------------------- usa "node.js algoritmo.js" en terminal
+const grupo = grupos[0]; // selecciona el primer grupo para probar
 const matriz = crearMatrizHorario(config); //crea la matriz dependiendo de la config de general.json
 const materiasDelGrupo = filtrarMateriasPorSemestre(materias, grupo.semestre);
 
@@ -181,13 +197,13 @@ if (moduloProfesional) { // si hubo al menos una de tipo modulo profesional
 }
 
 const extracurriculares = materiasDelGrupo.filter(m => m.tipo === "extracurricular");
-extracurriculares.forEach(m => acomodoExtracurricularesAlFinal(matriz, m));
+extracurriculares.forEach(m => acomodoExtracurricularesAlFinal(matriz, m,grupo,config));
 
 const otrasMaterias = materiasDelGrupo.filter(m =>
   m.id !== moduloProfesional?.id && m.tipo !== "extracurricular"
 );
 
-asignarMateriasAMatriz(matriz, otrasMaterias);
+asignarMateriasAMatriz(matriz, otrasMaterias, grupo, config);
 
 console.log(matriz);
 
@@ -196,7 +212,6 @@ console.log(matriz);
 //          agregar recesos para la matriz // tal vez no haga falta y se pueda hacer en el front
 //          agregar profesores a las materias
 //          validaciones
-//          turno vespertino cambiar los bloques empiecen despues del 8
 //          asignar horas preferentes para los maestros en json y tener en cuenta al asignar
 //          hacer que los maestros tengan horario seguido
 
