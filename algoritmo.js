@@ -41,14 +41,15 @@ function filtrarMateriasPorSemestre(materias, semestre) {
 
 function asignarMateriasAMatriz(matriz, materias, grupo, config) {
   let indexMateria = 0;
-  let materiaActual = materias[indexMateria];
-  let horasRestantes = materiaActual.horas_semanales;
-  let nombreMateria = materiaActual.nombre;
-  let tipoMateria = materiaActual.tipo;
+  const dias = Object.keys(matriz); // ["Lunes", "Martes", ...]
 
-  const dias = Object.keys(matriz); // los days of the week que se usan como keys en la matriz
+  while (indexMateria < materias.length) {
+    const materiaActual = materias[indexMateria];
+    let horasRestantes = materiaActual.horas_semanales;
+    const nombreMateria = materiaActual.nombre;
+    const maximoPorDia = maximoHorasDeMateriaPorDia(materiaActual);
+    const nombreProfesor = asignarProfesorDisponible(materiaActual, profesores);
 
-  while (indexMateria < materias.length){
     let seAsignoHoraEstaVuelta = false;
 
     for (let dia of dias) {
@@ -57,47 +58,34 @@ function asignarMateriasAMatriz(matriz, materias, grupo, config) {
 
       for (let bloqueStr in bloquesEnDia) {
         const bloque = parseInt(bloqueStr);
+
         if (bloquesEnDia[bloque].materia === nombreMateria && esBloqueDelTurno(bloque, grupo.turno, config)) {
           horasAsignadasHoy++;
         }
       }
 
-      const maximoPorDia = maximoHorasDeMateriaPorDia(materiaActual);
-
         for (let bloqueStr in bloquesEnDia) {
           const bloque = parseInt(bloqueStr);
+
           if (bloquesEnDia[bloque].materia === null && horasAsignadasHoy < maximoPorDia && esBloqueDelTurno(bloque, grupo.turno, config)) {
             bloquesEnDia[bloque].materia = nombreMateria;
+            bloquesEnDia[bloque].profesor = nombreProfesor;
             horasRestantes--;
             horasAsignadasHoy++;
             seAsignoHoraEstaVuelta = true;
 
-            if (horasRestantes === 0) {
-              break; // salir del día
-            }
+            if (horasRestantes === 0) break
           }
         }
+
       if (horasRestantes === 0) break;
     }
-    if (horasRestantes === 0) {
-      indexMateria++;
-      if (indexMateria < materias.length) {
-        materiaActual = materias[indexMateria];
-        nombreMateria = materiaActual.nombre;
-        tipoMateria = materiaActual.tipo;
-        horasRestantes = materiaActual.horas_semanales;
-      }
-    } else if (!seAsignoHoraEstaVuelta) {
-      // no se pudo asignar nada más y aún hay horas restantes
+
+   if (!seAsignoHoraEstaVuelta) {
       console.warn(`No se pudo asignar todas las horas de "${nombreMateria}"`);
-      indexMateria++; // cambio de materia
-      if (indexMateria < materias.length) {
-        materiaActual = materias[indexMateria];
-        nombreMateria = materiaActual.nombre;
-        tipoMateria = materiaActual.tipo;
-        horasRestantes = materiaActual.horas_semanales;
-      }
     }
+
+    indexMateria++;
   }
   return matriz;
 }
@@ -127,7 +115,7 @@ function acomodoPreferenteModuloProfesional(matriz, materiaModulo) {
   return matriz;
 }
 
-// primero asigna las materias extracurriculares al final de la semana
+// primero asigna las materias extracurriculares al final del día
 function acomodoExtracurricularesAlFinal(matriz, materiaExtracurricular, grupo, config) {
   const dias = Object.keys(matriz);
   const nombre = materiaExtracurricular.nombre;
@@ -186,17 +174,24 @@ function esBloqueDelTurno(bloque, turno, config) {
   return false;
 }
 
-function asignarProfesoresAMateria(materia, profesores){
-  const horasRestantesProfesor = profesores.horas_semanales;
 
-
+// usar con la funcion de filtrar materias por grupo
+function validarMateriaDeProfesor(materias, profesor){ 
+  return profesor.materias.includes(materias.id);
 
 }
 
-function validarMateriaDeProfesor(materia, profesor){
-  if (profesor.materias.includes(materia.id)){
-    return true;
+function asignarProfesorDisponible(materia,profesores){
+for (let profesor of profesores) {
+    if (validarMateriaDeProfesor(materias, profesor)) {
+      if (profesor.horas_restantes >= materias.horas_semanales) {
+        profesor.horas_restantes -= materias.horas_semanales;
+        return profesor
+      }
+    }
   }
+
+  return null; 
 }
 
 
