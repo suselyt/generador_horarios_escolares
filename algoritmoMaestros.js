@@ -42,11 +42,19 @@ function obtenerHorasClase(profesor) {
   return profesor.horas_semanales - totalFortalecimiento ;
 }
 
-function filtrarMateriasParaProfesor(profesor, materias, semestre) {
-  return materias.filter(m =>
-    m.semestre === semestre && profesor.materias.includes(m.id)
-  );
+function filtrarMateriasParaProfesor(profesor, materias, semestre, grupo) {
+  return materias.filter(m => {
+    const puedeDar = profesor.materias.includes(m.id) && m.semestre === semestre;
+
+    // si es modulo profesional verifica la especialidad tmb
+    if (m.tipo === "modulo_profesional" && grupo?.especialidad) {
+      return puedeDar && grupo.especialidad === profesor.especialidad;
+    }
+
+    return puedeDar;
+  });
 }
+
 
 function bloqueDisponible(horario, dia, bloque) {
   return horario[dia][bloque].materia === null;
@@ -117,31 +125,29 @@ function asignarMateriasProfesor(profesor, horario, materias, grupo, config) {
   return horasAsignadas;
 }
 
-function verificarCoberturaDeMaterias(profesores, materias, grupos) {
-  const cobertura = {};
+function contarProfesoresPorMateria(profesores, grupos, materias) {
+  const resultado = {};
 
   for (const grupo of grupos) {
-    const materiasDelGrupo = materias.filter(m => m.semestre === grupo.semestre);
-    for (const materia of materiasDelGrupo) {
-      cobertura[materia.id] = cobertura[materia.id] || 0;
+    const materiasGrupo = materias.filter(m => m.semestre === grupo.semestre);
+    for (const materia of materiasGrupo) {
+      resultado[materia.id] = resultado[materia.id] || new Set();
+
       for (const profe of profesores) {
         if (profe.materias.includes(materia.id)) {
-          cobertura[materia.id] += 1;
+          resultado[materia.id].add(profe.nombre);
         }
       }
     }
   }
 
-  return cobertura; // te dice cuántos profesores pueden cubrir cada materia
-}
-
-// verificacion para las materias de modulo profesional
-function puedeImpartirMateria(profesor, materia) {
-  if (materia.tipo === "modulo_profesional") {
-    return profesor.materias.includes(materia.id);
+  // Convertir a conteo
+  const conteo = {};
+  for (const clave in resultado) {
+    conteo[clave] = resultado[clave].size;
   }
 
-  return profesor.materias.some(id => id === materia.id);
+  return conteo;
 }
 
 //funciones que existen tambien en algoritmo.js por ahora
@@ -168,13 +174,68 @@ function esBloqueDelTurno(bloque, turno, config) {
   return false;
 }
 
-// ------- pruebas ------- //
-// console.log(crearHorariosProfesores(profesores, config));
-// console.log(obtenerHorasClase(profesores[0]));
+function contarRequerimientosDeMaterias(grupos) {
+  const requerimientos = {}; // { MPP1: 10, Fisica: 8 }
 
-// const semestre = grupos[0].semestre;
-// console.log(filtrarMateriasParaProfesor(profesores[0], materias,semestre));
+  for (const grupo of grupos) {
+    for (const materia of grupo.materias) {
+      const clave = materia.nombre;
+      if (!requerimientos[clave]) {
+        requerimientos[clave] = 0;
+      }
+      requerimientos[clave] += materia.horas_semanales;
+    }
+  }
 
+  return requerimientos;
+}
+
+function verificarHorasDisponiblesVsRequeridas(requerimientos, profesores) {
+  const cobertura = {}; // { MPP1: { requeridas: 15, disponibles: 20 } }
+
+  for (const materia in requerimientos) {
+    cobertura[materia] = { requeridas: requerimientos[materia], disponibles: 0 };
+
+    for (const profe of profesores) {
+      if (profe.materias.includes(materia)) {
+        cobertura[materia].disponibles += obtenerHorasClase(profe);
+      }
+    }
+  }
+
+  return cobertura;
+}
+
+function verificarCoberturaGeneral(grupos, materias, profesores) {
+  const requerimientos = contarRequerimientosDeMaterias(grupos);
+  const cobertura = verificarHorasDisponiblesVsRequeridas(requerimientos, profesores);
+
+  console.log("=== Estado de cobertura de materias ===");
+  for (const materia in cobertura) {
+    const { requeridas, disponibles } = cobertura[materia];
+    const status = disponibles >= requeridas ? "suficiente" : "insuficiente";
+    console.log(`${materia}: requeridas ${requeridas}, disponibles ${disponibles} → ${status}`);
+  }
+}
+
+
+function agruparMateriasPorSemestre(grupos) {
+  const conteo = {}; // { 2: {MPP1: 3, Fisica: 3} }
+
+  for (const grupo of grupos) {
+    const sem = grupo.semestre;
+    if (!conteo[sem]) conteo[sem] = {};
+
+    for (const materia of grupo.materias) {
+      if (!conteo[sem][materia.nombre]) conteo[sem][materia.nombre] = 0;
+      conteo[sem][materia.nombre]++;
+    }
+  }
+
+  return conteo;
+}
+
+//PRUEBA DE HORARIO
 const horariosProfesores = crearHorariosProfesores(profesores, config);
 
 for (const profesor of profesores) {
