@@ -75,3 +75,12 @@ horario de profesores:
     - 3ra columna grupos (si aplica)
     - 4ta columna número de horas semanales
     - abajo el total de horas
+
+CARRERAS
+- Mantenimiento Industrial
+- Mantenimiento Automotriz
+- Diseño Gráfico Digital
+- Ciberseguridad
+- Semiconductores y Microelectrónica
+- Inteligencia Artificial
+- Logística

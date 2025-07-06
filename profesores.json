@@ -14,13 +14,81 @@
                 "nombre": "Asesorías académicas",
                 "horas": 2
             }
-        ]
+        ],
+        "dias_menor_carga": ["Lunes", "Viernes"]
     },
     {
-        "nombre": "Herrera Garc'ia Brenda Itzel",
+        "nombre": "Herrera García Brenda Itzel",
         "abreviatura": "H.G. Brenda",
         "materias": ["MPP2"],
         "horas_semanales": 17,
-        "bloques_recomendados_asignar": [3, 4, 5, 6, 7]
+        "bloques_recomendados_asignar": [3, 4, 5, 6, 7],
+        "bloques_recomendados_no_asignar": [1, 2]
+        
+    },
+    {
+        "nombre": "Acosta Docente 1",
+        "abreviatura": "AD1",
+        "materias": ["MP-MMCI4", "MP-MMCI6"],
+        "horas_semanales": 29        
+    },
+    {
+        "nombre": "Avalos Docente 2",
+        "abreviatura": "AD2",
+        "materias": ["CS2", "CS3", "OE5"],
+        "horas_semanales": 20        
+    },
+    {
+        "nombre": "Barrera Docente 3",
+        "abreviatura": "BD3",
+        "materias": ["EXTRA2", "EXTRA4", "EXTRA6","CD2","PYE"],
+        "horas_semanales": 32,
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Apoyo Honores",
+                "horas": 1
+            },
+            {
+                "nombre": "Tutorias",
+                "horas": 2
+            }
+        ],
+        "dias_menor_carga": ["Viernes"]        
+    },
+    {
+        "nombre": "Benitez Docente 4",
+        "abreviatura": "BD4",
+        "materias": ["EXTRA2", "EXTRA4", "EXTRA6"],
+        "horas_semanales": 12,
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Concurso",
+                "horas": 3
+            }
+        ],
+        "dias_menor_carga": ["Lunes, Viernes"],
+        "bloques_recomendados_no_asignar": [1, 2, 3, 4, 5]        
+    },
+    {
+        "nombre": "Cepeda Docente 5",
+        "abreviatura": "CD5",
+        "materias": ["PM2", "T", "TSDMI"],
+        "horas_semanales": 40,
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Concurso",
+                "horas": 2
+            },
+            {
+                "nombre": "Investigacion",
+                "horas": 2
+            },
+            {
+                "nombre": "Asesorias Academicas",
+                "horas": 1
+            }
+        ],
+        "bloques_recomendados_no_asignar": [1]       
     }
+
 ]

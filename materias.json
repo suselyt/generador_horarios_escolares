@@ -68,9 +68,90 @@
   },
   {
     "id": "EXTRA2 ",
-    "nombre": "Extracurriculares",
+    "nombre": "Extracurriculares II",
     "semestre": 2,
     "horas_semanales": 3,
     "tipo": "extracurricular"
+  },
+  {
+    "id": "CS3",
+   "nombre": "Ciencias sociales III",
+    "semestre": 4,
+    "tipo": "tronco_comun",
+    "horas_semanales": 2
+  },
+  {
+    "id": "TSDMI",
+   "nombre": "Temas selectos de matematicas I",
+    "semestre": 4,
+    "tipo": "tronco_comun",
+    "horas_semanales": 4
+  },
+  {
+    "id": "EXTRA4 ",
+    "nombre": "Extracurriculares IV",
+    "semestre": 4,
+    "horas_semanales": 3,
+    "tipo": "extracurricular"
+  },
+  {
+    "id": "MP-MMCI4",
+    "nombre": "Módulo Profesional MMCI",
+    "semestre": 4,
+    "tipo": "modulo_profesional",
+    "submodulos": [
+        {
+          "nombre": "Realiza mantenimiento al motor de gasolina de dos y cuatro tiempos",
+          "horas": 6
+        },
+        {
+          "nombre": "Realiza mantenimiento al motor diésel.",
+          "horas": 6
+        }
+    ],
+    "especialidad": "Mantenimiento Automotriz",
+    "horas_semanales": 12,
+    "bloques_recomendados": [4, 4, 4, 5]
+  },
+  {
+    "id": "OE5",
+   "nombre": "Orientacion educativa V",
+    "semestre": 6,
+    "tipo": "tronco_comun",
+    "horas_semanales": 12
+  },
+  {
+    "id": "EXTRA6 ",
+    "nombre": "Extracurriculares VI",
+    "semestre": 6,
+    "horas_semanales": 3,
+    "tipo": "extracurricular"
+  },
+  {
+    "id": "PYE ",
+    "nombre": "Probabilidad  y Estadística ",
+    "semestre": 6,
+    "horas_semanales": 5,
+    "tipo": "tronco_comun"
+  },
+  {
+    "id": "MP-MMCI6",
+    "nombre": "Módulo Profesional MMCI",
+    "semestre": 6,
+    "tipo": "modulo_profesional",
+    "submodulos": [
+        {
+          "nombre": "Realiza mantenimiento al sistema de embrague y transmisión manual de los motores de combustión interna.",
+          "horas": 6
+        },
+        {
+          "nombre": "Realiza mantenimiento al sistema de transmisión automática de los motores de combustión interna",
+          "horas": 6
+        }
+    ],
+    "especialidad": "Mantenimiento Automotriz",
+    "horas_semanales": 17,
+    "bloques_recomendados": [4, 4, 4, 5]
   }
+
 ]

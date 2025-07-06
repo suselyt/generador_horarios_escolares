@@ -12,5 +12,23 @@
         "nomenclatura": "207G",
         "especialidad": "Programación",
         "turno": "Vespertino"
+    },
+    {
+        "semestre": 2,
+        "turno": "DUAL"
+    },
+    {
+        "semestre": 4,
+        "grupo": "A",
+        "nomenclatura": "401A",
+        "especialidad": "Mantenimiento Automotriz",
+        "turno": "Matutino"
+    },
+    {
+        "semestre": 6,
+        "grupo": "A",
+        "nomenclatura": "601A",
+        "especialidad": "Mantenimiento Automotriz",
+        "turno": "Matutino"
     }
 ]

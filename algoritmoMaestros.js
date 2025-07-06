@@ -42,47 +42,6 @@ function obtenerHorasClase(profesor) {
   return profesor.horas_semanales - totalFortalecimiento ;
 }
 
-function filtrarMateriasParaProfesor(profesor, materias, semestre, grupo) {
-  return materias.filter(m => {
-    const puedeDar = profesor.materias.includes(m.id) && m.semestre === semestre;
-
-    // si es modulo profesional verifica la especialidad tmb
-    if (m.tipo === "modulo_profesional" && grupo?.especialidad) {
-      return puedeDar && grupo.especialidad === profesor.especialidad;
-    }
-
-    return puedeDar;
-  });
-}
-
-
-function bloqueDisponible(horario, dia, bloque) {
-  return horario[dia][bloque].materia === null;
-}
-
-function asignarBloqueProfesor(horario, dia, bloque, materia, grupo) {
-  horario[dia][bloque] = {
-    materia: materia.nombre,
-    grupo: grupo.nomenclatura,
-    semestre: grupo.semestre
-  };
-}
-
-function asignarFortalecimientoAcademico(profesor, horario, config) {
-  let fortalecimientoRestante = profesor.horas_fortalecimiento || 0;
-  const dias = Object.keys(horario);
-  const totalBloques = config.bloques_matutino + config.bloques_vespertino;
-
-  for (const dia of dias) {
-    for (let bloque = 1; bloque <= totalBloques; bloque++) {
-      if (bloqueDisponible(horario, dia, bloque) && fortalecimientoRestante > 0) {
-        horario[dia][bloque].materia = "Fortalecimiento académico";
-        fortalecimientoRestante--;
-      }
-    }
-  }
-}
-
 function asignarMateriasProfesor(profesor, horario, materias, grupo, config) {
   const horasClase = obtenerHorasClase(profesor);
   let horasAsignadas = 0;
@@ -97,7 +56,8 @@ function asignarMateriasProfesor(profesor, horario, materias, grupo, config) {
     for (const dia of dias) {
       let asignadasHoy = 0;
 
-      for (let bloque = 1; bloque <= config.bloques_matutino + config.bloques_vespertino; bloque++) {
+      const bloquesOrdenados = obtenerBloquesOrdenados(profesor, config);
+      for (let bloque of bloquesOrdenados) {
         if (
           bloqueDisponible(horario, dia, bloque) &&
           esBloqueDelTurno(bloque, grupo.turno, config) &&
@@ -125,6 +85,64 @@ function asignarMateriasProfesor(profesor, horario, materias, grupo, config) {
   return horasAsignadas;
 }
 
+
+function filtrarMateriasParaProfesor(profesor, materias, semestre, grupo) {
+  return materias.filter(m => {
+    const puedeDar = profesor.materias.includes(m.id) && m.semestre === semestre;
+
+    // si es modulo profesional verifica la especialidad tmb
+    if (m.tipo === "modulo_profesional" && grupo?.especialidad) {
+      return puedeDar && grupo.especialidad === profesor.especialidad;
+    }
+
+    return puedeDar;
+  });
+}
+
+function bloqueDisponible(horario, dia, bloque) {
+  return horario[dia][bloque].materia === null;
+}
+
+// obtener las preferencias de bloques para los maestros
+function obtenerBloquesOrdenados(profesor, config) {
+  const totalBloques = config.bloques_matutino + config.bloques_vespertino;
+
+  let preferidos = profesor.bloques_recomendados_asignar || [];
+  let noPreferidos = profesor.bloques_recomendados_no_asignar || [];
+
+  // Los bloques que no están en ninguno van al final como "neutros"
+  const todos = Array.from({ length: totalBloques }, (_, i) => i + 1);
+
+  const neutros = todos.filter(b => !preferidos.includes(b) && !noPreferidos.includes(b));
+
+  // Orden: preferidos → neutros → no preferidos
+  return [...preferidos, ...neutros, ...noPreferidos];
+}
+
+function asignarBloqueProfesor(horario, dia, bloque, materia, grupo) {
+  horario[dia][bloque] = {
+    materia: materia.nombre,
+    grupo: grupo.nomenclatura,
+    semestre: grupo.semestre
+  };
+}
+
+function asignarFortalecimientoAcademico(profesor, horario, config) {
+  let fortalecimientoRestante = profesor.horas_fortalecimiento || 0;
+  const dias = Object.keys(horario);
+  const totalBloques = config.bloques_matutino + config.bloques_vespertino;
+
+  for (const dia of dias) {
+    for (let bloque = 1; bloque <= totalBloques; bloque++) {
+      if (bloqueDisponible(horario, dia, bloque) && fortalecimientoRestante > 0) {
+        horario[dia][bloque].materia = "Fortalecimiento académico";
+        fortalecimientoRestante--;
+      }
+    }
+  }
+}
+
+
 function contarProfesoresPorMateria(profesores, grupos, materias) {
   const resultado = {};
 
@@ -150,7 +168,7 @@ function contarProfesoresPorMateria(profesores, grupos, materias) {
   return conteo;
 }
 
-//funciones que existen tambien en algoritmo.js por ahora
+//restricciones de horas seguidas para una materia
 function maximoHorasDeMateriaPorDia(materia){
 
   const horasPorMateria = {
@@ -162,6 +180,7 @@ function maximoHorasDeMateriaPorDia(materia){
   return horasPorMateria[materia.tipo] || 2;
 }
 
+// identifica cuando comienza el turno vespertino y cuando sigue siendo el matutino
 function esBloqueDelTurno(bloque, turno, config) {
   const { bloques_matutino, bloque_inicio_vespertino } = config;
 
@@ -174,6 +193,7 @@ function esBloqueDelTurno(bloque, turno, config) {
   return false;
 }
 
+// identifica cuantos grupos llevan la materia para verificar que se cumpla la asignacion
 function contarRequerimientosDeMaterias(grupos) {
   const requerimientos = {}; // { MPP1: 10, Fisica: 8 }
 
@@ -250,3 +270,11 @@ for (const profesor of profesores) {
 }
 
 console.log(JSON.stringify(horariosProfesores, null, 2));
+
+
+//agregar asignación de profesores en horas preferidas
+// no se puede repetir una clase al mismo grupo en el día
+// una vez que el programa asigna un grupo a un maestro con una materia, no puede asignar ese grupo con esa materia a otro maestro
+
+//agregar campo de si dan dual para los maestros o que se registre un grupo de dual?????
+//mejor que se registre un grupo el dual para cada semestre idk
