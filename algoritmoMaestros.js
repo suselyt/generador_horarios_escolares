@@ -45,45 +45,63 @@ function obtenerHorasClase(profesor) {
 function asignarMateriasProfesor(profesor, horario, materias, grupo, config) {
   const horasClase = obtenerHorasClase(profesor);
   let horasAsignadas = 0;
-
   const dias = Object.keys(horario);
-  const materiasParaEsteProfesor = filtrarMateriasParaProfesor(profesor, materias, grupo.semestre);
+
+  const materiasParaEsteProfesor = filtrarMateriasParaProfesor(profesor, materias, grupo.semestre, grupo);
+
+  const materiasYaAsignadas = new Set(); // evitar repetir la misma materia a un mismo grupo
 
   for (const materia of materiasParaEsteProfesor) {
-    let horasMateria = materia.horas_semanales;
-    const maximoPorDia = maximoHorasDeMateriaPorDia(materia);
+    if (materiasYaAsignadas.has(materia.id)) continue;
+
+    let horasRestantes = materia.horas_semanales;
+    const maxPorDia = maximoHorasDeMateriaPorDia(materia);
 
     for (const dia of dias) {
-      let asignadasHoy = 0;
+      const posiblesSecuencias = encontrarBloquesContiguosDisponibles(horario, dia, grupo.turno, Math.min(horasRestantes, maxPorDia), config);
 
-      const bloquesOrdenados = obtenerBloquesOrdenados(profesor, config);
-      for (let bloque of bloquesOrdenados) {
-        if (
-          bloqueDisponible(horario, dia, bloque) &&
-          esBloqueDelTurno(bloque, grupo.turno, config) &&
-          asignadasHoy < maximoPorDia &&
-          horasMateria > 0 &&
-          horasAsignadas < horasClase
-        ) {
+      if (posiblesSecuencias.length > 0) {
+        const bloquesAUsar = posiblesSecuencias[0]; // usa la primera secuencia disponible
+
+        for (let bloque of bloquesAUsar) {
           asignarBloqueProfesor(horario, dia, bloque, materia, grupo);
-          horasMateria--;
+          horasRestantes--;
           horasAsignadas++;
-          asignadasHoy++;
         }
       }
 
-      if (horasMateria === 0) break;
+      if (horasRestantes <= 0 || horasAsignadas >= horasClase) break;
     }
 
-    if (horasMateria > 0) {
-      console.warn(
-        `no se pudieron asignar todas las horas de "${materia.nombre}" para el profesor ${profesor.abreviatura}`
-      );
+    if (horasRestantes > 0) {
+      console.warn(`No se pudieron asignar todas las horas de ${materia.nombre} a ${profesor.abreviatura} para el grupo ${grupo.nomenclatura}`);
     }
+
+    materiasYaAsignadas.add(materia.id); // evita volver a asignar esa materia a ese grupo
   }
 
   return horasAsignadas;
 }
+
+
+function encontrarBloquesContiguosDisponibles(horario, dia, turno, longitud, config) {
+  const totalBloques = config.bloques_matutino + config.bloques_vespertino;
+  const bloques = Array.from({ length: totalBloques }, (_, i) => i + 1)
+    .filter(b => esBloqueDelTurno(b, turno, config));
+
+  const secuencias = [];
+
+  for (let i = 0; i <= bloques.length - longitud; i++) {
+    const segmento = bloques.slice(i, i + longitud);
+    const disponibles = segmento.every(b => bloqueDisponible(horario, dia, b));
+    if (disponibles) {
+      secuencias.push(segmento);
+    }
+  }
+
+  return secuencias;
+}
+
 
 
 function filtrarMateriasParaProfesor(profesor, materias, semestre, grupo) {
@@ -238,7 +256,6 @@ function verificarCoberturaGeneral(grupos, materias, profesores) {
   }
 }
 
-
 function agruparMateriasPorSemestre(grupos) {
   const conteo = {}; // { 2: {MPP1: 3, Fisica: 3} }
 
@@ -255,6 +272,63 @@ function agruparMateriasPorSemestre(grupos) {
   return conteo;
 }
 
+//creacion de horarios generales a partir de los individuales
+function generarHorariosPorGrupoDesdeProfesores(horariosProfesores, profesores) {
+  const horariosGrupo = {};
+
+  for (const profe of profesores) {
+    const horario = horariosProfesores[profe.nombre];
+
+    for (const dia in horario) {
+      for (const bloque in horario[dia]) {
+        const clase = horario[dia][bloque];
+        if (clase.grupo) {
+          const grupo = clase.grupo;
+          if (!horariosGrupo[grupo]) horariosGrupo[grupo] = crearMatrizHorarioProfesores(config);
+          horariosGrupo[grupo][dia][bloque] = {
+            materia: clase.materia,
+            profesor: profe.abreviatura,
+            semestre: clase.semestre
+          };
+        }
+      }
+    }
+  }
+
+  return horariosGrupo;
+}
+
+function agruparHorariosPorSemestre(horariosGrupos, grupos) {
+  const agrupados = {}; // { 2: { grupo1: horario, grupo2: horario } }
+
+  for (const grupo of grupos) {
+    const semestre = grupo.semestre;
+    const grupoNombre = grupo.nomenclatura;
+
+    if (!agrupados[semestre]) agrupados[semestre] = {};
+    agrupados[semestre][grupoNombre] = horariosGrupos[grupoNombre];
+  }
+
+  return agrupados;
+}
+
+// Validación: misma materia no debe repetirse más de una vez por día por grupo
+function validarRepeticionMaterias(horarioGrupo) {
+  for (const dia in horarioGrupo) {
+    const materiasHoy = new Set();
+    for (const bloque in horarioGrupo[dia]) {
+      const clase = horarioGrupo[dia][bloque];
+      if (clase.materia) {
+        if (materiasHoy.has(clase.materia)) {
+          console.warn(`⚠️ Repetición de ${clase.materia} en ${dia}`);
+        }
+        materiasHoy.add(clase.materia);
+      }
+    }
+  }
+}
+
+
 //PRUEBA DE HORARIO
 const horariosProfesores = crearHorariosProfesores(profesores, config);
 
@@ -269,7 +343,48 @@ for (const profesor of profesores) {
   asignarFortalecimientoAcademico(profesor, horario, config);
 }
 
+// horarios por grupo
+const horariosGrupos = generarHorariosPorGrupoDesdeProfesores(horariosProfesores, profesores);
+
+// resultados
+console.log("=== HORARIOS DE PROFESORES ===");
 console.log(JSON.stringify(horariosProfesores, null, 2));
+
+console.log("=== HORARIOS DE GRUPOS ===");
+console.log(JSON.stringify(horariosGrupos, null, 2));
+
+
+// // mostrar como tabla para poder hacer pruibeas m'as easy
+// function imprimirHorarioComoTabla(nombre, horario, config) {
+//   const dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"];
+//   const totalBloques = config.bloques_matutino + config.bloques_vespertino;
+
+//   console.log(`\nHorario de: ${nombre}`);
+//   console.log("-------------------------------------------------");
+
+//   // Encabezados
+//   const encabezados = ["".padEnd(10)];
+//   for (let i = 1; i <= totalBloques; i++) {
+//     encabezados.push(String(i).padEnd(7));
+//   }
+//   console.log(encabezados.join("|"));
+
+//   for (const dia of dias) {
+//     const fila = [dia.padEnd(10)];
+//     for (let bloque = 1; bloque <= totalBloques; bloque++) {
+//       const celda = horario[dia][bloque]?.materia || "";
+//       fila.push(celda.padEnd(7));
+//     }
+//     console.log(fila.join("|"));
+//   }
+// }
+
+// //IMPRIMIR HORARIOS PROFESORES EN FORMATO TABLA
+// for (const profesor of profesores) {
+//   const horario = horariosProfesores[profesor.nombre];
+//   imprimirHorarioComoTabla(profesor.abreviatura, horario, config);
+// }
+
 
 
 //agregar asignación de profesores en horas preferidas

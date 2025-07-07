@@ -1,6 +1,7 @@
 {
     "bloques_matutino": 8,
     "bloques_vespertino": 7,
+    
     "bloque_inicio_vespertino": 8,
     "bloque_fin_matutino": 8
 }

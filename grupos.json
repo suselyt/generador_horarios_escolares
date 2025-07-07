@@ -14,10 +14,6 @@
         "turno": "Vespertino"
     },
     {
-        "semestre": 2,
-        "turno": "DUAL"
-    },
-    {
         "semestre": 4,
         "grupo": "A",
         "nomenclatura": "401A",
