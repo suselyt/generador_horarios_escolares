@@ -89,6 +89,11 @@
             }
         ],
         "bloques_recomendados_no_asignar": [1]       
+    },
+    {"nombre": "Profe de prueba 6",
+        "abreviatura": "PP6",
+        "materias": ["MP-MMCI4", "MP-MMCI6", "MPP2"],
+        "horas_semanales": 40
     }
 
 ]

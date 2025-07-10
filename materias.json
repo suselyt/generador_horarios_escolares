@@ -29,8 +29,7 @@
         }
     ],
     "especialidad": "Programación",
-    "horas_semanales": 17,
-    "bloques_recomendados": [4, 4, 4, 5]
+    "horas_semanales": 17
   },
   {
     "id": "LYC2",
@@ -110,8 +109,7 @@
         }
     ],
     "especialidad": "Mantenimiento Automotriz",
-    "horas_semanales": 12,
-    "bloques_recomendados": [4, 4, 4, 5]
+    "horas_semanales": 12
   },
   {
     "id": "OE5",
@@ -150,8 +148,7 @@
         }
     ],
     "especialidad": "Mantenimiento Automotriz",
-    "horas_semanales": 17,
-    "bloques_recomendados": [4, 4, 4, 5]
+    "horas_semanales": 17
   }
 
 ]
