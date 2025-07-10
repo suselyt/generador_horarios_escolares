@@ -1,0 +1,874 @@
+{
+  "202B": {
+    "grupo": "202B",
+    "semestre": 2,
+    "turno": "Matutino",
+    "especialidad": "Programación",
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": "Cultura digital II",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "2": {
+          "materia": "Ciencias sociales II",
+          "docente": "Avalos Docente 2",
+          "aula": null
+        },
+        "3": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "4": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "5": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "6": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "7": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "8": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": "Cultura digital II",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "2": {
+          "materia": "Ciencias sociales II",
+          "docente": "Avalos Docente 2",
+          "aula": null
+        },
+        "3": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "4": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "5": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "6": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "7": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "8": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "2": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "3": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "4": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "5": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "6": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "7": {
+          "materia": "Lengua y comunicación II",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "8": {
+          "materia": "Lengua y comunicación II",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "2": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "3": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "4": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "5": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "6": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "7": {
+          "materia": "Modulo profesional",
+          "docente": "Herrera García Brenda Itzel",
+          "aula": null
+        },
+        "8": {
+          "materia": "Pensamiento matemático II",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "2": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "3": {
+          "materia": "Lengua y comunicación II",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "4": {
+          "materia": "Lengua y comunicación II",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "5": {
+          "materia": "Inglés II",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "6": {
+          "materia": "Inglés II",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "7": {
+          "materia": "Pensamiento matemático II",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        },
+        "8": {
+          "materia": "Pensamiento matemático II",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        }
+      }
+    }
+  },
+  "207G": {
+    "grupo": "207G",
+    "semestre": 2,
+    "turno": "Vespertino",
+    "especialidad": "Programación",
+    "horario": {
+      "Lunes": {
+        "8": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "9": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "10": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "11": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "12": {
+          "materia": "Cultura digital II",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "13": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "14": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "15": {
+          "materia": "Ciencias sociales II",
+          "docente": "Avalos Docente 2",
+          "aula": null
+        }
+      },
+      "Martes": {
+        "8": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "9": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "10": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "11": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "12": {
+          "materia": "Cultura digital II",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "13": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "14": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "15": {
+          "materia": "Ciencias sociales II",
+          "docente": "Avalos Docente 2",
+          "aula": null
+        }
+      },
+      "Miercoles": {
+        "8": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "9": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "10": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "11": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "12": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "13": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "14": {
+          "materia": "Lengua y comunicación II",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "15": {
+          "materia": "Lengua y comunicación II",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        }
+      },
+      "Jueves": {
+        "8": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "9": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "10": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "11": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "12": {
+          "materia": "Modulo profesional",
+          "docente": "Profe de prueba 6",
+          "aula": null
+        },
+        "13": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "14": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "15": {
+          "materia": "Pensamiento matemático II",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        }
+      },
+      "Viernes": {
+        "8": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "9": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "10": {
+          "materia": "Lengua y comunicación II",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "11": {
+          "materia": "Lengua y comunicación II",
+          "docente": "Heredia Blanco Laura",
+          "aula": null
+        },
+        "12": {
+          "materia": "Pensamiento matemático II",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        },
+        "13": {
+          "materia": "Pensamiento matemático II",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        },
+        "14": {
+          "materia": "Tutorías",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        },
+        "15": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        }
+      }
+    }
+  },
+  "401A": {
+    "grupo": "401A",
+    "semestre": 4,
+    "turno": "Matutino",
+    "especialidad": "Mantenimiento Automotriz",
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "2": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "3": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "4": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "5": {
+          "materia": "Ciencias sociales III",
+          "docente": "Avalos Docente 2",
+          "aula": null
+        },
+        "6": {
+          "materia": "Tutorías",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        },
+        "7": {
+          "materia": "Temas selectos de matematicas I",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        },
+        "8": {
+          "materia": "Temas selectos de matematicas I",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "2": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "3": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "4": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "5": {
+          "materia": "Ciencias sociales III",
+          "docente": "Avalos Docente 2",
+          "aula": null
+        },
+        "6": {
+          "materia": "Temas selectos de matematicas I",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        },
+        "7": {
+          "materia": "Temas selectos de matematicas I",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        },
+        "8": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "2": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "3": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "4": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "5": {
+          "materia": "Temas selectos de matematicas I",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        },
+        "6": {
+          "materia": "Temas selectos de matematicas I",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        },
+        "7": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "8": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "2": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "3": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "4": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "5": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "6": {
+          "materia": "Temas selectos de matematicas I",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        },
+        "7": {
+          "materia": "Temas selectos de matematicas I",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        },
+        "8": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "2": {
+          "materia": "Temas selectos de matematicas I",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        },
+        "3": {
+          "materia": "Temas selectos de matematicas I",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        },
+        "4": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "5": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "6": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "7": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "8": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        }
+      }
+    }
+  },
+  "601A": {
+    "grupo": "601A",
+    "semestre": 6,
+    "turno": "Matutino",
+    "especialidad": "Mantenimiento Automotriz",
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "2": {
+          "materia": "Tutorías",
+          "docente": "Cepeda Docente 5",
+          "aula": null
+        },
+        "3": {
+          "materia": "Orientacion educativa V",
+          "docente": "Avalos Docente 2",
+          "aula": null
+        },
+        "4": {
+          "materia": "Orientacion educativa V",
+          "docente": "Avalos Docente 2",
+          "aula": null
+        },
+        "5": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "6": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "7": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "8": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "2": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "3": {
+          "materia": "Orientacion educativa V",
+          "docente": "Avalos Docente 2",
+          "aula": null
+        },
+        "4": {
+          "materia": "Orientacion educativa V",
+          "docente": "Avalos Docente 2",
+          "aula": null
+        },
+        "5": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "6": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "7": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "8": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": "Orientacion educativa V",
+          "docente": "Avalos Docente 2",
+          "aula": null
+        },
+        "2": {
+          "materia": "Orientacion educativa V",
+          "docente": "Avalos Docente 2",
+          "aula": null
+        },
+        "3": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "4": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "5": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "6": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "7": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        },
+        "8": {
+          "materia": "Módulo Profesional MMCI",
+          "docente": "Acosta Docente 1",
+          "aula": null
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": "Orientacion educativa V",
+          "docente": "Avalos Docente 2",
+          "aula": null
+        },
+        "2": {
+          "materia": "Orientacion educativa V",
+          "docente": "Avalos Docente 2",
+          "aula": null
+        },
+        "3": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "4": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "5": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "6": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "7": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "8": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": "Orientacion educativa V",
+          "docente": "Avalos Docente 2",
+          "aula": null
+        },
+        "2": {
+          "materia": "Orientacion educativa V",
+          "docente": "Avalos Docente 2",
+          "aula": null
+        },
+        "3": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "4": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "5": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "6": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "7": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "8": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        }
+      }
+    }
+  }
+}

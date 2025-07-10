@@ -1,0 +1,3114 @@
+{
+  "Heredia Blanco Laura": {
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": "Cultura digital II",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "8": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": "Cultura digital II",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "13": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "14": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": "Cultura digital II",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "8": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": "Cultura digital II",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "13": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "14": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "2": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": "Lengua y comunicación II",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "8": {
+          "materia": "Lengua y comunicación II",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "13": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "14": {
+          "materia": "Lengua y comunicación II",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "15": {
+          "materia": "Lengua y comunicación II",
+          "grupo": "207G",
+          "semestre": 2
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "2": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "14": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "2": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "3": {
+          "materia": "Lengua y comunicación II",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "4": {
+          "materia": "Lengua y comunicación II",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "5": {
+          "materia": "Inglés II",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "6": {
+          "materia": "Inglés II",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "9": {
+          "materia": "Conservación de la energía y sus interacciones",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "10": {
+          "materia": "Lengua y comunicación II",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "11": {
+          "materia": "Lengua y comunicación II",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      }
+    }
+  },
+  "Herrera García Brenda Itzel": {
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "4": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "5": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "6": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "4": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "5": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "6": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "4": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "5": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "6": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "4": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "5": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "6": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "7": {
+          "materia": "Modulo profesional",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      }
+    }
+  },
+  "Acosta Docente 1": {
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "2": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "3": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "4": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "5": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "6": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "7": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "8": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "2": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "3": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "4": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "5": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "6": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "7": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "8": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "2": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "3": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "4": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "5": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "6": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "7": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "8": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "2": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "3": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "4": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "5": {
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      }
+    }
+  },
+  "Avalos Docente 2": {
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": "Ciencias sociales II",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "3": {
+          "materia": "Orientacion educativa V",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "4": {
+          "materia": "Orientacion educativa V",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "5": {
+          "materia": "Ciencias sociales III",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": "Ciencias sociales II",
+          "grupo": "207G",
+          "semestre": 2
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": "Ciencias sociales II",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "3": {
+          "materia": "Orientacion educativa V",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "4": {
+          "materia": "Orientacion educativa V",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "5": {
+          "materia": "Ciencias sociales III",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": "Ciencias sociales II",
+          "grupo": "207G",
+          "semestre": 2
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": "Orientacion educativa V",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "2": {
+          "materia": "Orientacion educativa V",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": "Orientacion educativa V",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "2": {
+          "materia": "Orientacion educativa V",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": "Orientacion educativa V",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "2": {
+          "materia": "Orientacion educativa V",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      }
+    }
+  },
+  "Barrera Docente 3": {
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      }
+    }
+  },
+  "Benitez Docente 4": {
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      }
+    }
+  },
+  "Cepeda Docente 5": {
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": "Tutorías",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": "Tutorías",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "7": {
+          "materia": "Temas selectos de matematicas I",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "8": {
+          "materia": "Temas selectos de matematicas I",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": "Temas selectos de matematicas I",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "7": {
+          "materia": "Temas selectos de matematicas I",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": "Temas selectos de matematicas I",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "6": {
+          "materia": "Temas selectos de matematicas I",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": "Temas selectos de matematicas I",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "7": {
+          "materia": "Temas selectos de matematicas I",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "8": {
+          "materia": "Pensamiento matemático II",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": "Pensamiento matemático II",
+          "grupo": "207G",
+          "semestre": 2
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": "Temas selectos de matematicas I",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "3": {
+          "materia": "Temas selectos de matematicas I",
+          "grupo": "401A",
+          "semestre": 4
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": "Pensamiento matemático II",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "8": {
+          "materia": "Pensamiento matemático II",
+          "grupo": "202B",
+          "semestre": 2
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": "Pensamiento matemático II",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "13": {
+          "materia": "Pensamiento matemático II",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "14": {
+          "materia": "Tutorías",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      }
+    }
+  },
+  "Profe de prueba 6": {
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "9": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "10": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "11": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "9": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "10": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "11": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "9": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "10": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "11": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "9": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "10": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "11": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "12": {
+          "materia": "Modulo profesional",
+          "grupo": "207G",
+          "semestre": 2
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      }
+    }
+  }
+}

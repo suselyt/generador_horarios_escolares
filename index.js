@@ -1005,6 +1005,9 @@ prueba.generarHorariosGrupales();
 // Imprimir horarios grupales
 prueba.imprimirHorariosGrupales();
 
+prueba.exportarHorariosGrupalesJSON();
+prueba.exportarHorariosProfesoresJSON();
+
 
 
 
