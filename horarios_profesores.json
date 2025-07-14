@@ -8,9 +8,9 @@
           "semestre": 2
         },
         "2": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Lengua y comunicación II",
+          "grupo": "202B",
+          "semestre": 2
         },
         "3": {
           "materia": null,
@@ -33,14 +33,14 @@
           "semestre": null
         },
         "7": {
-          "materia": "Conservación de la energía y sus interacciones",
+          "materia": "Inglés II",
           "grupo": "202B",
           "semestre": 2
         },
         "8": {
-          "materia": "Conservación de la energía y sus interacciones",
-          "grupo": "202B",
-          "semestre": 2
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": null,
@@ -73,9 +73,9 @@
           "semestre": 2
         },
         "15": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés II",
+          "grupo": "207G",
+          "semestre": 2
         }
       },
       "Martes": {
@@ -85,9 +85,9 @@
           "semestre": 2
         },
         "2": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento matemático II",
+          "grupo": "202B",
+          "semestre": 2
         },
         "3": {
           "materia": null,
@@ -110,14 +110,14 @@
           "semestre": null
         },
         "7": {
-          "materia": "Conservación de la energía y sus interacciones",
-          "grupo": "202B",
-          "semestre": 2
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
-          "materia": "Conservación de la energía y sus interacciones",
-          "grupo": "202B",
-          "semestre": 2
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": null,
@@ -187,14 +187,14 @@
           "semestre": null
         },
         "7": {
-          "materia": "Lengua y comunicación II",
-          "grupo": "202B",
-          "semestre": 2
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
-          "materia": "Lengua y comunicación II",
-          "grupo": "202B",
-          "semestre": 2
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": null,
@@ -366,14 +366,14 @@
           "semestre": 2
         },
         "12": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés II",
+          "grupo": "207G",
+          "semestre": 2
         },
         "13": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés II",
+          "grupo": "207G",
+          "semestre": 2
         },
         "14": {
           "materia": null,
@@ -801,24 +801,24 @@
           "semestre": 4
         },
         "5": {
-          "materia": "Módulo Profesional MMCI",
-          "grupo": "601A",
-          "semestre": 6
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
-          "materia": "Módulo Profesional MMCI",
-          "grupo": "601A",
-          "semestre": 6
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
-          "materia": "Módulo Profesional MMCI",
-          "grupo": "601A",
-          "semestre": 6
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
-          "materia": "Módulo Profesional MMCI",
-          "grupo": "601A",
-          "semestre": 6
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": null,
@@ -878,24 +878,24 @@
           "semestre": 4
         },
         "5": {
-          "materia": "Módulo Profesional MMCI",
-          "grupo": "601A",
-          "semestre": 6
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
-          "materia": "Módulo Profesional MMCI",
-          "grupo": "601A",
-          "semestre": 6
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
-          "materia": "Módulo Profesional MMCI",
-          "grupo": "601A",
-          "semestre": 6
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
-          "materia": "Módulo Profesional MMCI",
-          "grupo": "601A",
-          "semestre": 6
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": null,
@@ -955,24 +955,24 @@
           "semestre": 4
         },
         "5": {
-          "materia": "Módulo Profesional MMCI",
-          "grupo": "601A",
-          "semestre": 6
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
-          "materia": "Módulo Profesional MMCI",
-          "grupo": "601A",
-          "semestre": 6
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
-          "materia": "Módulo Profesional MMCI",
-          "grupo": "601A",
-          "semestre": 6
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
-          "materia": "Módulo Profesional MMCI",
-          "grupo": "601A",
-          "semestre": 6
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": null,
@@ -1089,24 +1089,24 @@
       },
       "Viernes": {
         "1": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "601A",
+          "semestre": 6
         },
         "2": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "601A",
+          "semestre": 6
         },
         "3": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "601A",
+          "semestre": 6
         },
         "4": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Módulo Profesional MMCI",
+          "grupo": "601A",
+          "semestre": 6
         },
         "5": {
           "materia": null,
@@ -1170,24 +1170,24 @@
     "horario": {
       "Lunes": {
         "1": {
+          "materia": "Orientacion educativa V",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "2": {
+          "materia": "Orientacion educativa V",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "3": {
           "materia": null,
           "grupo": null,
           "semestre": null
         },
-        "2": {
-          "materia": "Ciencias sociales II",
-          "grupo": "202B",
-          "semestre": 2
-        },
-        "3": {
-          "materia": "Orientacion educativa V",
-          "grupo": "601A",
-          "semestre": 6
-        },
         "4": {
-          "materia": "Orientacion educativa V",
-          "grupo": "601A",
-          "semestre": 6
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
           "materia": "Ciencias sociales III",
@@ -1240,31 +1240,31 @@
           "semestre": null
         },
         "15": {
-          "materia": "Ciencias sociales II",
-          "grupo": "207G",
-          "semestre": 2
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         }
       },
       "Martes": {
         "1": {
+          "materia": "Orientacion educativa V",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "2": {
+          "materia": "Orientacion educativa V",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "3": {
           "materia": null,
           "grupo": null,
           "semestre": null
         },
-        "2": {
-          "materia": "Ciencias sociales II",
-          "grupo": "202B",
-          "semestre": 2
-        },
-        "3": {
-          "materia": "Orientacion educativa V",
-          "grupo": "601A",
-          "semestre": 6
-        },
         "4": {
-          "materia": "Orientacion educativa V",
-          "grupo": "601A",
-          "semestre": 6
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
           "materia": "Ciencias sociales III",
@@ -1277,9 +1277,9 @@
           "semestre": null
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Ciencias sociales II",
+          "grupo": "202B",
+          "semestre": 2
         },
         "8": {
           "materia": null,
@@ -1354,9 +1354,9 @@
           "semestre": null
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Ciencias sociales II",
+          "grupo": "202B",
+          "semestre": 2
         },
         "8": {
           "materia": null,
@@ -1471,21 +1471,21 @@
           "semestre": null
         },
         "15": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Ciencias sociales II",
+          "grupo": "207G",
+          "semestre": 2
         }
       },
       "Viernes": {
         "1": {
-          "materia": "Orientacion educativa V",
-          "grupo": "601A",
-          "semestre": 6
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
-          "materia": "Orientacion educativa V",
-          "grupo": "601A",
-          "semestre": 6
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
           "materia": null,
@@ -1498,14 +1498,14 @@
           "semestre": null
         },
         "5": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Orientacion educativa V",
+          "grupo": "601A",
+          "semestre": 6
         },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Orientacion educativa V",
+          "grupo": "601A",
+          "semestre": 6
         },
         "7": {
           "materia": null,
@@ -1594,9 +1594,9 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurriculares II RONDALLA",
+          "grupo": "202B",
+          "semestre": 2
         },
         "9": {
           "materia": null,
@@ -1671,9 +1671,9 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurriculares II RONDALLA",
+          "grupo": "202B",
+          "semestre": 2
         },
         "9": {
           "materia": null,
@@ -1748,9 +1748,9 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurriculares II RONDALLA",
+          "grupo": "202B",
+          "semestre": 2
         },
         "9": {
           "materia": null,
@@ -1825,9 +1825,9 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurriculares IV RONDALLA",
+          "grupo": "401A",
+          "semestre": 4
         },
         "9": {
           "materia": null,
@@ -1902,9 +1902,9 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurriculares IV RONDALLA",
+          "grupo": "401A",
+          "semestre": 4
         },
         "9": {
           "materia": null,
@@ -1983,9 +1983,9 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurriculares IV PINTURA",
+          "grupo": "401A",
+          "semestre": 4
         },
         "9": {
           "materia": null,
@@ -2060,9 +2060,9 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurriculares IV PINTURA",
+          "grupo": "401A",
+          "semestre": 4
         },
         "9": {
           "materia": null,
@@ -2137,9 +2137,9 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurriculares IV PINTURA",
+          "grupo": "401A",
+          "semestre": 4
         },
         "9": {
           "materia": null,
@@ -2214,9 +2214,9 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurriculares II PINTURA",
+          "grupo": "202B",
+          "semestre": 2
         },
         "9": {
           "materia": null,
@@ -2291,9 +2291,9 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurriculares II PINTURA",
+          "grupo": "202B",
+          "semestre": 2
         },
         "9": {
           "materia": null,
@@ -2342,14 +2342,14 @@
           "semestre": null
         },
         "2": {
-          "materia": "Tutorías",
-          "grupo": "601A",
-          "semestre": 6
-        },
-        "3": {
           "materia": null,
           "grupo": null,
           "semestre": null
+        },
+        "3": {
+          "materia": "Tutorías",
+          "grupo": "601A",
+          "semestre": 6
         },
         "4": {
           "materia": null,
@@ -2367,14 +2367,14 @@
           "semestre": 4
         },
         "7": {
-          "materia": "Temas selectos de matematicas I",
-          "grupo": "401A",
-          "semestre": 4
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
-          "materia": "Temas selectos de matematicas I",
-          "grupo": "401A",
-          "semestre": 4
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": null,
@@ -2603,9 +2603,9 @@
           "semestre": 4
         },
         "8": {
-          "materia": "Pensamiento matemático II",
-          "grupo": "202B",
-          "semestre": 2
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": null,
@@ -2638,9 +2638,9 @@
           "semestre": null
         },
         "15": {
-          "materia": "Pensamiento matemático II",
-          "grupo": "207G",
-          "semestre": 2
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         }
       },
       "Viernes": {
@@ -2675,14 +2675,14 @@
           "semestre": null
         },
         "7": {
-          "materia": "Pensamiento matemático II",
+          "materia": "Tutorías",
           "grupo": "202B",
           "semestre": 2
         },
         "8": {
-          "materia": "Pensamiento matemático II",
-          "grupo": "202B",
-          "semestre": 2
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": null,
@@ -2700,24 +2700,24 @@
           "semestre": null
         },
         "12": {
-          "materia": "Pensamiento matemático II",
-          "grupo": "207G",
-          "semestre": 2
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "13": {
-          "materia": "Pensamiento matemático II",
-          "grupo": "207G",
-          "semestre": 2
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "14": {
-          "materia": "Tutorías",
+          "materia": "Pensamiento matemático II",
           "grupo": "207G",
           "semestre": 2
         },
         "15": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento matemático II",
+          "grupo": "207G",
+          "semestre": 2
         }
       }
     }
@@ -3015,6 +3015,395 @@
           "materia": "Modulo profesional",
           "grupo": "207G",
           "semestre": 2
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      }
+    }
+  },
+  "Jorge Isidro": {
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": "Extracurriculares VI EFP",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": "Extracurriculares VI EFP",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": "Extracurriculares VI EFP",
+          "grupo": "601A",
+          "semestre": 6
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "15": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "13": {
           "materia": null,

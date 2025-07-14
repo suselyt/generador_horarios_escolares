@@ -19,42 +19,42 @@
     "semestre": 2,
     "tipo": "modulo_profesional",
     "submodulos": [
-        {
-          "nombre": "POO",
-          "horas": 8
-        },
-        {
-          "nombre": "Bases de datos",
-          "horas": 9
-        }
+      {
+        "nombre": "POO",
+        "horas": 8
+      },
+      {
+        "nombre": "Bases de datos",
+        "horas": 9
+      }
     ],
     "especialidad": "Programación",
     "horas_semanales": 17
   },
   {
     "id": "LYC2",
-   "nombre": "Lengua y comunicación II",
+    "nombre": "Lengua y comunicación II",
     "semestre": 2,
     "tipo": "tronco_comun",
     "horas_semanales": 3
   },
   {
     "id": "I2",
-   "nombre": "Inglés II",
+    "nombre": "Inglés II",
     "semestre": 2,
     "tipo": "tronco_comun",
     "horas_semanales": 3
   },
   {
     "id": "PM2",
-   "nombre": "Pensamiento matemático II",
+    "nombre": "Pensamiento matemático II",
     "semestre": 2,
     "tipo": "tronco_comun",
     "horas_semanales": 4
   },
   {
     "id": "CS2",
-   "nombre": "Ciencias sociales II",
+    "nombre": "Ciencias sociales II",
     "semestre": 2,
     "tipo": "tronco_comun",
     "horas_semanales": 2
@@ -66,29 +66,57 @@
     "tipo": "tronco_comun"
   },
   {
-    "id": "EXTRA2 ",
-    "nombre": "Extracurriculares II",
+    "id": "E2R",
+    "nombre": "Extracurriculares II RONDALLA",
+    "semestre": 2,
+    "horas_semanales": 3,
+    "tipo": "extracurricular"
+  },
+  {
+    "id": "E2PI",
+    "nombre": "Extracurriculares II PINTURA",
+    "semestre": 2,
+    "horas_semanales": 3,
+    "tipo": "extracurricular"
+  },
+  {
+    "id": "E2EFP",
+    "nombre": "Extracurriculares II EFP",
     "semestre": 2,
     "horas_semanales": 3,
     "tipo": "extracurricular"
   },
   {
     "id": "CS3",
-   "nombre": "Ciencias sociales III",
+    "nombre": "Ciencias sociales III",
     "semestre": 4,
     "tipo": "tronco_comun",
     "horas_semanales": 2
   },
   {
     "id": "TSDMI",
-   "nombre": "Temas selectos de matematicas I",
+    "nombre": "Temas selectos de matematicas I",
     "semestre": 4,
     "tipo": "tronco_comun",
     "horas_semanales": 4
   },
   {
-    "id": "EXTRA4 ",
-    "nombre": "Extracurriculares IV",
+    "id": "E4R",
+    "nombre": "Extracurriculares IV RONDALLA",
+    "semestre": 4,
+    "horas_semanales": 3,
+    "tipo": "extracurricular"
+  },
+  {
+    "id": "E4PI",
+    "nombre": "Extracurriculares IV PINTURA",
+    "semestre": 4,
+    "horas_semanales": 3,
+    "tipo": "extracurricular"
+  },
+  {
+    "id": "E4EFP",
+    "nombre": "Extracurriculares IV EFP",
     "semestre": 4,
     "horas_semanales": 3,
     "tipo": "extracurricular"
@@ -99,28 +127,42 @@
     "semestre": 4,
     "tipo": "modulo_profesional",
     "submodulos": [
-        {
-          "nombre": "Realiza mantenimiento al motor de gasolina de dos y cuatro tiempos",
-          "horas": 6
-        },
-        {
-          "nombre": "Realiza mantenimiento al motor diésel.",
-          "horas": 6
-        }
+      {
+        "nombre": "Realiza mantenimiento al motor de gasolina de dos y cuatro tiempos",
+        "horas": 6
+      },
+      {
+        "nombre": "Realiza mantenimiento al motor diésel.",
+        "horas": 6
+      }
     ],
     "especialidad": "Mantenimiento Automotriz",
     "horas_semanales": 12
   },
   {
     "id": "OE5",
-   "nombre": "Orientacion educativa V",
+    "nombre": "Orientacion educativa V",
     "semestre": 6,
     "tipo": "tronco_comun",
     "horas_semanales": 12
   },
   {
-    "id": "EXTRA6 ",
-    "nombre": "Extracurriculares VI",
+    "id": "E6PI",
+    "nombre": "Extracurriculares VI PINTURA",
+    "semestre": 6,
+    "horas_semanales": 3,
+    "tipo": "extracurricular"
+  },
+  {
+    "id": "E6EFP",
+    "nombre": "Extracurriculares VI EFP",
+    "semestre": 6,
+    "horas_semanales": 3,
+    "tipo": "extracurricular"
+  },
+  {
+    "id": "E6R",
+    "nombre": "Extracurriculares VI RONDALLA",
     "semestre": 6,
     "horas_semanales": 3,
     "tipo": "extracurricular"
@@ -138,17 +180,16 @@
     "semestre": 6,
     "tipo": "modulo_profesional",
     "submodulos": [
-        {
-          "nombre": "Realiza mantenimiento al sistema de embrague y transmisión manual de los motores de combustión interna.",
-          "horas": 6
-        },
-        {
-          "nombre": "Realiza mantenimiento al sistema de transmisión automática de los motores de combustión interna",
-          "horas": 6
-        }
+      {
+        "nombre": "Realiza mantenimiento al sistema de embrague y transmisión manual de los motores de combustión interna.",
+        "horas": 6
+      },
+      {
+        "nombre": "Realiza mantenimiento al sistema de transmisión automática de los motores de combustión interna",
+        "horas": 6
+      }
     ],
     "especialidad": "Mantenimiento Automotriz",
     "horas_semanales": 17
   }
-
 ]

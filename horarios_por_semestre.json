@@ -12,8 +12,8 @@
             "aula": null
           },
           "2": {
-            "materia": "Ciencias sociales II",
-            "docente": "Avalos Docente 2",
+            "materia": "Lengua y comunicación II",
+            "docente": "Heredia Blanco Laura",
             "aula": null
           },
           "3": {
@@ -37,13 +37,13 @@
             "aula": null
           },
           "7": {
-            "materia": "Conservación de la energía y sus interacciones",
+            "materia": "Inglés II",
             "docente": "Heredia Blanco Laura",
             "aula": null
           },
           "8": {
-            "materia": "Conservación de la energía y sus interacciones",
-            "docente": "Heredia Blanco Laura",
+            "materia": "Extracurriculares II RONDALLA",
+            "docente": "Barrera Docente 3",
             "aula": null
           }
         },
@@ -54,8 +54,8 @@
             "aula": null
           },
           "2": {
-            "materia": "Ciencias sociales II",
-            "docente": "Avalos Docente 2",
+            "materia": "Pensamiento matemático II",
+            "docente": "Heredia Blanco Laura",
             "aula": null
           },
           "3": {
@@ -79,13 +79,13 @@
             "aula": null
           },
           "7": {
-            "materia": "Conservación de la energía y sus interacciones",
-            "docente": "Heredia Blanco Laura",
+            "materia": "Ciencias sociales II",
+            "docente": "Avalos Docente 2",
             "aula": null
           },
           "8": {
-            "materia": "Conservación de la energía y sus interacciones",
-            "docente": "Heredia Blanco Laura",
+            "materia": "Extracurriculares II RONDALLA",
+            "docente": "Barrera Docente 3",
             "aula": null
           }
         },
@@ -121,13 +121,13 @@
             "aula": null
           },
           "7": {
-            "materia": "Lengua y comunicación II",
-            "docente": "Heredia Blanco Laura",
+            "materia": "Ciencias sociales II",
+            "docente": "Avalos Docente 2",
             "aula": null
           },
           "8": {
-            "materia": "Lengua y comunicación II",
-            "docente": "Heredia Blanco Laura",
+            "materia": "Extracurriculares II RONDALLA",
+            "docente": "Barrera Docente 3",
             "aula": null
           }
         },
@@ -168,8 +168,8 @@
             "aula": null
           },
           "8": {
-            "materia": "Pensamiento matemático II",
-            "docente": "Cepeda Docente 5",
+            "materia": "Extracurriculares II PINTURA",
+            "docente": "Benitez Docente 4",
             "aula": null
           }
         },
@@ -205,13 +205,13 @@
             "aula": null
           },
           "7": {
-            "materia": "Pensamiento matemático II",
+            "materia": "Tutorías",
             "docente": "Cepeda Docente 5",
             "aula": null
           },
           "8": {
-            "materia": "Pensamiento matemático II",
-            "docente": "Cepeda Docente 5",
+            "materia": "Extracurriculares II PINTURA",
+            "docente": "Benitez Docente 4",
             "aula": null
           }
         }
@@ -259,8 +259,8 @@
             "aula": null
           },
           "15": {
-            "materia": "Ciencias sociales II",
-            "docente": "Avalos Docente 2",
+            "materia": "Inglés II",
+            "docente": "Heredia Blanco Laura",
             "aula": null
           }
         },
@@ -385,8 +385,8 @@
             "aula": null
           },
           "15": {
-            "materia": "Pensamiento matemático II",
-            "docente": "Cepeda Docente 5",
+            "materia": "Ciencias sociales II",
+            "docente": "Avalos Docente 2",
             "aula": null
           }
         },
@@ -412,23 +412,23 @@
             "aula": null
           },
           "12": {
-            "materia": "Pensamiento matemático II",
-            "docente": "Cepeda Docente 5",
+            "materia": "Inglés II",
+            "docente": "Heredia Blanco Laura",
             "aula": null
           },
           "13": {
-            "materia": "Pensamiento matemático II",
-            "docente": "Cepeda Docente 5",
+            "materia": "Inglés II",
+            "docente": "Heredia Blanco Laura",
             "aula": null
           },
           "14": {
-            "materia": "Tutorías",
+            "materia": "Pensamiento matemático II",
             "docente": "Cepeda Docente 5",
             "aula": null
           },
           "15": {
-            "materia": null,
-            "docente": null,
+            "materia": "Pensamiento matemático II",
+            "docente": "Cepeda Docente 5",
             "aula": null
           }
         }
@@ -473,13 +473,13 @@
             "aula": null
           },
           "7": {
-            "materia": "Temas selectos de matematicas I",
-            "docente": "Cepeda Docente 5",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "8": {
-            "materia": "Temas selectos de matematicas I",
-            "docente": "Cepeda Docente 5",
+            "materia": "Extracurriculares IV PINTURA",
+            "docente": "Benitez Docente 4",
             "aula": null
           }
         },
@@ -520,8 +520,8 @@
             "aula": null
           },
           "8": {
-            "materia": null,
-            "docente": null,
+            "materia": "Extracurriculares IV PINTURA",
+            "docente": "Benitez Docente 4",
             "aula": null
           }
         },
@@ -562,8 +562,8 @@
             "aula": null
           },
           "8": {
-            "materia": null,
-            "docente": null,
+            "materia": "Extracurriculares IV PINTURA",
+            "docente": "Benitez Docente 4",
             "aula": null
           }
         },
@@ -604,8 +604,8 @@
             "aula": null
           },
           "8": {
-            "materia": null,
-            "docente": null,
+            "materia": "Extracurriculares IV RONDALLA",
+            "docente": "Barrera Docente 3",
             "aula": null
           }
         },
@@ -646,8 +646,8 @@
             "aula": null
           },
           "8": {
-            "materia": null,
-            "docente": null,
+            "materia": "Extracurriculares IV RONDALLA",
+            "docente": "Barrera Docente 3",
             "aula": null
           }
         }
@@ -662,85 +662,85 @@
       "horario": {
         "Lunes": {
           "1": {
-            "materia": null,
-            "docente": null,
+            "materia": "Orientacion educativa V",
+            "docente": "Avalos Docente 2",
             "aula": null
           },
           "2": {
+            "materia": "Orientacion educativa V",
+            "docente": "Avalos Docente 2",
+            "aula": null
+          },
+          "3": {
             "materia": "Tutorías",
             "docente": "Cepeda Docente 5",
             "aula": null
           },
-          "3": {
-            "materia": "Orientacion educativa V",
-            "docente": "Avalos Docente 2",
-            "aula": null
-          },
           "4": {
-            "materia": "Orientacion educativa V",
-            "docente": "Avalos Docente 2",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "5": {
-            "materia": "Módulo Profesional MMCI",
-            "docente": "Acosta Docente 1",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "6": {
-            "materia": "Módulo Profesional MMCI",
-            "docente": "Acosta Docente 1",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "7": {
-            "materia": "Módulo Profesional MMCI",
-            "docente": "Acosta Docente 1",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "8": {
-            "materia": "Módulo Profesional MMCI",
-            "docente": "Acosta Docente 1",
+            "materia": "Extracurriculares VI EFP",
+            "docente": "Jorge Isidro",
             "aula": null
           }
         },
         "Martes": {
           "1": {
-            "materia": null,
-            "docente": null,
+            "materia": "Orientacion educativa V",
+            "docente": "Avalos Docente 2",
             "aula": null
           },
           "2": {
+            "materia": "Orientacion educativa V",
+            "docente": "Avalos Docente 2",
+            "aula": null
+          },
+          "3": {
             "materia": null,
             "docente": null,
             "aula": null
           },
-          "3": {
-            "materia": "Orientacion educativa V",
-            "docente": "Avalos Docente 2",
-            "aula": null
-          },
           "4": {
-            "materia": "Orientacion educativa V",
-            "docente": "Avalos Docente 2",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "5": {
-            "materia": "Módulo Profesional MMCI",
-            "docente": "Acosta Docente 1",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "6": {
-            "materia": "Módulo Profesional MMCI",
-            "docente": "Acosta Docente 1",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "7": {
-            "materia": "Módulo Profesional MMCI",
-            "docente": "Acosta Docente 1",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "8": {
-            "materia": "Módulo Profesional MMCI",
-            "docente": "Acosta Docente 1",
+            "materia": "Extracurriculares VI EFP",
+            "docente": "Jorge Isidro",
             "aula": null
           }
         },
@@ -766,23 +766,23 @@
             "aula": null
           },
           "5": {
-            "materia": "Módulo Profesional MMCI",
-            "docente": "Acosta Docente 1",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "6": {
-            "materia": "Módulo Profesional MMCI",
-            "docente": "Acosta Docente 1",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "7": {
-            "materia": "Módulo Profesional MMCI",
-            "docente": "Acosta Docente 1",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "8": {
-            "materia": "Módulo Profesional MMCI",
-            "docente": "Acosta Docente 1",
+            "materia": "Extracurriculares VI EFP",
+            "docente": "Jorge Isidro",
             "aula": null
           }
         },
@@ -830,33 +830,33 @@
         },
         "Viernes": {
           "1": {
-            "materia": "Orientacion educativa V",
-            "docente": "Avalos Docente 2",
+            "materia": "Módulo Profesional MMCI",
+            "docente": "Acosta Docente 1",
             "aula": null
           },
           "2": {
+            "materia": "Módulo Profesional MMCI",
+            "docente": "Acosta Docente 1",
+            "aula": null
+          },
+          "3": {
+            "materia": "Módulo Profesional MMCI",
+            "docente": "Acosta Docente 1",
+            "aula": null
+          },
+          "4": {
+            "materia": "Módulo Profesional MMCI",
+            "docente": "Acosta Docente 1",
+            "aula": null
+          },
+          "5": {
             "materia": "Orientacion educativa V",
             "docente": "Avalos Docente 2",
             "aula": null
           },
-          "3": {
-            "materia": null,
-            "docente": null,
-            "aula": null
-          },
-          "4": {
-            "materia": null,
-            "docente": null,
-            "aula": null
-          },
-          "5": {
-            "materia": null,
-            "docente": null,
-            "aula": null
-          },
           "6": {
-            "materia": null,
-            "docente": null,
+            "materia": "Orientacion educativa V",
+            "docente": "Avalos Docente 2",
             "aula": null
           },
           "7": {

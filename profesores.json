@@ -41,7 +41,7 @@
     {
         "nombre": "Barrera Docente 3",
         "abreviatura": "BD3",
-        "materias": ["EXTRA2", "EXTRA4", "EXTRA6","CD2","PYE"],
+        "materias": ["E2R", "E4R", "E6R","CD2","PYE"],
         "horas_semanales": 32,
         "horas_fortalecimiento_academico": [
             {
@@ -58,8 +58,8 @@
     {
         "nombre": "Benitez Docente 4",
         "abreviatura": "BD4",
-        "materias": ["EXTRA2", "EXTRA4", "EXTRA6"],
-        "horas_semanales": 12,
+        "materias": ["E2PI", "E4PI", "E6PI"],
+        "horas_semanales": 12, 
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Concurso",
@@ -94,6 +94,17 @@
         "abreviatura": "PP6",
         "materias": ["MP-MMCI4", "MP-MMCI6", "MPP2"],
         "horas_semanales": 40
+    },
+    {
+        "nombre": "Jorge Isidro",
+        "abreviatura": "JI de Leon",
+        "materias": ["E2EFP", "E4EFP", "E6EFP"],
+        "horas_semanales": 12,
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Concurso",
+                "horas": 3
+            }
+        ]
     }
-
 ]
