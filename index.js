@@ -641,27 +641,26 @@ class GeneradorHorarios {
                         if (horasPorAsignar <= 0) break;
 
                         //  verificar si el bloque está disponible (vacío)
+
                         if (profesor.horario[dia][bloque].materia === null) {
 
-                            const grupoTemporal = { nomenclatura: null };
-
-                            if (this.cumpleRestricciones(dia, bloque, profesor, grupoTemporal, null)) {
-                                // asignar la actividad de fortalecimiento
+                            if (profesor.bloques_recomendados_no_asignar && profesor.bloques_recomendados_no_asignar.includes(bloque)) {
                                 profesor.horario[dia][bloque] = {
                                     materia: actividad.nombre,
                                     grupo: null,
                                     semestre: null
                                 };
-
-                                horasPorAsignar--;
-                                console.log(`Asignado fortalecimiento académico: ${actividad.nombre} - ${profesor.nombre} - ${dia} Bloque ${bloque}`);
                             }
+
+                            horasPorAsignar--;
+                            console.log(`Asignado fortalecimiento académico: ${actividad.nombre} - ${profesor.nombre} - ${dia} Bloque ${bloque}`);
                         }
                     }
                 }
             }
         }
     }
+
 
     // función auxiliar para contar horas ya asignadas de una materia a un grupo
     contarHorasAsignadasGrupoMateria(grupo, materia) {
@@ -1127,9 +1126,4 @@ prueba.exportarHorariosProfesoresJSON();
 // 328 asignar materia, cambiar nombre o algo para cuando se asignen las materias al general no cause problema (puede que no cause problema pero para ser especifica)
 // unificar las funciones de encontrar bloques consecutivos
 
-
-
-//DOCUMENTO
-// explico en tipos de prueba explico q prpueba como se hace x
-// analisis buscar una prueba de validacion
-// reglas de negocio
+// cuando un maestro no sea capaz de cubrir toda la carga horaria de la materia, no asignarle la materia 

@@ -1948,17 +1948,17 @@
     "horario": {
       "Lunes": {
         "1": {
-          "materia": null,
+          "materia": "Concurso",
           "grupo": null,
           "semestre": null
         },
         "2": {
-          "materia": null,
+          "materia": "Concurso",
           "grupo": null,
           "semestre": null
         },
         "3": {
-          "materia": null,
+          "materia": "Concurso",
           "grupo": null,
           "semestre": null
         },
@@ -2337,7 +2337,7 @@
     "horario": {
       "Lunes": {
         "1": {
-          "materia": null,
+          "materia": "Concurso",
           "grupo": null,
           "semestre": null
         },
