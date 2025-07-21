@@ -1,0 +1,51 @@
+[
+    {
+        "id": "LYC1",
+        "nombre": "Lengua y Comunicación I",
+        "semestre": 1,
+        "tipo": "tronco_comun",
+        "horas_semanales": 3
+    },
+    {
+        "id": "I1",
+        "nombre": "Inglés I",
+        "semestre": 1,
+        "tipo": "tronco_comun",
+        "horas_semanales": 3
+    },
+    {
+        "id": "PM1",
+        "nombre": "Pensamiento Matemático I",
+        "semestre": 1,
+        "tipo": "tronco_comun",
+        "horas_semanales": 4
+    },
+    {
+        "id": "CD1",
+        "nombre": "Cultura Digital I",
+        "semestre": 1,
+        "tipo": "tronco_comun",
+        "horas_semanales": 3
+    },
+    {
+        "id": "LMYSI",
+        "nombre": "La materia y sus interacciones",
+        "semestre": 1,
+        "tipo": "tronco_comun",
+        "horas_semanales": 4
+    },
+    {
+        "id": "CS",
+        "nombre": "C. Sociales",
+        "semestre": 1,
+        "tipo": "tronco_comun",
+        "horas_semanales": 2
+    },
+    {
+        "id": "H1",
+        "nombre": "Humanidades I",
+        "semestre": 1,
+        "tipo": "tronco_comun",
+        "horas_semanales": 4
+    }
+]
