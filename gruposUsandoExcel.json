@@ -1,0 +1,242 @@
+[
+  {
+    "semestre": 1,
+    "grupo": "A",
+    "nomenclatura": "101A",
+    "especialidad": "Mantenimiento Automotriz ",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 1,
+    "grupo": "B",
+    "nomenclatura": "102B",
+    "especialidad": "Diseño Grafico Digital",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 1,
+    "grupo": "C",
+    "nomenclatura": "103C",
+    "especialidad": "Inteligencia Artificial",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 1,
+    "grupo": "D",
+    "nomenclatura": "104D",
+    "especialidad": "Logistica",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 1,
+    "grupo": "E",
+    "nomenclatura": "105E",
+    "especialidad": "Mantenimiento Industrial",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 1,
+    "grupo": "F",
+    "nomenclatura": "106F",
+    "especialidad": "Semiconductores y Microelectronica",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 1,
+    "grupo": "G",
+    "nomenclatura": "101G",
+    "especialidad": "Ciberseguridad",
+    "turno": "Vespertino"
+  },
+  {
+    "semestre": 1,
+    "grupo": "H",
+    "nomenclatura": "102H",
+    "especialidad": "Inteligencia Artificial",
+    "turno": "Vespertino"
+  },
+  {
+    "semestre": 1,
+    "grupo": "I",
+    "nomenclatura": "103I",
+    "especialidad": "Mantenimiento Industrial",
+    "turno": "Vespertino"
+  },
+  {
+    "semestre": 1,
+    "grupo": "J",
+    "nomenclatura": "104J",
+    "especialidad": "Diseño Grafico Digital",
+    "turno": "Vespertino"
+  },
+  {
+    "semestre": 1,
+    "grupo": "K",
+    "nomenclatura": "105K",
+    "especialidad": "Semiconductores y Microelectronica",
+    "turno": "Vespertino"
+  },
+  {
+    "semestre": 3,
+    "grupo": "A",
+    "nomenclatura": "301A",
+    "especialidad": "Mantenimiento Automotriz",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 3,
+    "grupo": "B",
+    "nomenclatura": "302B",
+    "especialidad": "Programación",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 3,
+    "grupo": "C",
+    "nomenclatura": "303C",
+    "especialidad": "Programación",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 3,
+    "grupo": "D",
+    "nomenclatura": "304D",
+    "especialidad": "Diseño Gráfico Digital",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 3,
+    "grupo": "E",
+    "nomenclatura": "305E",
+    "especialidad": "Mantenimiento Industrial",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 3,
+    "grupo": "F",
+    "nomenclatura": "306F",
+    "especialidad": "Electrónica",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 3,
+    "especialidad": "Dual"
+  },
+  {
+    "semestre": 3,
+    "grupo": "G",
+    "nomenclatura": "301G",
+    "especialidad": "Ciberseguridad",
+    "turno": "Vespertino"
+  },
+  {
+    "semestre": 3,
+    "grupo": "H",
+    "nomenclatura": "302H",
+    "especialidad": "Programación",
+    "turno": "Vespertino"
+  },
+  {
+    "semestre": 3,
+    "grupo": "I",
+    "nomenclatura": "303I",
+    "especialidad": "Mantenimiento Industrial",
+    "turno": "Vespertino"
+  },
+  {
+    "semestre": 3,
+    "grupo": "J",
+    "nomenclatura": "304J",
+    "especialidad": "Diseño Gráfico Digital",
+    "turno": "Vespertino"
+  },
+  {
+    "semestre": 3,
+    "grupo": "5",
+    "nomenclatura": "305K",
+    "especialidad": "Electrónica",
+    "turno": "Vespertino"
+  },
+  {
+    "semestre": 5,
+    "grupo": "A",
+    "nomenclatura": "501A",
+    "especialidad": "Mantenimiento a Motores de Combustión Interna",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 5,
+    "grupo": "B",
+    "nomenclatura": "502B",
+    "especialidad": "Programación",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 5,
+    "grupo": "C",
+    "nomenclatura": "503C",
+    "especialidad": "Programación",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 5,
+    "grupo": "D",
+    "nomenclatura": "504D",
+    "especialidad": "Diseño Gráfico Digital",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 5,
+    "grupo": "E",
+    "nomenclatura": "505E",
+    "especialidad": "Mantenimiento a Instalaciones Petroleras",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 5,
+    "grupo": "F",
+    "nomenclatura": "506F",
+    "especialidad": "Diseño y Fabricación de Muebles Finos de Madera",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 5,
+    "grupo": "G",
+    "nomenclatura": "507G",
+    "especialidad": "Mantenimiento Industrial",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 5,
+    "grupo": "H",
+    "nomenclatura": "508H",
+    "especialidad": "Electrónica",
+    "turno": "Matutino"
+  },
+  {
+    "semestre": 5,
+    "especialidad": "Dual"
+  },
+  {
+    "semestre": 5,
+    "grupo": "I",
+    "nomenclatura": "501I",
+    "especialidad": "Mantenimiento Industrial",
+    "turno": "Vespertino"
+  },
+  {
+    "semestre": 5,
+    "grupo": "J",
+    "nomenclatura": "502J",
+    "especialidad": "Diseño Gráfico Digital",
+    "turno": "Vespertino"
+  },
+  {
+    "semestre": 5,
+    "grupo": "K",
+    "nomenclatura": "503K",
+    "especialidad": "Electrónica",
+    "turno": "Vespertino"
+  }
+]
+

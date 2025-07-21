@@ -1127,3 +1127,5 @@ prueba.exportarHorariosProfesoresJSON();
 // unificar las funciones de encontrar bloques consecutivos
 
 // cuando un maestro no sea capaz de cubrir toda la carga horaria de la materia, no asignarle la materia 
+// cambiar especialidad a carrera
+//revisar el grupo de turno dual y ver como se va a configurar eso
