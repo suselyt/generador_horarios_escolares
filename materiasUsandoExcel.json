@@ -202,5 +202,178 @@
         ],
         "especialidad": "Ciberseguridad",
         "horas_semanales": 17
+    },
+    {
+        "id": "TSDM2",
+        "nombre": "Temas selectos de Matemáticas II",
+        "semestre": 5,
+        "tipo": "tronco_comun",
+        "horas_semanales": 5
+    },
+    {
+        "id": "I5",
+        "nombre": "Inglés V",
+        "semestre": 5,
+        "tipo": "tronco_comun",
+        "horas_semanales": 5
+    },
+    {
+        "id": "CH2MDEEC",
+        "nombre": "Conciencia Histórica II: México durante el expansionismo capitalista",
+        "semestre": 5,
+        "tipo": "tronco_comun",
+        "horas_semanales": 3
+    },
+    {
+        "id": "LEELPDLVD",
+        "nombre": "La energía en los procesos de la vida diaria",
+        "semestre": 5,
+        "tipo": "tronco_comun",
+        "horas_semanales": 4
+    },
+    {
+        "id": "EL",
+        "nombre": "Estudios Literarios",
+        "semestre": 5,
+        "tipo": "tronco_comun",
+        "horas_semanales": 3
+    },
+    {
+        "id": "MP-MAMDCI5",
+        "nombre": "Modulo profesional",
+        "semestre": 5,
+        "tipo": "modulo_profesional",
+        "submodulos": [
+            {
+                "nombre": "Submódulo 1: Realiza mantenimiento al sistema de refrigeración por aire del motor de combustión interna",
+                "horas": 4
+            },
+            {
+                "nombre": "Submódulo 2: Realiza mantenimiento al sistema de refrigeración por agua del motor de combustión interna",
+                "horas": 4
+            },
+            {
+                "nombre": "Submódulo 3: Realiza mantenimiento al sistema de lubricación del motor de combustión interna",
+                "horas": 4
+            }
+        ],
+        "especialidad": "Mantenimiento a Motores de Combustión Interna",
+        "horas_semanales": 12
+    },
+    {
+        "id": "MP-P5",
+        "nombre": "Modulo profesional",
+        "semestre": 5,
+        "tipo": "modulo_profesional",
+        "submodulos": [
+            {
+                "nombre": "Submódulo 1: Construye aplicaciones web",
+                "horas": 7
+            },
+            {
+                "nombre": "Submódulo 2:  Implementa aplicaciones web",
+                "horas": 5
+            }
+        ],
+        "especialidad": "Programación",
+        "horas_semanales": 12
+    },
+    {
+        "id": "MP-DGD5",
+        "nombre": "Modulo profesional",
+        "semestre": 5,
+        "tipo": "modulo_profesional",
+        "submodulos": [
+            {
+                "nombre": "Submódulo 1: Construye estructuras tridimencionales",
+                "horas": 6
+            },
+            {
+                "nombre": "Submódulo 2: Aplica efectos visuales para multimedia",
+                "horas": 6
+            }
+        ],
+        "especialidad": "Diseño Gráfico Digital",
+        "horas_semanales": 12
+    },
+    {
+        "id": "MP-MAIP5",
+        "nombre": "Modulo profesional",
+        "semestre": 5,
+        "tipo": "modulo_profesional",
+        "submodulos": [
+            {
+                "nombre": "Submódulo 1: Opera equipo de medición y transmisión de señales de variables de control de un proceso",
+                "horas": 4
+            },
+            {
+                "nombre": "Submódulo 2: Configura equipo de control de un proceso automatizado",
+                "horas": 4
+            },
+            {
+                "nombre": "Submódulo 3: Mantiene elementos finales de control de un proceso",
+                "horas": 4
+            }
+        ],
+        "especialidad": "Mantenimiento a Instalaciones Petroleras",
+        "horas_semanales": 12
+    },
+    {
+        "id": "MP-DYFDMFDM5",
+        "nombre": "Modulo profesional",
+        "semestre": 5,
+        "tipo": "modulo_profesional",
+        "submodulos": [
+            {
+                "nombre": "Submódulo 1: Fabrica piezas de acuerdo a las especificaciones de diseño",
+                "horas": 5
+            },
+            {
+                "nombre": "Submódulo 2:  Ensambla y arma las piezas del mueble de acuerdo a las especificaciones de diseño",
+                "horas": 7
+            }
+        ],
+        "especialidad": "Diseño y Fabricación de Muebles Finos de Madera",
+        "horas_semanales": 12
+    },
+    {
+        "id": "MP-MI5",
+        "nombre": "Modulo profesional",
+        "semestre": 5,
+        "tipo": "modulo_profesional",
+        "submodulos": [
+            {
+                "nombre": "Submódulo 1: Repara equipos hidráulicos",
+                "horas": 4
+            },
+            {
+                "nombre": "Submódulo 2: Repara equipos neumáticos",
+                "horas": 4
+            },
+            {
+                "nombre": "Submódulo 3: Repara equipos de automatización",
+                "horas": 4
+            }
+        ],
+        "especialidad": "Mantenimiento Industrial",
+        "horas_semanales": 12
+    },
+    {
+        "id": "MP-E5",
+        "nombre": "Modulo profesional",
+        "semestre": 5,
+        "tipo": "modulo_profesional",
+        "submodulos": [
+            {
+                "nombre": "Submódulo 1: Programa circuitos con microcontroladores",
+                "horas": 6
+            },
+            {
+                "nombre": "Submódulo 2: Arma circuitos con microcontroladores en plataformas modulares",
+                "horas": 6
+            }
+        ],
+        "especialidad": "Electrónica",
+        "horas_semanales": 12
     }
 ]
