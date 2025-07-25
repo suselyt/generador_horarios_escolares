@@ -84,3 +84,7 @@ CARRERAS
 - Semiconductores y Microelectrónica
 - Inteligencia Artificial
 - Logística
+
+
+NOTAS SOBRE PROFESORES USANDO EXCEL
+- Benítez Espín Marcela no tiene horas de grupo

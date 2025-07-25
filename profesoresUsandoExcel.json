@@ -1,0 +1,113 @@
+[
+    {
+        "nombre": "Acosta García Javier Alfonso",
+        "abreviatura": "A.G. Javier Alfonso",
+        "materias": [
+            {
+                "id": "CS",
+                "grupos_preferidos_asignar": ["105E", "106F"]
+            },
+            {
+                "id": "H2",
+                "grupos_preferidos_asignar": ["302B", "303C", "301G"]
+            },
+            {
+                "id": "MP-MAMDCI5",
+                "grupos_preferidos_asignar": ["501A"]
+            }
+        ],
+        "horas_semanales_totales": 29,
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 1
+            }
+        ]
+    },
+    {
+        "nombre": "Ávalos Ramos Grecia",
+        "abreviatura": "A.R. Grecia",
+        "materias": [
+            {
+                "id": "LYC3",
+                "grupos_preferidos_asignar": ["304D", "301G", "302H", "303I", "304J", "305K"]
+            }
+        ],
+        "horas_semanales_totales": 20,
+        "horas_dual": [
+            {
+                "nombre": "Lengua y Comunicación III",
+                "semestre": 3,
+                "horas_semanales": 2
+            }
+        ]
+    },
+    {
+        "nombre": "Barrera Cerda Walter Alan",
+        "abreviatura": "B.C. Walter Alan",
+        "materias": [
+            {
+                "id": "I3",
+                "grupos_preferidos_asignar": ["301A", "303C", "304D", "306F"]
+            }
+        ],
+        "horas_semanales_totales": 15,
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Concursos",
+                "horas": 3
+            }
+        ]
+    },
+    {
+        "nombre": "Benítez Espín Marcela",
+        "abreviatura": "B.E. Marcela",
+        "horas_semanales_totales": 12,
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Concursos",
+                "horas": 3
+            }
+        ]
+    },
+    {
+        "nombre": "Cepeda Ramos Yuridia Lizbeth",
+        "abreviatura": "C.R. Yuridia Lizbeth",
+        "horas_semanales_totales": 40,
+        "materias": [
+            {
+                "id": "PM1",
+                "grupos_preferidos_asignar": ["102B", "103C", "104C"]
+            },
+            {
+                "id": "PM3",
+                "grupos_preferidos_asignar": ["302B"]
+            },
+            {
+                "id": "TSDM2",
+                "grupos_preferidos_asignar": ["502B", "503C", "504D"]
+            }
+        ],
+        "horas_dual": [
+            {
+                "nombre": "Pensamiento Matemático III",
+                "semestre": 3,
+                "horas_semanales": 2
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Asesorías Académicas",
+                "horas": 2
+            },
+            {
+                "nombre": "Asesorías de alumnos para concurso",
+                "horas": 1
+            }
+        ]
+    }    
+]
