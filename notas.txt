@@ -89,3 +89,4 @@ CARRERAS
 NOTAS SOBRE PROFESORES USANDO EXCEL
 - Benítez Espín Marcela no tiene horas de grupo
 - Barrera Cerda Walter Alan no coinciden sus horas con las totales
+- De León Flores Jorge Isidro no tiene horas de grupo

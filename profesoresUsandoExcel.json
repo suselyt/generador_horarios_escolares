@@ -130,7 +130,7 @@
                 "horas": 2
             },
             {
-                "nombre": "Investigación",
+                "nombre": "Multidisciplinarias",
                 "horas": 2
             }
         ]
@@ -162,7 +162,7 @@
                 "horas": 2
             },
             {
-                "nombre": "Investigación",
+                "nombre": "Multidisciplinarias",
                 "horas": 4
             },
             {
@@ -176,23 +176,12 @@
         "abreviatura": "L.F. Jorge Isidro",
         "horas_semanales_totales": 12,
         "materias": [
-            {
-                "id": "CS",
-                "grupos_preferidos_asignar": ["104J", "105K"]
-            },
-            {
-                "id": "CH2MDEEC",
-                "grupos_preferidos_asignar": ["501I", "502J", "503K"]
-            }
+            
         ],
         "horas_fortalecimiento_academico": [
             {
-                "nombre": "Tutorías",
-                "horas": 2
-            },
-            {
-                "nombre": "Investigación",
-                "horas": 2
+                "nombre": "Concursos",
+                "horas": 3
             }
         ]
     },
@@ -216,7 +205,7 @@
                 "horas": 4
             },
             {
-                "nombre": "Investigación",
+                "nombre": "Multidisciplinarias",
                 "horas": 2
             },
             {
@@ -241,9 +230,104 @@
         ],
         "horas_fortalecimiento_academico": [
             {
-                "nombre": "Investigación",
+                "nombre": "Multidisciplinarias",
                 "horas": 1
             }
         ]
-    } 
+    },
+    {
+        "nombre": "Guadalupe de la Cruz Romualdo",
+        "abreviatura": "G.C. Romualdo",
+        "horas_semanales_totales": 34,
+        "materias": [
+            {
+                "id": "CD1",
+                "grupos_preferidos_asignar": ["106F", "101G", "102H", "103I", "104J"]
+            },
+            {
+                "id": "MP-MAIP5",
+                "grupos_preferidos_asignar": ["505E"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Multidisciplinarias",
+                "horas": 5
+            }
+        ]
+    },
+    {
+        "nombre": "Heredia Blanco Laura Esmeralda",
+        "abreviatura": "H.B. Laura Esmerald",
+        "horas_semanales_totales": 40,
+        "materias": [
+            {
+                "id": "LMYSI",
+                "grupos_preferidos_asignar": ["101G", "102H", "103I"]
+            },
+            {
+                "id": "EIEYD",
+                "grupos_preferidos_asignar": ["301G", "302H"]
+            },
+            {
+                "id": "LEELPDLVD",
+                "grupos_preferidos_asignar": ["501A", "503C", "504D"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Asesorías Académicas",
+                "horas": 4
+            },
+            {
+                "nombre": "Multidisciplinarias",
+                "horas": 2
+            }
+        ]
+    },
+    {
+        "nombre": "Hernández Barrera J. Trinidad",
+        "abreviatura": "H.B. J. Trinidad",
+        "horas_semanales_totales": 40,
+        "materias": [
+            {
+                "id": "LMYSI",
+                "grupos_preferidos_asignar": ["101A", "102B", "103C"]
+            },
+            {
+                "id": "EIEYD",
+                "grupos_preferidos_asignar": ["301A", "302B", "303C"]
+            },
+            {
+                "id": "LEELPDLVD",
+                "grupos_preferidos_asignar": ["502B"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Concursos",
+                "horas": 4
+            },
+            {
+                "nombre": "Investigación",
+                "horas": 4
+            },
+            {
+                "nombre": "Multidisciplinarias",
+                "horas": 2
+            }
+        ]
+    }  
 ]
