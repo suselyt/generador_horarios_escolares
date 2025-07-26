@@ -109,5 +109,141 @@
                 "horas": 1
             }
         ]
-    }    
+    },
+    {
+        "nombre": "De La Fuente Escobedo Luis Ramón",
+        "abreviatura": "F.E. Luis Ramón",
+        "horas_semanales_totales": 20,
+        "materias": [
+            {
+                "id": "CS",
+                "grupos_preferidos_asignar": ["104J", "105K"]
+            },
+            {
+                "id": "CH2MDEEC",
+                "grupos_preferidos_asignar": ["501I", "502J", "503K"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Investigación",
+                "horas": 2
+            }
+        ]
+    },   
+    {
+        "nombre": "De la Rosa Ortega Gerardo",
+        "abreviatura": "R.O. Gerardo",
+        "horas_semanales_totales": 40,
+        "materias": [
+            {
+                "id": "I3",
+                "grupos_preferidos_asignar": ["301G", "302H", "303I", "304J", "305K"]
+            },
+            {
+                "id": "I5",
+                "grupos_preferidos_asignar": ["501I", "502J", "503K"]
+            }
+        ],
+        "horas_dual": [
+            {
+                "nombre": "Inglés III",
+                "semestre": 3,
+                "horas_semanales": 2
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Investigación",
+                "horas": 4
+            },
+            {
+                "nombre": "Asesorías Académicas",
+                "horas": 2
+            }
+        ]
+    },
+    {
+        "nombre": "De León Flores Jorge Isidro",
+        "abreviatura": "L.F. Jorge Isidro",
+        "horas_semanales_totales": 12,
+        "materias": [
+            {
+                "id": "CS",
+                "grupos_preferidos_asignar": ["104J", "105K"]
+            },
+            {
+                "id": "CH2MDEEC",
+                "grupos_preferidos_asignar": ["501I", "502J", "503K"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Investigación",
+                "horas": 2
+            }
+        ]
+    },
+    {
+        "nombre": "González de la Fuente Samuel",
+        "abreviatura": "G.F. Samuel",
+        "horas_semanales_totales": 40,
+        "materias": [
+            {
+                "id": "CS",
+                "grupos_preferidos_asignar": ["101A", "102B", "103C", "104C"]
+            },
+            {
+                "id": "H1",
+                "grupos_preferidos_asignar": ["105E", "106F", "101G", "102H", "103I", "104J"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 4
+            },
+            {
+                "nombre": "Investigación",
+                "horas": 2
+            },
+            {
+                "nombre": "Asesorías Académicas",
+                "horas": 2
+            }
+        ]
+    },
+    {
+        "nombre": "González López José Luis",
+        "abreviatura": "G.L. José Luis",
+        "horas_semanales_totales": 20,
+        "materias": [
+            {
+                "id": "PM3",
+                "grupos_preferidos_asignar": ["301G"]
+            },
+            {
+                "id": "TSDM2",
+                "grupos_preferidos_asignar": ["501I", "502J", "503K"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Investigación",
+                "horas": 1
+            }
+        ]
+    } 
 ]
