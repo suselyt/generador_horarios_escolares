@@ -709,5 +709,221 @@
                 "horas": 1
             }
         ]
-    }                
+    },
+    {
+        "nombre": "Santoyo Arroyo María Patricia",
+        "abreviatura": "S.A. María Patricia",
+        "horas_semanales_totales": 40,
+        "materias": [
+            {
+                "id": "MP-C3",
+                "grupos_preferidos_asignar": ["301G"]
+            },
+            {
+                "id": "MP-P5",
+                "grupos_preferidos_asignar": ["502B"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Multidisciplinarias",
+                "horas": 7
+            },
+            {
+                "nombre": "Concursos",
+                "horas": 2
+            }
+        ]
+    },
+    {
+        "nombre": "Santoyo Arroyo Mario Alonso",
+        "abreviatura": "S.A. Mario Alonso",
+        "horas_semanales_totales": 40,
+        "materias": [
+            {
+                "id": "LYC1",
+                "grupos_preferidos_asignar": ["102H", "103I"]
+            },
+            {
+                "id": "MP-MI3",
+                "grupos_preferidos_asignar": ["305E"]
+            },
+            {
+                "id": "MP-MI5",
+                "grupos_preferidos_asignar": ["507G"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            }
+        ],
+        "horas_dual": [
+            {
+                "nombre": "Asesorías Académicas Dual",
+                "horas_semanales": 3
+            }
+        ]
+    }, 
+    {
+        "nombre": "Santoyo Torres Jose Alberto",
+        "abreviatura": "S.T. Jose Alberto",
+        "horas_semanales_totales": 27,
+        "materias": [
+            {
+                "id": "PM1",
+                "grupos_preferidos_asignar": ["103I", "104J", "105K"]
+            },
+            {
+                "id": "I5",
+                "grupos_preferidos_asignar": ["506F", "507G", "508H"]
+            }
+        ]
+    },
+    {
+        "nombre": "Silva Camacho Sandra Catalina",
+        "abreviatura": "S.C. Sandra Catalina",
+        "horas_semanales_totales": 40,
+        "materias": [
+            {
+                "id": "LYC3",
+                "grupos_preferidos_asignar": ["305E", "306F"]
+            },
+            {
+                "id": "EL",
+                "grupos_preferidos_asignar": ["501A", "502B", "503C", "504D", "505E", "506F", "507G", "508H"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Asesorías Académicas",
+                "horas": 3
+            },
+            {
+                "nombre": "Multidisciplinarias",
+                "horas": 4
+            }
+        ],
+        "horas_dual": [
+            {
+                "nombre": "Estudios Literarios",
+                "semestre": 5,
+                "horas_semanales": 1
+            }
+        ]
+    },
+    {
+        "nombre": "Solís Rieboles Ulises",
+        "abreviatura": "S.R. Ulises",
+        "horas_semanales_totales": 32,
+        "materias": [
+            {
+                "id": "LMYSI",
+                "grupos_preferidos_asignar": ["104J", "105K"]
+            },
+            {
+                "id": "EIEYD",
+                "grupos_preferidos_asignar": ["303I", "304J", "305K"]
+            },
+            {
+                "id": "LEELPDLVD",
+                "grupos_preferidos_asignar": ["505E", "502J"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Multidisciplinarias",
+                "horas": 2
+            }
+        ]
+    },
+    {
+        "nombre": "Torres Quiñones Norma Elena",
+        "abreviatura": "T.Q. Norma Elena",
+        "horas_semanales_totales": 40,
+        "materias": [
+            {
+                "id": "LMYSI",
+                "grupos_preferidos_asignar": ["104D", "105E", "106F"]
+            },
+            {
+                "id": "EIEYD",
+                "grupos_preferidos_asignar": ["304D", "305E", "306F"]
+            },
+            {
+                "id": "LEELPDLVD",
+                "grupos_preferidos_asignar": ["508H"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Asesorías Académicas",
+                "horas": 4
+            },
+            {
+                "nombre": "Multidisciplinarias",
+                "horas": 2
+            },
+            {
+                "nombre": "Comisión",
+                "horas": 3
+            }
+        ],
+        "horas_dual": [
+            {
+                "nombre": "Ecosistemas: interacciones, energía y dinámica",
+                "semestre": 3,
+                "horas_semanales": 1
+            }
+        ]
+    },
+    {
+        "nombre": "Villasana García Rafael",
+        "abreviatura": "V.G. Rafael",
+        "horas_semanales_totales": 17,
+        "materias": [
+            {
+                "id": "H2",
+                "grupos_preferidos_asignar": ["302H", "303I", "304J"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Concursos",
+                "horas": 3
+            }
+        ]
+    },
+    {
+        "nombre": "Zapata Aldape Bertha Alicia",
+        "abreviatura": "Z.A. Bertha Alicia",
+        "horas_semanales_totales": 20,
+        "materias": [
+            {
+                "id": "PM3",
+                "grupos_preferidos_asignar": ["301A", "303C", "304D", "305E", "306F"]
+            }
+        ]
+    }                  
 ]
