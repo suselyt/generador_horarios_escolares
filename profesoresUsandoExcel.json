@@ -619,5 +619,95 @@
                 "horas": 3
             }
         ]
+    },
+    {
+        "nombre": "Razo Hernandez Víctor Miguel",
+        "abreviatura": "R.H. Víctor Miguel",
+        "horas_semanales_totales": 12,
+        "materias": [
+
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Concursos",
+                "horas": 3
+            }
+        ]
+    },
+    {
+        "nombre": "Rodríguez Peláez Carolina",
+        "abreviatura": "R.P. Carolina",
+        "horas_semanales_totales": 36,
+        "materias": [
+            {
+                "id": "I1",
+                "grupos_preferidos_asignar": ["101A", "102B", "103C", "104D", "105E", "106F", "101G", "102H", "103I", "104J", "105K"]
+            },
+            {
+                "id": "I3",
+                "grupos_preferidos_asignar": ["302B"]
+            }
+        ]
+    },
+    {
+        "nombre": "Reyes Norberto Mildred Yasmín",
+        "abreviatura": "R.N. Mildred Yasmín",
+        "horas_semanales_totales": 36,
+        "materias": [
+            {
+                "id": "PM3",
+                "grupos_preferidos_asignar": ["302H", "303I", "304J", "305K"]
+            },
+            {
+                "id": "TSDM2",
+                "grupos_preferidos_asignar": ["506F", "507G", "508H"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Asesorías Académicas",
+                "horas": 2
+            },
+            {
+                "nombre": "Comisión",
+                "horas": 1
+            }
+        ]
+    },
+    {
+        "nombre": "Rodríguez Sánchez Diana Laura",
+        "abreviatura": "R.S. Diana Laura",
+        "horas_semanales_totales": 17,
+        "materias": [
+            {
+                "id": "MP-DGD3",
+                "grupos_preferidos_asignar": ["304J"]
+            }
+        ]
+    },
+    {
+        "nombre": "Rosas Pacheco Liliana",
+        "abreviatura": "R.P. Liliana",
+        "horas_semanales_totales": 16,
+        "materias": [
+            {
+                "id": "LYC1",
+                "grupos_preferidos_asignar": ["101A", "102B", "103C"]
+            },
+            {
+                "id": "CH2MDEEC",
+                "grupos_preferidos_asignar": ["501A", "502B"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 1
+            }
+        ]
     }                
 ]
