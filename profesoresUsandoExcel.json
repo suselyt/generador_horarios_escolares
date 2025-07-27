@@ -77,7 +77,7 @@
         "materias": [
             {
                 "id": "PM1",
-                "grupos_preferidos_asignar": ["102B", "103C", "104C"]
+                "grupos_preferidos_asignar": ["102B", "103C", "104D"]
             },
             {
                 "id": "PM3",
@@ -192,7 +192,7 @@
         "materias": [
             {
                 "id": "CS",
-                "grupos_preferidos_asignar": ["101A", "102B", "103C", "104C"]
+                "grupos_preferidos_asignar": ["101A", "102B", "103C", "104D"]
             },
             {
                 "id": "H1",
@@ -398,7 +398,7 @@
         "materias": [
             {
                 "id": "CD1",
-                "grupos_preferidos_asignar": ["101A", "102B", "103C", "104C", "105E"]
+                "grupos_preferidos_asignar": ["101A", "102B", "103C", "104D", "105E"]
             },
             {
                 "id": "MP-P3",
@@ -488,5 +488,136 @@
                 "grupos_preferidos_asignar": ["503C"]
             }
         ]
-    }            
+    },
+    {
+        "nombre": "Martínez González Sanjuana Maribel",
+        "abreviatura": "M.G. Sanjuana Maribel",
+        "horas_semanales_totales": 40,
+        "materias": [
+            {
+                "id": "MP-DGD3",
+                "grupos_preferidos_asignar": ["304D"]
+            },
+            {
+                "id": "MP-DGD5",
+                "grupos_preferidos_asignar": ["504D"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Multidisciplinarias",
+                "horas": 1
+            },
+            {
+                "nombre": "Comisión",
+                "horas": 8
+            }
+        ]
+    },
+    {
+        "nombre": "Moran Lerma Karla Valeria",
+        "abreviatura": "M.L. Karla Valeria",
+        "horas_semanales_totales": 40,
+        "materias": [
+            {
+                "id": "H1",
+                "grupos_preferidos_asignar": ["101A", "102B", "103C", "104D", "105K"]
+            },
+            {
+                "id": "LYC3",
+                "grupos_preferidos_asignar": ["301A"]
+            },
+            {
+                "id": "H2",
+                "grupos_preferidos_asignar": ["301A", "304D", "305E", "306F"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 1
+            }
+        ]
+    },
+    {
+        "nombre": "Pérez Abrego Erika Aideé",
+        "abreviatura": "P.A. Erika Aideé",
+        "horas_semanales_totales": 40,
+        "materias": [
+            {
+                "id": "LYC1",
+                "grupos_preferidos_asignar": ["104D", "105E", "101G", "105K"]
+            },
+            {
+                "id": "LEELPDLVD",
+                "grupos_preferidos_asignar": ["506F", "507G", "501I", "503K"]
+            }
+        ],
+        "horas_dual": [
+            {
+                "nombre": "Humanidades II",
+                "semestre": 3,
+                "horas_semanales": 1
+            },
+            {
+                "nombre": "La energía en los procesos de la vida diaria",
+                "semestre": 5,
+                "horas_semanales": 1
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Multidisciplinarias",
+                "horas": 4
+            },
+            {
+                "nombre": "Asesorías Académicas",
+                "horas": 4
+            }
+        ]
+    },
+    {
+        "nombre": "Ramírez Solís Erik",
+        "abreviatura": "R.S. Erik",
+        "horas_semanales_totales": 40,
+        "materias": [
+            {
+                "id": "PM1",
+                "grupos_preferidos_asignar": ["101A", "105E", "106F", "101G", "102H"]
+            },
+            {
+                "id": "TSDM2",
+                "grupos_preferidos_asignar": ["501A", "505E"]
+            }
+        ],
+        "horas_dual": [
+            {
+                "nombre": "Temas selectos de Matemáticas II",
+                "semestre": 5,
+                "horas_semanales": 2
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Multidisciplinarias",
+                "horas": 3
+            },
+            {
+                "nombre": "Asesorías Académicas",
+                "horas": 3
+            }
+        ]
+    }                
 ]
