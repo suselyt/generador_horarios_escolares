@@ -329,5 +329,164 @@
                 "horas": 2
             }
         ]
-    }  
+    },
+    {
+        "nombre": "Hernández González Felipe",
+        "abreviatura": "H.G. Felipe",
+        "horas_semanales_totales": 33,
+        "materias": [
+            {
+                "id": "MP-E3",
+                "grupos_preferidos_asignar": ["306F"]
+            },
+            {
+                "id": "MP-E5",
+                "grupos_preferidos_asignar": ["508H"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Multidisciplinarias",
+                "horas": 2
+            }
+        ]
+    },
+    {
+        "nombre": "Herrera García Marco Iván",
+        "abreviatura": "H.G. Marco Iván",
+        "horas_semanales_totales": 34,
+        "materias": [
+            {
+                "id": "MP-E3",
+                "grupos_preferidos_asignar": ["305K"]
+            },
+            {
+                "id": "MP-E5",
+                "grupos_preferidos_asignar": ["503K"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 2
+            },
+            {
+                "nombre": "Multidisciplinarias",
+                "horas": 3
+            }
+        ]
+    },
+    {
+        "nombre": "Herrera García Brenda Itzel",
+        "abreviatura": "H.G. Brenda Itzel",
+        "horas_semanales_totales": 17,
+        "materias": [
+            {
+                "id": "MP-P3",
+                "grupos_preferidos_asignar": ["302B"]
+            }
+        ]
+    },
+    {
+        "nombre": "Jasso Anaya Luis Fernando",
+        "abreviatura": "J.A. Luis Fernando",
+        "horas_semanales_totales": 40,
+        "materias": [
+            {
+                "id": "CD1",
+                "grupos_preferidos_asignar": ["101A", "102B", "103C", "104C", "105E"]
+            },
+            {
+                "id": "MP-P3",
+                "grupos_preferidos_asignar": ["303C"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "horas": 4
+            },
+            {
+                "nombre": "Multidisciplinarias",
+                "horas": 4
+            }
+        ]
+    },
+    {
+        "nombre": "Lerma Martínez Luis Enrique",
+        "abreviatura": "L.M. Luis Enrique",
+        "horas_semanales_totales": 29,
+        "materias": [
+            {
+                "id": "CH2MDEEC",
+                "grupos_preferidos_asignar": ["503C", "504D", "505E", "506F", "507G", "508H"]
+            },
+            {
+                "id": "EL",
+                "grupos_preferidos_asignar": ["501I", "502J", "503K"]
+            }
+        ],
+        "horas_dual": [
+            {
+                "nombre": "Conciencia Histórica II: México durante el expansionismo capitalista",
+                "semestre": 5,
+                "horas_semanales": 2
+            }
+        ]
+    },
+    {
+        "nombre": "López Torres Juan Antonio",
+        "abreviatura": "L.T. Juan Antonio",
+        "horas_semanales_totales": 29,
+        "materias": [
+            {
+                "id": "MP-DYFDMFDM5",
+                "grupos_preferidos_asignar": ["506F"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Comisión",
+                "horas": 17
+            }
+        ]
+    },
+    {
+        "nombre": "López Vázquez José",
+        "abreviatura": "L.V. José",
+        "horas_semanales_totales": 29,
+        "materias": [
+            {
+                "id": "MP-MI3",
+                "grupos_preferidos_asignar": ["303I"]
+            },
+            {
+                "id": "MP-MI5",
+                "grupos_preferidos_asignar": ["501I"]
+            }
+        ]
+    },
+    {
+        "nombre": "Limón Martínez Benjamín",
+        "abreviatura": "L.M. Benjamín",
+        "horas_semanales_totales": 32,
+        "materias": [
+            {
+                "id": "CD1",
+                "grupos_preferidos_asignar": ["105K"]
+            },
+            {
+                "id": "MP-P3",
+                "grupos_preferidos_asignar": ["302H"]
+            },
+            {
+                "id": "MP-P5",
+                "grupos_preferidos_asignar": ["503C"]
+            }
+        ]
+    }            
 ]
