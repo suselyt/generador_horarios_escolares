@@ -114,7 +114,7 @@ class GeneradorHorarios {
         for (const materia of this.materias) {
             if (materia.semestre === grupo.semestre) {
                 if (materia.tipo === "modulo_profesional") {
-                    if (materia.especialidad === grupo.especialidad) {
+                    if (materia.carrera === grupo.carrera) {
                         totalHoras += materia.horas_semanales;
                     }
                 } else {
@@ -208,7 +208,7 @@ class GeneradorHorarios {
             horariosPorSemestre[semestre][grupo.nomenclatura] = {
                 grupo: grupo.nomenclatura,
                 turno: grupo.turno,
-                especialidad: grupo.especialidad,
+                carrera: grupo.carrera,
                 horario: grupo.horario
             };
         }
@@ -505,9 +505,9 @@ class GeneradorHorarios {
                 if (!materia || materia.tipo != "modulo_profesional") continue;
 
                 for (const grupo of this.grupos) {
-                    // validación de semestre y especialidad
+                    // validación de semestre y carrera
                     if (materia.semestre && grupo.semestre != materia.semestre) continue;
-                    if (materia.especialidad && grupo.especialidad != materia.especialidad) continue;
+                    if (materia.carrera && grupo.carrera != materia.carrera) continue;
 
                     // verificar si esta materia ya fue asignada a este grupo por otro profesor
                     if (this.otroProfesorTieneGrupoParaMateria(profesor, grupo, materia)) {
@@ -950,7 +950,7 @@ class GeneradorHorarios {
                     grupo: grupo.nomenclatura,
                     semestre: grupo.semestre,
                     turno: grupo.turno,
-                    especialidad: grupo.especialidad,
+                    carrera: grupo.carrera,
                     horario: grupo.horario
                 };
             }
@@ -1053,7 +1053,7 @@ class GeneradorHorarios {
             console.log(`Grupo: ${grupo.nomenclatura}`);
             console.log(`  Semestre: ${grupo.semestre}`);
             console.log(`  Turno: ${grupo.turno}`);
-            console.log(`  Especialidad: ${grupo.especialidad || 'No especificada'}`);
+            console.log(`  Especialidad: ${grupo.carrera || 'No especificada'}`);
 
             // Verificar rango de bloques
             let bloqueInicio, bloqueFin;
@@ -1112,8 +1112,6 @@ prueba.exportarHorariosProfesoresJSON();
 // verificar como se estan pasando los numeros de bloque al sistema y usar variables
 // si el grupo no tiene turno se asigna donde sea para evitar romper el programa / tal vez cambiarlo linea 93
 
-
-// linea 135, agregar la funcion de agregar las materias de fortalecimiento academico
 // 326 asignacion de materias a profesor cambiar el nombre de la funcion
 
 // en la linea 80 agregar una funcion para poder contar el numero de materias de tronco comun que existen y las veces que se repiten
@@ -1127,7 +1125,6 @@ prueba.exportarHorariosProfesoresJSON();
 // unificar las funciones de encontrar bloques consecutivos
 
 // cuando un maestro no sea capaz de cubrir toda la carga horaria de la materia, no asignarle la materia 
-// cambiar especialidad a carrera
 // las horas de dual se toman como fortalecimiento academico porque no existe horario de dual
 // aun no se como asignar tutorias si como fortalecimiento o materia
 

@@ -64,6 +64,7 @@ horario de alumnos:
 - segunda columna bloques de hora (7:00 - 7:50)
 - 3ra columna todos los grupos del semestre (201,202,203...)
 - días de la semana en las siguientes columnas
+- dual no se muestra en el horario
 
 horario de profesores: 
 - nombre arriba

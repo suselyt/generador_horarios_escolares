@@ -3,7 +3,7 @@
     "grupo": "202B",
     "semestre": 2,
     "turno": "Matutino",
-    "especialidad": "Programación",
+    "carrera": "Programación",
     "horario": {
       "Lunes": {
         "1": {
@@ -221,7 +221,7 @@
     "grupo": "207G",
     "semestre": 2,
     "turno": "Vespertino",
-    "especialidad": "Programación",
+    "carrera": "Programación",
     "horario": {
       "Lunes": {
         "8": {
@@ -439,7 +439,7 @@
     "grupo": "401A",
     "semestre": 4,
     "turno": "Matutino",
-    "especialidad": "Mantenimiento Automotriz",
+    "carrera": "Mantenimiento Automotriz",
     "horario": {
       "Lunes": {
         "1": {
@@ -657,7 +657,7 @@
     "grupo": "601A",
     "semestre": 6,
     "turno": "Matutino",
-    "especialidad": "Mantenimiento Automotriz",
+    "carrera": "Mantenimiento Automotriz",
     "horario": {
       "Lunes": {
         "1": {

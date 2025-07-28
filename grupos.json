@@ -3,28 +3,28 @@
         "semestre": 2,
         "grupo": "B",
         "nomenclatura": "202B",
-        "especialidad": "Programación",
+        "carrera": "Programación",
         "turno": "Matutino"
     },
     {
         "semestre": 2,
         "grupo": "G",
         "nomenclatura": "207G",
-        "especialidad": "Programación",
+        "carrera": "Programación",
         "turno": "Vespertino"
     },
     {
         "semestre": 4,
         "grupo": "A",
         "nomenclatura": "401A",
-        "especialidad": "Mantenimiento Automotriz",
+        "carrera": "Mantenimiento Automotriz",
         "turno": "Matutino"
     },
     {
         "semestre": 6,
         "grupo": "A",
         "nomenclatura": "601A",
-        "especialidad": "Mantenimiento Automotriz",
+        "carrera": "Mantenimiento Automotriz",
         "turno": "Matutino"
     }
 ]
