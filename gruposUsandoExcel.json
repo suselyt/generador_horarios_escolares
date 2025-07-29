@@ -120,10 +120,6 @@
   },
   {
     "semestre": 3,
-    "carrera": "Dual"
-  },
-  {
-    "semestre": 3,
     "grupo": "G",
     "nomenclatura": "301G",
     "carrera": "Ciberseguridad",
@@ -212,10 +208,6 @@
     "nomenclatura": "508H",
     "carrera": "Electrónica",
     "turno": "Matutino"
-  },
-  {
-    "semestre": 5,
-    "carrera": "Dual"
   },
   {
     "semestre": 5,

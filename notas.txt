@@ -77,22 +77,20 @@ horario de profesores:
     - 4ta columna número de horas semanales
     - abajo el total de horas
 
-CARRERAS
-- Mantenimiento Industrial
-- Mantenimiento Automotriz
-- Diseño Gráfico Digital
-- Ciberseguridad
-- Semiconductores y Microelectrónica
-- Inteligencia Artificial
-- Logística
-
 
 NOTAS SOBRE PROFESORES USANDO EXCEL
-- Benítez Espín Marcela no tiene horas de grupo
-- Barrera Cerda Walter Alan no coinciden sus horas con las totales
-- De León Flores Jorge Isidro no tiene horas de grupo
-- Limón Martínez Benjamín no coinciden sus horas con las totales
-- Razo Hernandez Víctor Miguel no tiene horas de grupo
-- Rodríguez Peláez Carolina no coinciden sus horas con las totales
-- Santoyo Torres Jose Alberto no coinciden sus horas con las totales
+- Benítez Espín Marcela no tiene horas de grupo (da extracurriculares)
+- Barrera Cerda Walter Alan no coinciden sus horas con las totales (pueden ser extra pero solo se cuadraron hrs)
+- De León Flores Jorge Isidro no tiene horas de grupo (da extracurriculares)
+- Limón Martínez Benjamín no coinciden sus horas con las totales (no corregido, solo se cuadra)
+- Razo Hernandez Víctor Miguel no tiene horas de grupo (da extracurriculares)
+- Rodríguez Peláez Carolina no coinciden sus horas con las totales (no corregido, solo se cuadra) 
+- Santoyo Torres Jose Alberto no coinciden sus horas con las totales (no corregido, solo se cuadra)
 - Villasana García Rafael no coinciden sus horas con las totales 
+
+NOTAS PARA ALGORITMO
+- en caso que vespertino no llene sus horas, se puede tomar una anterior creo
+- tal vez que el usuario pueda decidir si asignar horas de extracurriculares a los del vespertino
+DUAL
+- dual solo se puede los viernes
+- si fortalecimiento academico es de tipo dual, escribir en grupo de la tabla de excel DUAL

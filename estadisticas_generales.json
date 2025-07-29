@@ -1,8 +1,8 @@
 {
-  "total_profesores": 9,
-  "total_grupos": 4,
-  "total_materias": 23,
+  "total_profesores": 38,
+  "total_grupos": 33,
+  "total_materias": 30,
   "bloques_matutino": 8,
   "bloques_vespertino": 7,
-  "fecha_generacion": "2025-07-28T18:38:59.010Z"
+  "fecha_generacion": "2025-07-29T03:40:29.729Z"
 }

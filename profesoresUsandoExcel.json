@@ -20,9 +20,11 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "Tut" ,
                 "horas": 1
             }
-        ]
+        ],
+        "bloques_recomendados_no_asignar": [1, 2]
     },
     {
         "nombre": "Ávalos Ramos Grecia",
@@ -37,6 +39,7 @@
         "horas_dual": [
             {
                 "nombre": "Lengua y Comunicación III",
+                "abreviatura": "",
                 "semestre": 3,
                 "horas_semanales": 2
             }
@@ -55,6 +58,7 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Concursos",
+                "abreviatura": "",
                 "horas": 3
             }
         ]
@@ -66,6 +70,14 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Concursos",
+                "abreviatura": "",
+                "horas": 3
+            }
+        ],
+        "horas_extracurriculares": [
+            {
+                "nombre": "Pintura",
+                "abreviatura": "Pint",
                 "horas": 3
             }
         ]
@@ -91,6 +103,7 @@
         "horas_dual": [
             {
                 "nombre": "Pensamiento Matemático III",
+                "abreviatura": "",
                 "semestre": 3,
                 "horas_semanales": 2
             }
@@ -98,14 +111,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Asesorías Académicas",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Asesorías de alumnos para concurso",
+                "abreviatura": "",
                 "horas": 1
             }
         ]
@@ -127,10 +143,12 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 2
             }
         ]
@@ -152,6 +170,7 @@
         "horas_dual": [
             {
                 "nombre": "Inglés III",
+                "abreviatura": "",
                 "semestre": 3,
                 "horas_semanales": 2
             }
@@ -159,14 +178,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 4
             },
             {
                 "nombre": "Asesorías Académicas",
+                "abreviatura": "",
                 "horas": 2
             }
         ]
@@ -181,6 +203,14 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Concursos",
+                "abreviatura": "",
+                "horas": 3
+            }
+        ],
+        "horas_extracurriculares": [
+            {
+                "nombre": "Educación Física Premilitar",
+                "abreviatura": "EFP",
                 "horas": 3
             }
         ]
@@ -202,14 +232,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 4
             },
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Asesorías Académicas",
+                "abreviatura": "",
                 "horas": 2
             }
         ]
@@ -231,6 +264,7 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 1
             }
         ]
@@ -252,10 +286,12 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 5
             }
         ]
@@ -281,14 +317,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Asesorías Académicas",
+                "abreviatura": "",
                 "horas": 4
             },
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 2
             }
         ]
@@ -314,18 +353,22 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Concursos",
+                "abreviatura": "",
                 "horas": 4
             },
             {
                 "nombre": "Investigación",
+                "abreviatura": "",
                 "horas": 4
             },
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 2
             }
         ]
@@ -347,10 +390,12 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 2
             }
         ]
@@ -372,10 +417,12 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 3
             }
         ]
@@ -408,10 +455,12 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 4
             },
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 4
             }
         ]
@@ -433,6 +482,7 @@
         "horas_dual": [
             {
                 "nombre": "Conciencia Histórica II: México durante el expansionismo capitalista",
+                "abreviatura": "",
                 "semestre": 5,
                 "horas_semanales": 2
             }
@@ -451,6 +501,7 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Comisión",
+                "abreviatura": "",
                 "horas": 17
             }
         ]
@@ -506,14 +557,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 1
             },
             {
                 "nombre": "Comisión",
+                "abreviatura": "",
                 "horas": 8
             }
         ]
@@ -539,6 +593,7 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 1
             }
         ]
@@ -560,11 +615,13 @@
         "horas_dual": [
             {
                 "nombre": "Humanidades II",
+                "abreviatura": "",
                 "semestre": 3,
                 "horas_semanales": 1
             },
             {
                 "nombre": "La energía en los procesos de la vida diaria",
+                "abreviatura": "",
                 "semestre": 5,
                 "horas_semanales": 1
             }
@@ -572,14 +629,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 4
             },
             {
                 "nombre": "Asesorías Académicas",
+                "abreviatura": "",
                 "horas": 4
             }
         ]
@@ -601,6 +661,7 @@
         "horas_dual": [
             {
                 "nombre": "Temas selectos de Matemáticas II",
+                "abreviatura": "",
                 "semestre": 5,
                 "horas_semanales": 2
             }
@@ -608,14 +669,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 3
             },
             {
                 "nombre": "Asesorías Académicas",
+                "abreviatura": "",
                 "horas": 3
             }
         ]
@@ -630,6 +694,14 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Concursos",
+                "abreviatura": "",
+                "horas": 3
+            }
+        ],
+        "horas_extracurriculares": [
+            {
+                "nombre": "Danza",
+                "abreviatura": "Danza",
                 "horas": 3
             }
         ]
@@ -666,14 +738,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Asesorías Académicas",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Comisión",
+                "abreviatura": "",
                 "horas": 1
             }
         ]
@@ -706,6 +781,7 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 1
             }
         ]
@@ -727,14 +803,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 7
             },
             {
                 "nombre": "Concursos",
+                "abreviatura": "",
                 "horas": 2
             }
         ]
@@ -760,6 +839,7 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             }
         ],
@@ -802,20 +882,24 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Asesorías Académicas",
+                "abreviatura": "",
                 "horas": 3
             },
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 4
             }
         ],
         "horas_dual": [
             {
                 "nombre": "Estudios Literarios",
+                "abreviatura": "",
                 "semestre": 5,
                 "horas_semanales": 1
             }
@@ -842,10 +926,12 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 2
             }
         ]
@@ -871,24 +957,29 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Asesorías Académicas",
+                "abreviatura": "",
                 "horas": 4
             },
             {
                 "nombre": "Multidisciplinarias",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Comisión",
+                "abreviatura": "",
                 "horas": 3
             }
         ],
         "horas_dual": [
             {
                 "nombre": "Ecosistemas: interacciones, energía y dinámica",
+                "abreviatura": "",
                 "semestre": 3,
                 "horas_semanales": 1
             }
@@ -907,10 +998,12 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
+                "abreviatura": "",
                 "horas": 2
             },
             {
                 "nombre": "Concursos",
+                "abreviatura": "",
                 "horas": 3
             }
         ]
