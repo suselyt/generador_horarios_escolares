@@ -11399,9 +11399,9 @@
           "semestre": 5
         },
         "9": {
-          "materia": "Lengua y Comunicación I",
-          "grupo": "102H",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "10": {
           "materia": null,
@@ -11476,14 +11476,14 @@
           "semestre": null
         },
         "10": {
-          "materia": "Lengua y Comunicación I",
-          "grupo": "103I",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "11": {
-          "materia": "Lengua y Comunicación I",
-          "grupo": "103I",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "12": {
           "materia": null,
@@ -11840,24 +11840,24 @@
           "semestre": null
         },
         "10": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento Matemático I",
+          "grupo": "103I",
+          "semestre": 1
         },
         "11": {
+          "materia": "Pensamiento Matemático I",
+          "grupo": "103I",
+          "semestre": 1
+        },
+        "12": {
           "materia": null,
           "grupo": null,
           "semestre": null
         },
-        "12": {
-          "materia": "Pensamiento Matemático I",
-          "grupo": "103I",
-          "semestre": 1
-        },
         "13": {
-          "materia": "Pensamiento Matemático I",
-          "grupo": "103I",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "14": {
           "materia": null,

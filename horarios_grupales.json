@@ -1550,8 +1550,8 @@
           "aula": null
         },
         "9": {
-          "materia": "Lengua y Comunicación I",
-          "docente": "Santoyo Arroyo Mario Alonso",
+          "materia": null,
+          "docente": null,
           "aula": null
         },
         "10": {
@@ -1785,23 +1785,23 @@
           "aula": null
         },
         "10": {
-          "materia": "Lengua y Comunicación I",
-          "docente": "Santoyo Arroyo Mario Alonso",
+          "materia": "Pensamiento Matemático I",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
         "11": {
-          "materia": "Lengua y Comunicación I",
-          "docente": "Santoyo Arroyo Mario Alonso",
+          "materia": "Pensamiento Matemático I",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
         "12": {
-          "materia": "Pensamiento Matemático I",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": null,
+          "docente": null,
           "aula": null
         },
         "13": {
-          "materia": "Pensamiento Matemático I",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": null,
+          "docente": null,
           "aula": null
         },
         "14": {

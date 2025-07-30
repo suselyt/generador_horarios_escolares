@@ -13,7 +13,7 @@ class GeneradorHorarios {
         this.profesores = profesores;
         this.config = config;
         this.dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"];
-        this.totalBloques = config.bloques_matutino + config.bloques_vespertino - 1;
+        this.totalBloques = config.bloques_matutino + config.bloques_vespertino - 1; //se resta uno porque el 8vo bloque matutino es el 1ro vespertino 
         this.bloques_recomendados_mod_profesional = [4, 4, 4, 5];
     }
 
@@ -100,7 +100,13 @@ class GeneradorHorarios {
                 .reduce((total, item) => total + item.horas, 0);
         }
 
-        return profesor.horas_semanales_totales - horasFortalecimiento - horasExtracurriculares;
+        let horasDual = 0;
+        if (profesor.horas_dual) {
+            horasExtracurriculares = profesor.horas_dual
+                .reduce((total, item) => total + item.horas_semanales, 0);
+        }
+
+        return profesor.horas_semanales_totales - horasFortalecimiento - horasExtracurriculares - horasDual;
     }
 
     calcularCargaHorariaGrupo(grupo) {
@@ -772,26 +778,7 @@ class GeneradorHorarios {
 
  ///////////////////////////////////////////// METODOS PARA VALIDACION Y DEBUG ////////////////////////////////////////////
      //                                             validar factibilidad del horario
-     validarFactibilidad() {
-         const errores = [];
- 
-         // Verificar que hay suficientes profesores para cubrir la carga
-         for (const grupo of this.grupos) {
-             const cargaGrupo = this.calcularCargaHorariaGrupo(grupo);
-             let horasDisponibles = 0;
- 
-             for (const profesor of this.profesores) {
-                 horasDisponibles += this.calcularHorasDisponiblesProfesor(profesor);
-             }
- 
-             if (cargaGrupo > horasDisponibles) {
-                 errores.push(`Grupo ${grupo.nomenclatura}: Carga ${cargaGrupo} > Horas disponibles ${horasDisponibles}`);
-             }
-         }
- 
-         return errores;
-     }
- 
+
      // Calcular huecos en horario de profesor
      calcularHuecosProfesor(profesor) {
          let huecos = 0;
@@ -1022,47 +1009,13 @@ class GeneradorHorarios {
              }
          }
      }
- 
-     // FUNCIÓN DE DEBUG: Para ver la configuración de grupos
-     // imprimirConfiguracionGrupos() {
-     //     console.log("\n=== CONFIGURACIÓN DE GRUPOS ===");
- 
-     //     for (const grupo of this.grupos) {
-     //         console.log(`Grupo: ${grupo.nomenclatura}`);
-     //         console.log(`  Semestre: ${grupo.semestre}`);
-     //         console.log(`  Turno: ${grupo.turno}`);
-     //         console.log(`  Especialidad: ${grupo.carrera || 'No especificada'}`);
- 
-     //         // Verificar rango de bloques
-     //         let bloqueInicio, bloqueFin;
-     //         if (grupo.turno === "Matutino") {
-     //             bloqueInicio = 1;
-     //             bloqueFin = this.config.bloque_fin_matutino;
-     //         } else if (grupo.turno === "Vespertino") {
-     //             bloqueInicio = this.config.bloque_inicio_vespertino;
-     //             bloqueFin = this.totalBloques;
-     //         } else {
-     //             bloqueInicio = 1;
-     //             bloqueFin = this.totalBloques;
-     //         }
- 
-     //         console.log(`  Rango de bloques: ${bloqueInicio} - ${bloqueFin}`);
-     //         console.log(`  Horario inicializado: ${grupo.horario ? 'Sí' : 'No'}`);
-     //         console.log('');
-     //     }
-     // }
- 
  }
  
  
  
  /////////////////////////////////////////// PRUEBAS /////////////////////////////////////////////
  const prueba = new GeneradorHorarios(materias, grupos, profesores, config);
- 
- // Mostrar configuración inicial
- // console.log("=== CONFIGURACIÓN INICIAL ===");
- // prueba.imprimirConfiguracionGrupos();
- 
+
  // Inicializar horarios de profesores
  prueba.inicializarHorariosProfesores();
  
@@ -1083,16 +1036,17 @@ class GeneradorHorarios {
  prueba.exportarHorariosGrupalesJSON();
  prueba.exportarHorariosProfesoresJSON();
  
+
  
  
- 
- //TO DO
- // verificar como se estan pasando los numeros de bloque al sistema y usar variables
- // si el grupo no tiene turno se asigna donde sea para evitar romper el programa / tal vez cambiarlo linea 93
- 
- // 219 verificar contarHorasMateriaPorDia() seria mas optimo si contara si hubo materia y no se asigne nada o contar el total de horas? verificar funcion
+ //TO DO 
  // entender calcularMaxHorasPorDia() 241
  // entender profesorTieneGrupoParaMateria(), sintax equivocada o extrana
  
  // unificar las funciones de encontrar bloques consecutivos
- 
+
+ // extracurriculares no esta funcionando bien solo asigna pintura y a semestre 1 y 3
+ // problemas con asignacion de modulo profesional para 5 semestre vesperino 508h 503k 506f 501i 504d, 502b (probablemente porque no es de 17 hrs sino de 12 solo)
+// no existe asignacion correcta de tutorias aun
+// eliminar el metodo de debug final que me imprime la asignaci'on de profesores con alumnos
+// hacer que el horario no cree huecos en horarios de alumnos y si sobran horas mejor disminuir en otros dias o quitar algun dia 
