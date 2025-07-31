@@ -1120,17 +1120,17 @@
           "semestre": null
         },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Pintura - 5° Semestre",
+          "grupo": "Semestre 5",
+          "semestre": "5"
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Pintura - 3° Semestre",
+          "grupo": "Semestre 3",
+          "semestre": "3"
         },
         "8": {
-          "materia": "Pintura - 1° Semestre",
+          "materia": "Extracurricular: Pintura - 1° Semestre",
           "grupo": "Semestre 1",
           "semestre": "1"
         },
@@ -1192,17 +1192,17 @@
           "semestre": null
         },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Pintura - 5° Semestre",
+          "grupo": "Semestre 5",
+          "semestre": "5"
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Pintura - 3° Semestre",
+          "grupo": "Semestre 3",
+          "semestre": "3"
         },
         "8": {
-          "materia": "Pintura - 1° Semestre",
+          "materia": "Extracurricular: Pintura - 1° Semestre",
           "grupo": "Semestre 1",
           "semestre": "1"
         },
@@ -1264,17 +1264,17 @@
           "semestre": null
         },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Pintura - 5° Semestre",
+          "grupo": "Semestre 5",
+          "semestre": "5"
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Pintura - 3° Semestre",
+          "grupo": "Semestre 3",
+          "semestre": "3"
         },
         "8": {
-          "materia": "Pintura - 1° Semestre",
+          "materia": "Extracurricular: Pintura - 1° Semestre",
           "grupo": "Semestre 1",
           "semestre": "1"
         },
@@ -1346,9 +1346,9 @@
           "semestre": null
         },
         "8": {
-          "materia": "Pintura - 3° Semestre",
-          "grupo": "Semestre 3",
-          "semestre": "3"
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": null,
@@ -1418,9 +1418,9 @@
           "semestre": null
         },
         "8": {
-          "materia": "Pintura - 3° Semestre",
-          "grupo": "Semestre 3",
-          "semestre": "3"
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": null,
@@ -1757,9 +1757,9 @@
           "semestre": 5
         },
         "3": {
-          "materia": "Temas selectos de Matemáticas II",
-          "grupo": "504D",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "4": {
           "materia": null,
@@ -1772,9 +1772,9 @@
           "semestre": null
         },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "grupo": "504D",
+          "semestre": 5
         },
         "7": {
           "materia": null,
@@ -3698,19 +3698,19 @@
           "semestre": 1
         },
         "12": {
-          "materia": "Tutorías",
-          "grupo": null,
-          "semestre": null
+          "materia": "Cultura Digital I",
+          "grupo": "104J",
+          "semestre": 1
         },
         "13": {
-          "materia": "Multidisciplinarias",
-          "grupo": null,
-          "semestre": null
+          "materia": "Cultura Digital I",
+          "grupo": "104J",
+          "semestre": 1
         },
         "14": {
-          "materia": "Multidisciplinarias",
-          "grupo": null,
-          "semestre": null
+          "materia": "Cultura Digital I",
+          "grupo": "103I",
+          "semestre": 1
         }
       },
       "Martes": {
@@ -3740,7 +3740,7 @@
           "semestre": 1
         },
         "6": {
-          "materia": "Multidisciplinarias",
+          "materia": "Tutorías",
           "grupo": null,
           "semestre": null
         },
@@ -3755,9 +3755,9 @@
           "semestre": 1
         },
         "9": {
-          "materia": "Multidisciplinarias",
-          "grupo": null,
-          "semestre": null
+          "materia": "Cultura Digital I",
+          "grupo": "104J",
+          "semestre": 1
         },
         "10": {
           "materia": "Cultura Digital I",
@@ -3765,22 +3765,22 @@
           "semestre": 1
         },
         "11": {
-          "materia": null,
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "12": {
-          "materia": null,
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": null,
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "14": {
-          "materia": null,
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         }
@@ -4587,14 +4587,14 @@
       },
       "Jueves": {
         "1": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
           "materia": null,
@@ -5023,29 +5023,29 @@
       },
       "Viernes": {
         "1": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "508H",
+          "semestre": 5
         },
         "2": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "508H",
+          "semestre": 5
         },
         "3": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "508H",
+          "semestre": 5
         },
         "4": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "508H",
+          "semestre": 5
         },
         "5": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "508H",
+          "semestre": 5
         },
         "6": {
           "materia": null,
@@ -6771,29 +6771,29 @@
       },
       "Jueves": {
         "1": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "506F",
+          "semestre": 5
         },
         "2": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "506F",
+          "semestre": 5
         },
         "3": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "506F",
+          "semestre": 5
         },
         "4": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "506F",
+          "semestre": 5
         },
         "5": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "506F",
+          "semestre": 5
         },
         "6": {
           "materia": null,
@@ -7338,14 +7338,14 @@
           "semestre": 3
         },
         "12": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Cultura Digital I",
+          "grupo": "105K",
+          "semestre": 1
         },
         "13": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Cultura Digital I",
+          "grupo": "105K",
+          "semestre": 1
         },
         "14": {
           "materia": null,
@@ -7410,9 +7410,9 @@
           "semestre": 3
         },
         "12": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Cultura Digital I",
+          "grupo": "105K",
+          "semestre": 1
         },
         "13": {
           "materia": null,
@@ -7935,29 +7935,29 @@
       },
       "Viernes": {
         "1": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "504D",
+          "semestre": 5
         },
         "2": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "504D",
+          "semestre": 5
         },
         "3": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "504D",
+          "semestre": 5
         },
         "4": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "504D",
+          "semestre": 5
         },
         "5": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "504D",
+          "semestre": 5
         },
         "6": {
           "materia": null,
@@ -8410,12 +8410,12 @@
           "semestre": null
         },
         "8": {
-          "materia": "Tutorías",
-          "grupo": null,
-          "semestre": null
+          "materia": "Lengua y Comunicación I",
+          "grupo": "105K",
+          "semestre": 1
         },
         "9": {
-          "materia": "Multidisciplinarias",
+          "materia": "Tutorías",
           "grupo": null,
           "semestre": null
         },
@@ -8425,14 +8425,14 @@
           "semestre": null
         },
         "11": {
-          "materia": "Lengua y Comunicación I",
-          "grupo": "105K",
-          "semestre": 1
+          "materia": "Multidisciplinarias",
+          "grupo": null,
+          "semestre": null
         },
         "12": {
-          "materia": "Lengua y Comunicación I",
-          "grupo": "105K",
-          "semestre": 1
+          "materia": "Multidisciplinarias",
+          "grupo": null,
+          "semestre": null
         },
         "13": {
           "materia": "Multidisciplinarias",
@@ -8452,7 +8452,7 @@
           "semestre": 1
         },
         "2": {
-          "materia": "Multidisciplinarias",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
@@ -8477,14 +8477,14 @@
           "semestre": null
         },
         "7": {
-          "materia": "Asesorías Académicas",
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "grupo": "506F",
+          "semestre": 5
         },
         "8": {
-          "materia": "Lengua y Comunicación I",
-          "grupo": "105K",
-          "semestre": 1
+          "materia": "La energía en los procesos de la vida diaria",
+          "grupo": "506F",
+          "semestre": 5
         },
         "9": {
           "materia": null,
@@ -8549,19 +8549,19 @@
           "semestre": null
         },
         "7": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "grupo": "506F",
-          "semestre": 5
-        },
-        "8": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "grupo": "506F",
-          "semestre": 5
-        },
-        "9": {
           "materia": null,
           "grupo": null,
           "semestre": null
+        },
+        "8": {
+          "materia": "Lengua y Comunicación I",
+          "grupo": "105K",
+          "semestre": 1
+        },
+        "9": {
+          "materia": "Lengua y Comunicación I",
+          "grupo": "105K",
+          "semestre": 1
         },
         "10": {
           "materia": "La energía en los procesos de la vida diaria",
@@ -9507,9 +9507,9 @@
           "semestre": 1
         },
         "9": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés I",
+          "grupo": "104J",
+          "semestre": 1
         },
         "10": {
           "materia": "Inglés I",
@@ -9522,14 +9522,14 @@
           "semestre": 1
         },
         "12": {
-          "materia": "Inglés I",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "13": {
-          "materia": "Inglés I",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "14": {
           "materia": "Inglés I",
@@ -9579,9 +9579,9 @@
           "semestre": 1
         },
         "9": {
-          "materia": "Inglés I",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "10": {
           "materia": "Inglés I",
@@ -9590,23 +9590,23 @@
         },
         "11": {
           "materia": "Inglés I",
-          "grupo": "105K",
+          "grupo": "104J",
           "semestre": 1
         },
         "12": {
           "materia": "Inglés I",
-          "grupo": "105K",
+          "grupo": "104J",
           "semestre": 1
         },
         "13": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés I",
+          "grupo": "105K",
+          "semestre": 1
         },
         "14": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés I",
+          "grupo": "105K",
+          "semestre": 1
         }
       },
       "Miercoles": {
@@ -9651,9 +9651,9 @@
           "semestre": 1
         },
         "9": {
-          "materia": "Inglés I",
-          "grupo": "105K",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "10": {
           "materia": "Inglés I",
@@ -9676,9 +9676,9 @@
           "semestre": 1
         },
         "14": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés I",
+          "grupo": "105K",
+          "semestre": 1
         }
       },
       "Jueves": {
@@ -9923,9 +9923,9 @@
           "semestre": 5
         },
         "5": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "grupo": "506F",
+          "semestre": 5
         },
         "6": {
           "materia": null,
@@ -9933,14 +9933,14 @@
           "semestre": null
         },
         "7": {
-          "materia": "Temas selectos de Matemáticas II",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
-          "materia": "Temas selectos de Matemáticas II",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": null,
@@ -10005,14 +10005,14 @@
           "semestre": null
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "grupo": "506F",
+          "semestre": 5
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "grupo": "506F",
+          "semestre": 5
         },
         "9": {
           "materia": null,
@@ -10047,9 +10047,9 @@
       },
       "Jueves": {
         "1": {
-          "materia": "Temas selectos de Matemáticas II",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
           "materia": null,
@@ -11139,29 +11139,29 @@
       },
       "Jueves": {
         "1": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "502B",
+          "semestre": 5
         },
         "2": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "502B",
+          "semestre": 5
         },
         "3": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "502B",
+          "semestre": 5
         },
         "4": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "502B",
+          "semestre": 5
         },
         "5": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "grupo": "502B",
+          "semestre": 5
         },
         "6": {
           "materia": null,
@@ -11399,9 +11399,9 @@
           "semestre": 5
         },
         "9": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Lengua y Comunicación I",
+          "grupo": "102H",
+          "semestre": 1
         },
         "10": {
           "materia": null,
@@ -11409,9 +11409,9 @@
           "semestre": null
         },
         "11": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Lengua y Comunicación I",
+          "grupo": "103I",
+          "semestre": 1
         },
         "12": {
           "materia": null,
@@ -11476,14 +11476,14 @@
           "semestre": null
         },
         "10": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Lengua y Comunicación I",
+          "grupo": "103I",
+          "semestre": 1
         },
         "11": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Lengua y Comunicación I",
+          "grupo": "103I",
+          "semestre": 1
         },
         "12": {
           "materia": null,
@@ -11686,24 +11686,24 @@
           "semestre": null
         },
         "8": {
-          "materia": "Pensamiento Matemático I",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
+          "materia": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
           "materia": "Pensamiento Matemático I",
           "grupo": "104J",
           "semestre": 1
         },
-        "10": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
-        },
         "11": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento Matemático I",
+          "grupo": "104J",
+          "semestre": 1
         },
         "12": {
           "materia": null,
@@ -11711,14 +11711,14 @@
           "semestre": null
         },
         "13": {
-          "materia": "Pensamiento Matemático I",
-          "grupo": "105K",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "14": {
-          "materia": "Pensamiento Matemático I",
-          "grupo": "105K",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         }
       },
       "Martes": {
@@ -11743,9 +11743,9 @@
           "semestre": null
         },
         "5": {
-          "materia": "Inglés V",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": null,
@@ -11768,14 +11768,14 @@
           "semestre": null
         },
         "10": {
-          "materia": "Pensamiento Matemático I",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "11": {
-          "materia": "Pensamiento Matemático I",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "12": {
           "materia": null,
@@ -11784,12 +11784,12 @@
         },
         "13": {
           "materia": "Pensamiento Matemático I",
-          "grupo": "105K",
+          "grupo": "104J",
           "semestre": 1
         },
         "14": {
           "materia": "Pensamiento Matemático I",
-          "grupo": "105K",
+          "grupo": "104J",
           "semestre": 1
         }
       },
@@ -11841,23 +11841,23 @@
         },
         "10": {
           "materia": "Pensamiento Matemático I",
-          "grupo": "103I",
+          "grupo": "105K",
           "semestre": 1
         },
         "11": {
           "materia": "Pensamiento Matemático I",
-          "grupo": "103I",
+          "grupo": "105K",
           "semestre": 1
         },
         "12": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento Matemático I",
+          "grupo": "103I",
+          "semestre": 1
         },
         "13": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento Matemático I",
+          "grupo": "103I",
+          "semestre": 1
         },
         "14": {
           "materia": null,
@@ -11872,13 +11872,13 @@
           "semestre": 5
         },
         "2": {
-          "materia": "Inglés V",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
           "materia": "Inglés V",
-          "grupo": "506F",
+          "grupo": "507G",
           "semestre": 5
         },
         "4": {
@@ -11887,19 +11887,19 @@
           "semestre": 5
         },
         "5": {
-          "materia": "Inglés V",
-          "grupo": "507G",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés V",
+          "grupo": "506F",
+          "semestre": 5
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés V",
+          "grupo": "506F",
+          "semestre": 5
         },
         "8": {
           "materia": "Pensamiento Matemático I",
@@ -11912,14 +11912,14 @@
           "semestre": 1
         },
         "10": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento Matemático I",
+          "grupo": "105K",
+          "semestre": 1
         },
         "11": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento Matemático I",
+          "grupo": "105K",
+          "semestre": 1
         },
         "12": {
           "materia": null,
@@ -12242,28 +12242,28 @@
         },
         "3": {
           "materia": "Estudios Literarios",
-          "grupo": "502B",
+          "grupo": "508H",
           "semestre": 5
         },
         "4": {
-          "materia": "Estudios Literarios",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
-          "materia": "Estudios Literarios",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": "Estudios Literarios",
-          "grupo": "503C",
+          "grupo": "502B",
           "semestre": 5
         },
         "7": {
-          "materia": "Estudios Literarios",
-          "grupo": "503C",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
           "materia": "Estudios Literarios",
@@ -12308,39 +12308,39 @@
           "semestre": null
         },
         "2": {
-          "materia": "Estudios Literarios",
-          "grupo": "505E",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
           "materia": "Estudios Literarios",
-          "grupo": "505E",
+          "grupo": "503C",
           "semestre": 5
         },
         "4": {
           "materia": "Estudios Literarios",
-          "grupo": "506F",
+          "grupo": "503C",
           "semestre": 5
         },
         "5": {
           "materia": "Estudios Literarios",
-          "grupo": "508H",
+          "grupo": "505E",
           "semestre": 5
         },
         "6": {
           "materia": "Estudios Literarios",
-          "grupo": "508H",
+          "grupo": "505E",
           "semestre": 5
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "grupo": "506F",
+          "semestre": 5
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "grupo": "506F",
+          "semestre": 5
         },
         "9": {
           "materia": null,
@@ -12424,14 +12424,14 @@
           "semestre": null
         },
         "10": {
-          "materia": "La materia y sus interacciones",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "11": {
-          "materia": "La materia y sus interacciones",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "12": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
@@ -12506,14 +12506,14 @@
           "semestre": null
         },
         "12": {
-          "materia": "La materia y sus interacciones",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "grupo": "305K",
+          "semestre": 3
         },
         "13": {
-          "materia": "La materia y sus interacciones",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "grupo": "305K",
+          "semestre": 3
         },
         "14": {
           "materia": null,
@@ -12569,23 +12569,23 @@
         },
         "10": {
           "materia": "La materia y sus interacciones",
-          "grupo": "105K",
+          "grupo": "104J",
           "semestre": 1
         },
         "11": {
           "materia": "La materia y sus interacciones",
-          "grupo": "105K",
+          "grupo": "104J",
           "semestre": 1
         },
         "12": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "grupo": "304J",
-          "semestre": 3
+          "materia": "La materia y sus interacciones",
+          "grupo": "105K",
+          "semestre": 1
         },
         "13": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "grupo": "304J",
-          "semestre": 3
+          "materia": "La materia y sus interacciones",
+          "grupo": "105K",
+          "semestre": 1
         },
         "14": {
           "materia": null,
@@ -12640,29 +12640,29 @@
           "semestre": 1
         },
         "10": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "grupo": "502J",
-          "semestre": 5
+          "materia": "La materia y sus interacciones",
+          "grupo": "104J",
+          "semestre": 1
         },
         "11": {
+          "materia": "La materia y sus interacciones",
+          "grupo": "104J",
+          "semestre": 1
+        },
+        "12": {
           "materia": "La energía en los procesos de la vida diaria",
           "grupo": "502J",
           "semestre": 5
         },
-        "12": {
+        "13": {
+          "materia": "La energía en los procesos de la vida diaria",
+          "grupo": "502J",
+          "semestre": 5
+        },
+        "14": {
           "materia": null,
           "grupo": null,
           "semestre": null
-        },
-        "13": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "grupo": "305K",
-          "semestre": 3
-        },
-        "14": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "grupo": "305K",
-          "semestre": 3
         }
       },
       "Viernes": {
@@ -12969,9 +12969,9 @@
           "semestre": null
         },
         "3": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "4": {
           "materia": "La energía en los procesos de la vida diaria",
@@ -12979,9 +12979,9 @@
           "semestre": 5
         },
         "5": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "grupo": "508H",
+          "semestre": 5
         },
         "6": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
@@ -13041,14 +13041,14 @@
           "semestre": 3
         },
         "3": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "4": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
@@ -13061,14 +13061,14 @@
           "semestre": 3
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "grupo": "508H",
+          "semestre": 5
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "grupo": "508H",
+          "semestre": 5
         },
         "9": {
           "materia": null,
@@ -13306,14 +13306,14 @@
           "semestre": null
         },
         "12": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Humanidades II",
+          "grupo": "304J",
+          "semestre": 3
         },
         "13": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Humanidades II",
+          "grupo": "304J",
+          "semestre": 3
         },
         "14": {
           "materia": null,

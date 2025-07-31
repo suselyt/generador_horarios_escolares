@@ -43,7 +43,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -85,7 +85,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -127,7 +127,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -261,7 +261,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -303,7 +303,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -345,7 +345,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -479,7 +479,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -521,7 +521,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -563,7 +563,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -697,7 +697,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -739,7 +739,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -781,7 +781,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -915,7 +915,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -957,7 +957,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -999,7 +999,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -1133,7 +1133,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -1175,7 +1175,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -1217,7 +1217,7 @@
         },
         "8": {
           "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "docente": null,
           "aula": null
         }
       },
@@ -1550,8 +1550,8 @@
           "aula": null
         },
         "9": {
-          "materia": null,
-          "docente": null,
+          "materia": "Lengua y Comunicación I",
+          "docente": "Santoyo Arroyo Mario Alonso",
           "aula": null
         },
         "10": {
@@ -1731,8 +1731,8 @@
           "aula": null
         },
         "14": {
-          "materia": null,
-          "docente": null,
+          "materia": "Cultura Digital I",
+          "docente": "Guadalupe de la Cruz Romualdo",
           "aula": null
         }
       },
@@ -1753,8 +1753,8 @@
           "aula": null
         },
         "11": {
-          "materia": null,
-          "docente": null,
+          "materia": "Lengua y Comunicación I",
+          "docente": "Santoyo Arroyo Mario Alonso",
           "aula": null
         },
         "12": {
@@ -1785,23 +1785,23 @@
           "aula": null
         },
         "10": {
-          "materia": "Pensamiento Matemático I",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": "Lengua y Comunicación I",
+          "docente": "Santoyo Arroyo Mario Alonso",
           "aula": null
         },
         "11": {
+          "materia": "Lengua y Comunicación I",
+          "docente": "Santoyo Arroyo Mario Alonso",
+          "aula": null
+        },
+        "12": {
           "materia": "Pensamiento Matemático I",
           "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
-        "12": {
-          "materia": null,
-          "docente": null,
-          "aula": null
-        },
         "13": {
-          "materia": null,
-          "docente": null,
+          "materia": "Pensamiento Matemático I",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
         "14": {
@@ -1894,33 +1894,33 @@
     "horario": {
       "Lunes": {
         "8": {
-          "materia": "Pensamiento Matemático I",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": null,
+          "docente": null,
           "aula": null
         },
         "9": {
+          "materia": "Inglés I",
+          "docente": "Rodríguez Peláez Carolina",
+          "aula": null
+        },
+        "10": {
           "materia": "Pensamiento Matemático I",
           "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
-        "10": {
-          "materia": "La materia y sus interacciones",
-          "docente": "Solís Rieboles Ulises",
-          "aula": null
-        },
         "11": {
-          "materia": "La materia y sus interacciones",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Pensamiento Matemático I",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
         "12": {
-          "materia": "Inglés I",
-          "docente": "Rodríguez Peláez Carolina",
+          "materia": "Cultura Digital I",
+          "docente": "Guadalupe de la Cruz Romualdo",
           "aula": null
         },
         "13": {
-          "materia": "Inglés I",
-          "docente": "Rodríguez Peláez Carolina",
+          "materia": "Cultura Digital I",
+          "docente": "Guadalupe de la Cruz Romualdo",
           "aula": null
         },
         "14": {
@@ -1936,33 +1936,33 @@
           "aula": null
         },
         "9": {
+          "materia": "Cultura Digital I",
+          "docente": "Guadalupe de la Cruz Romualdo",
+          "aula": null
+        },
+        "10": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "11": {
           "materia": "Inglés I",
           "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
-        "10": {
-          "materia": "Pensamiento Matemático I",
-          "docente": "Santoyo Torres Jose Alberto",
-          "aula": null
-        },
-        "11": {
-          "materia": "Pensamiento Matemático I",
-          "docente": "Santoyo Torres Jose Alberto",
-          "aula": null
-        },
         "12": {
-          "materia": "La materia y sus interacciones",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Inglés I",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
         "13": {
-          "materia": "La materia y sus interacciones",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Pensamiento Matemático I",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
         "14": {
-          "materia": null,
-          "docente": null,
+          "materia": "Pensamiento Matemático I",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         }
       },
@@ -1978,13 +1978,13 @@
           "aula": null
         },
         "10": {
-          "materia": null,
-          "docente": null,
+          "materia": "La materia y sus interacciones",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "11": {
-          "materia": null,
-          "docente": null,
+          "materia": "La materia y sus interacciones",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "12": {
@@ -2015,13 +2015,13 @@
           "aula": null
         },
         "10": {
-          "materia": null,
-          "docente": null,
+          "materia": "La materia y sus interacciones",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "11": {
-          "materia": null,
-          "docente": null,
+          "materia": "La materia y sus interacciones",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "12": {
@@ -2087,8 +2087,8 @@
     "horario": {
       "Lunes": {
         "8": {
-          "materia": null,
-          "docente": null,
+          "materia": "Lengua y Comunicación I",
+          "docente": "Pérez Abrego Erika Aideé",
           "aula": null
         },
         "9": {
@@ -2102,30 +2102,30 @@
           "aula": null
         },
         "11": {
-          "materia": "Lengua y Comunicación I",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": null,
+          "docente": null,
           "aula": null
         },
         "12": {
-          "materia": "Lengua y Comunicación I",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": "Cultura Digital I",
+          "docente": "Limón Martínez Benjamín",
           "aula": null
         },
         "13": {
-          "materia": "Pensamiento Matemático I",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": "Cultura Digital I",
+          "docente": "Limón Martínez Benjamín",
           "aula": null
         },
         "14": {
-          "materia": "Pensamiento Matemático I",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": null,
+          "docente": null,
           "aula": null
         }
       },
       "Martes": {
         "8": {
-          "materia": "Lengua y Comunicación I",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": null,
+          "docente": null,
           "aula": null
         },
         "9": {
@@ -2139,60 +2139,60 @@
           "aula": null
         },
         "11": {
-          "materia": "Inglés I",
-          "docente": "Rodríguez Peláez Carolina",
+          "materia": null,
+          "docente": null,
           "aula": null
         },
         "12": {
+          "materia": "Cultura Digital I",
+          "docente": "Limón Martínez Benjamín",
+          "aula": null
+        },
+        "13": {
           "materia": "Inglés I",
           "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
-        "13": {
-          "materia": "Pensamiento Matemático I",
-          "docente": "Santoyo Torres Jose Alberto",
-          "aula": null
-        },
         "14": {
-          "materia": "Pensamiento Matemático I",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": "Inglés I",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         }
       },
       "Miercoles": {
         "8": {
-          "materia": null,
-          "docente": null,
+          "materia": "Lengua y Comunicación I",
+          "docente": "Pérez Abrego Erika Aideé",
           "aula": null
         },
         "9": {
-          "materia": "Inglés I",
-          "docente": "Rodríguez Peláez Carolina",
+          "materia": "Lengua y Comunicación I",
+          "docente": "Pérez Abrego Erika Aideé",
           "aula": null
         },
         "10": {
-          "materia": "La materia y sus interacciones",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Pensamiento Matemático I",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
         "11": {
+          "materia": "Pensamiento Matemático I",
+          "docente": "Santoyo Torres Jose Alberto",
+          "aula": null
+        },
+        "12": {
           "materia": "La materia y sus interacciones",
           "docente": "Solís Rieboles Ulises",
           "aula": null
         },
-        "12": {
-          "materia": null,
-          "docente": null,
-          "aula": null
-        },
         "13": {
-          "materia": null,
-          "docente": null,
+          "materia": "La materia y sus interacciones",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "14": {
-          "materia": null,
-          "docente": null,
+          "materia": "Inglés I",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         }
       },
@@ -2208,13 +2208,13 @@
           "aula": null
         },
         "10": {
-          "materia": null,
-          "docente": null,
+          "materia": "Pensamiento Matemático I",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
         "11": {
-          "materia": null,
-          "docente": null,
+          "materia": "Pensamiento Matemático I",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
         "12": {
@@ -2310,8 +2310,8 @@
           "aula": null
         },
         "7": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "docente": "Hernández Barrera J. Trinidad",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -2352,8 +2352,8 @@
           "aula": null
         },
         "7": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "docente": "Hernández Barrera J. Trinidad",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -2394,7 +2394,7 @@
           "aula": null
         },
         "7": {
-          "materia": null,
+          "materia": "Extracurricular",
           "docente": null,
           "aula": null
         },
@@ -2441,8 +2441,8 @@
           "aula": null
         },
         "8": {
-          "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "materia": null,
+          "docente": null,
           "aula": null
         }
       },
@@ -2483,8 +2483,8 @@
           "aula": null
         },
         "8": {
-          "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "materia": null,
+          "docente": null,
           "aula": null
         }
       }
@@ -2528,8 +2528,8 @@
           "aula": null
         },
         "7": {
-          "materia": "Humanidades II",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -2570,8 +2570,8 @@
           "aula": null
         },
         "7": {
-          "materia": "Humanidades II",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -2612,8 +2612,8 @@
           "aula": null
         },
         "7": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "docente": "Hernández Barrera J. Trinidad",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -2659,8 +2659,8 @@
           "aula": null
         },
         "8": {
-          "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "materia": "Inglés III",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         }
       },
@@ -2701,8 +2701,8 @@
           "aula": null
         },
         "8": {
-          "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "materia": null,
+          "docente": null,
           "aula": null
         }
       }
@@ -2746,8 +2746,8 @@
           "aula": null
         },
         "7": {
-          "materia": "Pensamiento Matemático III",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -2788,8 +2788,8 @@
           "aula": null
         },
         "7": {
-          "materia": "Pensamiento Matemático III",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -2830,8 +2830,8 @@
           "aula": null
         },
         "7": {
-          "materia": "Humanidades II",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -2877,8 +2877,8 @@
           "aula": null
         },
         "8": {
-          "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "materia": null,
+          "docente": null,
           "aula": null
         }
       },
@@ -2919,8 +2919,8 @@
           "aula": null
         },
         "8": {
-          "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "materia": null,
+          "docente": null,
           "aula": null
         }
       }
@@ -2964,8 +2964,8 @@
           "aula": null
         },
         "7": {
-          "materia": "Inglés III",
-          "docente": "Barrera Cerda Walter Alan",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -3006,7 +3006,7 @@
           "aula": null
         },
         "7": {
-          "materia": null,
+          "materia": "Extracurricular",
           "docente": null,
           "aula": null
         },
@@ -3048,8 +3048,8 @@
           "aula": null
         },
         "7": {
-          "materia": "Humanidades II",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -3095,8 +3095,8 @@
           "aula": null
         },
         "8": {
-          "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "materia": null,
+          "docente": null,
           "aula": null
         }
       },
@@ -3137,8 +3137,8 @@
           "aula": null
         },
         "8": {
-          "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "materia": null,
+          "docente": null,
           "aula": null
         }
       }
@@ -3182,7 +3182,7 @@
           "aula": null
         },
         "7": {
-          "materia": null,
+          "materia": "Extracurricular",
           "docente": null,
           "aula": null
         },
@@ -3224,7 +3224,7 @@
           "aula": null
         },
         "7": {
-          "materia": null,
+          "materia": "Extracurricular",
           "docente": null,
           "aula": null
         },
@@ -3266,8 +3266,8 @@
           "aula": null
         },
         "7": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -3313,8 +3313,8 @@
           "aula": null
         },
         "8": {
-          "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "materia": null,
+          "docente": null,
           "aula": null
         }
       },
@@ -3355,8 +3355,8 @@
           "aula": null
         },
         "8": {
-          "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "materia": null,
+          "docente": null,
           "aula": null
         }
       }
@@ -3400,8 +3400,8 @@
           "aula": null
         },
         "7": {
-          "materia": "Lengua y Comunicación III",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -3442,8 +3442,8 @@
           "aula": null
         },
         "7": {
-          "materia": "Inglés III",
-          "docente": "Barrera Cerda Walter Alan",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -3484,8 +3484,8 @@
           "aula": null
         },
         "7": {
-          "materia": "Pensamiento Matemático III",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -3531,8 +3531,8 @@
           "aula": null
         },
         "8": {
-          "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "materia": null,
+          "docente": null,
           "aula": null
         }
       },
@@ -3573,8 +3573,8 @@
           "aula": null
         },
         "8": {
-          "materia": "Extracurricular",
-          "docente": "Benítez Espín Marcela",
+          "materia": null,
+          "docente": null,
           "aula": null
         }
       }
@@ -4261,13 +4261,13 @@
           "aula": null
         },
         "12": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Humanidades II",
+          "docente": "Villasana García Rafael",
           "aula": null
         },
         "13": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Humanidades II",
+          "docente": "Villasana García Rafael",
           "aula": null
         },
         "14": {
@@ -4417,13 +4417,13 @@
           "aula": null
         },
         "12": {
-          "materia": null,
-          "docente": null,
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "13": {
-          "materia": null,
-          "docente": null,
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "14": {
@@ -4496,13 +4496,13 @@
           "aula": null
         },
         "13": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "docente": "Solís Rieboles Ulises",
+          "materia": null,
+          "docente": null,
           "aula": null
         },
         "14": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "docente": "Solís Rieboles Ulises",
+          "materia": null,
+          "docente": null,
           "aula": null
         }
       },
@@ -4578,8 +4578,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Modulo profesional",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -4620,8 +4620,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Modulo profesional",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -4662,8 +4662,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Modulo profesional",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -4796,8 +4796,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "docente": "Rosas Pacheco Liliana",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -4838,7 +4838,7 @@
           "aula": null
         },
         "6": {
-          "materia": null,
+          "materia": "Extracurricular",
           "docente": null,
           "aula": null
         },
@@ -4880,8 +4880,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Estudios Literarios",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -4897,33 +4897,33 @@
       },
       "Jueves": {
         "1": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "docente": "Hernández Barrera J. Trinidad",
+          "materia": "Modulo profesional",
+          "docente": "Santoyo Arroyo María Patricia",
           "aula": null
         },
         "2": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "docente": "Hernández Barrera J. Trinidad",
+          "materia": "Modulo profesional",
+          "docente": "Santoyo Arroyo María Patricia",
           "aula": null
         },
         "3": {
-          "materia": "Estudios Literarios",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "Modulo profesional",
+          "docente": "Santoyo Arroyo María Patricia",
           "aula": null
         },
         "4": {
-          "materia": null,
-          "docente": null,
+          "materia": "Modulo profesional",
+          "docente": "Santoyo Arroyo María Patricia",
           "aula": null
         },
         "5": {
-          "materia": null,
-          "docente": null,
+          "materia": "Modulo profesional",
+          "docente": "Santoyo Arroyo María Patricia",
           "aula": null
         },
         "6": {
-          "materia": null,
-          "docente": null,
+          "materia": "Estudios Literarios",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "7": {
@@ -5014,8 +5014,8 @@
           "aula": null
         },
         "6": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "docente": "Heredia Blanco Laura Esmeralda",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -5056,8 +5056,8 @@
           "aula": null
         },
         "6": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "docente": "Heredia Blanco Laura Esmeralda",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -5098,7 +5098,7 @@
           "aula": null
         },
         "6": {
-          "materia": null,
+          "materia": "Extracurricular",
           "docente": null,
           "aula": null
         },
@@ -5140,13 +5140,13 @@
           "aula": null
         },
         "6": {
-          "materia": "Estudios Literarios",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": null,
+          "docente": null,
           "aula": null
         },
         "7": {
-          "materia": "Estudios Literarios",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": null,
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -5167,13 +5167,13 @@
           "aula": null
         },
         "3": {
-          "materia": null,
-          "docente": null,
+          "materia": "Estudios Literarios",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "4": {
-          "materia": null,
-          "docente": null,
+          "materia": "Estudios Literarios",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "5": {
@@ -5232,8 +5232,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Modulo profesional",
-          "docente": "Martínez González Sanjuana Maribel",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -5274,8 +5274,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Modulo profesional",
-          "docente": "Martínez González Sanjuana Maribel",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -5316,8 +5316,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Modulo profesional",
-          "docente": "Martínez González Sanjuana Maribel",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -5375,33 +5375,33 @@
       },
       "Viernes": {
         "1": {
-          "materia": null,
-          "docente": null,
+          "materia": "Modulo profesional",
+          "docente": "Martínez González Sanjuana Maribel",
           "aula": null
         },
         "2": {
-          "materia": null,
-          "docente": null,
+          "materia": "Modulo profesional",
+          "docente": "Martínez González Sanjuana Maribel",
           "aula": null
         },
         "3": {
-          "materia": "Temas selectos de Matemáticas II",
-          "docente": "Cepeda Ramos Yuridia Lizbeth",
+          "materia": "Modulo profesional",
+          "docente": "Martínez González Sanjuana Maribel",
           "aula": null
         },
         "4": {
-          "materia": null,
-          "docente": null,
+          "materia": "Modulo profesional",
+          "docente": "Martínez González Sanjuana Maribel",
           "aula": null
         },
         "5": {
-          "materia": null,
-          "docente": null,
+          "materia": "Modulo profesional",
+          "docente": "Martínez González Sanjuana Maribel",
           "aula": null
         },
         "6": {
-          "materia": null,
-          "docente": null,
+          "materia": "Temas selectos de Matemáticas II",
+          "docente": "Cepeda Ramos Yuridia Lizbeth",
           "aula": null
         },
         "7": {
@@ -5450,8 +5450,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "docente": "Lerma Martínez Luis Enrique",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -5492,7 +5492,7 @@
           "aula": null
         },
         "6": {
-          "materia": null,
+          "materia": "Extracurricular",
           "docente": null,
           "aula": null
         },
@@ -5534,8 +5534,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Temas selectos de Matemáticas II",
-          "docente": "Ramírez Solís Erik",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -5598,13 +5598,13 @@
           "aula": null
         },
         "2": {
-          "materia": "Estudios Literarios",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": null,
+          "docente": null,
           "aula": null
         },
         "3": {
-          "materia": "Estudios Literarios",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": null,
+          "docente": null,
           "aula": null
         },
         "4": {
@@ -5613,13 +5613,13 @@
           "aula": null
         },
         "5": {
-          "materia": null,
-          "docente": null,
+          "materia": "Estudios Literarios",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "6": {
-          "materia": null,
-          "docente": null,
+          "materia": "Estudios Literarios",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "7": {
@@ -5668,8 +5668,8 @@
           "aula": null
         },
         "6": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -5705,23 +5705,23 @@
           "aula": null
         },
         "5": {
-          "materia": "Inglés V",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": "Temas selectos de Matemáticas II",
+          "docente": "Reyes Norberto Mildred Yasmín",
           "aula": null
         },
         "6": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "docente": "Lerma Martínez Luis Enrique",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
-          "materia": "Temas selectos de Matemáticas II",
-          "docente": "Reyes Norberto Mildred Yasmín",
+          "materia": "La energía en los procesos de la vida diaria",
+          "docente": "Pérez Abrego Erika Aideé",
           "aula": null
         },
         "8": {
-          "materia": "Temas selectos de Matemáticas II",
-          "docente": "Reyes Norberto Mildred Yasmín",
+          "materia": "La energía en los procesos de la vida diaria",
+          "docente": "Pérez Abrego Erika Aideé",
           "aula": null
         }
       },
@@ -5752,55 +5752,55 @@
           "aula": null
         },
         "6": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "docente": "Lerma Martínez Luis Enrique",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": "Temas selectos de Matemáticas II",
+          "docente": "Reyes Norberto Mildred Yasmín",
           "aula": null
         },
         "8": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": "Temas selectos de Matemáticas II",
+          "docente": "Reyes Norberto Mildred Yasmín",
           "aula": null
         }
       },
       "Jueves": {
         "1": {
-          "materia": "Temas selectos de Matemáticas II",
-          "docente": "Reyes Norberto Mildred Yasmín",
+          "materia": "Modulo profesional",
+          "docente": "López Torres Juan Antonio",
           "aula": null
         },
         "2": {
-          "materia": "Inglés V",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": "Modulo profesional",
+          "docente": "López Torres Juan Antonio",
           "aula": null
         },
         "3": {
+          "materia": "Modulo profesional",
+          "docente": "López Torres Juan Antonio",
+          "aula": null
+        },
+        "4": {
+          "materia": "Modulo profesional",
+          "docente": "López Torres Juan Antonio",
+          "aula": null
+        },
+        "5": {
+          "materia": "Modulo profesional",
+          "docente": "López Torres Juan Antonio",
+          "aula": null
+        },
+        "6": {
           "materia": "Inglés V",
           "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
-        "4": {
-          "materia": "Estudios Literarios",
-          "docente": "Silva Camacho Sandra Catalina",
-          "aula": null
-        },
-        "5": {
-          "materia": "Estudios Literarios",
-          "docente": "Silva Camacho Sandra Catalina",
-          "aula": null
-        },
-        "6": {
-          "materia": null,
-          "docente": null,
-          "aula": null
-        },
         "7": {
-          "materia": null,
-          "docente": null,
+          "materia": "Inglés V",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
         "8": {
@@ -5826,8 +5826,8 @@
           "aula": null
         },
         "4": {
-          "materia": "Estudios Literarios",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": null,
+          "docente": null,
           "aula": null
         },
         "5": {
@@ -5841,13 +5841,13 @@
           "aula": null
         },
         "7": {
-          "materia": null,
-          "docente": null,
+          "materia": "Estudios Literarios",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "8": {
-          "materia": null,
-          "docente": null,
+          "materia": "Estudios Literarios",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         }
       }
@@ -5886,8 +5886,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Modulo profesional",
-          "docente": "Santoyo Arroyo Mario Alonso",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -5928,8 +5928,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Modulo profesional",
-          "docente": "Santoyo Arroyo Mario Alonso",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -5970,8 +5970,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Modulo profesional",
-          "docente": "Santoyo Arroyo Mario Alonso",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -5997,8 +5997,8 @@
           "aula": null
         },
         "3": {
-          "materia": null,
-          "docente": null,
+          "materia": "Inglés V",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
         "4": {
@@ -6007,8 +6007,8 @@
           "aula": null
         },
         "5": {
-          "materia": "Inglés V",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": null,
+          "docente": null,
           "aula": null
         },
         "6": {
@@ -6104,8 +6104,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Modulo profesional",
-          "docente": "Hernández González Felipe",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -6146,8 +6146,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Modulo profesional",
-          "docente": "Hernández González Felipe",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -6188,8 +6188,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Modulo profesional",
-          "docente": "Hernández González Felipe",
+          "materia": "Extracurricular",
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -6215,8 +6215,8 @@
           "aula": null
         },
         "3": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Estudios Literarios",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "4": {
@@ -6225,8 +6225,8 @@
           "aula": null
         },
         "5": {
-          "materia": null,
-          "docente": null,
+          "materia": "La energía en los procesos de la vida diaria",
+          "docente": "Torres Quiñones Norma Elena",
           "aula": null
         },
         "6": {
@@ -6247,43 +6247,43 @@
       },
       "Viernes": {
         "1": {
-          "materia": null,
-          "docente": null,
+          "materia": "Modulo profesional",
+          "docente": "Hernández González Felipe",
           "aula": null
         },
         "2": {
-          "materia": null,
-          "docente": null,
+          "materia": "Modulo profesional",
+          "docente": "Hernández González Felipe",
           "aula": null
         },
         "3": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Modulo profesional",
+          "docente": "Hernández González Felipe",
           "aula": null
         },
         "4": {
+          "materia": "Modulo profesional",
+          "docente": "Hernández González Felipe",
+          "aula": null
+        },
+        "5": {
+          "materia": "Modulo profesional",
+          "docente": "Hernández González Felipe",
+          "aula": null
+        },
+        "6": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "7": {
           "materia": "La energía en los procesos de la vida diaria",
           "docente": "Torres Quiñones Norma Elena",
           "aula": null
         },
-        "5": {
-          "materia": "Estudios Literarios",
-          "docente": "Silva Camacho Sandra Catalina",
-          "aula": null
-        },
-        "6": {
-          "materia": "Estudios Literarios",
-          "docente": "Silva Camacho Sandra Catalina",
-          "aula": null
-        },
-        "7": {
-          "materia": null,
-          "docente": null,
-          "aula": null
-        },
         "8": {
-          "materia": null,
-          "docente": null,
+          "materia": "La energía en los procesos de la vida diaria",
+          "docente": "Torres Quiñones Norma Elena",
           "aula": null
         }
       }
@@ -6611,23 +6611,23 @@
           "aula": null
         },
         "10": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "docente": "Solís Rieboles Ulises",
+          "materia": null,
+          "docente": null,
           "aula": null
         },
         "11": {
+          "materia": null,
+          "docente": null,
+          "aula": null
+        },
+        "12": {
           "materia": "La energía en los procesos de la vida diaria",
           "docente": "Solís Rieboles Ulises",
           "aula": null
         },
-        "12": {
-          "materia": null,
-          "docente": null,
-          "aula": null
-        },
         "13": {
-          "materia": null,
-          "docente": null,
+          "materia": "La energía en los procesos de la vida diaria",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "14": {

@@ -78,7 +78,7 @@
             {
                 "nombre": "Pintura",
                 "abreviatura": "Pint",
-                "horas": 3
+                "horas": 9
             }
         ]
     },
@@ -211,7 +211,7 @@
             {
                 "nombre": "Educación Física Premilitar",
                 "abreviatura": "EFP",
-                "horas": 3
+                "horas": 9
             }
         ]
     },
@@ -702,7 +702,7 @@
             {
                 "nombre": "Danza",
                 "abreviatura": "Danza",
-                "horas": 3
+                "horas": 9
             }
         ]
     },
