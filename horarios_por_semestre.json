@@ -111,8 +111,8 @@
             "aula": null
           },
           "5": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "González de la Fuente Samuel",
             "aula": null
           },
           "6": {
@@ -370,8 +370,8 @@
             "aula": null
           },
           "5": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Cepeda Ramos Yuridia Lizbeth",
             "aula": null
           },
           "6": {
@@ -535,8 +535,8 @@
             "aula": null
           },
           "3": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Cepeda Ramos Yuridia Lizbeth",
             "aula": null
           },
           "4": {
@@ -730,8 +730,8 @@
             "aula": null
           },
           "7": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "González de la Fuente Samuel",
             "aula": null
           },
           "8": {
@@ -1011,8 +1011,8 @@
             "aula": null
           },
           "3": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Acosta García Javier Alfonso",
             "aula": null
           },
           "4": {
@@ -1122,8 +1122,8 @@
             "aula": null
           },
           "7": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "González de la Fuente Samuel",
             "aula": null
           },
           "8": {
@@ -1403,8 +1403,8 @@
             "aula": null
           },
           "12": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "González de la Fuente Samuel",
             "aula": null
           },
           "13": {
@@ -1558,8 +1558,8 @@
             "aula": null
           },
           "12": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Guadalupe de la Cruz Romualdo",
             "aula": null
           },
           "13": {
@@ -1760,8 +1760,8 @@
             "aula": null
           },
           "14": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Guadalupe de la Cruz Romualdo",
             "aula": null
           }
         },
@@ -1885,8 +1885,8 @@
       "horario": {
         "Lunes": {
           "8": {
-            "materia": null,
-            "docente": null,
+            "materia": "Pensamiento Matemático I",
+            "docente": "Santoyo Torres Jose Alberto",
             "aula": null
           },
           "9": {
@@ -1900,8 +1900,8 @@
             "aula": null
           },
           "11": {
-            "materia": "Pensamiento Matemático I",
-            "docente": "Santoyo Torres Jose Alberto",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "12": {
@@ -1915,15 +1915,15 @@
             "aula": null
           },
           "14": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "De La Fuente Escobedo Luis Ramón",
             "aula": null
           }
         },
         "Martes": {
           "8": {
-            "materia": null,
-            "docente": null,
+            "materia": "Pensamiento Matemático I",
+            "docente": "Santoyo Torres Jose Alberto",
             "aula": null
           },
           "9": {
@@ -1932,8 +1932,8 @@
             "aula": null
           },
           "10": {
-            "materia": null,
-            "docente": null,
+            "materia": "Pensamiento Matemático I",
+            "docente": "Santoyo Torres Jose Alberto",
             "aula": null
           },
           "11": {
@@ -1947,13 +1947,13 @@
             "aula": null
           },
           "13": {
-            "materia": "Pensamiento Matemático I",
-            "docente": "Santoyo Torres Jose Alberto",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "14": {
-            "materia": "Pensamiento Matemático I",
-            "docente": "Santoyo Torres Jose Alberto",
+            "materia": null,
+            "docente": null,
             "aula": null
           }
         },
@@ -2129,8 +2129,8 @@
             "aula": null
           },
           "11": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "De La Fuente Escobedo Luis Ramón",
             "aula": null
           },
           "12": {
@@ -2355,8 +2355,8 @@
         },
         "Miercoles": {
           "1": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Hernández Barrera J. Trinidad",
             "aula": null
           },
           "2": {
@@ -2686,8 +2686,8 @@
             "aula": null
           },
           "7": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Hernández Barrera J. Trinidad",
             "aula": null
           },
           "8": {
@@ -2856,13 +2856,13 @@
             "aula": null
           },
           "6": {
-            "materia": "Ecosistemas: interacciones, energía y dinámica",
-            "docente": "Hernández Barrera J. Trinidad",
+            "materia": "Humanidades II",
+            "docente": "Acosta García Javier Alfonso",
             "aula": null
           },
           "7": {
-            "materia": "Ecosistemas: interacciones, energía y dinámica",
-            "docente": "Hernández Barrera J. Trinidad",
+            "materia": "Humanidades II",
+            "docente": "Acosta García Javier Alfonso",
             "aula": null
           },
           "8": {
@@ -2873,8 +2873,8 @@
         },
         "Viernes": {
           "1": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Jasso Anaya Luis Fernando",
             "aula": null
           },
           "2": {
@@ -2883,13 +2883,13 @@
             "aula": null
           },
           "3": {
-            "materia": "Humanidades II",
-            "docente": "Acosta García Javier Alfonso",
+            "materia": "Ecosistemas: interacciones, energía y dinámica",
+            "docente": "Hernández Barrera J. Trinidad",
             "aula": null
           },
           "4": {
-            "materia": "Humanidades II",
-            "docente": "Acosta García Javier Alfonso",
+            "materia": "Ecosistemas: interacciones, energía y dinámica",
+            "docente": "Hernández Barrera J. Trinidad",
             "aula": null
           },
           "5": {
@@ -3083,8 +3083,8 @@
             "aula": null
           },
           "8": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Martínez González Sanjuana Maribel",
             "aula": null
           }
         },
@@ -3300,8 +3300,8 @@
             "aula": null
           },
           "8": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Moran Lerma Karla Valeria",
             "aula": null
           }
         },
@@ -3517,8 +3517,8 @@
             "aula": null
           },
           "8": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Hernández González Felipe",
             "aula": null
           }
         },
@@ -3677,8 +3677,8 @@
             "aula": null
           },
           "14": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Heredia Blanco Laura Esmeralda",
             "aula": null
           }
         },
@@ -3943,8 +3943,8 @@
             "aula": null
           },
           "14": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Heredia Blanco Laura Esmeralda",
             "aula": null
           }
         }
@@ -3987,8 +3987,8 @@
             "aula": null
           },
           "14": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Reyes Norberto Mildred Yasmín",
             "aula": null
           }
         },
@@ -4206,8 +4206,8 @@
             "aula": null
           },
           "12": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Reyes Norberto Mildred Yasmín",
             "aula": null
           },
           "13": {
@@ -4489,8 +4489,8 @@
         },
         "Viernes": {
           "8": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "De la Rosa Ortega Gerardo",
             "aula": null
           },
           "9": {
@@ -4671,33 +4671,33 @@
             "aula": null
           },
           "3": {
-            "materia": "Modulo profesional",
-            "docente": "Acosta García Javier Alfonso",
+            "materia": "Estudios Literarios",
+            "docente": "Silva Camacho Sandra Catalina",
             "aula": null
           },
           "4": {
-            "materia": "Modulo profesional",
-            "docente": "Acosta García Javier Alfonso",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "5": {
-            "materia": "Modulo profesional",
-            "docente": "Acosta García Javier Alfonso",
+            "materia": "Tutorías",
+            "docente": "Ramírez Solís Erik",
             "aula": null
           },
           "6": {
-            "materia": "Modulo profesional",
-            "docente": "Acosta García Javier Alfonso",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "7": {
-            "materia": "Modulo profesional",
-            "docente": "Acosta García Javier Alfonso",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "8": {
-            "materia": "Estudios Literarios",
-            "docente": "Silva Camacho Sandra Catalina",
+            "materia": null,
+            "docente": null,
             "aula": null
           }
         },
@@ -4878,33 +4878,33 @@
         },
         "Jueves": {
           "1": {
-            "materia": "Modulo profesional",
-            "docente": "Santoyo Arroyo María Patricia",
+            "materia": "La energía en los procesos de la vida diaria",
+            "docente": "Hernández Barrera J. Trinidad",
             "aula": null
           },
           "2": {
-            "materia": "Modulo profesional",
-            "docente": "Santoyo Arroyo María Patricia",
+            "materia": "La energía en los procesos de la vida diaria",
+            "docente": "Hernández Barrera J. Trinidad",
             "aula": null
           },
           "3": {
-            "materia": "Modulo profesional",
-            "docente": "Santoyo Arroyo María Patricia",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "4": {
-            "materia": "Modulo profesional",
-            "docente": "Santoyo Arroyo María Patricia",
+            "materia": "Estudios Literarios",
+            "docente": "Silva Camacho Sandra Catalina",
             "aula": null
           },
           "5": {
-            "materia": "Modulo profesional",
-            "docente": "Santoyo Arroyo María Patricia",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "6": {
-            "materia": "Estudios Literarios",
-            "docente": "Silva Camacho Sandra Catalina",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "7": {
@@ -4930,23 +4930,23 @@
             "aula": null
           },
           "3": {
-            "materia": "La energía en los procesos de la vida diaria",
-            "docente": "Hernández Barrera J. Trinidad",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "4": {
+            "materia": null,
+            "docente": null,
+            "aula": null
+          },
+          "5": {
             "materia": "La energía en los procesos de la vida diaria",
             "docente": "Hernández Barrera J. Trinidad",
             "aula": null
           },
-          "5": {
-            "materia": null,
-            "docente": null,
-            "aula": null
-          },
           "6": {
-            "materia": null,
-            "docente": null,
+            "materia": "La energía en los procesos de la vida diaria",
+            "docente": "Hernández Barrera J. Trinidad",
             "aula": null
           },
           "7": {
@@ -5088,40 +5088,40 @@
             "aula": null
           },
           "8": {
-            "materia": null,
-            "docente": null,
+            "materia": "Temas selectos de Matemáticas II",
+            "docente": "Cepeda Ramos Yuridia Lizbeth",
             "aula": null
           }
         },
         "Jueves": {
           "1": {
-            "materia": "Modulo profesional",
-            "docente": "Limón Martínez Benjamín",
+            "materia": "Temas selectos de Matemáticas II",
+            "docente": "Cepeda Ramos Yuridia Lizbeth",
             "aula": null
           },
           "2": {
-            "materia": "Modulo profesional",
-            "docente": "Limón Martínez Benjamín",
+            "materia": "Temas selectos de Matemáticas II",
+            "docente": "Cepeda Ramos Yuridia Lizbeth",
             "aula": null
           },
           "3": {
-            "materia": "Modulo profesional",
-            "docente": "Limón Martínez Benjamín",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "4": {
-            "materia": "Modulo profesional",
-            "docente": "Limón Martínez Benjamín",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "5": {
-            "materia": "Modulo profesional",
-            "docente": "Limón Martínez Benjamín",
+            "materia": "Estudios Literarios",
+            "docente": "Silva Camacho Sandra Catalina",
             "aula": null
           },
           "6": {
-            "materia": null,
-            "docente": null,
+            "materia": "Estudios Literarios",
+            "docente": "Silva Camacho Sandra Catalina",
             "aula": null
           },
           "7": {
@@ -5147,13 +5147,13 @@
             "aula": null
           },
           "3": {
-            "materia": "Estudios Literarios",
-            "docente": "Silva Camacho Sandra Catalina",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "4": {
-            "materia": "Estudios Literarios",
-            "docente": "Silva Camacho Sandra Catalina",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "5": {
@@ -5162,8 +5162,8 @@
             "aula": null
           },
           "6": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Silva Camacho Sandra Catalina",
             "aula": null
           },
           "7": {
@@ -5312,23 +5312,23 @@
         },
         "Jueves": {
           "1": {
-            "materia": "Temas selectos de Matemáticas II",
-            "docente": "Cepeda Ramos Yuridia Lizbeth",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "2": {
+            "materia": null,
+            "docente": null,
+            "aula": null
+          },
+          "3": {
             "materia": "Temas selectos de Matemáticas II",
             "docente": "Cepeda Ramos Yuridia Lizbeth",
             "aula": null
           },
-          "3": {
-            "materia": null,
-            "docente": null,
-            "aula": null
-          },
           "4": {
-            "materia": null,
-            "docente": null,
+            "materia": "Temas selectos de Matemáticas II",
+            "docente": "Cepeda Ramos Yuridia Lizbeth",
             "aula": null
           },
           "5": {
@@ -5337,8 +5337,8 @@
             "aula": null
           },
           "6": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Martínez González Sanjuana Maribel",
             "aula": null
           },
           "7": {
@@ -5354,33 +5354,33 @@
         },
         "Viernes": {
           "1": {
-            "materia": "Modulo profesional",
-            "docente": "Martínez González Sanjuana Maribel",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "2": {
-            "materia": "Modulo profesional",
-            "docente": "Martínez González Sanjuana Maribel",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "3": {
-            "materia": "Modulo profesional",
-            "docente": "Martínez González Sanjuana Maribel",
+            "materia": "Temas selectos de Matemáticas II",
+            "docente": "Cepeda Ramos Yuridia Lizbeth",
             "aula": null
           },
           "4": {
-            "materia": "Modulo profesional",
-            "docente": "Martínez González Sanjuana Maribel",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "5": {
-            "materia": "Modulo profesional",
-            "docente": "Martínez González Sanjuana Maribel",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "6": {
-            "materia": "Temas selectos de Matemáticas II",
-            "docente": "Cepeda Ramos Yuridia Lizbeth",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "7": {
@@ -5529,38 +5529,38 @@
         },
         "Jueves": {
           "1": {
-            "materia": "Modulo profesional",
-            "docente": "Guadalupe de la Cruz Romualdo",
+            "materia": "Estudios Literarios",
+            "docente": "Silva Camacho Sandra Catalina",
             "aula": null
           },
           "2": {
-            "materia": "Modulo profesional",
-            "docente": "Guadalupe de la Cruz Romualdo",
+            "materia": "Estudios Literarios",
+            "docente": "Silva Camacho Sandra Catalina",
             "aula": null
           },
           "3": {
-            "materia": "Modulo profesional",
-            "docente": "Guadalupe de la Cruz Romualdo",
+            "materia": "Temas selectos de Matemáticas II",
+            "docente": "Ramírez Solís Erik",
             "aula": null
           },
           "4": {
-            "materia": "Modulo profesional",
-            "docente": "Guadalupe de la Cruz Romualdo",
+            "materia": "Temas selectos de Matemáticas II",
+            "docente": "Ramírez Solís Erik",
             "aula": null
           },
           "5": {
-            "materia": "Modulo profesional",
-            "docente": "Guadalupe de la Cruz Romualdo",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "6": {
-            "materia": "Temas selectos de Matemáticas II",
+            "materia": "Tutorías",
             "docente": "Ramírez Solís Erik",
             "aula": null
           },
           "7": {
-            "materia": "Temas selectos de Matemáticas II",
-            "docente": "Ramírez Solís Erik",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "8": {
@@ -5591,13 +5591,13 @@
             "aula": null
           },
           "5": {
-            "materia": "Estudios Literarios",
-            "docente": "Silva Camacho Sandra Catalina",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "6": {
-            "materia": "Estudios Literarios",
-            "docente": "Silva Camacho Sandra Catalina",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "7": {
@@ -5746,43 +5746,43 @@
         },
         "Jueves": {
           "1": {
-            "materia": "Modulo profesional",
-            "docente": "López Torres Juan Antonio",
+            "materia": "Inglés V",
+            "docente": "Santoyo Torres Jose Alberto",
             "aula": null
           },
           "2": {
-            "materia": "Modulo profesional",
-            "docente": "López Torres Juan Antonio",
+            "materia": "Inglés V",
+            "docente": "Santoyo Torres Jose Alberto",
             "aula": null
           },
           "3": {
-            "materia": "Modulo profesional",
-            "docente": "López Torres Juan Antonio",
+            "materia": "Tutorías",
+            "docente": "Pérez Abrego Erika Aideé",
             "aula": null
           },
           "4": {
-            "materia": "Modulo profesional",
-            "docente": "López Torres Juan Antonio",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "5": {
-            "materia": "Modulo profesional",
-            "docente": "López Torres Juan Antonio",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "6": {
-            "materia": "Inglés V",
-            "docente": "Santoyo Torres Jose Alberto",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "7": {
-            "materia": "Inglés V",
-            "docente": "Santoyo Torres Jose Alberto",
+            "materia": "Estudios Literarios",
+            "docente": "Silva Camacho Sandra Catalina",
             "aula": null
           },
           "8": {
-            "materia": null,
-            "docente": null,
+            "materia": "Estudios Literarios",
+            "docente": "Silva Camacho Sandra Catalina",
             "aula": null
           }
         },
@@ -5798,8 +5798,8 @@
             "aula": null
           },
           "3": {
-            "materia": null,
-            "docente": null,
+            "materia": "Estudios Literarios",
+            "docente": "Silva Camacho Sandra Catalina",
             "aula": null
           },
           "4": {
@@ -5818,13 +5818,13 @@
             "aula": null
           },
           "7": {
-            "materia": "Estudios Literarios",
-            "docente": "Silva Camacho Sandra Catalina",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "8": {
-            "materia": "Estudios Literarios",
-            "docente": "Silva Camacho Sandra Catalina",
+            "materia": null,
+            "docente": null,
             "aula": null
           }
         }
@@ -5936,8 +5936,8 @@
             "aula": null
           },
           "4": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Pérez Abrego Erika Aideé",
             "aula": null
           },
           "5": {
@@ -6005,38 +6005,38 @@
         },
         "Viernes": {
           "1": {
-            "materia": "Modulo profesional",
-            "docente": "Santoyo Arroyo Mario Alonso",
+            "materia": "Estudios Literarios",
+            "docente": "Silva Camacho Sandra Catalina",
             "aula": null
           },
           "2": {
-            "materia": "Modulo profesional",
-            "docente": "Santoyo Arroyo Mario Alonso",
+            "materia": "Estudios Literarios",
+            "docente": "Silva Camacho Sandra Catalina",
             "aula": null
           },
           "3": {
-            "materia": "Modulo profesional",
-            "docente": "Santoyo Arroyo Mario Alonso",
+            "materia": "Inglés V",
+            "docente": "Santoyo Torres Jose Alberto",
             "aula": null
           },
           "4": {
-            "materia": "Modulo profesional",
-            "docente": "Santoyo Arroyo Mario Alonso",
+            "materia": "Inglés V",
+            "docente": "Santoyo Torres Jose Alberto",
             "aula": null
           },
           "5": {
-            "materia": "Modulo profesional",
-            "docente": "Santoyo Arroyo Mario Alonso",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "6": {
-            "materia": "Inglés V",
-            "docente": "Santoyo Torres Jose Alberto",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "7": {
-            "materia": "Inglés V",
-            "docente": "Santoyo Torres Jose Alberto",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "8": {
@@ -6180,33 +6180,33 @@
         },
         "Jueves": {
           "1": {
+            "materia": "La energía en los procesos de la vida diaria",
+            "docente": "Torres Quiñones Norma Elena",
+            "aula": null
+          },
+          "2": {
+            "materia": "La energía en los procesos de la vida diaria",
+            "docente": "Torres Quiñones Norma Elena",
+            "aula": null
+          },
+          "3": {
+            "materia": null,
+            "docente": null,
+            "aula": null
+          },
+          "4": {
+            "materia": null,
+            "docente": null,
+            "aula": null
+          },
+          "5": {
             "materia": "Inglés V",
             "docente": "Santoyo Torres Jose Alberto",
             "aula": null
           },
-          "2": {
-            "materia": "Estudios Literarios",
-            "docente": "Silva Camacho Sandra Catalina",
-            "aula": null
-          },
-          "3": {
-            "materia": "Estudios Literarios",
-            "docente": "Silva Camacho Sandra Catalina",
-            "aula": null
-          },
-          "4": {
-            "materia": "La energía en los procesos de la vida diaria",
-            "docente": "Torres Quiñones Norma Elena",
-            "aula": null
-          },
-          "5": {
-            "materia": "La energía en los procesos de la vida diaria",
-            "docente": "Torres Quiñones Norma Elena",
-            "aula": null
-          },
           "6": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Hernández González Felipe",
             "aula": null
           },
           "7": {
@@ -6222,28 +6222,28 @@
         },
         "Viernes": {
           "1": {
-            "materia": "Modulo profesional",
-            "docente": "Hernández González Felipe",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "2": {
-            "materia": "Modulo profesional",
-            "docente": "Hernández González Felipe",
+            "materia": null,
+            "docente": null,
             "aula": null
           },
           "3": {
-            "materia": "Modulo profesional",
-            "docente": "Hernández González Felipe",
+            "materia": "La energía en los procesos de la vida diaria",
+            "docente": "Torres Quiñones Norma Elena",
             "aula": null
           },
           "4": {
-            "materia": "Modulo profesional",
-            "docente": "Hernández González Felipe",
+            "materia": "Estudios Literarios",
+            "docente": "Silva Camacho Sandra Catalina",
             "aula": null
           },
           "5": {
-            "materia": "Modulo profesional",
-            "docente": "Hernández González Felipe",
+            "materia": "Estudios Literarios",
+            "docente": "Silva Camacho Sandra Catalina",
             "aula": null
           },
           "6": {
@@ -6257,8 +6257,8 @@
             "aula": null
           },
           "8": {
-            "materia": "La energía en los procesos de la vida diaria",
-            "docente": "Torres Quiñones Norma Elena",
+            "materia": null,
+            "docente": null,
             "aula": null
           }
         }
@@ -6392,8 +6392,8 @@
             "aula": null
           },
           "10": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "De la Rosa Ortega Gerardo",
             "aula": null
           },
           "11": {
@@ -6515,8 +6515,8 @@
             "aula": null
           },
           "11": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Solís Rieboles Ulises",
             "aula": null
           },
           "12": {
@@ -6685,8 +6685,8 @@
             "aula": null
           },
           "14": {
-            "materia": null,
-            "docente": null,
+            "materia": "Tutorías",
+            "docente": "Herrera García Marco Iván",
             "aula": null
           }
         },

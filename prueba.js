@@ -1121,7 +1121,3 @@ prueba.imprimirAsignacionesProfesores();
 // Exportar archivos
 prueba.exportarHorariosGrupalesJSON();
 prueba.exportarHorariosProfesoresJSON();
-
-//TODO
-//eliminar huecos en horario de alumnos
-//no asigna bien algunas materias de tronco común

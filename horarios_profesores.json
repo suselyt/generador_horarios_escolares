@@ -3,7 +3,7 @@
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Tutorías",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -229,29 +229,29 @@
           "semestre": null
         },
         "3": {
-          "materia": "Modulo profesional",
-          "grupo": "501A",
-          "semestre": 5
+          "materia": "Tutorías",
+          "grupo": "105E",
+          "semestre": 1
         },
         "4": {
-          "materia": "Modulo profesional",
-          "grupo": "501A",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
-          "materia": "Modulo profesional",
-          "grupo": "501A",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
-          "materia": "Modulo profesional",
-          "grupo": "501A",
-          "semestre": 5
+          "materia": "Humanidades II",
+          "grupo": "303C",
+          "semestre": 3
         },
         "7": {
-          "materia": "Modulo profesional",
-          "grupo": "501A",
-          "semestre": 5
+          "materia": "Humanidades II",
+          "grupo": "303C",
+          "semestre": 3
         },
         "8": {
           "materia": null,
@@ -301,14 +301,14 @@
           "semestre": null
         },
         "3": {
-          "materia": "Humanidades II",
-          "grupo": "303C",
-          "semestre": 3
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "4": {
-          "materia": "Humanidades II",
-          "grupo": "303C",
-          "semestre": 3
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
           "materia": null,
@@ -361,7 +361,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 25,
+    "horas_totales": 29,
+    "huecos": 8
   },
   "Ávalos Ramos Grecia": {
     "horario": {
@@ -725,7 +728,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 17,
+    "horas_totales": 20,
+    "huecos": 11
   },
   "Barrera Cerda Walter Alan": {
     "horario": {
@@ -1089,7 +1095,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 15,
+    "horas_totales": 15,
+    "huecos": 3
   },
   "Benítez Espín Marcela": {
     "horario": {
@@ -1453,7 +1462,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 12,
+    "horas_totales": 12,
+    "huecos": 2
   },
   "Cepeda Ramos Yuridia Lizbeth": {
     "horario": {
@@ -1499,27 +1511,27 @@
           "semestre": 5
         },
         "9": {
-          "materia": "Tutorías",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Tutorías",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
         "11": {
-          "materia": "Asesorías Académicas",
+          "materia": "Asesorías de alumnos para concurso",
           "grupo": null,
           "semestre": null
         },
         "12": {
-          "materia": "Asesorías Académicas",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Asesorías de alumnos para concurso",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -1613,9 +1625,9 @@
           "semestre": 5
         },
         "3": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "103C",
+          "semestre": 1
         },
         "4": {
           "materia": null,
@@ -1638,9 +1650,9 @@
           "semestre": 5
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "grupo": "503C",
+          "semestre": 5
         },
         "9": {
           "materia": null,
@@ -1676,28 +1688,28 @@
       "Jueves": {
         "1": {
           "materia": "Temas selectos de Matemáticas II",
-          "grupo": "504D",
+          "grupo": "503C",
           "semestre": 5
         },
         "2": {
           "materia": "Temas selectos de Matemáticas II",
-          "grupo": "504D",
+          "grupo": "503C",
           "semestre": 5
         },
         "3": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "grupo": "504D",
+          "semestre": 5
         },
         "4": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "grupo": "504D",
+          "semestre": 5
         },
         "5": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "102B",
+          "semestre": 1
         },
         "6": {
           "materia": "Pensamiento Matemático III",
@@ -1757,9 +1769,9 @@
           "semestre": 5
         },
         "3": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "grupo": "504D",
+          "semestre": 5
         },
         "4": {
           "materia": null,
@@ -1772,9 +1784,9 @@
           "semestre": null
         },
         "6": {
-          "materia": "Temas selectos de Matemáticas II",
-          "grupo": "504D",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
           "materia": null,
@@ -1817,28 +1829,31 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 36,
+    "horas_totales": 40,
+    "huecos": 1
   },
   "De La Fuente Escobedo Luis Ramón": {
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "2": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "3": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "4": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -1888,9 +1903,9 @@
           "semestre": 5
         },
         "14": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "104J",
+          "semestre": 1
         }
       },
       "Martes": {
@@ -1945,9 +1960,9 @@
           "semestre": 5
         },
         "11": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "105K",
+          "semestre": 1
         },
         "12": {
           "materia": null,
@@ -2181,18 +2196,21 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 13,
+    "horas_totales": 20,
+    "huecos": 5
   },
   "De la Rosa Ortega Gerardo": {
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "2": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
@@ -2207,17 +2225,17 @@
           "semestre": null
         },
         "5": {
-          "materia": "Multidisciplinarias",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
         "6": {
-          "materia": "Multidisciplinarias",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
         "7": {
-          "materia": "Asesorías Académicas",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -2259,7 +2277,7 @@
       },
       "Martes": {
         "1": {
-          "materia": "Asesorías Académicas",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -2448,9 +2466,9 @@
           "semestre": 5
         },
         "10": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "501I",
+          "semestre": 5
         },
         "11": {
           "materia": null,
@@ -2510,9 +2528,9 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "305K",
+          "semestre": 3
         },
         "9": {
           "materia": "Inglés III",
@@ -2545,7 +2563,10 @@
           "semestre": 5
         }
       }
-    }
+    },
+    "horas_asignadas": 38,
+    "horas_totales": 40,
+    "huecos": 4
   },
   "De León Flores Jorge Isidro": {
     "horario": {
@@ -2909,7 +2930,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 3,
+    "horas_totales": 12,
+    "huecos": 0
   },
   "González de la Fuente Samuel": {
     "horario": {
@@ -2935,19 +2959,19 @@
           "semestre": 1
         },
         "5": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "6": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "7": {
           "materia": "Tutorías",
-          "grupo": null,
-          "semestre": null
+          "grupo": "106F",
+          "semestre": 1
         },
         "8": {
           "materia": "Humanidades I",
@@ -2980,7 +3004,7 @@
           "semestre": 1
         },
         "14": {
-          "materia": "Tutorías",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         }
@@ -3007,19 +3031,19 @@
           "semestre": 1
         },
         "5": {
-          "materia": "Multidisciplinarias",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
         "6": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "7": {
-          "materia": "Asesorías Académicas",
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "104D",
+          "semestre": 1
         },
         "8": {
           "materia": "Humanidades I",
@@ -3052,7 +3076,7 @@
           "semestre": 1
         },
         "14": {
-          "materia": "Asesorías Académicas",
+          "materia": null,
           "grupo": null,
           "semestre": null
         }
@@ -3079,9 +3103,9 @@
           "semestre": null
         },
         "5": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "101A",
+          "semestre": 1
         },
         "6": {
           "materia": null,
@@ -3114,9 +3138,9 @@
           "semestre": null
         },
         "12": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "101G",
+          "semestre": 1
         },
         "13": {
           "materia": null,
@@ -3273,7 +3297,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 32,
+    "horas_totales": 40,
+    "huecos": 5
   },
   "González López José Luis": {
     "horario": {
@@ -3637,7 +3664,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 18,
+    "horas_totales": 20,
+    "huecos": 10
   },
   "Guadalupe de la Cruz Romualdo": {
     "horario": {
@@ -3673,7 +3703,7 @@
           "semestre": 1
         },
         "7": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
@@ -3740,7 +3770,7 @@
           "semestre": 1
         },
         "6": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
@@ -3770,9 +3800,9 @@
           "semestre": null
         },
         "12": {
-          "materia": "Multidisciplinarias",
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "102H",
+          "semestre": 1
         },
         "13": {
           "materia": "Multidisciplinarias",
@@ -3780,9 +3810,9 @@
           "semestre": null
         },
         "14": {
-          "materia": "Multidisciplinarias",
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "103I",
+          "semestre": 1
         }
       },
       "Miercoles": {
@@ -3859,29 +3889,29 @@
       },
       "Jueves": {
         "1": {
-          "materia": "Modulo profesional",
-          "grupo": "505E",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
-          "materia": "Modulo profesional",
-          "grupo": "505E",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
-          "materia": "Modulo profesional",
-          "grupo": "505E",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "4": {
-          "materia": "Modulo profesional",
-          "grupo": "505E",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
-          "materia": "Modulo profesional",
-          "grupo": "505E",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": null,
@@ -4001,7 +4031,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 34,
+    "horas_totales": 34,
+    "huecos": 3
   },
   "Heredia Blanco Laura Esmeralda": {
     "horario": {
@@ -4037,7 +4070,7 @@
           "semestre": 5
         },
         "7": {
-          "materia": "Tutorías",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
@@ -4052,7 +4085,7 @@
           "semestre": 1
         },
         "10": {
-          "materia": "Tutorías",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
@@ -4109,7 +4142,7 @@
           "semestre": 5
         },
         "7": {
-          "materia": "Asesorías Académicas",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
@@ -4124,7 +4157,7 @@
           "semestre": 1
         },
         "10": {
-          "materia": "Asesorías Académicas",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
@@ -4151,12 +4184,12 @@
       },
       "Miercoles": {
         "1": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "2": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -4216,9 +4249,9 @@
           "semestre": null
         },
         "14": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "301G",
+          "semestre": 3
         }
       },
       "Jueves": {
@@ -4360,12 +4393,15 @@
           "semestre": null
         },
         "14": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "302H",
+          "semestre": 3
         }
       }
-    }
+    },
+    "horas_asignadas": 38,
+    "horas_totales": 40,
+    "huecos": 6
   },
   "Hernández Barrera J. Trinidad": {
     "horario": {
@@ -4411,12 +4447,12 @@
           "semestre": 3
         },
         "9": {
-          "materia": "Tutorías",
+          "materia": "Concursos",
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Tutorías",
+          "materia": "Concursos",
           "grupo": null,
           "semestre": null
         },
@@ -4431,12 +4467,12 @@
           "semestre": null
         },
         "13": {
-          "materia": "Concursos",
+          "materia": "Investigación",
           "grupo": null,
           "semestre": null
         },
         "14": {
-          "materia": "Concursos",
+          "materia": "Investigación",
           "grupo": null,
           "semestre": null
         }
@@ -4493,31 +4529,31 @@
           "semestre": null
         },
         "11": {
-          "materia": "Investigación",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "12": {
-          "materia": "Investigación",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "14": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         }
       },
       "Miercoles": {
         "1": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "301A",
+          "semestre": 3
         },
         "2": {
           "materia": null,
@@ -4587,14 +4623,14 @@
       },
       "Jueves": {
         "1": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "grupo": "502B",
+          "semestre": 5
         },
         "2": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "grupo": "502B",
+          "semestre": 5
         },
         "3": {
           "materia": null,
@@ -4612,14 +4648,14 @@
           "semestre": null
         },
         "6": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "grupo": "303C",
-          "semestre": 3
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "grupo": "303C",
-          "semestre": 3
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
           "materia": null,
@@ -4669,29 +4705,29 @@
           "semestre": 3
         },
         "3": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "grupo": "303C",
+          "semestre": 3
         },
         "4": {
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "grupo": "303C",
+          "semestre": 3
+        },
+        "5": {
           "materia": "La energía en los procesos de la vida diaria",
           "grupo": "502B",
           "semestre": 5
         },
-        "5": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
-        },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "grupo": "502B",
+          "semestre": 5
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "302B",
+          "semestre": 3
         },
         "8": {
           "materia": null,
@@ -4729,7 +4765,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 40,
+    "horas_totales": 40,
+    "huecos": 3
   },
   "Hernández González Felipe": {
     "horario": {
@@ -4775,22 +4814,22 @@
           "semestre": 5
         },
         "9": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "11": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "12": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -4976,9 +5015,9 @@
           "semestre": 3
         },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "508H",
+          "semestre": 5
         },
         "7": {
           "materia": null,
@@ -4986,9 +5025,9 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "306F",
+          "semestre": 3
         },
         "9": {
           "materia": null,
@@ -5023,29 +5062,29 @@
       },
       "Viernes": {
         "1": {
-          "materia": "Modulo profesional",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
-          "materia": "Modulo profesional",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
-          "materia": "Modulo profesional",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "4": {
-          "materia": "Modulo profesional",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
-          "materia": "Modulo profesional",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": null,
@@ -5093,18 +5132,21 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 33,
+    "horas_totales": 33,
+    "huecos": 1
   },
   "Herrera García Marco Iván": {
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "2": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
@@ -5114,12 +5156,12 @@
           "semestre": null
         },
         "4": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "5": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -5164,9 +5206,9 @@
           "semestre": null
         },
         "14": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "503K",
+          "semestre": 5
         }
       },
       "Martes": {
@@ -5457,7 +5499,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 25,
+    "horas_totales": 34,
+    "huecos": 6
   },
   "Herrera García Brenda Itzel": {
     "horario": {
@@ -5821,7 +5866,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 17,
+    "horas_totales": 17,
+    "huecos": 0
   },
   "Jasso Anaya Luis Fernando": {
     "horario": {
@@ -5867,32 +5915,32 @@
           "semestre": 1
         },
         "9": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "11": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "12": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "14": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         }
@@ -5939,12 +5987,12 @@
           "semestre": 1
         },
         "9": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -6115,9 +6163,9 @@
       },
       "Viernes": {
         "1": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "303C",
+          "semestre": 3
         },
         "2": {
           "materia": null,
@@ -6185,7 +6233,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 37,
+    "horas_totales": 40,
+    "huecos": 0
   },
   "Lerma Martínez Luis Enrique": {
     "horario": {
@@ -6549,7 +6600,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 27,
+    "horas_totales": 29,
+    "huecos": 7
   },
   "López Torres Juan Antonio": {
     "horario": {
@@ -6771,29 +6825,29 @@
       },
       "Jueves": {
         "1": {
-          "materia": "Modulo profesional",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
-          "materia": "Modulo profesional",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
-          "materia": "Modulo profesional",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "4": {
-          "materia": "Modulo profesional",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
-          "materia": "Modulo profesional",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": null,
@@ -6913,7 +6967,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 29,
+    "horas_totales": 29,
+    "huecos": 0
   },
   "López Vázquez José": {
     "horario": {
@@ -7277,7 +7334,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 21,
+    "horas_totales": 29,
+    "huecos": 0
   },
   "Limón Martínez Benjamín": {
     "horario": {
@@ -7499,29 +7559,29 @@
       },
       "Jueves": {
         "1": {
-          "materia": "Modulo profesional",
-          "grupo": "503C",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
-          "materia": "Modulo profesional",
-          "grupo": "503C",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
-          "materia": "Modulo profesional",
-          "grupo": "503C",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "4": {
-          "materia": "Modulo profesional",
-          "grupo": "503C",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
-          "materia": "Modulo profesional",
-          "grupo": "503C",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": null,
@@ -7641,7 +7701,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 32,
+    "horas_totales": 32,
+    "huecos": 9
   },
   "Martínez González Sanjuana Maribel": {
     "horario": {
@@ -7687,17 +7750,17 @@
           "semestre": 5
         },
         "9": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Tutorías",
+          "materia": "Comisión",
           "grupo": null,
           "semestre": null
         },
         "11": {
-          "materia": "Multidisciplinarias",
+          "materia": "Comisión",
           "grupo": null,
           "semestre": null
         },
@@ -7774,12 +7837,12 @@
           "semestre": null
         },
         "12": {
-          "materia": "Comisión",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Comisión",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -7888,9 +7951,9 @@
           "semestre": 3
         },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "504D",
+          "semestre": 5
         },
         "7": {
           "materia": null,
@@ -7898,9 +7961,9 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "304D",
+          "semestre": 3
         },
         "9": {
           "materia": null,
@@ -7935,29 +7998,29 @@
       },
       "Viernes": {
         "1": {
-          "materia": "Modulo profesional",
-          "grupo": "504D",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
-          "materia": "Modulo profesional",
-          "grupo": "504D",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
-          "materia": "Modulo profesional",
-          "grupo": "504D",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "4": {
-          "materia": "Modulo profesional",
-          "grupo": "504D",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
-          "materia": "Modulo profesional",
-          "grupo": "504D",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": null,
@@ -8005,7 +8068,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 40,
+    "horas_totales": 40,
+    "huecos": 1
   },
   "Moran Lerma Karla Valeria": {
     "horario": {
@@ -8061,7 +8127,7 @@
           "semestre": 1
         },
         "11": {
-          "materia": "Tutorías",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -8262,9 +8328,9 @@
           "semestre": 3
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "305E",
+          "semestre": 3
         },
         "9": {
           "materia": null,
@@ -8369,7 +8435,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 36,
+    "horas_totales": 40,
+    "huecos": 3
   },
   "Pérez Abrego Erika Aideé": {
     "horario": {
@@ -8405,7 +8474,7 @@
           "semestre": 5
         },
         "7": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
@@ -8415,7 +8484,7 @@
           "semestre": 1
         },
         "9": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
@@ -8430,12 +8499,12 @@
           "semestre": null
         },
         "12": {
-          "materia": "Multidisciplinarias",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Multidisciplinarias",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
@@ -8467,12 +8536,12 @@
           "semestre": null
         },
         "5": {
-          "materia": "Asesorías Académicas",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "6": {
-          "materia": "Asesorías Académicas",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -8534,9 +8603,9 @@
           "semestre": null
         },
         "4": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "507G",
+          "semestre": 5
         },
         "5": {
           "materia": null,
@@ -8601,9 +8670,9 @@
           "semestre": 5
         },
         "3": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "506F",
+          "semestre": 5
         },
         "4": {
           "materia": null,
@@ -8733,7 +8802,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 38,
+    "horas_totales": 40,
+    "huecos": 14
   },
   "Ramírez Solís Erik": {
     "horario": {
@@ -8749,12 +8821,12 @@
           "semestre": 1
         },
         "3": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "4": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
@@ -8784,12 +8856,12 @@
           "semestre": null
         },
         "10": {
-          "materia": "Multidisciplinarias",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
         "11": {
-          "materia": "Multidisciplinarias",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
@@ -8821,7 +8893,7 @@
           "semestre": 1
         },
         "3": {
-          "materia": "Asesorías Académicas",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -8851,7 +8923,7 @@
           "semestre": 5
         },
         "9": {
-          "materia": "Asesorías Académicas",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -8965,29 +9037,29 @@
           "semestre": 5
         },
         "3": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "grupo": "505E",
+          "semestre": 5
         },
         "4": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "grupo": "505E",
+          "semestre": 5
         },
         "5": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "501A",
+          "semestre": 5
         },
         "6": {
-          "materia": "Temas selectos de Matemáticas II",
+          "materia": "Tutorías",
           "grupo": "505E",
           "semestre": 5
         },
         "7": {
-          "materia": "Temas selectos de Matemáticas II",
-          "grupo": "505E",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
           "materia": "Pensamiento Matemático I",
@@ -9097,7 +9169,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 38,
+    "horas_totales": 40,
+    "huecos": 5
   },
   "Razo Hernandez Víctor Miguel": {
     "horario": {
@@ -9461,7 +9536,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 3,
+    "horas_totales": 12,
+    "huecos": 0
   },
   "Rodríguez Peláez Carolina": {
     "horario": {
@@ -9825,7 +9903,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 36,
+    "horas_totales": 36,
+    "huecos": 13
   },
   "Reyes Norberto Mildred Yasmín": {
     "horario": {
@@ -9851,12 +9932,12 @@
           "semestre": 5
         },
         "5": {
-          "materia": "Tutorías",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
         "6": {
-          "materia": "Tutorías",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
@@ -9871,17 +9952,17 @@
           "semestre": 5
         },
         "9": {
-          "materia": "Asesorías Académicas",
+          "materia": "Comisión",
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Asesorías Académicas",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "11": {
-          "materia": "Comisión",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -9896,9 +9977,9 @@
           "semestre": 3
         },
         "14": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "303I",
+          "semestre": 3
         }
       },
       "Martes": {
@@ -9958,9 +10039,9 @@
           "semestre": null
         },
         "12": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "304J",
+          "semestre": 3
         },
         "13": {
           "materia": "Pensamiento Matemático III",
@@ -10189,7 +10270,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 32,
+    "horas_totales": 36,
+    "huecos": 14
   },
   "Rodríguez Sánchez Diana Laura": {
     "horario": {
@@ -10553,13 +10637,16 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 17,
+    "horas_totales": 17,
+    "huecos": 0
   },
   "Rosas Pacheco Liliana": {
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Tutorías",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -10656,9 +10743,9 @@
           "semestre": 5
         },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "502B",
+          "semestre": 5
         },
         "7": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
@@ -10917,7 +11004,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 16,
+    "horas_totales": 16,
+    "huecos": 2
   },
   "Santoyo Arroyo María Patricia": {
     "horario": {
@@ -10943,12 +11033,12 @@
           "semestre": 5
         },
         "5": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "6": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
@@ -11020,12 +11110,12 @@
           "semestre": null
         },
         "6": {
-          "materia": "Multidisciplinarias",
+          "materia": "Concursos",
           "grupo": null,
           "semestre": null
         },
         "7": {
-          "materia": "Multidisciplinarias",
+          "materia": "Concursos",
           "grupo": null,
           "semestre": null
         },
@@ -11050,12 +11140,12 @@
           "semestre": 3
         },
         "12": {
-          "materia": "Concursos",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Concursos",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -11139,29 +11229,29 @@
       },
       "Jueves": {
         "1": {
-          "materia": "Modulo profesional",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
-          "materia": "Modulo profesional",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
-          "materia": "Modulo profesional",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "4": {
-          "materia": "Modulo profesional",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
-          "materia": "Modulo profesional",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": null,
@@ -11281,7 +11371,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 38,
+    "horas_totales": 40,
+    "huecos": 3
   },
   "Santoyo Arroyo Mario Alonso": {
     "horario": {
@@ -11327,12 +11420,12 @@
           "semestre": 5
         },
         "9": {
-          "materia": "Tutorías",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Tutorías",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -11575,29 +11668,29 @@
       },
       "Viernes": {
         "1": {
-          "materia": "Modulo profesional",
-          "grupo": "507G",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
-          "materia": "Modulo profesional",
-          "grupo": "507G",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
-          "materia": "Modulo profesional",
-          "grupo": "507G",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "4": {
-          "materia": "Modulo profesional",
-          "grupo": "507G",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
-          "materia": "Modulo profesional",
-          "grupo": "507G",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": null,
@@ -11645,7 +11738,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 35,
+    "horas_totales": 40,
+    "huecos": 4
   },
   "Santoyo Torres Jose Alberto": {
     "horario": {
@@ -11686,9 +11782,9 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento Matemático I",
+          "grupo": "104J",
+          "semestre": 1
         },
         "9": {
           "materia": null,
@@ -11701,9 +11797,9 @@
           "semestre": 1
         },
         "11": {
-          "materia": "Pensamiento Matemático I",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "12": {
           "materia": null,
@@ -11758,9 +11854,9 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento Matemático I",
+          "grupo": "104J",
+          "semestre": 1
         },
         "9": {
           "materia": null,
@@ -11768,9 +11864,9 @@
           "semestre": null
         },
         "10": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento Matemático I",
+          "grupo": "104J",
+          "semestre": 1
         },
         "11": {
           "materia": null,
@@ -11783,14 +11879,14 @@
           "semestre": null
         },
         "13": {
-          "materia": "Pensamiento Matemático I",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "14": {
-          "materia": "Pensamiento Matemático I",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         }
       },
       "Miercoles": {
@@ -11868,13 +11964,13 @@
       "Jueves": {
         "1": {
           "materia": "Inglés V",
-          "grupo": "508H",
+          "grupo": "506F",
           "semestre": 5
         },
         "2": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés V",
+          "grupo": "506F",
+          "semestre": 5
         },
         "3": {
           "materia": "Inglés V",
@@ -11887,19 +11983,19 @@
           "semestre": 5
         },
         "5": {
+          "materia": "Inglés V",
+          "grupo": "508H",
+          "semestre": 5
+        },
+        "6": {
           "materia": null,
           "grupo": null,
           "semestre": null
         },
-        "6": {
-          "materia": "Inglés V",
-          "grupo": "506F",
-          "semestre": 5
-        },
         "7": {
-          "materia": "Inglés V",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
           "materia": "Pensamiento Matemático I",
@@ -11949,14 +12045,14 @@
           "semestre": 5
         },
         "3": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés V",
+          "grupo": "507G",
+          "semestre": 5
         },
         "4": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés V",
+          "grupo": "507G",
+          "semestre": 5
         },
         "5": {
           "materia": null,
@@ -11964,14 +12060,14 @@
           "semestre": null
         },
         "6": {
-          "materia": "Inglés V",
-          "grupo": "507G",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
-          "materia": "Inglés V",
-          "grupo": "507G",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
           "materia": null,
@@ -12009,18 +12105,21 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 26,
+    "horas_totales": 27,
+    "huecos": 20
   },
   "Silva Camacho Sandra Catalina": {
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Tutorías",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
         "2": {
-          "materia": "Tutorías",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
@@ -12030,7 +12129,7 @@
           "semestre": null
         },
         "4": {
-          "materia": "Asesorías Académicas",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
@@ -12055,7 +12154,7 @@
           "semestre": 3
         },
         "9": {
-          "materia": "Asesorías Académicas",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
@@ -12070,12 +12169,12 @@
           "semestre": null
         },
         "12": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -12231,43 +12330,43 @@
       },
       "Jueves": {
         "1": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "grupo": "505E",
+          "semestre": 5
         },
         "2": {
           "materia": "Estudios Literarios",
-          "grupo": "508H",
+          "grupo": "505E",
           "semestre": 5
         },
         "3": {
           "materia": "Estudios Literarios",
-          "grupo": "508H",
+          "grupo": "501A",
           "semestre": 5
         },
         "4": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "5": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "6": {
           "materia": "Estudios Literarios",
           "grupo": "502B",
           "semestre": 5
         },
+        "5": {
+          "materia": "Estudios Literarios",
+          "grupo": "503C",
+          "semestre": 5
+        },
+        "6": {
+          "materia": "Estudios Literarios",
+          "grupo": "503C",
+          "semestre": 5
+        },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "grupo": "506F",
+          "semestre": 5
         },
         "8": {
           "materia": "Estudios Literarios",
-          "grupo": "501A",
+          "grupo": "506F",
           "semestre": 5
         },
         "9": {
@@ -12303,44 +12402,44 @@
       },
       "Viernes": {
         "1": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "grupo": "507G",
+          "semestre": 5
         },
         "2": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "grupo": "507G",
+          "semestre": 5
         },
         "3": {
           "materia": "Estudios Literarios",
-          "grupo": "503C",
+          "grupo": "506F",
           "semestre": 5
         },
         "4": {
           "materia": "Estudios Literarios",
-          "grupo": "503C",
+          "grupo": "508H",
           "semestre": 5
         },
         "5": {
           "materia": "Estudios Literarios",
-          "grupo": "505E",
+          "grupo": "508H",
           "semestre": 5
         },
         "6": {
-          "materia": "Estudios Literarios",
-          "grupo": "505E",
+          "materia": "Tutorías",
+          "grupo": "503C",
           "semestre": 5
         },
         "7": {
-          "materia": "Estudios Literarios",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
-          "materia": "Estudios Literarios",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": null,
@@ -12373,28 +12472,31 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 36,
+    "horas_totales": 40,
+    "huecos": 2
   },
   "Solís Rieboles Ulises": {
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "2": {
-          "materia": "Tutorías",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "3": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "4": {
-          "materia": "Multidisciplinarias",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -12501,9 +12603,9 @@
           "semestre": null
         },
         "11": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "502J",
+          "semestre": 5
         },
         "12": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
@@ -12737,18 +12839,21 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 25,
+    "horas_totales": 32,
+    "huecos": 8
   },
   "Torres Quiñones Norma Elena": {
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Tutorías",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
         "2": {
-          "materia": "Tutorías",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
@@ -12783,22 +12888,22 @@
           "semestre": 1
         },
         "9": {
-          "materia": "Asesorías Académicas",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Asesorías Académicas",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
         "11": {
-          "materia": "Multidisciplinarias",
+          "materia": "Comisión",
           "grupo": null,
           "semestre": null
         },
         "12": {
-          "materia": "Multidisciplinarias",
+          "materia": "Comisión",
           "grupo": null,
           "semestre": null
         },
@@ -12808,14 +12913,14 @@
           "semestre": null
         },
         "14": {
-          "materia": "Comisión",
+          "materia": null,
           "grupo": null,
           "semestre": null
         }
       },
       "Martes": {
         "1": {
-          "materia": "Comisión",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -12959,14 +13064,14 @@
       },
       "Jueves": {
         "1": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "grupo": "508H",
+          "semestre": 5
         },
         "2": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "grupo": "508H",
+          "semestre": 5
         },
         "3": {
           "materia": null,
@@ -12974,14 +13079,14 @@
           "semestre": null
         },
         "4": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
@@ -13041,9 +13146,9 @@
           "semestre": 3
         },
         "3": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "grupo": "508H",
+          "semestre": 5
         },
         "4": {
           "materia": null,
@@ -13066,9 +13171,9 @@
           "semestre": 5
         },
         "8": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": null,
@@ -13101,18 +13206,21 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 35,
+    "horas_totales": 40,
+    "huecos": 5
   },
   "Villasana García Rafael": {
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Tutorías",
+          "materia": "Concursos",
           "grupo": null,
           "semestre": null
         },
         "2": {
-          "materia": "Tutorías",
+          "materia": "Concursos",
           "grupo": null,
           "semestre": null
         },
@@ -13122,12 +13230,12 @@
           "semestre": null
         },
         "4": {
-          "materia": "Concursos",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
         "5": {
-          "materia": "Concursos",
+          "materia": null,
           "grupo": null,
           "semestre": null
         },
@@ -13465,7 +13573,10 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 9,
+    "horas_totales": 17,
+    "huecos": 0
   },
   "Zapata Aldape Bertha Alicia": {
     "horario": {
@@ -13829,6 +13940,9 @@
           "semestre": null
         }
       }
-    }
+    },
+    "horas_asignadas": 18,
+    "horas_totales": 20,
+    "huecos": 4
   }
 }
