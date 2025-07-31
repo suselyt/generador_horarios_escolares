@@ -1,6 +1,5 @@
 INDEX
 1. "especialidad" ahora se llama "carrera"
-2. const grupos usa gruposUsandoExcel.json 
 3. el archivo general ahora se llama config 
 4. horas totales se le resta 1 porque el último bloque de matutino es el primero del vespertino
 
