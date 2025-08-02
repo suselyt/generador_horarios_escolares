@@ -826,11 +826,15 @@ class GeneradorHorarios {
                         if (info.materia === "Extracurricular") {
                             extras.push({ ...info, bloqueOriginal: b });
                         } else {
-                            clases.push({ ...info, bloqueOriginal: b });
+                            const profesor = info.docente ? this.profesores.find(p => p.nombre === info.docente) : null;
+                            if (profesor && profesor.horario[dia][b]?.materia === info.materia && profesor.horario[dia][b]?.grupo === grupo.nomenclatura) {
+                                clases.push({ ...info, bloqueOriginal: b });
+                            }
                         }
                     }
                 }
 
+                // Si no hay clases ni extracurriculares, continuar
                 if (clases.length === 0 && extras.length === 0) continue;
 
                 // Limpiar día
@@ -841,35 +845,32 @@ class GeneradorHorarios {
                 const bloquesReservados = extras.map(e => e.bloqueOriginal);
                 let bloqueActual = bloqueInicio;
 
-                // Recolocar clases en bloques compactos evitando extracurriculares
+                // Recolocar clases en bloques compactos evitando extracurriculares y conflictos con profesores
                 for (const clase of clases) {
-                    while (bloquesReservados.includes(bloqueActual) && bloqueActual <= bloqueFin) {
+                    const profesor = clase.docente ? this.profesores.find(p => p.nombre === clase.docente) : null;
+                    while (bloqueActual <= bloqueFin && (bloquesReservados.includes(bloqueActual) ||
+                        (profesor && profesor.horario[dia][bloqueActual]?.materia &&
+                            (profesor.horario[dia][bloqueActual].grupo !== grupo.nomenclatura ||
+                                profesor.horario[dia][bloqueActual].materia !== clase.materia)))) {
                         bloqueActual++;
                     }
-                    if (bloqueActual > bloqueFin) break;
 
-                    grupo.horario[dia][bloqueActual] = {
+                    const destino = bloqueActual <= bloqueFin ? bloqueActual : clase.bloqueOriginal;
+                    grupo.horario[dia][destino] = {
                         materia: clase.materia,
                         abreviatura: clase.abreviatura,
                         docente: clase.docente,
                         aula: clase.aula
-                    };
-
-                    // Actualizar en el horario del profesor si es necesario
-                    if (clase.docente) {
-                        const profesor = this.profesores.find(p => p.nombre === clase.docente);
-                        if (profesor && bloqueActual !== clase.bloqueOriginal) {
-                            profesor.horario[dia][clase.bloqueOriginal] = { materia: null, abreviatura: null, grupo: null, semestre: null };
-                            // Asignar nuevo bloque
-                            profesor.horario[dia][bloqueActual] = {
-                                materia: clase.materia,
-                                abreviatura: clase.abreviatura,
-                                grupo: grupo.nomenclatura,
-                                semestre: grupo.semestre
-                            };
-                        }
+                    }; if (profesor && destino !== clase.bloqueOriginal) {
+                        profesor.horario[dia][clase.bloqueOriginal] = { materia: null, abreviatura: null, grupo: null, semestre: null };
+                        profesor.horario[dia][destino] = {
+                            materia: clase.materia,
+                            abreviatura: clase.abreviatura,
+                            grupo: grupo.nomenclatura,
+                            semestre: grupo.semestre
+                        };
                     }
-                bloqueActual++;
+                    bloqueActual = destino + 1;
                 }
 
                 // Reinsertar extracurriculares en sus bloques originales
@@ -1038,6 +1039,24 @@ class GeneradorHorarios {
             }
         }
 
+        for (const grupo of this.grupos) {
+            for (const dia of this.dias) {
+                const horarioDia = grupo.horario[dia];
+                for (const bloqueStr of Object.keys(horarioDia)) {
+                    const bloque = parseInt(bloqueStr);
+                    const asignacionGrupo = horarioDia[bloque];
+                    if (!asignacionGrupo.materia || asignacionGrupo.materia === "Extracurricular") continue;
+
+                    const profesor = asignacionGrupo.docente ? this.profesores.find(p => p.nombre === asignacionGrupo.docente) : null;
+                    const asignacionProfesor = profesor?.horario[dia][bloque];
+                    if (!profesor || !asignacionProfesor || asignacionProfesor.grupo !== grupo.nomenclatura || asignacionProfesor.materia !== asignacionGrupo.materia) {
+                        console.error(`❌ ERROR: Grupo ${grupo.nomenclatura} tiene ${asignacionGrupo.materia} con ${asignacionGrupo.docente || 'N/A'} en ${dia} bloque ${bloque}, pero no coincide con horario docente`);
+                        errores++;
+                    }
+                }
+            }
+        }
+
         if (errores === 0) {
             console.log("✅ Todos los horarios están coherentes");
         } else {
@@ -1046,7 +1065,6 @@ class GeneradorHorarios {
 
         return errores === 0;
     }
-
 
     // ================== Nuevo: Estadísticas detalladas ==================
     mostrarEstadisticasDetalladas() {
@@ -1202,7 +1220,7 @@ class GeneradorHorarios {
         console.log("\n=== REORGANIZANDO HORARIOS ===");
         this.reorganizarHorariosGrupalesYDocentes();
 
-         console.log("\n=== VALIDANDO COHERENCIA FINAL ===");
+        console.log("\n=== VALIDANDO COHERENCIA FINAL ===");
         this.validarCoherenciaHorarios();
 
         console.log("\n=== ESTADÍSTICAS FINALES ===");
