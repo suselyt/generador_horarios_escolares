@@ -36,7 +36,7 @@ class GeneradorHorarios {
         for (let dia of this.dias) {
             matriz[dia] = {};
             for (let bloque = 1; bloque <= this.totalBloques; bloque++) {
-                matriz[dia][bloque] = { materia: null, grupo: null, semestre: null };
+                matriz[dia][bloque] = { materia: null, abreviatura: null, grupo: null, semestre: null };
             }
         }
         return matriz;
@@ -56,7 +56,7 @@ class GeneradorHorarios {
         for (let dia of this.dias) {
             matriz[dia] = {};
             for (let bloque = bloque_inicio; bloque <= bloque_fin; bloque++) {
-                matriz[dia][bloque] = { materia: null, docente: null, aula: null };
+                matriz[dia][bloque] = { materia: null, abreviatura: null, docente: null, aula: null };
             }
         }
         return { matriz, total_bloques };
@@ -174,6 +174,7 @@ class GeneradorHorarios {
         const materia = this.materias.find(m => m.id === materiaId);
         profesor.horario[dia][bloque] = {
             materia: materia ? materia.nombre : materiaId,
+            abreviatura: materia ? materia.abreviatura || null : null,
             grupo: grupo.nomenclatura,
             semestre: grupo.semestre
         };
@@ -405,6 +406,7 @@ class GeneradorHorarios {
                         const actividad = p.horas_extracurriculares[0];
                         p.horario[dia][bloqueAsignado] = {
                             materia: `Extracurricular: ${actividad.nombre} - ${semestre}° Semestre`,
+                            abreviatura: actividad.abreviatura || null,
                             grupo: `Semestre ${semestre}`,
                             semestre: semestre
                         };
@@ -545,6 +547,7 @@ class GeneradorHorarios {
                         if (profesorDisponible && grupoDisponible && noEsHorarioRestringido) {
                             profesor.horario[dia][bloque] = {
                                 materia: "Tutorías",
+                                abreviatura: "TUTOR", // o buscar en horas_fortalecimiento_academico del profe
                                 grupo: grupo.nomenclatura,
                                 semestre: grupo.semestre
                             };
@@ -607,6 +610,7 @@ class GeneradorHorarios {
                         if (profesor.horario[dia][bloque].materia === null) {
                             profesor.horario[dia][bloque] = {
                                 materia: actividad.nombre,
+                                abreviatura: actividad.abreviatura || null,
                                 grupo: null,
                                 semestre: null
                             };
@@ -737,6 +741,7 @@ class GeneradorHorarios {
                             if (profesor.horario[dia][bloque].materia === null) {
                                 profesor.horario[dia][bloque] = {
                                     materia: actividad.nombre,
+                                    abreviatura: actividad.abreviatura || null,
                                     grupo: null,
                                     semestre: null
                                 };
@@ -823,7 +828,7 @@ class GeneradorHorarios {
 
                 // Vaciar horario del grupo para este día
                 for (let b = bloqueInicio; b <= bloqueFin; b++) {
-                    grupo.horario[dia][b] = { materia: null, docente: null, aula: null };
+                    grupo.horario[dia][b] = { materia: null, abreviatura:null, docente: null, aula: null };
                 }
 
                 // Recolocar clases en bloques compactos
@@ -831,6 +836,7 @@ class GeneradorHorarios {
                     const nuevoBloque = bloqueInicio + i;
                     grupo.horario[dia][nuevoBloque] = {
                         materia: clase.materia,
+                        abreviatura: clase.abreviatura,
                         docente: clase.docente,
                         aula: clase.aula
                     };
@@ -840,10 +846,11 @@ class GeneradorHorarios {
                         const profesor = this.profesores.find(p => p.nombre === clase.docente);
                         if (profesor && nuevoBloque !== clase.bloqueOriginal) {
                             // Limpiar bloque anterior
-                            profesor.horario[dia][clase.bloqueOriginal] = { materia: null, grupo: null, semestre: null };
+                            profesor.horario[dia][clase.bloqueOriginal] = { materia: null, abreviatura:null, grupo: null, semestre: null };
                             // Asignar nuevo bloque
                             profesor.horario[dia][nuevoBloque] = {
                                 materia: clase.materia,
+                                abreviatura: clase.abreviatura,
                                 grupo: grupo.nomenclatura,
                                 semestre: grupo.semestre
                             };
@@ -890,6 +897,7 @@ class GeneradorHorarios {
                         if (grupo && this.validarTurnoGrupo(grupo, bloque)) {
                             grupo.horario[dia][bloque] = {
                                 materia: bProfesor.materia,
+                                abreviatura: bProfesor.abreviatura,
                                 docente: profesor.nombre,
                                 aula: null
                             };
