@@ -152,9 +152,9 @@
           "semestre": null
         },
         "2": {
-          "materia": "Modulo profesional",
-          "grupo": "501A",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
           "materia": "Modulo profesional",
@@ -172,9 +172,9 @@
           "semestre": 5
         },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Humanidades II",
+          "grupo": "302B",
+          "semestre": 3
         },
         "7": {
           "materia": "Humanidades II",
@@ -1135,22 +1135,22 @@
           "semestre": null
         },
         "6": {
-          "materia": "Concursos",
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Pintura - 5° Semestre",
+          "grupo": "Semestre 5",
+          "semestre": 5
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Pintura - 3° Semestre",
+          "grupo": "Semestre 3",
+          "semestre": 3
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Pintura - 1° Semestre",
+          "grupo": "Semestre 1",
+          "semestre": 1
         },
         "9": {
-          "materia": null,
+          "materia": "Concursos",
           "grupo": null,
           "semestre": null
         },
@@ -1207,19 +1207,19 @@
           "semestre": null
         },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Pintura - 5° Semestre",
+          "grupo": "Semestre 5",
+          "semestre": 5
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Pintura - 3° Semestre",
+          "grupo": "Semestre 3",
+          "semestre": 3
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Pintura - 1° Semestre",
+          "grupo": "Semestre 1",
+          "semestre": 1
         },
         "9": {
           "materia": null,
@@ -1279,19 +1279,19 @@
           "semestre": null
         },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Pintura - 5° Semestre",
+          "grupo": "Semestre 5",
+          "semestre": 5
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Pintura - 3° Semestre",
+          "grupo": "Semestre 3",
+          "semestre": 3
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Pintura - 1° Semestre",
+          "grupo": "Semestre 1",
+          "semestre": 1
         },
         "9": {
           "materia": null,
@@ -1470,9 +1470,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 6,
+      "horasAsignadas": 15,
       "horasRequeridas": 12,
-      "porcentajeCompletado": "50.0"
+      "porcentajeCompletado": "125.0"
     }
   },
   "Cepeda Ramos Yuridia Lizbeth": {
@@ -1965,9 +1965,9 @@
           "semestre": null
         },
         "10": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "105K",
+          "semestre": 1
         },
         "11": {
           "materia": null,
@@ -2176,9 +2176,9 @@
           "semestre": null
         },
         "9": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "104J",
+          "semestre": 1
         },
         "10": {
           "materia": null,
@@ -2208,9 +2208,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 16,
+      "horasAsignadas": 18,
       "horasRequeridas": 20,
-      "porcentajeCompletado": "80.0"
+      "porcentajeCompletado": "90.0"
     }
   },
   "De la Rosa Ortega Gerardo": {
@@ -2344,9 +2344,9 @@
           "semestre": 5
         },
         "12": {
-          "materia": "Inglés III",
-          "grupo": "302H",
-          "semestre": 3
+          "materia": "Tutorías",
+          "grupo": "502J",
+          "semestre": 5
         },
         "13": {
           "materia": "Inglés III",
@@ -2426,9 +2426,9 @@
           "semestre": 3
         },
         "14": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "304J",
+          "semestre": 3
         }
       },
       "Jueves": {
@@ -2551,12 +2551,12 @@
         },
         "10": {
           "materia": "Inglés III",
-          "grupo": "305K",
+          "grupo": "302H",
           "semestre": 3
         },
         "11": {
           "materia": "Inglés III",
-          "grupo": "302H",
+          "grupo": "305K",
           "semestre": 3
         },
         "12": {
@@ -2577,9 +2577,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 41,
+      "horasAsignadas": 42,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "102.5"
+      "porcentajeCompletado": "105.0"
     }
   },
   "De León Flores Jorge Isidro": {
@@ -2611,22 +2611,22 @@
           "semestre": null
         },
         "6": {
-          "materia": "Concursos",
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Educación Física Premilitar - 5° Semestre",
+          "grupo": "Semestre 5",
+          "semestre": 5
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Educación Física Premilitar - 3° Semestre",
+          "grupo": "Semestre 3",
+          "semestre": 3
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Educación Física Premilitar - 1° Semestre",
+          "grupo": "Semestre 1",
+          "semestre": 1
         },
         "9": {
-          "materia": null,
+          "materia": "Concursos",
           "grupo": null,
           "semestre": null
         },
@@ -2683,19 +2683,19 @@
           "semestre": null
         },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Educación Física Premilitar - 5° Semestre",
+          "grupo": "Semestre 5",
+          "semestre": 5
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Educación Física Premilitar - 3° Semestre",
+          "grupo": "Semestre 3",
+          "semestre": 3
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Educación Física Premilitar - 1° Semestre",
+          "grupo": "Semestre 1",
+          "semestre": 1
         },
         "9": {
           "materia": null,
@@ -2755,19 +2755,19 @@
           "semestre": null
         },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Educación Física Premilitar - 5° Semestre",
+          "grupo": "Semestre 5",
+          "semestre": 5
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Educación Física Premilitar - 3° Semestre",
+          "grupo": "Semestre 3",
+          "semestre": 3
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Educación Física Premilitar - 1° Semestre",
+          "grupo": "Semestre 1",
+          "semestre": 1
         },
         "9": {
           "materia": null,
@@ -2946,9 +2946,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 6,
+      "horasAsignadas": 15,
       "horasRequeridas": 12,
-      "porcentajeCompletado": "50.0"
+      "porcentajeCompletado": "125.0"
     }
   },
   "González de la Fuente Samuel": {
@@ -3001,7 +3001,7 @@
         },
         "10": {
           "materia": "Humanidades I",
-          "grupo": "103I",
+          "grupo": "102H",
           "semestre": 1
         },
         "11": {
@@ -3010,9 +3010,9 @@
           "semestre": 1
         },
         "12": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Humanidades I",
+          "grupo": "103I",
+          "semestre": 1
         },
         "13": {
           "materia": null,
@@ -3315,9 +3315,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 33,
+      "horasAsignadas": 34,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "82.5"
+      "porcentajeCompletado": "85.0"
     }
   },
   "González López José Luis": {
@@ -3748,9 +3748,9 @@
           "semestre": null
         },
         "12": {
-          "materia": "Multidisciplinarias",
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "101G",
+          "semestre": 1
         },
         "13": {
           "materia": "Multidisciplinarias",
@@ -3785,7 +3785,7 @@
           "semestre": 5
         },
         "5": {
-          "materia": null,
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
@@ -3986,9 +3986,9 @@
           "semestre": 1
         },
         "2": {
-          "materia": "Tutorías",
-          "grupo": "505E",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
           "materia": null,
@@ -4107,12 +4107,12 @@
           "semestre": null
         },
         "10": {
-          "materia": "Asesorías Académicas",
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "103I",
+          "semestre": 1
         },
         "11": {
-          "materia": "Multidisciplinarias",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
@@ -4122,7 +4122,7 @@
           "semestre": null
         },
         "13": {
-          "materia": null,
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
@@ -4410,21 +4410,21 @@
           "semestre": null
         },
         "13": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "grupo": "301G",
-          "semestre": 3
-        },
-        "14": {
           "materia": null,
           "grupo": null,
           "semestre": null
+        },
+        "14": {
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "grupo": "301G",
+          "semestre": 3
         }
       }
     },
     "estadisticas": {
-      "horasAsignadas": 34,
+      "horasAsignadas": 35,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "85.0"
+      "porcentajeCompletado": "87.5"
     }
   },
   "Hernández Barrera J. Trinidad": {
@@ -5445,9 +5445,9 @@
           "semestre": 3
         },
         "13": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "503K",
+          "semestre": 5
         },
         "14": {
           "materia": null,
@@ -5502,9 +5502,9 @@
           "semestre": 5
         },
         "10": {
-          "materia": "Modulo profesional",
-          "grupo": "503K",
-          "semestre": 5
+          "materia": "Tutorías",
+          "grupo": "305K",
+          "semestre": 3
         },
         "11": {
           "materia": "Modulo profesional",
@@ -5529,9 +5529,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 34,
+      "horasAsignadas": 35,
       "horasRequeridas": 34,
-      "porcentajeCompletado": "100.0"
+      "porcentajeCompletado": "102.9"
     }
   },
   "Herrera García Brenda Itzel": {
@@ -7500,9 +7500,9 @@
           "semestre": 3
         },
         "10": {
-          "materia": "Cultura Digital I",
-          "grupo": "105K",
-          "semestre": 1
+          "materia": "Modulo profesional",
+          "grupo": "302H",
+          "semestre": 3
         },
         "11": {
           "materia": "Cultura Digital I",
@@ -7510,9 +7510,9 @@
           "semestre": 1
         },
         "12": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Cultura Digital I",
+          "grupo": "105K",
+          "semestre": 1
         },
         "13": {
           "materia": null,
@@ -7743,9 +7743,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 30,
+      "horasAsignadas": 31,
       "horasRequeridas": 32,
-      "porcentajeCompletado": "93.8"
+      "porcentajeCompletado": "96.9"
     }
   },
   "Martínez González Sanjuana Maribel": {
@@ -8914,12 +8914,12 @@
           "semestre": null
         },
         "12": {
-          "materia": "Asesorías Académicas",
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "102H",
+          "semestre": 1
         },
         "13": {
-          "materia": "Multidisciplinarias",
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
@@ -8936,7 +8936,7 @@
           "semestre": null
         },
         "2": {
-          "materia": "Asesorías Académicas",
+          "materia": "Multidisciplinarias",
           "grupo": null,
           "semestre": null
         },
@@ -8961,7 +8961,7 @@
           "semestre": null
         },
         "7": {
-          "materia": null,
+          "materia": "Asesorías Académicas",
           "grupo": null,
           "semestre": null
         },
@@ -9028,9 +9028,9 @@
           "semestre": null
         },
         "6": {
-          "materia": "Tutorías",
-          "grupo": "501A",
-          "semestre": 5
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
           "materia": null,
@@ -9253,22 +9253,22 @@
           "semestre": null
         },
         "6": {
-          "materia": "Concursos",
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Danza - 5° Semestre",
+          "grupo": "Semestre 5",
+          "semestre": 5
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Danza - 3° Semestre",
+          "grupo": "Semestre 3",
+          "semestre": 3
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Danza - 1° Semestre",
+          "grupo": "Semestre 1",
+          "semestre": 1
         },
         "9": {
-          "materia": null,
+          "materia": "Concursos",
           "grupo": null,
           "semestre": null
         },
@@ -9325,19 +9325,19 @@
           "semestre": null
         },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Danza - 5° Semestre",
+          "grupo": "Semestre 5",
+          "semestre": 5
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Danza - 3° Semestre",
+          "grupo": "Semestre 3",
+          "semestre": 3
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Danza - 1° Semestre",
+          "grupo": "Semestre 1",
+          "semestre": 1
         },
         "9": {
           "materia": null,
@@ -9397,19 +9397,19 @@
           "semestre": null
         },
         "6": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Danza - 5° Semestre",
+          "grupo": "Semestre 5",
+          "semestre": 5
         },
         "7": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Danza - 3° Semestre",
+          "grupo": "Semestre 3",
+          "semestre": 3
         },
         "8": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Extracurricular: Danza - 1° Semestre",
+          "grupo": "Semestre 1",
+          "semestre": 1
         },
         "9": {
           "materia": null,
@@ -9588,9 +9588,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 6,
+      "horasAsignadas": 15,
       "horasRequeridas": 12,
-      "porcentajeCompletado": "50.0"
+      "porcentajeCompletado": "125.0"
     }
   },
   "Rodríguez Peláez Carolina": {
@@ -9926,7 +9926,7 @@
         },
         "9": {
           "materia": "Inglés I",
-          "grupo": "104J",
+          "grupo": "102H",
           "semestre": 1
         },
         "10": {
@@ -9935,9 +9935,9 @@
           "semestre": 1
         },
         "11": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés I",
+          "grupo": "104J",
+          "semestre": 1
         },
         "12": {
           "materia": null,
@@ -9957,9 +9957,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 29,
+      "horasAsignadas": 30,
       "horasRequeridas": 36,
-      "porcentajeCompletado": "80.6"
+      "porcentajeCompletado": "83.3"
     }
   },
   "Reyes Norberto Mildred Yasmín": {
@@ -11421,9 +11421,9 @@
           "semestre": null
         },
         "13": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "301G",
+          "semestre": 3
         },
         "14": {
           "materia": null,
@@ -11433,9 +11433,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 48,
+      "horasAsignadas": 49,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "120.0"
+      "porcentajeCompletado": "122.5"
     }
   },
   "Santoyo Arroyo Mario Alonso": {
@@ -12329,9 +12329,9 @@
           "semestre": 5
         },
         "2": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "501A",
+          "semestre": 5
         },
         "3": {
           "materia": null,
@@ -12540,9 +12540,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 39,
+      "horasAsignadas": 40,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "97.5"
+      "porcentajeCompletado": "100.0"
     }
   },
   "Solís Rieboles Ulises": {
@@ -12687,7 +12687,7 @@
         },
         "14": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "grupo": "305K",
+          "grupo": "303I",
           "semestre": 3
         }
       },
@@ -12758,7 +12758,7 @@
           "semestre": 3
         },
         "14": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "materia": "Tutorías",
           "grupo": "303I",
           "semestre": 3
         }
@@ -12842,9 +12842,9 @@
           "semestre": null
         },
         "2": {
-          "materia": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "grupo": "505E",
+          "semestre": 5
         },
         "3": {
           "materia": null,
@@ -12909,9 +12909,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 29,
+      "horasAsignadas": 30,
       "horasRequeridas": 32,
-      "porcentajeCompletado": "90.6"
+      "porcentajeCompletado": "93.8"
     }
   },
   "Torres Quiñones Norma Elena": {
@@ -13424,9 +13424,9 @@
           "semestre": null
         },
         "14": {
-          "materia": "Humanidades II",
-          "grupo": "303I",
-          "semestre": 3
+          "materia": null,
+          "grupo": null,
+          "semestre": null
         }
       },
       "Miercoles": {
@@ -13647,9 +13647,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 15,
+      "horasAsignadas": 14,
       "horasRequeridas": 17,
-      "porcentajeCompletado": "88.2"
+      "porcentajeCompletado": "82.4"
     }
   },
   "Zapata Aldape Bertha Alicia": {

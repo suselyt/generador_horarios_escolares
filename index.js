@@ -14,7 +14,7 @@ class GeneradorHorarios {
         this.config = config;
         this.dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"];
         this.totalBloques = config.bloques_matutino + config.bloques_vespertino - 1;
-        
+
         // Nuevo: estadísticas para mejor distribución
         this.estadisticasGrupos = new Map();
         this.inicializarEstadisticas();
@@ -104,7 +104,7 @@ class GeneradorHorarios {
         const materiaId = materia.id || materia;
         const materiaInfo = this.materias.find(m => m.id === materiaId);
         const materiaNombre = materiaInfo ? materiaInfo.nombre : materiaId;
-        
+
         for (const profesor of this.profesores) {
             for (let bloque = 1; bloque <= this.totalBloques; bloque++) {
                 if (profesor.horario[dia][bloque].grupo === grupo.nomenclatura &&
@@ -121,7 +121,7 @@ class GeneradorHorarios {
         const materiaId = materia.id || materia;
         const materiaInfo = this.materias.find(m => m.id === materiaId);
         const materiaNombre = materiaInfo ? materiaInfo.nombre : materiaId;
-        
+
         for (const dia of this.dias) {
             total += this.contarHorasMateriaPorDia(grupo, materia, dia);
         }
@@ -143,32 +143,34 @@ class GeneradorHorarios {
             if (materiaObj) {
                 const maxHorasPorDia = this.calcularMaxHorasPorDia(materiaObj);
                 if (this.contarHorasMateriaPorDia(grupo, materia, dia) >= maxHorasPorDia) return false;
-                
+
                 // Nuevo: evitar concentrar todas las horas de una materia en pocos días
                 const horasYaAsignadas = this.contarHorasMateriaTotalGrupo(grupo, materia);
                 const horasEnEsteDia = this.contarHorasMateriaPorDia(grupo, materia, dia);
-                
+
                 // Si ya tiene horas en este día y hay otros días disponibles, preferir distribuir
                 if (horasEnEsteDia > 0 && horasYaAsignadas < materiaObj.horas_semanales) {
-                    const diasConEstaMateria = this.dias.filter(d => 
+                    const diasConEstaMateria = this.dias.filter(d =>
                         this.contarHorasMateriaPorDia(grupo, materia, d) > 0
                     ).length;
-                    
-                    // Distribuir en máximo 3 días para módulos profesionales, 2 para tronco común
+
                     const maxDias = materiaObj.tipo === "modulo_profesional" ? 3 : 2;
-                    if (diasConEstaMateria >= maxDias) return false;
+                    // Solo aplicar el límite si ya se han completado todas las horas requeridas
+                    if (diasConEstaMateria >= maxDias && horasYaAsignadas >= materiaObj.horas_semanales) {
+                        return false;
+                    }
                 }
             }
         }
 
-        // Nuevo: verificar balance de horas por día del grupo
         const stats = this.estadisticasGrupos.get(grupo.nomenclatura);
         if (stats && stats.horasPorDia[dia] >= 8) return false; // Máximo 8 horas por día
 
         return true;
     }
 
-    // ================== Asignación base mejorada ==================
+
+    // ================== Asignación ==================
     asignarMateria(dia, bloque, profesor, grupo, materiaId) {
         const materia = this.materias.find(m => m.id === materiaId);
         profesor.horario[dia][bloque] = {
@@ -176,7 +178,7 @@ class GeneradorHorarios {
             grupo: grupo.nomenclatura,
             semestre: grupo.semestre
         };
-        
+
         // Actualizar estadísticas
         const stats = this.estadisticasGrupos.get(grupo.nomenclatura);
         if (stats) {
@@ -212,7 +214,7 @@ class GeneradorHorarios {
     // Nuevo: encontrar mejor día para asignar considerando balance
     encontrarMejorDiaParaAsignar(profesor, grupo, materia, cantidadHoras) {
         const diasDisponibles = [];
-        
+
         for (const dia of this.dias) {
             const bloques = this.encontrarBloquesConsecutivos(dia, profesor, grupo, materia, cantidadHoras);
             if (bloques) {
@@ -221,16 +223,16 @@ class GeneradorHorarios {
                 diasDisponibles.push({ dia, horasEnDia, bloques });
             }
         }
-        
+
         // Ordenar por días con menos horas (mejor distribución)
         diasDisponibles.sort((a, b) => a.horasEnDia - b.horasEnDia);
         return diasDisponibles.length > 0 ? diasDisponibles[0] : null;
     }
 
-    // ================== Asignar módulo profesional mejorado ==================
+    // ================== Asignar módulo profesional  ==================
     asignarModuloProfesional() {
         console.log("Iniciando asignación de módulos profesionales...");
-        
+
         for (const profesor of this.profesores) {
             if (!profesor.materias) continue;
 
@@ -282,10 +284,10 @@ class GeneradorHorarios {
         }
     }
 
-    // ================== Asignar tronco común mejorado ==================
+    // ================== Asignar tronco común  ==================
     asignarTroncoComun() {
         console.log("Iniciando asignación de tronco común...");
-        
+
         for (const profesor of this.profesores) {
             if (!profesor.materias) continue;
 
@@ -330,15 +332,14 @@ class GeneradorHorarios {
         }
     }
 
-    // ================== Asignar extracurriculares mejoradas ==================
+    // ================== Asignar extracurriculares  ==================
     asignarExtracurriculares() {
         console.log("Iniciando asignación de extracurriculares...");
-        
+
         const profesoresExtracurriculares = this.profesores.filter(p =>
             p.horas_extracurriculares && p.horas_extracurriculares.length > 0
         );
 
-        // Obtener todos los semestres únicos de grupos matutinos
         const semestres = [...new Set(this.grupos
             .filter(g => g.turno === "Matutino")
             .map(g => g.semestre)
@@ -346,88 +347,84 @@ class GeneradorHorarios {
 
         console.log(`Semestres encontrados: ${semestres.join(', ')}`);
 
-        // Asignar extracurriculares para cada semestre
         for (const semestre of semestres) {
             console.log(`\nAsignando extracurricular para semestre ${semestre}...`);
-            
-            const gruposDelSemestre = this.grupos.filter(g => 
-                g.semestre === semestre && g.turno === "Matutino"
-            );
 
-            // Buscar profesor disponible para este semestre
-            const profesorExtracurricular = profesoresExtracurriculares.find(p => {
-                const actividad = p.horas_extracurriculares?.[0];
-                if (!actividad) return false;
-                
-                const horasUsadas = this.contarHorasExtracurricularAsignadas(p, actividad.nombre);
-                return actividad.horas > horasUsadas;
-            });
+            let horasNecesarias = 3;
+            let diasAsignados = 0;
 
-            if (!profesorExtracurricular) {
-                console.warn(`No se encontró profesor disponible con horas extracurriculares para semestre ${semestre}`);
-                continue;
-            }
+            for (const dia of this.dias) {
+                if (diasAsignados >= horasNecesarias) break;
 
-            const extracurricular = profesorExtracurricular.horas_extracurriculares[0];
-            const horasNecesarias = 3;
-            let horasAsignadas = 0;
+                let bloqueAsignado = null;
 
-            console.log(`Profesor asignado: ${profesorExtracurricular.nombre} para ${extracurricular.nombre}`);
+                // Buscar desde el último bloque matutino hacia el primero
+                for (let bloque = this.config.bloque_fin_matutino; bloque >= 1; bloque--) {
+                    const gruposDelSemestre = this.grupos.filter(g =>
+                        g.semestre === semestre && g.turno === "Matutino"
+                    );
 
-            // Buscar 3 bloques consecutivos en la misma hora para todos los días
-            let bloqueSeleccionado = null;
-
-            // Buscar desde el último bloque matutino hacia atrás
-            for (let bloque = this.config.bloque_fin_matutino; bloque >= 1; bloque--) {
-                let disponibleEnTodosDias = true;
-
-                // Verificar si este bloque está disponible todos los días
-                for (const dia of this.dias) {
-                    const profesorDisponible = !profesorExtracurricular.horario[dia][bloque]?.materia;
-                    const todosGruposDisponibles = gruposDelSemestre.every(g => 
+                    const gruposDisponibles = gruposDelSemestre.every(g =>
                         !this.grupoTieneClases(g, dia, bloque)
                     );
 
-                    if (!profesorDisponible || !todosGruposDisponibles) {
-                        disponibleEnTodosDias = false;
+                    const profesDisponibles = profesoresExtracurriculares.every(p =>
+                        !p.horario[dia][bloque]?.materia
+                    );
+
+                    if (gruposDisponibles && profesDisponibles) {
+                        bloqueAsignado = bloque;
                         break;
                     }
                 }
 
-                if (disponibleEnTodosDias) {
-                    bloqueSeleccionado = bloque;
-                    break;
+                // Si no encontró en bloques altos, buscar en cualquier bloque libre
+                if (!bloqueAsignado) {
+                    for (let bloque = 1; bloque <= this.config.bloque_fin_matutino; bloque++) {
+                        const gruposDelSemestre = this.grupos.filter(g =>
+                            g.semestre === semestre && g.turno === "Matutino"
+                        );
+
+                        const gruposDisponibles = gruposDelSemestre.every(g =>
+                            !this.grupoTieneClases(g, dia, bloque)
+                        );
+
+                        const profesDisponibles = profesoresExtracurriculares.every(p =>
+                            !p.horario[dia][bloque]?.materia
+                        );
+
+                        if (gruposDisponibles && profesDisponibles) {
+                            bloqueAsignado = bloque;
+                            break;
+                        }
+                    }
+                }
+
+                // Si encontró un bloque, asignarlo a todos los profesores
+                if (bloqueAsignado) {
+                    profesoresExtracurriculares.forEach(p => {
+                        const actividad = p.horas_extracurriculares[0];
+                        p.horario[dia][bloqueAsignado] = {
+                            materia: `Extracurricular: ${actividad.nombre} - ${semestre}° Semestre`,
+                            grupo: `Semestre ${semestre}`,
+                            semestre: semestre
+                        };
+                    });
+
+                    console.log(`  ✓ Asignado extracurricular semestre ${semestre} - ${dia} Bloque ${bloqueAsignado}`);
+                    diasAsignados++;
                 }
             }
 
-            if (!bloqueSeleccionado) {
-                console.warn(`No se encontró un bloque disponible en todos los días para semestre ${semestre}`);
-                continue;
-            }
-
-            // Asignar extracurricular en el bloque seleccionado para 3 días
-            let diasAsignados = 0;
-            for (const dia of this.dias) {
-                if (diasAsignados >= horasNecesarias) break;
-
-                profesorExtracurricular.horario[dia][bloqueSeleccionado] = {
-                    materia: `Extracurricular: ${extracurricular.nombre} - ${semestre}° Semestre`,
-                    grupo: `Semestre ${semestre}`,
-                    semestre: semestre
-                };
-
-                console.log(`  ✓ Asignado extracurricular: ${extracurricular.nombre} - Semestre ${semestre} - ${dia} Bloque ${bloqueSeleccionado}`);
-                diasAsignados++;
-                horasAsignadas++;
-            }
-
-            if (horasAsignadas < horasNecesarias) {
-                console.warn(`Solo se asignaron ${horasAsignadas} de 3 horas para extracurricular del semestre ${semestre}`);
+            if (diasAsignados < horasNecesarias) {
+                console.warn(`Solo se asignaron ${diasAsignados} de ${horasNecesarias} horas para extracurricular del semestre ${semestre}`);
             } else {
-                console.log(`  ✅ Completadas 3 horas de extracurricular para semestre ${semestre} en bloque ${bloqueSeleccionado}`);
+                console.log(`  ✅ Completadas ${horasNecesarias} horas de extracurricular para semestre ${semestre}`);
             }
         }
     }
+
+
 
     contarHorasExtracurricularAsignadas(profesor, nombreActividad) {
         let total = 0;
@@ -442,67 +439,23 @@ class GeneradorHorarios {
         return total;
     }
 
-    asignarExtracurricularesAGrupos() {
-        for (const profesor of this.profesores) {
-            if (!profesor.horas_extracurriculares || profesor.horas_extracurriculares.length === 0) continue;
-
-            for (const dia of this.dias) {
-                for (let bloque = 1; bloque <= this.totalBloques; bloque++) {
-                    const asignacion = profesor.horario[dia][bloque];
-
-                    if (
-                        asignacion &&
-                        asignacion.materia &&
-                        asignacion.materia.toLowerCase().includes("extracurricular") &&
-                        asignacion.grupo?.toLowerCase().includes("semestre")
-                    ) {
-                        const semestre = parseInt(asignacion.grupo.match(/\d+/)?.[0]);
-
-                        if (!semestre) continue;
-
-                        const gruposDelSemestre = this.grupos.filter(
-                            g => g.semestre === semestre && g.turno === "Matutino"
-                        );
-
-                        for (const grupo of gruposDelSemestre) {
-                            if (this.validarTurnoGrupo(grupo, bloque)) {
-                                grupo.horario[dia][bloque] = {
-                                    materia: "Extracurricular",
-                                    docente: null,
-                                    aula: null
-                                };
-                                
-                                // Actualizar estadísticas
-                                const stats = this.estadisticasGrupos.get(grupo.nomenclatura);
-                                if (stats) {
-                                    stats.horasPorDia[dia]++;
-                                    stats.totalHoras++;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    // ================== Tutorías mejoradas ==================
+    // ================== Tutorías  ==================
     asignarTutorias() {
         console.log("Iniciando asignación de tutorías...");
-        
+
         for (const grupo of this.grupos) {
+
             let asignado = false;
             console.log(`Asignando tutoría para grupo ${grupo.nomenclatura}...`);
 
             // PASO 1: Buscar profesores que YA dan clases a este grupo Y tienen horas de tutoría
             let profesoresPreferidos = this.profesores.filter(profesor => {
-                // Verificar que tenga horas de tutoría disponibles
-                const horasTutorias = profesor.horas_fortalecimiento_academico?.find(h => 
+                const horasTutorias = profesor.horas_fortalecimiento_academico?.find(h =>
                     h.nombre === "Tutorías"
                 )?.horas || 0;
-                
+
                 if (horasTutorias === 0) return false;
-                
+
                 // Contar tutorías ya asignadas
                 let tutoriasYaAsignadas = 0;
                 for (const dia of this.dias) {
@@ -512,14 +465,13 @@ class GeneradorHorarios {
                         }
                     }
                 }
-                
                 if (tutoriasYaAsignadas >= horasTutorias) return false;
-                
-                // Verificar que YA tenga materias asignadas con este grupo
+
+                // Verificar que ya tenga materias asignadas con este grupo
                 let tieneMateriaConGrupo = false;
                 for (const dia of this.dias) {
                     for (let bloque = 1; bloque <= this.totalBloques; bloque++) {
-                        if (profesor.horario[dia][bloque].grupo === grupo.nomenclatura && 
+                        if (profesor.horario[dia][bloque].grupo === grupo.nomenclatura &&
                             profesor.horario[dia][bloque].materia !== "Tutorías") {
                             tieneMateriaConGrupo = true;
                             break;
@@ -527,22 +479,21 @@ class GeneradorHorarios {
                     }
                     if (tieneMateriaConGrupo) break;
                 }
-                
+
                 return tieneMateriaConGrupo;
             });
 
-            // PASO 2: Si no hay profesores preferidos, buscar CUALQUIER profesor con horas de tutoría
+            // PASO 2: Si no hay profesores preferidos, buscar cualquier profesor con tutorías
             if (profesoresPreferidos.length === 0) {
                 console.log(`  → No hay profesores que ya den clases al grupo ${grupo.nomenclatura}, buscando cualquier profesor con tutorías...`);
-                
+
                 profesoresPreferidos = this.profesores.filter(profesor => {
-                    const horasTutorias = profesor.horas_fortalecimiento_academico?.find(h => 
+                    const horasTutorias = profesor.horas_fortalecimiento_academico?.find(h =>
                         h.nombre === "Tutorías"
                     )?.horas || 0;
-                    
+
                     if (horasTutorias === 0) return false;
-                    
-                    // Contar tutorías ya asignadas
+
                     let tutoriasYaAsignadas = 0;
                     for (const dia of this.dias) {
                         for (let bloque = 1; bloque <= this.totalBloques; bloque++) {
@@ -551,7 +502,7 @@ class GeneradorHorarios {
                             }
                         }
                     }
-                    
+
                     return tutoriasYaAsignadas < horasTutorias;
                 });
             }
@@ -582,11 +533,9 @@ class GeneradorHorarios {
                     if (grupo.turno === "Matutino") {
                         bloqueInicio = 1;
                         bloqueFin = this.config.bloque_fin_matutino;
-                    } else if (grupo.turno === "Vespertino") {
+                    } else {
                         bloqueInicio = this.config.bloque_inicio_vespertino;
                         bloqueFin = this.totalBloques;
-                    } else {
-                        continue;
                     }
 
                     for (let bloque = bloqueInicio; bloque <= bloqueFin; bloque++) {
@@ -624,10 +573,11 @@ class GeneradorHorarios {
         }
     }
 
-    // ================== Asignar fortalecimiento académico mejorado ==================
+
+    // ================== Asignar fortalecimiento académico  ==================
     asignarFortalecimientoAcademico() {
         console.log("Iniciando asignación de fortalecimiento académico...");
-        
+
         for (const profesor of this.profesores) {
             const actividades = profesor.horas_fortalecimiento_academico;
 
@@ -641,8 +591,8 @@ class GeneradorHorarios {
 
                 // Priorizar bloques recomendados de no asignar
                 const bloquesPreferidos = profesor.bloques_recomendados_no_asignar || [];
-                const todosLosBloques = Array.from({length: this.totalBloques}, (_, i) => i + 1);
-                
+                const todosLosBloques = Array.from({ length: this.totalBloques }, (_, i) => i + 1);
+
                 // Ordenar: primero bloques preferidos, luego el resto
                 const bloquesOrdenados = [
                     ...bloquesPreferidos,
@@ -677,7 +627,7 @@ class GeneradorHorarios {
     // ================== Nuevo: Rellenar horas faltantes de profesores ==================
     completarHorasProfesores() {
         console.log("Completando horas faltantes de profesores...");
-        
+
         for (const profesor of this.profesores) {
             const horasAsignadas = this.calcularHorasAsignadasProfesor(profesor);
             const horasTotales = profesor.horas_semanales_totales || 0;
@@ -689,11 +639,11 @@ class GeneradorHorarios {
 
             // Intentar asignar más horas de materias existentes primero
             let horasCompletadas = 0;
-            
+
             if (profesor.materias) {
                 for (const materiaProfesor of profesor.materias) {
                     if (horasCompletadas >= horasFaltantes) break;
-                    
+
                     const materia = this.materias.find(m => m.id === materiaProfesor.id);
                     if (!materia) continue;
 
@@ -701,25 +651,25 @@ class GeneradorHorarios {
 
                     for (const grupoNom of gruposAsignados) {
                         if (horasCompletadas >= horasFaltantes) break;
-                        
+
                         const grupo = this.grupos.find(g => g.nomenclatura === grupoNom);
                         if (!grupo) continue;
 
                         // Verificar si ya se completaron las horas de esta materia
                         const horasYaAsignadas = this.contarHorasMateriaTotalGrupo(grupo, materia);
                         const horasFaltantesMateria = materia.horas_semanales - horasYaAsignadas;
-                        
+
                         if (horasFaltantesMateria <= 0) continue;
 
                         console.log(`  → Intentando completar ${materia.nombre} para ${grupoNom}: faltan ${horasFaltantesMateria}h`);
 
                         // Intentar asignar horas adicionales de esta materia
                         const maxTam = materia.tipo === "modulo_profesional" ? 4 : 2;
-                        
+
                         let horasAsignadasEstaMateria = 0;
                         while (horasAsignadasEstaMateria < horasFaltantesMateria && horasCompletadas < horasFaltantes) {
                             let asignado = false;
-                            
+
                             for (let tam = Math.min(maxTam, horasFaltantesMateria - horasAsignadasEstaMateria); tam >= 1; tam--) {
                                 const mejorDia = this.encontrarMejorDiaParaAsignar(profesor, grupo, materia, tam);
                                 if (mejorDia) {
@@ -732,7 +682,7 @@ class GeneradorHorarios {
                                     }
                                 }
                             }
-                            
+
                             if (!asignado) break;
                         }
                     }
@@ -743,11 +693,11 @@ class GeneradorHorarios {
             const horasAunFaltantes = horasFaltantes - horasCompletadas;
             if (horasAunFaltantes > 0 && profesor.horas_fortalecimiento_academico) {
                 console.log(`  → Asignando actividades de fortalecimiento académico específicas (${horasAunFaltantes}h)`);
-                
+
                 // Buscar actividades que no sean tutorías y tengan horas disponibles
                 const actividadesDisponibles = profesor.horas_fortalecimiento_academico.filter(act => {
                     if (act.nombre === "Tutorías") return false;
-                    
+
                     // Contar cuántas horas ya están asignadas de esta actividad
                     let horasYaAsignadas = 0;
                     for (const dia of this.dias) {
@@ -757,14 +707,14 @@ class GeneradorHorarios {
                             }
                         }
                     }
-                    
+
                     return horasYaAsignadas < act.horas;
                 });
 
                 let horasFortalecimiento = 0;
                 for (const actividad of actividadesDisponibles) {
                     if (horasFortalecimiento >= horasAunFaltantes) break;
-                    
+
                     // Calcular horas disponibles de esta actividad
                     let horasYaAsignadas = 0;
                     for (const dia of this.dias) {
@@ -774,17 +724,17 @@ class GeneradorHorarios {
                             }
                         }
                     }
-                    
+
                     const horasDisponiblesActividad = actividad.horas - horasYaAsignadas;
                     const horasPorAsignar = Math.min(horasDisponiblesActividad, horasAunFaltantes - horasFortalecimiento);
-                    
+
                     let horasAsignadasActividad = 0;
                     for (const dia of this.dias) {
                         if (horasAsignadasActividad >= horasPorAsignar) break;
-                        
+
                         for (let bloque = 1; bloque <= this.totalBloques; bloque++) {
                             if (horasAsignadasActividad >= horasPorAsignar) break;
-                            
+
                             if (profesor.horario[dia][bloque].materia === null) {
                                 profesor.horario[dia][bloque] = {
                                     materia: actividad.nombre,
@@ -798,7 +748,7 @@ class GeneradorHorarios {
                         }
                     }
                 }
-                
+
                 // Si aún faltan horas después de usar todas las actividades específicas, reportar pero NO asignar apoyo general
                 const horasFinalesFaltantes = horasAunFaltantes - horasFortalecimiento;
                 if (horasFinalesFaltantes > 0) {
@@ -809,11 +759,11 @@ class GeneradorHorarios {
             }
         }
     }
-                                
+
     // ================== Nuevo: Balancear distribución de horas por día ==================
     balancearDistribucionDiaria() {
         console.log("Balanceando distribución diaria de grupos...");
-        
+
         for (const grupo of this.grupos) {
             const stats = this.estadisticasGrupos.get(grupo.nomenclatura);
             if (!stats) continue;
@@ -821,23 +771,23 @@ class GeneradorHorarios {
             console.log(`Grupo ${grupo.nomenclatura}:`);
             let totalHoras = 0;
             let diasConClases = 0;
-            
+
             for (const dia of this.dias) {
                 const horas = stats.horasPorDia[dia];
                 console.log(`  ${dia}: ${horas} horas`);
                 totalHoras += horas;
                 if (horas > 0) diasConClases++;
             }
-            
+
             const promedioHorasPorDia = diasConClases > 0 ? totalHoras / diasConClases : 0;
             console.log(`  Total: ${totalHoras}h, Promedio: ${promedioHorasPorDia.toFixed(1)}h/día activo`);
-            
+
             // Identificar días con muy pocas horas
             const diasProblematicos = this.dias.filter(dia => {
                 const horas = stats.horasPorDia[dia];
                 return horas > 0 && horas < 4; // Menos de 4 horas en un día con clases
             });
-            
+
             if (diasProblematicos.length > 0) {
                 console.log(`  ⚠ Días con pocas horas: ${diasProblematicos.join(', ')}`);
             }
@@ -847,7 +797,7 @@ class GeneradorHorarios {
     // ================== Compactar horarios mejorado ==================
     reorganizarHorariosGrupalesYDocentes() {
         console.log("Reorganizando horarios grupales...");
-        
+
         for (const grupo of this.grupos) {
             let bloqueInicio, bloqueFin;
             if (grupo.turno === "Matutino") {
@@ -909,15 +859,16 @@ class GeneradorHorarios {
     generarHorariosDocentes() {
         console.log("\n=== INICIALIZANDO HORARIOS DE PROFESORES ===");
         this.inicializarHorariosProfesores();
+        this.inicializarHorariosEscolares();
+
+        console.log("\n=== ASIGNANDO EXTRACURRICULARES ===");
+        this.asignarExtracurriculares();
 
         console.log("\n=== ASIGNANDO MÓDULOS PROFESIONALES ===");
         this.asignarModuloProfesional();
 
         console.log("\n=== ASIGNANDO TRONCO COMÚN ===");
         this.asignarTroncoComun();
-
-        console.log("\n=== ASIGNANDO EXTRACURRICULARES ===");
-        this.asignarExtracurriculares();
 
         console.log("\n=== ASIGNANDO TUTORÍAS ===");
         this.asignarTutorias();
@@ -931,8 +882,6 @@ class GeneradorHorarios {
 
     generarHorariosGrupales() {
         console.log("\n=== GENERANDO HORARIOS GRUPALES ===");
-        this.inicializarHorariosEscolares();
-        
         for (const profesor of this.profesores) {
             for (const dia of this.dias) {
                 for (let bloque = 1; bloque <= this.totalBloques; bloque++) {
@@ -950,7 +899,6 @@ class GeneradorHorarios {
                 }
             }
         }
-        this.asignarExtracurricularesAGrupos();
     }
 
     // ================== Utilidades para estadísticas mejoradas ==================
@@ -990,22 +938,22 @@ class GeneradorHorarios {
     // ================== Nuevo: Estadísticas detalladas ==================
     mostrarEstadisticasDetalladas() {
         console.log("\n=== ESTADÍSTICAS DETALLADAS ===");
-        
+
         console.log("\n--- PROFESORES ---");
         let totalHorasAsignadas = 0;
         let totalHorasRequeridas = 0;
-        
+
         for (const profesor of this.profesores) {
             const horasAsignadas = this.calcularHorasAsignadasProfesor(profesor);
             const horasRequeridas = profesor.horas_semanales_totales || 0;
             const porcentaje = horasRequeridas > 0 ? ((horasAsignadas / horasRequeridas) * 100).toFixed(1) : 0;
-            
+
             totalHorasAsignadas += horasAsignadas;
             totalHorasRequeridas += horasRequeridas;
-            
+
             console.log(`${profesor.nombre.padEnd(25)} | ${horasAsignadas.toString().padStart(2)}/${horasRequeridas.toString().padStart(2)} horas (${porcentaje}%)`);
         }
-        
+
         const porcentajeGlobal = totalHorasRequeridas > 0 ? ((totalHorasAsignadas / totalHorasRequeridas) * 100).toFixed(1) : 0;
         console.log(`${'TOTAL'.padEnd(25)} | ${totalHorasAsignadas}/${totalHorasRequeridas} horas (${porcentajeGlobal}%)`);
 
@@ -1013,13 +961,13 @@ class GeneradorHorarios {
         for (const grupo of this.grupos) {
             const stats = this.estadisticasGrupos.get(grupo.nomenclatura);
             const huecos = this.calcularHuecosGrupo(grupo);
-            
-            console.log(`${grupo.nomenclatura.padEnd(15)} | Total: ${stats.totalHoras.toString().padStart(2)}h | Huecos: ${huecos} | Distribución: ${this.dias.map(dia => `${dia.substr(0,3)}:${stats.horasPorDia[dia]}`).join(' ')}`);
+
+            console.log(`${grupo.nomenclatura.padEnd(15)} | Total: ${stats.totalHoras.toString().padStart(2)}h | Huecos: ${huecos} | Distribución: ${this.dias.map(dia => `${dia.substr(0, 3)}:${stats.horasPorDia[dia]}`).join(' ')}`);
         }
 
         console.log("\n--- RESUMEN POR MATERIA ---");
         const resumenMaterias = new Map();
-        
+
         for (const profesor of this.profesores) {
             for (const dia of this.dias) {
                 for (let bloque = 1; bloque <= this.totalBloques; bloque++) {
@@ -1034,7 +982,7 @@ class GeneradorHorarios {
                 }
             }
         }
-        
+
         for (const [key, horas] of resumenMaterias) {
             const [materia, grupo] = key.split('-');
             console.log(`${materia.padEnd(30)} | ${grupo.padEnd(10)} | ${horas}h`);
@@ -1050,12 +998,12 @@ class GeneradorHorarios {
         for (const grupo of this.grupos) {
             console.log(`\n📋 Grupo ${grupo.nomenclatura} (${grupo.turno})`);
             console.log("═".repeat(80));
-            
+
             for (const dia of this.dias) {
                 let linea = `${dia.padEnd(10)}: `;
                 let bloqueInicio = grupo.turno === "Matutino" ? 1 : this.config.bloque_inicio_vespertino;
                 let bloqueFin = grupo.turno === "Matutino" ? this.config.bloque_fin_matutino : this.totalBloques;
-                
+
                 for (let bloque = bloqueInicio; bloque <= bloqueFin; bloque++) {
                     const materia = grupo.horario[dia][bloque]?.materia || "-----";
                     linea += `[${bloque}:${materia.substr(0, 8).padEnd(8)}] `;
@@ -1070,7 +1018,7 @@ class GeneradorHorarios {
         for (const profesor of this.profesores) {
             console.log(`\n👨‍🏫 Profesor: ${profesor.nombre}`);
             console.log("═".repeat(60));
-            
+
             for (const dia of this.dias) {
                 console.log(`\n${dia}:`);
                 for (let bloque = 1; bloque <= this.totalBloques; bloque++) {
@@ -1115,7 +1063,7 @@ class GeneradorHorarios {
                 estadisticas: {
                     horasAsignadas: horasAsignadas,
                     horasRequeridas: profesor.horas_semanales_totales || 0,
-                    porcentajeCompletado: profesor.horas_semanales_totales > 0 ? 
+                    porcentajeCompletado: profesor.horas_semanales_totales > 0 ?
                         ((horasAsignadas / profesor.horas_semanales_totales) * 100).toFixed(1) : 0
                 }
             };
@@ -1131,20 +1079,20 @@ class GeneradorHorarios {
 
         this.generarHorariosDocentes();
         this.generarHorariosGrupales();
-        
+
         console.log("\n=== BALANCEANDO DISTRIBUCIÓN ===");
         this.balancearDistribucionDiaria();
-        
+
         console.log("\n=== REORGANIZANDO HORARIOS ===");
         this.reorganizarHorariosGrupalesYDocentes();
-        
+
         console.log("\n=== ESTADÍSTICAS FINALES ===");
         this.mostrarEstadisticas();
-        
+
         console.log("\n=== EXPORTANDO RESULTADOS ===");
         this.exportarHorariosGrupalesJSON();
         this.exportarHorariosProfesoresJSON();
-        
+
         console.log("\n✅ Generación de horarios completada exitosamente");
         return true;
     }
@@ -1154,11 +1102,11 @@ class GeneradorHorarios {
 try {
     const generador = new GeneradorHorarios(materias, grupos, profesores, config);
     generador.ejecutarGeneracionCompleta();
-    
+
     // Mostrar horarios si se desea (comentar para menos salida)
     generador.imprimirHorariosGrupales();
     generador.imprimirAsignacionesProfesores();
-    
+
 } catch (error) {
     console.error("❌ Error durante la generación de horarios:", error);
     process.exit(1);

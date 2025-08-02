@@ -1407,8 +1407,8 @@
           "aula": null
         },
         "12": {
-          "materia": null,
-          "docente": null,
+          "materia": "Tutorías",
+          "docente": "Guadalupe de la Cruz Romualdo",
           "aula": null
         },
         "13": {
@@ -1573,15 +1573,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 21,
+      "totalHoras": 22,
       "horasPorDia": {
-        "Lunes": 4,
+        "Lunes": 5,
         "Martes": 5,
         "Miercoles": 4,
         "Jueves": 4,
         "Viernes": 4
       },
-      "promedioDiario": "4.2"
+      "promedioDiario": "4.4"
     }
   },
   "102H": {
@@ -1612,8 +1612,8 @@
           "aula": null
         },
         "12": {
-          "materia": null,
-          "docente": null,
+          "materia": "Tutorías",
+          "docente": "Ramírez Solís Erik",
           "aula": null
         },
         "13": {
@@ -1778,15 +1778,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 21,
+      "totalHoras": 22,
       "horasPorDia": {
-        "Lunes": 4,
+        "Lunes": 5,
         "Martes": 4,
         "Miercoles": 4,
         "Jueves": 5,
         "Viernes": 4
       },
-      "promedioDiario": "4.2"
+      "promedioDiario": "4.4"
     }
   },
   "103I": {
@@ -1807,8 +1807,8 @@
           "aula": null
         },
         "10": {
-          "materia": "Humanidades I",
-          "docente": "González de la Fuente Samuel",
+          "materia": "Tutorías",
+          "docente": "Heredia Blanco Laura Esmeralda",
           "aula": null
         },
         "11": {
@@ -1817,8 +1817,8 @@
           "aula": null
         },
         "12": {
-          "materia": null,
-          "docente": null,
+          "materia": "Humanidades I",
+          "docente": "González de la Fuente Samuel",
           "aula": null
         },
         "13": {
@@ -1983,15 +1983,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 21,
+      "totalHoras": 22,
       "horasPorDia": {
-        "Lunes": 4,
+        "Lunes": 5,
         "Martes": 5,
         "Miercoles": 4,
         "Jueves": 5,
         "Viernes": 3
       },
-      "promedioDiario": "4.2"
+      "promedioDiario": "4.4"
     }
   },
   "104J": {
@@ -2155,8 +2155,8 @@
           "aula": null
         },
         "9": {
-          "materia": "Inglés I",
-          "docente": "Rodríguez Peláez Carolina",
+          "materia": "Tutorías",
+          "docente": "De La Fuente Escobedo Luis Ramón",
           "aula": null
         },
         "10": {
@@ -2165,8 +2165,8 @@
           "aula": null
         },
         "11": {
-          "materia": null,
-          "docente": null,
+          "materia": "Inglés I",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
         "12": {
@@ -2188,15 +2188,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 20,
+      "totalHoras": 21,
       "horasPorDia": {
         "Lunes": 5,
         "Martes": 4,
         "Miercoles": 4,
         "Jueves": 4,
-        "Viernes": 3
+        "Viernes": 4
       },
-      "promedioDiario": "4.0"
+      "promedioDiario": "4.2"
     }
   },
   "105K": {
@@ -2254,8 +2254,8 @@
           "aula": null
         },
         "10": {
-          "materia": "Cultura Digital I",
-          "docente": "Limón Martínez Benjamín",
+          "materia": "Tutorías",
+          "docente": "De La Fuente Escobedo Luis Ramón",
           "aula": null
         },
         "11": {
@@ -2264,8 +2264,8 @@
           "aula": null
         },
         "12": {
-          "materia": null,
-          "docente": null,
+          "materia": "Cultura Digital I",
+          "docente": "Limón Martínez Benjamín",
           "aula": null
         },
         "13": {
@@ -2393,15 +2393,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 23,
+      "totalHoras": 24,
       "horasPorDia": {
         "Lunes": 5,
-        "Martes": 4,
+        "Martes": 5,
         "Miercoles": 5,
         "Jueves": 5,
         "Viernes": 4
       },
-      "promedioDiario": "4.6"
+      "promedioDiario": "4.8"
     }
   },
   "301A": {
@@ -3965,28 +3965,28 @@
           "aula": null
         },
         "13": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "docente": "Heredia Blanco Laura Esmeralda",
+          "materia": "Tutorías",
+          "docente": "Santoyo Arroyo María Patricia",
           "aula": null
         },
         "14": {
-          "materia": null,
-          "docente": null,
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "docente": "Heredia Blanco Laura Esmeralda",
           "aula": null
         }
       }
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 34,
+      "totalHoras": 35,
       "horasPorDia": {
         "Lunes": 7,
         "Martes": 7,
         "Miercoles": 7,
         "Jueves": 7,
-        "Viernes": 6
+        "Viernes": 7
       },
-      "promedioDiario": "6.8"
+      "promedioDiario": "7.0"
     }
   },
   "302H": {
@@ -4269,8 +4269,8 @@
           "aula": null
         },
         "14": {
-          "materia": "Humanidades II",
-          "docente": "Villasana García Rafael",
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         }
       },
@@ -4306,7 +4306,7 @@
           "aula": null
         },
         "14": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "materia": "Tutorías",
           "docente": "Solís Rieboles Ulises",
           "aula": null
         }
@@ -4511,8 +4511,8 @@
           "aula": null
         },
         "14": {
-          "materia": null,
-          "docente": null,
+          "materia": "Tutorías",
+          "docente": "De la Rosa Ortega Gerardo",
           "aula": null
         }
       },
@@ -4593,15 +4593,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 34,
+      "totalHoras": 35,
       "horasPorDia": {
         "Lunes": 7,
         "Martes": 7,
-        "Miercoles": 6,
+        "Miercoles": 7,
         "Jueves": 7,
         "Viernes": 7
       },
-      "promedioDiario": "6.8"
+      "promedioDiario": "7.0"
     }
   },
   "305K": {
@@ -4679,8 +4679,8 @@
           "aula": null
         },
         "14": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "docente": "Solís Rieboles Ulises",
+          "materia": null,
+          "docente": null,
           "aula": null
         }
       },
@@ -4770,13 +4770,13 @@
           "aula": null
         },
         "10": {
-          "materia": "Inglés III",
-          "docente": "De la Rosa Ortega Gerardo",
+          "materia": "Tutorías",
+          "docente": "Herrera García Marco Iván",
           "aula": null
         },
         "11": {
-          "materia": null,
-          "docente": null,
+          "materia": "Inglés III",
+          "docente": "De la Rosa Ortega Gerardo",
           "aula": null
         },
         "12": {
@@ -4801,10 +4801,10 @@
       "totalHoras": 31,
       "horasPorDia": {
         "Lunes": 7,
-        "Martes": 7,
+        "Martes": 6,
         "Miercoles": 7,
         "Jueves": 7,
-        "Viernes": 3
+        "Viernes": 4
       },
       "promedioDiario": "6.2"
     }
@@ -4906,8 +4906,8 @@
           "aula": null
         },
         "2": {
-          "materia": "Modulo profesional",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Tutorías",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "3": {
@@ -4926,8 +4926,8 @@
           "aula": null
         },
         "6": {
-          "materia": "Tutorías",
-          "docente": "Ramírez Solís Erik",
+          "materia": "Modulo profesional",
+          "docente": "Acosta García Javier Alfonso",
           "aula": null
         },
         "7": {
@@ -5911,7 +5911,7 @@
         },
         "2": {
           "materia": "Tutorías",
-          "docente": "Guadalupe de la Cruz Romualdo",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "3": {
@@ -6919,8 +6919,8 @@
           "aula": null
         },
         "12": {
-          "materia": null,
-          "docente": null,
+          "materia": "Tutorías",
+          "docente": "De la Rosa Ortega Gerardo",
           "aula": null
         },
         "13": {
@@ -7048,15 +7048,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 20,
+      "totalHoras": 21,
       "horasPorDia": {
         "Lunes": 5,
-        "Martes": 4,
+        "Martes": 5,
         "Miercoles": 4,
         "Jueves": 3,
         "Viernes": 4
       },
-      "promedioDiario": "4.0"
+      "promedioDiario": "4.2"
     }
   },
   "503K": {
@@ -7203,8 +7203,8 @@
           "aula": null
         },
         "13": {
-          "materia": null,
-          "docente": null,
+          "materia": "Tutorías",
+          "docente": "Herrera García Marco Iván",
           "aula": null
         },
         "14": {
@@ -7253,15 +7253,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 32,
+      "totalHoras": 33,
       "horasPorDia": {
         "Lunes": 7,
         "Martes": 7,
         "Miercoles": 6,
-        "Jueves": 5,
+        "Jueves": 6,
         "Viernes": 7
       },
-      "promedioDiario": "6.4"
+      "promedioDiario": "6.6"
     }
   }
 }
