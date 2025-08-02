@@ -98,7 +98,6 @@ class GeneradorHorarios {
         return false;
     }
 
-    // Mejorado: mejor control de horas por materia y día
     contarHorasMateriaPorDia(grupo, materia, dia) {
         let contador = 0;
         const materiaId = materia.id || materia;

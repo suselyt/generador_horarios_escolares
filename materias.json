@@ -2,7 +2,7 @@
     {
         "id": "LYC1",
         "nombre": "Lengua y Comunicación I",
-        "abreviatura": "",
+        "abreviatura": "LYC1",
         "semestre": 1,
         "tipo": "tronco_comun",
         "horas_semanales": 3
@@ -10,7 +10,7 @@
     {
         "id": "I1",
         "nombre": "Inglés I",
-        "abreviatura": "",
+        "abreviatura": "ING1",
         "semestre": 1,
         "tipo": "tronco_comun",
         "horas_semanales": 3
@@ -18,7 +18,7 @@
     {
         "id": "PM1",
         "nombre": "Pensamiento Matemático I",
-        "abreviatura": "",
+        "abreviatura": "PM1",
         "semestre": 1,
         "tipo": "tronco_comun",
         "horas_semanales": 4
@@ -26,7 +26,7 @@
     {
         "id": "CD1",
         "nombre": "Cultura Digital I",
-        "abreviatura": "",
+        "abreviatura": "CD1",
         "semestre": 1,
         "tipo": "tronco_comun",
         "horas_semanales": 3
@@ -34,7 +34,7 @@
     {
         "id": "LMYSI",
         "nombre": "La materia y sus interacciones",
-        "abreviatura": "",
+        "abreviatura": "LMYSI",
         "semestre": 1,
         "tipo": "tronco_comun",
         "horas_semanales": 4
@@ -42,7 +42,7 @@
     {
         "id": "CS",
         "nombre": "C. Sociales",
-        "abreviatura": "",
+        "abreviatura": "CSOC",
         "semestre": 1,
         "tipo": "tronco_comun",
         "horas_semanales": 2
@@ -50,7 +50,7 @@
     {
         "id": "H1",
         "nombre": "Humanidades I",
-        "abreviatura": "",
+        "abreviatura": "HUM1",
         "semestre": 1,
         "tipo": "tronco_comun",
         "horas_semanales": 4
@@ -58,7 +58,7 @@
     {
         "id": "LYC3",
         "nombre": "Lengua y Comunicación III",
-        "abreviatura": "",
+        "abreviatura": "LYC3",
         "semestre": 3,
         "tipo": "tronco_comun",
         "horas_semanales": 3
@@ -66,7 +66,7 @@
     {
         "id": "I3",
         "nombre": "Inglés III",
-        "abreviatura": "",
+        "abreviatura": "ING3",
         "semestre": 3,
         "tipo": "tronco_comun",
         "horas_semanales": 3
@@ -74,7 +74,7 @@
     {
         "id": "PM3",
         "nombre": "Pensamiento Matemático III",
-        "abreviatura": "",
+        "abreviatura": "PM3",
         "semestre": 3,
         "tipo": "tronco_comun",
         "horas_semanales": 4
@@ -82,7 +82,7 @@
     {
         "id": "EIEYD",
         "nombre": "Ecosistemas: interacciones, energía y dinámica",
-        "abreviatura": "",
+        "abreviatura": "EIEYD",
         "semestre": 3,
         "tipo": "tronco_comun",
         "horas_semanales": 4
@@ -90,7 +90,7 @@
     {
         "id": "H2",
         "nombre": "Humanidades II",
-        "abreviatura": "",
+        "abreviatura": "HUM2",
         "semestre": 3,
         "tipo": "tronco_comun",
         "horas_semanales": 4
@@ -98,7 +98,7 @@
     {
         "id": "MP-MA3",
         "nombre": "Modulo profesional",
-        "abreviatura": "",
+        "abreviatura": "MPMA3",
         "semestre": 3,
         "tipo": "modulo_profesional",
         "submodulos": [
@@ -121,7 +121,7 @@
     {
         "id": "MP-P3",
         "nombre": "Modulo profesional",
-        "abreviatura": "",
+        "abreviatura": "MPPR3",
         "semestre": 3,
         "tipo": "modulo_profesional",
         "submodulos": [
@@ -140,7 +140,7 @@
     {
         "id": "MP-DGD3",
         "nombre": "Modulo profesional",
-        "abreviatura": "",
+        "abreviatura": "MPDG3",
         "semestre": 3,
         "tipo": "modulo_profesional",
         "submodulos": [
@@ -163,7 +163,7 @@
     {
         "id": "MP-MI3",
         "nombre": "Modulo profesional",
-        "abreviatura": "",
+        "abreviatura": "MPMI3",
         "semestre": 3,
         "tipo": "modulo_profesional",
         "submodulos": [
@@ -186,7 +186,7 @@
     {
         "id": "MP-E3",
         "nombre": "Modulo profesional",
-        "abreviatura": "",
+        "abreviatura": "MPEL3",
         "semestre": 3,
         "tipo": "modulo_profesional",
         "submodulos": [
@@ -205,7 +205,7 @@
     {
         "id": "MP-C3",
         "nombre": "Modulo profesional",
-        "abreviatura": "",
+        "abreviatura": "MPCB3",
         "semestre": 3,
         "tipo": "modulo_profesional",
         "submodulos": [
@@ -224,7 +224,7 @@
     {
         "id": "TSDM2",
         "nombre": "Temas selectos de Matemáticas II",
-        "abreviatura": "",
+        "abreviatura": "TSDM2",
         "semestre": 5,
         "tipo": "tronco_comun",
         "horas_semanales": 5
@@ -232,7 +232,7 @@
     {
         "id": "I5",
         "nombre": "Inglés V",
-        "abreviatura": "",
+        "abreviatura": "ING5",
         "semestre": 5,
         "tipo": "tronco_comun",
         "horas_semanales": 5
@@ -240,7 +240,7 @@
     {
         "id": "CH2MDEEC",
         "nombre": "Conciencia Histórica II: México durante el expansionismo capitalista",
-        "abreviatura": "",
+        "abreviatura": "CHIS2",
         "semestre": 5,
         "tipo": "tronco_comun",
         "horas_semanales": 3
@@ -248,7 +248,7 @@
     {
         "id": "LEELPDLVD",
         "nombre": "La energía en los procesos de la vida diaria",
-        "abreviatura": "",
+        "abreviatura": "LEPDV",
         "semestre": 5,
         "tipo": "tronco_comun",
         "horas_semanales": 4
@@ -256,7 +256,7 @@
     {
         "id": "EL",
         "nombre": "Estudios Literarios",
-        "abreviatura": "",
+        "abreviatura": "ESTL",
         "semestre": 5,
         "tipo": "tronco_comun",
         "horas_semanales": 3
@@ -264,7 +264,7 @@
     {
         "id": "MP-MAMDCI5",
         "nombre": "Modulo profesional",
-        "abreviatura": "",
+        "abreviatura": "MPMM5",
         "semestre": 5,
         "tipo": "modulo_profesional",
         "submodulos": [
@@ -287,7 +287,7 @@
     {
         "id": "MP-P5",
         "nombre": "Modulo profesional",
-        "abreviatura": "",
+        "abreviatura": "MPPR5",
         "semestre": 5,
         "tipo": "modulo_profesional",
         "submodulos": [
@@ -306,7 +306,7 @@
     {
         "id": "MP-DGD5",
         "nombre": "Modulo profesional",
-        "abreviatura": "",
+        "abreviatura": "MPDG5",
         "semestre": 5,
         "tipo": "modulo_profesional",
         "submodulos": [
@@ -325,7 +325,7 @@
     {
         "id": "MP-MAIP5",
         "nombre": "Modulo profesional",
-        "abreviatura": "",
+        "abreviatura": "MPMP5",
         "semestre": 5,
         "tipo": "modulo_profesional",
         "submodulos": [
@@ -348,7 +348,7 @@
     {
         "id": "MP-DYFDMFDM5",
         "nombre": "Modulo profesional",
-        "abreviatura": "",
+        "abreviatura": "MPDM5",
         "semestre": 5,
         "tipo": "modulo_profesional",
         "submodulos": [
@@ -367,7 +367,7 @@
     {
         "id": "MP-MI5",
         "nombre": "Modulo profesional",
-        "abreviatura": "",
+        "abreviatura": "MPMI5",
         "semestre": 5,
         "tipo": "modulo_profesional",
         "submodulos": [
@@ -390,7 +390,7 @@
     {
         "id": "MP-E5",
         "nombre": "Modulo profesional",
-        "abreviatura": "",
+        "abreviatura": "MPEL5",
         "semestre": 5,
         "tipo": "modulo_profesional",
         "submodulos": [

@@ -20,7 +20,7 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "Tut" ,
+                "abreviatura": "TUTOR" ,
                 "horas": 1
             }
         ],
@@ -39,7 +39,7 @@
         "horas_dual": [
             {
                 "nombre": "Lengua y Comunicación III",
-                "abreviatura": "",
+                "abreviatura": "LYC3",
                 "semestre": 3,
                 "horas_semanales": 2
             }
@@ -58,7 +58,7 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Concursos",
-                "abreviatura": "",
+                "abreviatura": "CONCU",
                 "horas": 3
             }
         ]
@@ -70,14 +70,14 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Concursos",
-                "abreviatura": "",
+                "abreviatura": "CONCU",
                 "horas": 3
             }
         ],
         "horas_extracurriculares": [
             {
                 "nombre": "Pintura",
-                "abreviatura": "Pint",
+                "abreviatura": "PINTU",
                 "horas": 9
             }
         ]
@@ -103,7 +103,7 @@
         "horas_dual": [
             {
                 "nombre": "Pensamiento Matemático III",
-                "abreviatura": "",
+                "abreviatura": "PM3",
                 "semestre": 3,
                 "horas_semanales": 2
             }
@@ -111,17 +111,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Asesorías Académicas",
-                "abreviatura": "",
+                "abreviatura": "ASEAC",
                 "horas": 2
             },
             {
                 "nombre": "Asesorías de alumnos para concurso",
-                "abreviatura": "",
+                "abreviatura": "ASECO",
                 "horas": 1
             }
         ]
@@ -143,12 +143,12 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 2
             }
         ]
@@ -170,7 +170,7 @@
         "horas_dual": [
             {
                 "nombre": "Inglés III",
-                "abreviatura": "",
+                "abreviatura": "ING3",
                 "semestre": 3,
                 "horas_semanales": 2
             }
@@ -178,17 +178,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 4
             },
             {
                 "nombre": "Asesorías Académicas",
-                "abreviatura": "",
+                "abreviatura": "ASEAC",
                 "horas": 2
             }
         ]
@@ -203,14 +203,14 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Concursos",
-                "abreviatura": "",
+                "abreviatura": "CONCU",
                 "horas": 3
             }
         ],
         "horas_extracurriculares": [
             {
                 "nombre": "Educación Física Premilitar",
-                "abreviatura": "EFP",
+                "abreviatura": "EFPRE",
                 "horas": 9
             }
         ]
@@ -232,17 +232,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 4
             },
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 2
             },
             {
                 "nombre": "Asesorías Académicas",
-                "abreviatura": "",
+                "abreviatura": "ASEAC",
                 "horas": 2
             }
         ]
@@ -264,7 +264,7 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 1
             }
         ]
@@ -286,12 +286,12 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 5
             }
         ]
@@ -317,17 +317,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Asesorías Académicas",
-                "abreviatura": "",
+                "abreviatura": "ASEAC",
                 "horas": 4
             },
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 2
             }
         ]
@@ -353,22 +353,22 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Concursos",
-                "abreviatura": "",
+                "abreviatura": "CONCU",
                 "horas": 4
             },
             {
                 "nombre": "Investigación",
-                "abreviatura": "",
+                "abreviatura": "INVES",
                 "horas": 4
             },
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 2
             }
         ]
@@ -390,12 +390,12 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 2
             }
         ]
@@ -417,12 +417,12 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 3
             }
         ]
@@ -455,12 +455,12 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 4
             },
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 4
             }
         ]
@@ -482,7 +482,7 @@
         "horas_dual": [
             {
                 "nombre": "Conciencia Histórica II: México durante el expansionismo capitalista",
-                "abreviatura": "",
+                "abreviatura": "CHIS2",
                 "semestre": 5,
                 "horas_semanales": 2
             }
@@ -501,7 +501,7 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Comisión",
-                "abreviatura": "",
+                "abreviatura": "COMIS",
                 "horas": 17
             }
         ]
@@ -557,17 +557,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 1
             },
             {
                 "nombre": "Comisión",
-                "abreviatura": "",
+                "abreviatura": "COMIS",
                 "horas": 8
             }
         ]
@@ -593,7 +593,7 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 1
             }
         ]
@@ -615,13 +615,13 @@
         "horas_dual": [
             {
                 "nombre": "Humanidades II",
-                "abreviatura": "",
+                "abreviatura": "HUM2",
                 "semestre": 3,
                 "horas_semanales": 1
             },
             {
                 "nombre": "La energía en los procesos de la vida diaria",
-                "abreviatura": "",
+                "abreviatura": "LEPDV",
                 "semestre": 5,
                 "horas_semanales": 1
             }
@@ -629,17 +629,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 4
             },
             {
                 "nombre": "Asesorías Académicas",
-                "abreviatura": "",
+                "abreviatura": "ASEAC",
                 "horas": 4
             }
         ]
@@ -661,7 +661,7 @@
         "horas_dual": [
             {
                 "nombre": "Temas selectos de Matemáticas II",
-                "abreviatura": "",
+                "abreviatura": "TSDM2",
                 "semestre": 5,
                 "horas_semanales": 2
             }
@@ -669,17 +669,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 3
             },
             {
                 "nombre": "Asesorías Académicas",
-                "abreviatura": "",
+                "abreviatura": "ASEAC",
                 "horas": 3
             }
         ]
@@ -694,14 +694,14 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Concursos",
-                "abreviatura": "",
+                "abreviatura": "CONCU",
                 "horas": 3
             }
         ],
         "horas_extracurriculares": [
             {
                 "nombre": "Danza",
-                "abreviatura": "Danza",
+                "abreviatura": "DANZA",
                 "horas": 9
             }
         ]
@@ -738,17 +738,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Asesorías Académicas",
-                "abreviatura": "",
+                "abreviatura": "ASEAC",
                 "horas": 2
             },
             {
                 "nombre": "Comisión",
-                "abreviatura": "",
+                "abreviatura": "COMIS",
                 "horas": 1
             }
         ]
@@ -781,7 +781,7 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 1
             }
         ]
@@ -803,17 +803,17 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 7
             },
             {
                 "nombre": "Concursos",
-                "abreviatura": "",
+                "abreviatura": "CONCU",
                 "horas": 2
             }
         ]
@@ -839,7 +839,7 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             }
         ],
@@ -882,24 +882,24 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Asesorías Académicas",
-                "abreviatura": "",
+                "abreviatura": "ASEAC",
                 "horas": 3
             },
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 4
             }
         ],
         "horas_dual": [
             {
                 "nombre": "Estudios Literarios",
-                "abreviatura": "",
+                "abreviatura": "ESTL",
                 "semestre": 5,
                 "horas_semanales": 1
             }
@@ -926,12 +926,12 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 2
             }
         ]
@@ -957,29 +957,29 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Asesorías Académicas",
-                "abreviatura": "",
+                "abreviatura": "ASEAC",
                 "horas": 4
             },
             {
                 "nombre": "Multidisciplinarias",
-                "abreviatura": "",
+                "abreviatura": "MULTI",
                 "horas": 2
             },
             {
                 "nombre": "Comisión",
-                "abreviatura": "",
+                "abreviatura": "COMIS",
                 "horas": 3
             }
         ],
         "horas_dual": [
             {
                 "nombre": "Ecosistemas: interacciones, energía y dinámica",
-                "abreviatura": "",
+                "abreviatura": "EIEYD",
                 "semestre": 3,
                 "horas_semanales": 1
             }
@@ -998,12 +998,12 @@
         "horas_fortalecimiento_academico": [
             {
                 "nombre": "Tutorías",
-                "abreviatura": "",
+                "abreviatura": "TUTOR",
                 "horas": 2
             },
             {
                 "nombre": "Concursos",
-                "abreviatura": "",
+                "abreviatura": "CONCU",
                 "horas": 3
             }
         ]
