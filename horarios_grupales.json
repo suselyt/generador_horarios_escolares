@@ -401,9 +401,9 @@
           "aula": null
         },
         "5": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Hernández Barrera J. Trinidad",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "6": {
@@ -451,9 +451,9 @@
           "aula": null
         },
         "5": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "docente": "Hernández Barrera J. Trinidad",
           "aula": null
         },
         "6": {
@@ -532,8 +532,8 @@
       "horasPorDia": {
         "Lunes": 6,
         "Martes": 5,
-        "Miercoles": 5,
-        "Jueves": 4,
+        "Miercoles": 4,
+        "Jueves": 5,
         "Viernes": 4
       },
       "promedioDiario": "4.8"
@@ -671,9 +671,9 @@
           "aula": null
         },
         "5": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Hernández Barrera J. Trinidad",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "6": {
@@ -721,9 +721,9 @@
           "aula": null
         },
         "5": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "docente": "Hernández Barrera J. Trinidad",
           "aula": null
         },
         "6": {
@@ -802,8 +802,8 @@
       "horasPorDia": {
         "Lunes": 6,
         "Martes": 5,
-        "Miercoles": 5,
-        "Jueves": 4,
+        "Miercoles": 4,
+        "Jueves": 5,
         "Viernes": 4
       },
       "promedioDiario": "4.8"
@@ -1357,15 +1357,15 @@
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "docente": "Ramírez Solís Erik",
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "docente": "Martinez Hernandez Cynthia Brenda",
           "aula": null
         },
         "2": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "docente": "Ramírez Solís Erik",
+          "materia": "Humanidades I",
+          "abreviatura": "HUM1",
+          "docente": "González de la Fuente Samuel",
           "aula": null
         },
         "3": {
@@ -1375,21 +1375,21 @@
           "aula": null
         },
         "4": {
-          "materia": "Humanidades I",
-          "abreviatura": "HUM1",
-          "docente": "González de la Fuente Samuel",
+          "materia": "Inglés I",
+          "abreviatura": "ING1",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
         "5": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "docente": "Torres Quiñones Norma Elena",
           "aula": null
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "docente": "Torres Quiñones Norma Elena",
           "aula": null
         },
         "7": {
@@ -1407,21 +1407,21 @@
       },
       "Martes": {
         "1": {
-          "materia": "Inglés I",
-          "abreviatura": "ING1",
-          "docente": "Rodríguez Peláez Carolina",
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "docente": "Ramírez Solís Erik",
           "aula": null
         },
         "2": {
-          "materia": "Inglés I",
-          "abreviatura": "ING1",
-          "docente": "Rodríguez Peláez Carolina",
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "docente": "Ramírez Solís Erik",
           "aula": null
         },
         "3": {
-          "materia": "C. Sociales",
-          "abreviatura": "CSOC",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "docente": "Martinez Hernandez Cynthia Brenda",
           "aula": null
         },
         "4": {
@@ -1431,9 +1431,9 @@
           "aula": null
         },
         "5": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "docente": "Acosta García Javier Alfonso",
           "aula": null
         },
         "6": {
@@ -1457,33 +1457,33 @@
       },
       "Miercoles": {
         "1": {
-          "materia": "Inglés I",
-          "abreviatura": "ING1",
-          "docente": "Rodríguez Peláez Carolina",
+          "materia": "Cultura Digital I",
+          "abreviatura": "CD1",
+          "docente": "Guadalupe de la Cruz Romualdo",
           "aula": null
         },
         "2": {
-          "materia": "La materia y sus interacciones",
-          "abreviatura": "LMYSI",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Cultura Digital I",
+          "abreviatura": "CD1",
+          "docente": "Guadalupe de la Cruz Romualdo",
           "aula": null
         },
         "3": {
-          "materia": "La materia y sus interacciones",
-          "abreviatura": "LMYSI",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "docente": "Ramírez Solís Erik",
           "aula": null
         },
         "4": {
-          "materia": "Cultura Digital I",
-          "abreviatura": "CD1",
-          "docente": "Guadalupe de la Cruz Romualdo",
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "docente": "Ramírez Solís Erik",
           "aula": null
         },
         "5": {
-          "materia": "Cultura Digital I",
-          "abreviatura": "CD1",
-          "docente": "Guadalupe de la Cruz Romualdo",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "6": {
@@ -1519,15 +1519,15 @@
           "aula": null
         },
         "3": {
-          "materia": "La materia y sus interacciones",
-          "abreviatura": "LMYSI",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Inglés I",
+          "abreviatura": "ING1",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
         "4": {
-          "materia": "La materia y sus interacciones",
-          "abreviatura": "LMYSI",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Inglés I",
+          "abreviatura": "ING1",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
         "5": {
@@ -1563,27 +1563,27 @@
           "aula": null
         },
         "2": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "docente": "Ramírez Solís Erik",
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "docente": "Martinez Hernandez Cynthia Brenda",
           "aula": null
         },
         "3": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "docente": "Ramírez Solís Erik",
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "docente": "Martinez Hernandez Cynthia Brenda",
           "aula": null
         },
         "4": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Guadalupe de la Cruz Romualdo",
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "docente": "Torres Quiñones Norma Elena",
           "aula": null
         },
         "5": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "docente": "Torres Quiñones Norma Elena",
           "aula": null
         },
         "6": {
@@ -1608,15 +1608,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 21,
+      "totalHoras": 24,
       "horasPorDia": {
-        "Lunes": 4,
-        "Martes": 4,
-        "Miercoles": 5,
+        "Lunes": 6,
+        "Martes": 5,
+        "Miercoles": 4,
         "Jueves": 4,
-        "Viernes": 4
+        "Viernes": 5
       },
-      "promedioDiario": "4.2"
+      "promedioDiario": "4.8"
     }
   },
   "101G": {
@@ -1651,15 +1651,15 @@
           "aula": null
         },
         "12": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Guadalupe de la Cruz Romualdo",
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "docente": "Torres Vargas Mayra",
           "aula": null
         },
         "13": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "docente": "Torres Vargas Mayra",
           "aula": null
         },
         "14": {
@@ -1739,9 +1739,9 @@
           "aula": null
         },
         "12": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "docente": "Guadalupe de la Cruz Romualdo",
           "aula": null
         },
         "13": {
@@ -1848,15 +1848,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 22,
+      "totalHoras": 24,
       "horasPorDia": {
-        "Lunes": 5,
+        "Lunes": 6,
         "Martes": 5,
-        "Miercoles": 4,
+        "Miercoles": 5,
         "Jueves": 4,
         "Viernes": 4
       },
-      "promedioDiario": "4.4"
+      "promedioDiario": "4.8"
     }
   },
   "102H": {
@@ -1893,7 +1893,7 @@
         "12": {
           "materia": "Tutorías",
           "abreviatura": "TUTOR",
-          "docente": "Ramírez Solís Erik",
+          "docente": "Guadalupe de la Cruz Romualdo",
           "aula": null
         },
         "13": {
@@ -1935,15 +1935,15 @@
           "aula": null
         },
         "12": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "docente": "Torres Vargas Mayra",
           "aula": null
         },
         "13": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "docente": "Torres Vargas Mayra",
           "aula": null
         },
         "14": {
@@ -2088,15 +2088,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 22,
+      "totalHoras": 24,
       "horasPorDia": {
         "Lunes": 5,
-        "Martes": 4,
+        "Martes": 6,
         "Miercoles": 4,
         "Jueves": 5,
         "Viernes": 4
       },
-      "promedioDiario": "4.4"
+      "promedioDiario": "4.8"
     }
   },
   "103I": {
@@ -2289,27 +2289,27 @@
           "aula": null
         },
         "9": {
-          "materia": "La materia y sus interacciones",
-          "abreviatura": "LMYSI",
-          "docente": "Heredia Blanco Laura Esmeralda",
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "docente": "Torres Vargas Mayra",
           "aula": null
         },
         "10": {
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "docente": "Torres Vargas Mayra",
+          "aula": null
+        },
+        "11": {
           "materia": "La materia y sus interacciones",
           "abreviatura": "LMYSI",
           "docente": "Heredia Blanco Laura Esmeralda",
           "aula": null
         },
-        "11": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
-          "aula": null
-        },
         "12": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "docente": "Heredia Blanco Laura Esmeralda",
           "aula": null
         },
         "13": {
@@ -2328,15 +2328,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 22,
+      "totalHoras": 24,
       "horasPorDia": {
         "Lunes": 5,
         "Martes": 5,
         "Miercoles": 4,
         "Jueves": 5,
-        "Viernes": 3
+        "Viernes": 5
       },
-      "promedioDiario": "4.4"
+      "promedioDiario": "4.8"
     }
   },
   "104J": {
@@ -2359,21 +2359,21 @@
           "aula": null
         },
         "10": {
-          "materia": "Inglés I",
-          "abreviatura": "ING1",
-          "docente": "Rodríguez Peláez Carolina",
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "docente": "Martinez Hernandez Cynthia Brenda",
           "aula": null
         },
         "11": {
-          "materia": "La materia y sus interacciones",
-          "abreviatura": "LMYSI",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
         "12": {
-          "materia": "La materia y sus interacciones",
-          "abreviatura": "LMYSI",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
         "13": {
@@ -2403,21 +2403,21 @@
           "aula": null
         },
         "10": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "docente": "De La Fuente Escobedo Luis Ramón",
           "aula": null
         },
         "11": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": "Inglés I",
+          "abreviatura": "ING1",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
         "12": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Inglés I",
+          "abreviatura": "ING1",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
         "13": {
@@ -2447,21 +2447,21 @@
           "aula": null
         },
         "10": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": "Inglés I",
+          "abreviatura": "ING1",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
         "11": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "12": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "13": {
@@ -2491,15 +2491,15 @@
           "aula": null
         },
         "10": {
-          "materia": "La materia y sus interacciones",
-          "abreviatura": "LMYSI",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
         "11": {
-          "materia": "La materia y sus interacciones",
-          "abreviatura": "LMYSI",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
         "12": {
@@ -2529,27 +2529,27 @@
           "aula": null
         },
         "9": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "De La Fuente Escobedo Luis Ramón",
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "docente": "Martinez Hernandez Cynthia Brenda",
           "aula": null
         },
         "10": {
-          "materia": "Inglés I",
-          "abreviatura": "ING1",
-          "docente": "Rodríguez Peláez Carolina",
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "docente": "Martinez Hernandez Cynthia Brenda",
           "aula": null
         },
         "11": {
-          "materia": "Inglés I",
-          "abreviatura": "ING1",
-          "docente": "Rodríguez Peláez Carolina",
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "12": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "13": {
@@ -2568,15 +2568,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 21,
+      "totalHoras": 24,
       "horasPorDia": {
         "Lunes": 5,
-        "Martes": 4,
-        "Miercoles": 4,
+        "Martes": 5,
+        "Miercoles": 5,
         "Jueves": 4,
-        "Viernes": 4
+        "Viernes": 5
       },
-      "promedioDiario": "4.2"
+      "promedioDiario": "4.8"
     }
   },
   "105K": {
@@ -2631,9 +2631,9 @@
       },
       "Martes": {
         "8": {
-          "materia": "Inglés I",
-          "abreviatura": "ING1",
-          "docente": "Rodríguez Peláez Carolina",
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "docente": "De La Fuente Escobedo Luis Ramón",
           "aula": null
         },
         "9": {
@@ -2643,9 +2643,9 @@
           "aula": null
         },
         "10": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "De La Fuente Escobedo Luis Ramón",
+          "materia": "Inglés I",
+          "abreviatura": "ING1",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
         "11": {
@@ -2827,45 +2827,45 @@
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "docente": "Barrera Cerda Walter Alan",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "2": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
+          "aula": null
+        },
+        "3": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
+          "aula": null
+        },
+        "4": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
+          "aula": null
+        },
+        "5": {
           "materia": "Inglés III",
           "abreviatura": "ING3",
           "docente": "Barrera Cerda Walter Alan",
           "aula": null
         },
-        "3": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Moran Lerma Karla Valeria",
-          "aula": null
-        },
-        "4": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Moran Lerma Karla Valeria",
-          "aula": null
-        },
-        "5": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
-          "aula": null
-        },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Moran Lerma Karla Valeria",
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Moran Lerma Karla Valeria",
           "aula": null
         },
         "8": {
@@ -2877,89 +2877,89 @@
       },
       "Martes": {
         "1": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "docente": "Barrera Cerda Walter Alan",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "2": {
-          "materia": "Lengua y Comunicación III",
-          "abreviatura": "LYC3",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "3": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "4": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
+          "aula": null
+        },
+        "5": {
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Hernández Barrera J. Trinidad",
+          "aula": null
+        },
+        "6": {
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Hernández Barrera J. Trinidad",
+          "aula": null
+        },
+        "7": {
           "materia": "Humanidades II",
           "abreviatura": "HUM2",
           "docente": "Moran Lerma Karla Valeria",
           "aula": null
         },
-        "5": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
-          "aula": null
-        },
-        "6": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
-          "aula": null
-        },
-        "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
-          "aula": null
-        },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Moran Lerma Karla Valeria",
           "aula": null
         }
       },
       "Miercoles": {
         "1": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "2": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "3": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Hernández Barrera J. Trinidad",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "4": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Hernández Barrera J. Trinidad",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "5": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "docente": "Moran Lerma Karla Valeria",
           "aula": null
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "docente": "Moran Lerma Karla Valeria",
           "aula": null
         },
         "7": {
@@ -2977,45 +2977,45 @@
       },
       "Jueves": {
         "1": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "2": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
+          "aula": null
+        },
+        "3": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
+          "aula": null
+        },
+        "4": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
+          "aula": null
+        },
+        "5": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "docente": "Diaz Mendoza Alan Eduardo",
+          "aula": null
+        },
+        "6": {
           "materia": "Pensamiento Matemático III",
           "abreviatura": "PM3",
           "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         },
-        "3": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Hernández Barrera J. Trinidad",
-          "aula": null
-        },
-        "4": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Hernández Barrera J. Trinidad",
-          "aula": null
-        },
-        "5": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
-          "aula": null
-        },
-        "6": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
-          "aula": null
-        },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         },
         "8": {
@@ -3027,15 +3027,15 @@
       },
       "Viernes": {
         "1": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "docente": "Barrera Cerda Walter Alan",
           "aula": null
         },
         "2": {
-          "materia": "Lengua y Comunicación III",
-          "abreviatura": "LYC3",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "docente": "Barrera Cerda Walter Alan",
           "aula": null
         },
         "3": {
@@ -3045,27 +3045,27 @@
           "aula": null
         },
         "4": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Hernández Barrera J. Trinidad",
           "aula": null
         },
         "5": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Hernández Barrera J. Trinidad",
           "aula": null
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         },
         "8": {
@@ -3078,15 +3078,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 19,
+      "totalHoras": 35,
       "horasPorDia": {
-        "Lunes": 4,
-        "Martes": 4,
-        "Miercoles": 4,
-        "Jueves": 4,
-        "Viernes": 3
+        "Lunes": 7,
+        "Martes": 8,
+        "Miercoles": 6,
+        "Jueves": 7,
+        "Viernes": 7
       },
-      "promedioDiario": "3.8"
+      "promedioDiario": "7.0"
     }
   },
   "302B": {
@@ -3121,9 +3121,9 @@
           "aula": null
         },
         "5": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "docente": "Rodríguez Peláez Carolina",
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "docente": "Martinez Hernandez Cynthia Brenda",
           "aula": null
         },
         "6": {
@@ -3171,27 +3171,27 @@
           "aula": null
         },
         "5": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Hernández Barrera J. Trinidad",
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
         "6": {
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "docente": "Rodríguez Peláez Carolina",
+          "aula": null
+        },
+        "7": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
           "abreviatura": "EIEYD",
           "docente": "Hernández Barrera J. Trinidad",
           "aula": null
         },
-        "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
-          "aula": null
-        },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Hernández Barrera J. Trinidad",
           "aula": null
         }
       },
@@ -3221,9 +3221,9 @@
           "aula": null
         },
         "5": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Cepeda Ramos Yuridia Lizbeth",
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
         "6": {
@@ -3277,15 +3277,15 @@
           "aula": null
         },
         "6": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "docente": "Rodríguez Peláez Carolina",
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "docente": "Martinez Hernandez Cynthia Brenda",
           "aula": null
         },
         "7": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "docente": "Rodríguez Peláez Carolina",
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "docente": "Martinez Hernandez Cynthia Brenda",
           "aula": null
         },
         "8": {
@@ -3321,9 +3321,9 @@
           "aula": null
         },
         "5": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Hernández Barrera J. Trinidad",
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "docente": "Martinez Hernandez Cynthia Brenda",
           "aula": null
         },
         "6": {
@@ -3333,9 +3333,9 @@
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Hernández Barrera J. Trinidad",
           "aula": null
         },
         "8": {
@@ -3348,15 +3348,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 33,
+      "totalHoras": 36,
       "horasPorDia": {
         "Lunes": 7,
-        "Martes": 6,
+        "Martes": 8,
         "Miercoles": 7,
         "Jueves": 7,
-        "Viernes": 6
+        "Viernes": 7
       },
-      "promedioDiario": "6.6"
+      "promedioDiario": "7.2"
     }
   },
   "303C": {
@@ -3397,15 +3397,15 @@
           "aula": null
         },
         "6": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Hernández Barrera J. Trinidad",
           "aula": null
         },
         "7": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Hernández Barrera J. Trinidad",
           "aula": null
         },
         "8": {
@@ -3441,27 +3441,27 @@
           "aula": null
         },
         "5": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Hernández Barrera J. Trinidad",
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "docente": "Martinez Hernandez Cynthia Brenda",
           "aula": null
         },
         "6": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Hernández Barrera J. Trinidad",
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "docente": "Martinez Hernandez Cynthia Brenda",
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         }
       },
@@ -3503,15 +3503,15 @@
           "aula": null
         },
         "7": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Jasso Anaya Luis Fernando",
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         }
       },
@@ -3567,9 +3567,9 @@
       },
       "Viernes": {
         "1": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "docente": "Barrera Cerda Walter Alan",
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "docente": "Martinez Hernandez Cynthia Brenda",
           "aula": null
         },
         "2": {
@@ -3579,15 +3579,15 @@
           "aula": null
         },
         "3": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "docente": "Barrera Cerda Walter Alan",
           "aula": null
         },
         "4": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Acosta García Javier Alfonso",
           "aula": null
         },
         "5": {
@@ -3597,9 +3597,9 @@
           "aula": null
         },
         "6": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "docente": "Jasso Anaya Luis Fernando",
           "aula": null
         },
         "7": {
@@ -3618,15 +3618,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 33,
+      "totalHoras": 36,
       "horasPorDia": {
         "Lunes": 7,
-        "Martes": 6,
-        "Miercoles": 7,
+        "Martes": 8,
+        "Miercoles": 8,
         "Jueves": 7,
         "Viernes": 6
       },
-      "promedioDiario": "6.6"
+      "promedioDiario": "7.2"
     }
   },
   "304D": {
@@ -3667,21 +3667,21 @@
           "aula": null
         },
         "6": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         },
         "7": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         },
         "8": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Moran Lerma Karla Valeria",
           "aula": null
         }
       },
@@ -3773,15 +3773,15 @@
           "aula": null
         },
         "7": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "8": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         }
       },
@@ -3817,21 +3817,21 @@
           "aula": null
         },
         "6": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Torres Quiñones Norma Elena",
           "aula": null
         },
         "7": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Torres Quiñones Norma Elena",
           "aula": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "docente": "Torres Quiñones Norma Elena",
           "aula": null
         }
       },
@@ -3849,33 +3849,33 @@
           "aula": null
         },
         "3": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "docente": "Barrera Cerda Walter Alan",
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         },
         "4": {
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
+          "aula": null
+        },
+        "5": {
           "materia": "Inglés III",
           "abreviatura": "ING3",
           "docente": "Barrera Cerda Walter Alan",
           "aula": null
         },
-        "5": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Moran Lerma Karla Valeria",
-          "aula": null
-        },
         "6": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "docente": "Barrera Cerda Walter Alan",
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Moran Lerma Karla Valeria",
           "aula": null
         },
         "8": {
@@ -3892,9 +3892,9 @@
       "horasPorDia": {
         "Lunes": 8,
         "Martes": 7,
-        "Miercoles": 8,
-        "Jueves": 7,
-        "Viernes": 6
+        "Miercoles": 6,
+        "Jueves": 8,
+        "Viernes": 7
       },
       "promedioDiario": "7.2"
     }
@@ -3931,27 +3931,27 @@
           "aula": null
         },
         "5": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         },
         "6": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         }
       },
@@ -3993,15 +3993,15 @@
           "aula": null
         },
         "7": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "8": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         }
       },
@@ -4037,9 +4037,9 @@
           "aula": null
         },
         "6": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
         "7": {
@@ -4049,9 +4049,9 @@
           "aula": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Torres Quiñones Norma Elena",
           "aula": null
         }
       },
@@ -4087,9 +4087,9 @@
           "aula": null
         },
         "6": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         },
         "7": {
@@ -4119,33 +4119,33 @@
           "aula": null
         },
         "3": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
           "docente": "Torres Quiñones Norma Elena",
           "aula": null
         },
         "4": {
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Moran Lerma Karla Valeria",
+          "aula": null
+        },
+        "5": {
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Moran Lerma Karla Valeria",
+          "aula": null
+        },
+        "6": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
           "abreviatura": "EIEYD",
           "docente": "Torres Quiñones Norma Elena",
           "aula": null
         },
-        "5": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
-          "aula": null
-        },
-        "6": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
-          "aula": null
-        },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Torres Quiñones Norma Elena",
           "aula": null
         },
         "8": {
@@ -4158,15 +4158,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 33,
+      "totalHoras": 35,
       "horasPorDia": {
-        "Lunes": 6,
-        "Martes": 8,
-        "Miercoles": 7,
+        "Lunes": 8,
+        "Martes": 6,
+        "Miercoles": 8,
         "Jueves": 6,
-        "Viernes": 6
+        "Viernes": 7
       },
-      "promedioDiario": "6.6"
+      "promedioDiario": "7.0"
     }
   },
   "306F": {
@@ -4201,9 +4201,9 @@
           "aula": null
         },
         "5": {
-          "materia": "Lengua y Comunicación III",
-          "abreviatura": "LYC3",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Moran Lerma Karla Valeria",
           "aula": null
         },
         "6": {
@@ -4251,9 +4251,9 @@
           "aula": null
         },
         "5": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "6": {
@@ -4263,15 +4263,15 @@
           "aula": null
         },
         "7": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Torres Quiñones Norma Elena",
           "aula": null
         },
         "8": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         }
       },
@@ -4301,27 +4301,27 @@
           "aula": null
         },
         "5": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Torres Quiñones Norma Elena",
           "aula": null
         },
         "6": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Torres Quiñones Norma Elena",
           "aula": null
         },
         "7": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "8": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         }
       },
@@ -4357,15 +4357,15 @@
           "aula": null
         },
         "6": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "docente": "Hernández González Felipe",
           "aula": null
         },
         "7": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Moran Lerma Karla Valeria",
           "aula": null
         },
         "8": {
@@ -4377,15 +4377,15 @@
       },
       "Viernes": {
         "1": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Hernández González Felipe",
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Moran Lerma Karla Valeria",
           "aula": null
         },
         "2": {
-          "materia": "Lengua y Comunicación III",
-          "abreviatura": "LYC3",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         },
         "3": {
@@ -4395,15 +4395,15 @@
           "aula": null
         },
         "4": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "docente": "Barrera Cerda Walter Alan",
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "5": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "docente": "Barrera Cerda Walter Alan",
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         },
         "6": {
@@ -4413,30 +4413,30 @@
           "aula": null
         },
         "7": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "docente": "Barrera Cerda Walter Alan",
           "aula": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "docente": "Barrera Cerda Walter Alan",
           "aula": null
         }
       }
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 36,
+      "totalHoras": 34,
       "horasPorDia": {
         "Lunes": 6,
-        "Martes": 8,
-        "Miercoles": 8,
+        "Martes": 7,
+        "Miercoles": 6,
         "Jueves": 7,
-        "Viernes": 7
+        "Viernes": 8
       },
-      "promedioDiario": "7.2"
+      "promedioDiario": "6.8"
     }
   },
   "301G": {
@@ -4951,9 +4951,9 @@
           "aula": null
         },
         "12": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Villasana García Rafael",
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "13": {
@@ -4963,9 +4963,9 @@
           "aula": null
         },
         "14": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Villasana García Rafael",
           "aula": null
         }
       },
@@ -5007,9 +5007,9 @@
           "aula": null
         },
         "14": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Villasana García Rafael",
           "aula": null
         }
       },
@@ -5051,9 +5051,9 @@
           "aula": null
         },
         "14": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Solís Rieboles Ulises",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         }
       },
@@ -5095,9 +5095,9 @@
           "aula": null
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         }
       },
@@ -5139,24 +5139,24 @@
           "aula": null
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "docente": "Reyes Norberto Mildred Yasmín",
           "aula": null
         }
       }
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 33,
+      "totalHoras": 34,
       "horasPorDia": {
         "Lunes": 7,
         "Martes": 7,
-        "Miercoles": 7,
-        "Jueves": 6,
-        "Viernes": 6
+        "Miercoles": 6,
+        "Jueves": 7,
+        "Viernes": 7
       },
-      "promedioDiario": "6.6"
+      "promedioDiario": "6.8"
     }
   },
   "304J": {
@@ -5203,9 +5203,9 @@
           "aula": null
         },
         "14": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Villasana García Rafael",
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         }
       },
@@ -5235,8 +5235,8 @@
           "aula": null
         },
         "12": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
           "docente": "Villasana García Rafael",
           "aula": null
         },
@@ -5279,21 +5279,21 @@
           "aula": null
         },
         "12": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Villasana García Rafael",
           "aula": null
         },
         "13": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Villasana García Rafael",
           "aula": null
         },
         "14": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "De la Rosa Ortega Gerardo",
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         }
       },
@@ -5361,9 +5361,9 @@
           "aula": null
         },
         "11": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Villasana García Rafael",
           "aula": null
         },
         "12": {
@@ -5487,9 +5487,9 @@
           "aula": null
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         }
       },
@@ -5595,21 +5595,21 @@
           "aula": null
         },
         "10": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Herrera García Marco Iván",
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Torres Vargas Mayra",
           "aula": null
         },
         "11": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "docente": "De la Rosa Ortega Gerardo",
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Torres Vargas Mayra",
           "aula": null
         },
         "12": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "docente": "De la Rosa Ortega Gerardo",
           "aula": null
         },
         "13": {
@@ -5628,15 +5628,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 31,
+      "totalHoras": 33,
       "horasPorDia": {
         "Lunes": 7,
-        "Martes": 6,
+        "Martes": 7,
         "Miercoles": 7,
         "Jueves": 7,
-        "Viernes": 4
+        "Viernes": 5
       },
-      "promedioDiario": "6.2"
+      "promedioDiario": "6.6"
     }
   },
   "501A": {
@@ -5647,15 +5647,15 @@
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPMM5",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Carmona Olivares Carlos Melecio",
           "aula": null
         },
         "2": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPMM5",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "3": {
@@ -5671,21 +5671,21 @@
           "aula": null
         },
         "5": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "Ramírez Solís Erik",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMM5",
+          "docente": "Acosta García Javier Alfonso",
           "aula": null
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMM5",
+          "docente": "Acosta García Javier Alfonso",
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Rosas Pacheco Liliana",
           "aula": null
         },
         "8": {
@@ -5697,15 +5697,15 @@
       },
       "Martes": {
         "1": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPMM5",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "2": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPMM5",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "3": {
@@ -5721,21 +5721,21 @@
           "aula": null
         },
         "5": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Rosas Pacheco Liliana",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMM5",
+          "docente": "Acosta García Javier Alfonso",
           "aula": null
         },
         "6": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Rosas Pacheco Liliana",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMM5",
+          "docente": "Acosta García Javier Alfonso",
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "Ramírez Solís Erik",
           "aula": null
         },
         "8": {
@@ -5753,9 +5753,9 @@
           "aula": null
         },
         "2": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Rosas Pacheco Liliana",
           "aula": null
         },
         "3": {
@@ -5797,27 +5797,27 @@
       },
       "Jueves": {
         "1": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Heredia Blanco Laura Esmeralda",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Carmona Olivares Carlos Melecio",
           "aula": null
         },
         "2": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Carmona Olivares Carlos Melecio",
+          "aula": null
+        },
+        "3": {
           "materia": "La energía en los procesos de la vida diaria",
           "abreviatura": "LEPDV",
           "docente": "Heredia Blanco Laura Esmeralda",
           "aula": null
         },
-        "3": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
-          "aula": null
-        },
         "4": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Heredia Blanco Laura Esmeralda",
           "aula": null
         },
         "5": {
@@ -5833,9 +5833,9 @@
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "docente": "Ramírez Solís Erik",
           "aula": null
         },
         "8": {
@@ -5847,39 +5847,39 @@
       },
       "Viernes": {
         "1": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Heredia Blanco Laura Esmeralda",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Carmona Olivares Carlos Melecio",
           "aula": null
         },
         "2": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Carmona Olivares Carlos Melecio",
+          "aula": null
+        },
+        "3": {
           "materia": "La energía en los procesos de la vida diaria",
           "abreviatura": "LEPDV",
           "docente": "Heredia Blanco Laura Esmeralda",
           "aula": null
         },
-        "3": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "Ramírez Solís Erik",
-          "aula": null
-        },
         "4": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "Ramírez Solís Erik",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Heredia Blanco Laura Esmeralda",
           "aula": null
         },
         "5": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "Ramírez Solís Erik",
           "aula": null
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "Ramírez Solís Erik",
           "aula": null
         },
         "7": {
@@ -5898,15 +5898,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 28,
+      "totalHoras": 33,
       "horasPorDia": {
-        "Lunes": 5,
-        "Martes": 6,
+        "Lunes": 7,
+        "Martes": 7,
         "Miercoles": 6,
-        "Jueves": 6,
-        "Viernes": 5
+        "Jueves": 7,
+        "Viernes": 6
       },
-      "promedioDiario": "5.6"
+      "promedioDiario": "6.6"
     }
   },
   "502B": {
@@ -5941,27 +5941,27 @@
           "aula": null
         },
         "5": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Rosas Pacheco Liliana",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Carmona Olivares Carlos Melecio",
           "aula": null
         },
         "6": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Rosas Pacheco Liliana",
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Rosas Pacheco Liliana",
           "aula": null
         }
       },
@@ -5997,15 +5997,15 @@
           "aula": null
         },
         "6": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "Cepeda Ramos Yuridia Lizbeth",
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "Cepeda Ramos Yuridia Lizbeth",
           "aula": null
         },
         "8": {
@@ -6041,15 +6041,15 @@
           "aula": null
         },
         "5": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Rosas Pacheco Liliana",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Hernández Barrera J. Trinidad",
           "aula": null
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Hernández Barrera J. Trinidad",
           "aula": null
         },
         "7": {
@@ -6079,15 +6079,15 @@
           "aula": null
         },
         "3": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Carmona Olivares Carlos Melecio",
           "aula": null
         },
         "4": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Carmona Olivares Carlos Melecio",
           "aula": null
         },
         "5": {
@@ -6117,39 +6117,39 @@
       },
       "Viernes": {
         "1": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "Cepeda Ramos Yuridia Lizbeth",
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Rosas Pacheco Liliana",
           "aula": null
         },
         "2": {
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Rosas Pacheco Liliana",
+          "aula": null
+        },
+        "3": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Carmona Olivares Carlos Melecio",
+          "aula": null
+        },
+        "4": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Carmona Olivares Carlos Melecio",
+          "aula": null
+        },
+        "5": {
           "materia": "Temas selectos de Matemáticas II",
           "abreviatura": "TSDM2",
           "docente": "Cepeda Ramos Yuridia Lizbeth",
           "aula": null
         },
-        "3": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
-          "aula": null
-        },
-        "4": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Hernández Barrera J. Trinidad",
-          "aula": null
-        },
-        "5": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Hernández Barrera J. Trinidad",
-          "aula": null
-        },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "Cepeda Ramos Yuridia Lizbeth",
           "aula": null
         },
         "7": {
@@ -6168,15 +6168,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 28,
+      "totalHoras": 33,
       "horasPorDia": {
-        "Lunes": 6,
-        "Martes": 6,
-        "Miercoles": 5,
+        "Lunes": 8,
+        "Martes": 7,
+        "Miercoles": 6,
         "Jueves": 6,
-        "Viernes": 5
+        "Viernes": 6
       },
-      "promedioDiario": "5.6"
+      "promedioDiario": "6.6"
     }
   },
   "503C": {
@@ -6211,9 +6211,9 @@
           "aula": null
         },
         "5": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Lerma Martínez Luis Enrique",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "6": {
@@ -6261,15 +6261,15 @@
           "aula": null
         },
         "5": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "Cepeda Ramos Yuridia Lizbeth",
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "Cepeda Ramos Yuridia Lizbeth",
           "aula": null
         },
         "7": {
@@ -6311,41 +6311,41 @@
           "aula": null
         },
         "5": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Lerma Martínez Luis Enrique",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Heredia Blanco Laura Esmeralda",
           "aula": null
         },
         "6": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Heredia Blanco Laura Esmeralda",
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         }
       },
       "Jueves": {
         "1": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Heredia Blanco Laura Esmeralda",
           "aula": null
         },
         "2": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Heredia Blanco Laura Esmeralda",
           "aula": null
         },
         "3": {
@@ -6361,21 +6361,21 @@
           "aula": null
         },
         "5": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Heredia Blanco Laura Esmeralda",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "6": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Heredia Blanco Laura Esmeralda",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "docente": "Cepeda Ramos Yuridia Lizbeth",
           "aula": null
         },
         "8": {
@@ -6387,15 +6387,15 @@
       },
       "Viernes": {
         "1": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Heredia Blanco Laura Esmeralda",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "2": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Heredia Blanco Laura Esmeralda",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "3": {
@@ -6411,15 +6411,15 @@
           "aula": null
         },
         "5": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Lerma Martínez Luis Enrique",
           "aula": null
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Lerma Martínez Luis Enrique",
           "aula": null
         },
         "7": {
@@ -6438,15 +6438,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 28,
+      "totalHoras": 33,
       "horasPorDia": {
         "Lunes": 6,
-        "Martes": 5,
-        "Miercoles": 6,
-        "Jueves": 6,
-        "Viernes": 5
+        "Martes": 6,
+        "Miercoles": 8,
+        "Jueves": 7,
+        "Viernes": 6
       },
-      "promedioDiario": "5.6"
+      "promedioDiario": "6.6"
     }
   },
   "504D": {
@@ -6457,15 +6457,15 @@
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Lerma Martínez Luis Enrique",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Heredia Blanco Laura Esmeralda",
           "aula": null
         },
         "2": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Lerma Martínez Luis Enrique",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Heredia Blanco Laura Esmeralda",
           "aula": null
         },
         "3": {
@@ -6507,15 +6507,15 @@
       },
       "Martes": {
         "1": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Lerma Martínez Luis Enrique",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Heredia Blanco Laura Esmeralda",
           "aula": null
         },
         "2": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Heredia Blanco Laura Esmeralda",
           "aula": null
         },
         "3": {
@@ -6563,15 +6563,15 @@
           "aula": null
         },
         "2": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPDG5",
-          "docente": "Martínez González Sanjuana Maribel",
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "3": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPDG5",
-          "docente": "Martínez González Sanjuana Maribel",
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "4": {
@@ -6587,15 +6587,15 @@
           "aula": null
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "docente": "Martínez González Sanjuana Maribel",
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "docente": "Martínez González Sanjuana Maribel",
           "aula": null
         },
         "8": {
@@ -6607,21 +6607,21 @@
       },
       "Jueves": {
         "1": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Heredia Blanco Laura Esmeralda",
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Lerma Martínez Luis Enrique",
           "aula": null
         },
         "2": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Heredia Blanco Laura Esmeralda",
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Lerma Martínez Luis Enrique",
           "aula": null
         },
         "3": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "Cepeda Ramos Yuridia Lizbeth",
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "4": {
@@ -6631,15 +6631,15 @@
           "aula": null
         },
         "5": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "Cepeda Ramos Yuridia Lizbeth",
           "aula": null
         },
         "6": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "7": {
@@ -6657,27 +6657,27 @@
       },
       "Viernes": {
         "1": {
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Lerma Martínez Luis Enrique",
+          "aula": null
+        },
+        "2": {
           "materia": "Tutorías",
           "abreviatura": "TUTOR",
           "docente": "Martínez González Sanjuana Maribel",
           "aula": null
         },
-        "2": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Heredia Blanco Laura Esmeralda",
-          "aula": null
-        },
         "3": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Heredia Blanco Laura Esmeralda",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "4": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "Cepeda Ramos Yuridia Lizbeth",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "5": {
@@ -6687,9 +6687,9 @@
           "aula": null
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "Cepeda Ramos Yuridia Lizbeth",
           "aula": null
         },
         "7": {
@@ -6708,15 +6708,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 28,
+      "totalHoras": 31,
       "horasPorDia": {
         "Lunes": 6,
         "Martes": 6,
-        "Miercoles": 5,
+        "Miercoles": 7,
         "Jueves": 6,
-        "Viernes": 5
+        "Viernes": 6
       },
-      "promedioDiario": "5.6"
+      "promedioDiario": "6.2"
     }
   },
   "505E": {
@@ -6751,15 +6751,15 @@
           "aula": null
         },
         "5": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "Ramírez Solís Erik",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "7": {
@@ -6801,27 +6801,27 @@
           "aula": null
         },
         "5": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "6": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         }
       },
@@ -6851,9 +6851,9 @@
           "aula": null
         },
         "5": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "Ramírez Solís Erik",
           "aula": null
         },
         "6": {
@@ -6863,9 +6863,9 @@
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "8": {
@@ -6877,39 +6877,39 @@
       },
       "Jueves": {
         "1": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Lerma Martínez Luis Enrique",
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "Ramírez Solís Erik",
           "aula": null
         },
         "2": {
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "Ramírez Solís Erik",
+          "aula": null
+        },
+        "3": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
           "abreviatura": "CHIS2",
           "docente": "Lerma Martínez Luis Enrique",
           "aula": null
         },
-        "3": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Solís Rieboles Ulises",
-          "aula": null
-        },
         "4": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Lerma Martínez Luis Enrique",
           "aula": null
         },
         "5": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "Ramírez Solís Erik",
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "6": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "Ramírez Solís Erik",
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "7": {
@@ -6927,15 +6927,15 @@
       },
       "Viernes": {
         "1": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Lerma Martínez Luis Enrique",
-          "aula": null
-        },
-        "2": {
           "materia": "Tutorías",
           "abreviatura": "TUTOR",
           "docente": "Solís Rieboles Ulises",
+          "aula": null
+        },
+        "2": {
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Lerma Martínez Luis Enrique",
           "aula": null
         },
         "3": {
@@ -6951,15 +6951,15 @@
           "aula": null
         },
         "5": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         },
         "7": {
@@ -6978,15 +6978,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 28,
+      "totalHoras": 33,
       "horasPorDia": {
-        "Lunes": 5,
-        "Martes": 6,
-        "Miercoles": 6,
+        "Lunes": 6,
+        "Martes": 8,
+        "Miercoles": 7,
         "Jueves": 6,
-        "Viernes": 5
+        "Viernes": 6
       },
-      "promedioDiario": "5.6"
+      "promedioDiario": "6.6"
     }
   },
   "506F": {
@@ -7039,9 +7039,9 @@
           "aula": null
         },
         "8": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         }
       },
@@ -7083,9 +7083,9 @@
           "aula": null
         },
         "7": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "docente": "Pérez Abrego Erika Aideé",
           "aula": null
         },
         "8": {
@@ -7159,27 +7159,27 @@
           "aula": null
         },
         "3": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Lerma Martínez Luis Enrique",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Pérez Abrego Erika Aideé",
           "aula": null
         },
         "4": {
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Pérez Abrego Erika Aideé",
+          "aula": null
+        },
+        "5": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
           "abreviatura": "CHIS2",
           "docente": "Lerma Martínez Luis Enrique",
           "aula": null
         },
-        "5": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Pérez Abrego Erika Aideé",
-          "aula": null
-        },
         "6": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Lerma Martínez Luis Enrique",
           "aula": null
         },
         "7": {
@@ -7197,9 +7197,9 @@
       },
       "Viernes": {
         "1": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Lerma Martínez Luis Enrique",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Pérez Abrego Erika Aideé",
           "aula": null
         },
         "2": {
@@ -7209,9 +7209,9 @@
           "aula": null
         },
         "3": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Lerma Martínez Luis Enrique",
           "aula": null
         },
         "4": {
@@ -7227,15 +7227,15 @@
           "aula": null
         },
         "6": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "8": {
@@ -7250,11 +7250,11 @@
       "huecos": 0,
       "totalHoras": 33,
       "horasPorDia": {
-        "Lunes": 8,
+        "Lunes": 7,
         "Martes": 7,
         "Miercoles": 6,
         "Jueves": 6,
-        "Viernes": 6
+        "Viernes": 7
       },
       "promedioDiario": "6.6"
     }
@@ -7323,14 +7323,14 @@
           "aula": null
         },
         "2": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "Reyes Norberto Mildred Yasmín",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
         "3": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
           "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
@@ -7417,39 +7417,39 @@
       },
       "Jueves": {
         "1": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Pérez Abrego Erika Aideé",
-          "aula": null
-        },
-        "2": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Pérez Abrego Erika Aideé",
-          "aula": null
-        },
-        "3": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Lerma Martínez Luis Enrique",
-          "aula": null
-        },
-        "4": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Lerma Martínez Luis Enrique",
-          "aula": null
-        },
-        "5": {
           "materia": "Inglés V",
           "abreviatura": "ING5",
           "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         },
+        "2": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Santoyo Torres Jose Alberto",
+          "aula": null
+        },
+        "3": {
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Pérez Abrego Erika Aideé",
+          "aula": null
+        },
+        "4": {
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Pérez Abrego Erika Aideé",
+          "aula": null
+        },
+        "5": {
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Lerma Martínez Luis Enrique",
+          "aula": null
+        },
         "6": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Reyes Norberto Mildred Yasmín",
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Lerma Martínez Luis Enrique",
           "aula": null
         },
         "7": {
@@ -7467,15 +7467,15 @@
       },
       "Viernes": {
         "1": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "Reyes Norberto Mildred Yasmín",
           "aula": null
         },
         "2": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "Reyes Norberto Mildred Yasmín",
           "aula": null
         },
         "3": {
@@ -7485,21 +7485,21 @@
           "aula": null
         },
         "4": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "Reyes Norberto Mildred Yasmín",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Pérez Abrego Erika Aideé",
           "aula": null
         },
         "5": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Pérez Abrego Erika Aideé",
           "aula": null
         },
         "6": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
         "7": {
@@ -7537,15 +7537,65 @@
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "Lerma Martínez Luis Enrique",
           "aula": null
         },
         "2": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Silva Camacho Sandra Catalina",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Torres Quiñones Norma Elena",
+          "aula": null
+        },
+        "3": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPEL5",
+          "docente": "Hernández González Felipe",
+          "aula": null
+        },
+        "4": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPEL5",
+          "docente": "Hernández González Felipe",
+          "aula": null
+        },
+        "5": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPEL5",
+          "docente": "Hernández González Felipe",
+          "aula": null
+        },
+        "6": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPEL5",
+          "docente": "Hernández González Felipe",
+          "aula": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
+          "aula": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
+          "aula": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Torres Quiñones Norma Elena",
+          "aula": null
+        },
+        "2": {
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "Reyes Norberto Mildred Yasmín",
           "aula": null
         },
         "3": {
@@ -7585,56 +7635,6 @@
           "aula": null
         }
       },
-      "Martes": {
-        "1": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "docente": "Santoyo Torres Jose Alberto",
-          "aula": null
-        },
-        "2": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "docente": "Santoyo Torres Jose Alberto",
-          "aula": null
-        },
-        "3": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "docente": "Hernández González Felipe",
-          "aula": null
-        },
-        "4": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "docente": "Hernández González Felipe",
-          "aula": null
-        },
-        "5": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "docente": "Hernández González Felipe",
-          "aula": null
-        },
-        "6": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "docente": "Hernández González Felipe",
-          "aula": null
-        },
-        "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
-          "aula": null
-        },
-        "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
-          "aula": null
-        }
-      },
       "Miercoles": {
         "1": {
           "materia": "Estudios Literarios",
@@ -7649,9 +7649,9 @@
           "aula": null
         },
         "3": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPEL5",
+          "docente": "Hernández González Felipe",
           "aula": null
         },
         "4": {
@@ -7673,9 +7673,9 @@
           "aula": null
         },
         "7": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "docente": "Hernández González Felipe",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -7702,6 +7702,56 @@
           "materia": "La energía en los procesos de la vida diaria",
           "abreviatura": "LEPDV",
           "docente": "Torres Quiñones Norma Elena",
+          "aula": null
+        },
+        "4": {
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Torres Quiñones Norma Elena",
+          "aula": null
+        },
+        "5": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Santoyo Torres Jose Alberto",
+          "aula": null
+        },
+        "6": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Santoyo Torres Jose Alberto",
+          "aula": null
+        },
+        "7": {
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
+          "aula": null
+        },
+        "8": {
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Silva Camacho Sandra Catalina",
+          "aula": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Santoyo Torres Jose Alberto",
+          "aula": null
+        },
+        "2": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Santoyo Torres Jose Alberto",
+          "aula": null
+        },
+        "3": {
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "Reyes Norberto Mildred Yasmín",
           "aula": null
         },
         "4": {
@@ -7734,67 +7784,17 @@
           "docente": null,
           "aula": null
         }
-      },
-      "Viernes": {
-        "1": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "Reyes Norberto Mildred Yasmín",
-          "aula": null
-        },
-        "2": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "Reyes Norberto Mildred Yasmín",
-          "aula": null
-        },
-        "3": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Lerma Martínez Luis Enrique",
-          "aula": null
-        },
-        "4": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Torres Quiñones Norma Elena",
-          "aula": null
-        },
-        "5": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Torres Quiñones Norma Elena",
-          "aula": null
-        },
-        "6": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "docente": "Santoyo Torres Jose Alberto",
-          "aula": null
-        },
-        "7": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "docente": "Santoyo Torres Jose Alberto",
-          "aula": null
-        },
-        "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
-          "aula": null
-        }
       }
     },
     "estadisticas": {
       "huecos": 0,
       "totalHoras": 33,
       "horasPorDia": {
-        "Lunes": 7,
-        "Martes": 6,
-        "Miercoles": 7,
-        "Jueves": 6,
-        "Viernes": 7
+        "Lunes": 6,
+        "Martes": 7,
+        "Miercoles": 6,
+        "Jueves": 8,
+        "Viernes": 6
       },
       "promedioDiario": "6.6"
     }
@@ -8047,121 +8047,121 @@
     "horario": {
       "Lunes": {
         "8": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "González López José Luis",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "docente": "Carmona Olivares Carlos Melecio",
           "aula": null
         },
         "9": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "docente": "Carmona Olivares Carlos Melecio",
+          "aula": null
+        },
+        "10": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "docente": "Carmona Olivares Carlos Melecio",
+          "aula": null
+        },
+        "11": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "docente": "Carmona Olivares Carlos Melecio",
+          "aula": null
+        },
+        "12": {
           "materia": "Temas selectos de Matemáticas II",
           "abreviatura": "TSDM2",
           "docente": "González López José Luis",
           "aula": null
         },
-        "10": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Solís Rieboles Ulises",
-          "aula": null
-        },
-        "11": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "De La Fuente Escobedo Luis Ramón",
-          "aula": null
-        },
-        "12": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "De La Fuente Escobedo Luis Ramón",
-          "aula": null
-        },
         "13": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "González López José Luis",
           "aula": null
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "De la Rosa Ortega Gerardo",
           "aula": null
         }
       },
       "Martes": {
         "8": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "De La Fuente Escobedo Luis Ramón",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "docente": "Carmona Olivares Carlos Melecio",
           "aula": null
         },
         "9": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "docente": "De la Rosa Ortega Gerardo",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "docente": "Carmona Olivares Carlos Melecio",
           "aula": null
         },
         "10": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "docente": "Carmona Olivares Carlos Melecio",
           "aula": null
         },
         "11": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "docente": "Carmona Olivares Carlos Melecio",
+          "aula": null
+        },
+        "12": {
           "materia": "Temas selectos de Matemáticas II",
           "abreviatura": "TSDM2",
           "docente": "González López José Luis",
           "aula": null
         },
-        "12": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "De la Rosa Ortega Gerardo",
-          "aula": null
-        },
         "13": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "De la Rosa Ortega Gerardo",
           "aula": null
         }
       },
       "Miercoles": {
         "8": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "docente": "De la Rosa Ortega Gerardo",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "docente": "Carmona Olivares Carlos Melecio",
           "aula": null
         },
         "9": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "docente": "De la Rosa Ortega Gerardo",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "docente": "Carmona Olivares Carlos Melecio",
           "aula": null
         },
         "10": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Lerma Martínez Luis Enrique",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "docente": "Carmona Olivares Carlos Melecio",
           "aula": null
         },
         "11": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Lerma Martínez Luis Enrique",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "docente": "Carmona Olivares Carlos Melecio",
           "aula": null
         },
         "12": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "De la Rosa Ortega Gerardo",
           "aula": null
         },
         "13": {
@@ -8191,27 +8191,27 @@
           "aula": null
         },
         "10": {
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "De La Fuente Escobedo Luis Ramón",
+          "aula": null
+        },
+        "11": {
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "De La Fuente Escobedo Luis Ramón",
+          "aula": null
+        },
+        "12": {
           "materia": "Estudios Literarios",
           "abreviatura": "ESTL",
           "docente": "Lerma Martínez Luis Enrique",
           "aula": null
         },
-        "11": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
-          "aula": null
-        },
-        "12": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
-          "aula": null
-        },
         "13": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Lerma Martínez Luis Enrique",
           "aula": null
         },
         "14": {
@@ -8223,9 +8223,9 @@
       },
       "Viernes": {
         "8": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "González López José Luis",
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "De La Fuente Escobedo Luis Ramón",
           "aula": null
         },
         "9": {
@@ -8235,27 +8235,27 @@
           "aula": null
         },
         "10": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "González López José Luis",
           "aula": null
         },
         "11": {
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Lerma Martínez Luis Enrique",
+          "aula": null
+        },
+        "12": {
           "materia": "La energía en los procesos de la vida diaria",
           "abreviatura": "LEPDV",
           "docente": "Solís Rieboles Ulises",
           "aula": null
         },
-        "12": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
-          "aula": null
-        },
         "13": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "14": {
@@ -8268,15 +8268,15 @@
     },
     "estadisticas": {
       "huecos": 0,
-      "totalHoras": 21,
+      "totalHoras": 31,
       "horasPorDia": {
-        "Lunes": 5,
-        "Martes": 5,
-        "Miercoles": 4,
-        "Jueves": 3,
-        "Viernes": 4
+        "Lunes": 7,
+        "Martes": 7,
+        "Miercoles": 5,
+        "Jueves": 6,
+        "Viernes": 6
       },
-      "promedioDiario": "4.2"
+      "promedioDiario": "6.2"
     }
   },
   "503K": {
@@ -8293,9 +8293,9 @@
           "aula": null
         },
         "9": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Lerma Martínez Luis Enrique",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Pérez Abrego Erika Aideé",
           "aula": null
         },
         "10": {
@@ -8337,9 +8337,9 @@
           "aula": null
         },
         "9": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "De la Rosa Ortega Gerardo",
           "aula": null
         },
         "10": {
@@ -8349,9 +8349,9 @@
           "aula": null
         },
         "11": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "docente": "De la Rosa Ortega Gerardo",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPEL5",
+          "docente": "Herrera García Marco Iván",
           "aula": null
         },
         "12": {
@@ -8367,17 +8367,17 @@
           "aula": null
         },
         "14": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "docente": "Herrera García Marco Iván",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         }
       },
       "Miercoles": {
         "8": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "docente": "González López José Luis",
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "De la Rosa Ortega Gerardo",
           "aula": null
         },
         "9": {
@@ -8393,9 +8393,9 @@
           "aula": null
         },
         "11": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "docente": "Herrera García Marco Iván",
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "docente": "González López José Luis",
           "aula": null
         },
         "12": {
@@ -8405,15 +8405,15 @@
           "aula": null
         },
         "13": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "docente": "Lerma Martínez Luis Enrique",
+          "materia": "Modulo profesional",
+          "abreviatura": "MPEL5",
+          "docente": "Herrera García Marco Iván",
           "aula": null
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Pérez Abrego Erika Aideé",
           "aula": null
         }
       },
@@ -8431,33 +8431,33 @@
           "aula": null
         },
         "10": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "De La Fuente Escobedo Luis Ramón",
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Lerma Martínez Luis Enrique",
           "aula": null
         },
         "11": {
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "docente": "Lerma Martínez Luis Enrique",
+          "aula": null
+        },
+        "12": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
           "abreviatura": "CHIS2",
           "docente": "De La Fuente Escobedo Luis Ramón",
           "aula": null
         },
-        "12": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "docente": "De la Rosa Ortega Gerardo",
-          "aula": null
-        },
         "13": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Herrera García Marco Iván",
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "docente": "De La Fuente Escobedo Luis Ramón",
           "aula": null
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "docente": "Herrera García Marco Iván",
           "aula": null
         }
       },
@@ -8499,9 +8499,9 @@
           "aula": null
         },
         "14": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         }
       }
@@ -8511,10 +8511,10 @@
       "totalHoras": 33,
       "horasPorDia": {
         "Lunes": 7,
-        "Martes": 7,
-        "Miercoles": 6,
-        "Jueves": 6,
-        "Viernes": 7
+        "Martes": 6,
+        "Miercoles": 7,
+        "Jueves": 7,
+        "Viernes": 6
       },
       "promedioDiario": "6.6"
     }

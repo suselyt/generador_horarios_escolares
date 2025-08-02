@@ -83,6 +83,21 @@
         ]
     },
     {
+        "nombre": "Carmona Olivares Carlos Melecio",
+        "abreviatura": "C.O. Carlos Melecio",
+        "horas_semanales_totales": 22,
+        "materias": [
+            {
+                "id": "I5",
+                "grupos_preferidos_asignar": ["501A", "502B"]
+            },
+            {
+                "id": "MP-DGD5",
+                "grupos_preferidos_asignar": ["502J"]
+            }
+        ]
+    },
+    {
         "nombre": "Cepeda Ramos Yuridia Lizbeth",
         "abreviatura": "C.R. Yuridia Lizbeth",
         "horas_semanales_totales": 40,
@@ -150,6 +165,29 @@
                 "nombre": "Multidisciplinarias",
                 "abreviatura": "MULTI",
                 "horas": 2
+            }
+        ]
+    },
+    {
+        "nombre": "Diaz Mendoza Alan Eduardo",
+        "abreviatura": "D.M. Alan Eduardo",
+        "horas_semanales_totales": 34,
+        "materias": [
+            {
+                "id": "MP-MA3",
+                "grupos_preferidos_asignar": ["301A"]
+            },
+            {
+                "id": "I5",
+                "grupos_preferidos_asignar": ["503C", "504D", "505E"]
+            }
+        ],
+        "horas_dual": [
+            {
+                "nombre": "Inglés V",
+                "abreviatura": "ING5",
+                "semestre": 5,
+                "horas_semanales": 2
             }
         ]
     },   
@@ -573,6 +611,38 @@
         ]
     },
     {
+        "nombre": "Martinez Hernandez Cynthia Brenda",
+        "abreviatura": "M.H. Cynthia Brenda",
+        "horas_semanales_totales": 40,
+        "materias": [
+            {
+                "id": "LYC1",
+                "grupos_preferidos_asignar": ["106F", "104J"]
+            },
+            {
+                "id": "LYC3",
+                "grupos_preferidos_asignar": ["302B", "303C"]
+            }
+        ],
+        "horas_fortalecimiento_academico": [
+            {
+                "nombre": "Tutorías",
+                "abreviatura": "TUTOR",
+                "horas": 2
+            },
+            {
+                "nombre": "Multidisciplinarias",
+                "abreviatura": "MULTI",
+                "horas": 1
+            },
+            {
+                "nombre": "Comisión",
+                "abreviatura": "COMIS",
+                "horas": 8
+            }
+        ]
+    },
+    {
         "nombre": "Moran Lerma Karla Valeria",
         "abreviatura": "M.L. Karla Valeria",
         "horas_semanales_totales": 40,
@@ -709,7 +779,7 @@
     {
         "nombre": "Rodríguez Peláez Carolina",
         "abreviatura": "R.P. Carolina",
-        "horas_semanales_totales": 36,
+        "horas_semanales_totales": 39,
         "materias": [
             {
                 "id": "I1",
@@ -717,7 +787,7 @@
             },
             {
                 "id": "I3",
-                "grupos_preferidos_asignar": ["302B"]
+                "grupos_preferidos_asignar": ["302B", "305E"]
             }
         ]
     },
@@ -985,6 +1055,21 @@
             }
         ]
     },
+    {
+        "nombre": "Torres Vargas Mayra",
+        "abreviatura": "T.V. Mayra",
+        "horas_semanales_totales": 20,
+        "materias": [
+            {
+                "id": "CS",
+                "grupos_preferidos_asignar": ["101G", "102H", "103I"]
+            },
+            {
+                "id": "H2",
+                "grupos_preferidos_asignar": ["305K"]
+            }
+        ]
+    }, 
     {
         "nombre": "Villasana García Rafael",
         "abreviatura": "V.G. Rafael",

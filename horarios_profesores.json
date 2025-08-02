@@ -3,16 +3,16 @@
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPMM5",
-          "grupo": "501A",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPMM5",
-          "grupo": "501A",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
           "materia": "Modulo profesional",
@@ -21,22 +21,22 @@
           "semestre": 5
         },
         "4": {
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "grupo": "105E",
+          "semestre": 1
+        },
+        "5": {
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "grupo": "105E",
+          "semestre": 1
+        },
+        "6": {
           "materia": "Modulo profesional",
           "abreviatura": "MPMM5",
           "grupo": "501A",
           "semestre": 5
-        },
-        "5": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
         },
         "7": {
           "materia": null,
@@ -89,16 +89,16 @@
       },
       "Martes": {
         "1": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPMM5",
-          "grupo": "501A",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPMM5",
-          "grupo": "501A",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
           "materia": "Modulo profesional",
@@ -107,22 +107,22 @@
           "semestre": 5
         },
         "4": {
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "grupo": "106F",
+          "semestre": 1
+        },
+        "5": {
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "grupo": "106F",
+          "semestre": 1
+        },
+        "6": {
           "materia": "Modulo profesional",
           "abreviatura": "MPMM5",
           "grupo": "501A",
           "semestre": 5
-        },
-        "5": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
         },
         "7": {
           "materia": null,
@@ -367,7 +367,7 @@
         "4": {
           "materia": "Humanidades II",
           "abreviatura": "HUM2",
-          "grupo": "302B",
+          "grupo": "303C",
           "semestre": 3
         },
         "5": {
@@ -377,10 +377,10 @@
           "semestre": 3
         },
         "6": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "grupo": "303C",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
           "materia": null,
@@ -433,9 +433,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 24,
+      "horasAsignadas": 23,
       "horasRequeridas": 29,
-      "porcentajeCompletado": "82.8"
+      "porcentajeCompletado": "79.3"
     }
   },
   "Ávalos Ramos Grecia": {
@@ -881,16 +881,16 @@
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": "Concursos",
+          "abreviatura": "CONCU",
+          "grupo": null,
+          "semestre": null
         },
         "2": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": "Concursos",
+          "abreviatura": "CONCU",
+          "grupo": null,
+          "semestre": null
         },
         "3": {
           "materia": "Concursos",
@@ -917,8 +917,8 @@
           "semestre": 3
         },
         "7": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -935,8 +935,8 @@
           "semestre": null
         },
         "10": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -967,10 +967,10 @@
       },
       "Martes": {
         "1": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
           "materia": null,
@@ -1227,7 +1227,7 @@
         "1": {
           "materia": "Inglés III",
           "abreviatura": "ING3",
-          "grupo": "303C",
+          "grupo": "301A",
           "semestre": 3
         },
         "2": {
@@ -1239,38 +1239,38 @@
         "3": {
           "materia": "Inglés III",
           "abreviatura": "ING3",
-          "grupo": "304D",
+          "grupo": "303C",
           "semestre": 3
         },
         "4": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "grupo": "306F",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
           "materia": "Inglés III",
           "abreviatura": "ING3",
-          "grupo": "306F",
+          "grupo": "304D",
           "semestre": 3
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "grupo": "304D",
+          "semestre": 3
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "grupo": "306F",
+          "semestre": 3
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "grupo": "306F",
+          "semestre": 3
         },
         "9": {
           "materia": null,
@@ -1311,9 +1311,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 17,
+      "horasAsignadas": 16,
       "horasRequeridas": 15,
-      "porcentajeCompletado": "113.3"
+      "porcentajeCompletado": "106.7"
     }
   },
   "Benítez Espín Marcela": {
@@ -1755,6 +1755,445 @@
       "porcentajeCompletado": "125.0"
     }
   },
+  "Carmona Olivares Carlos Melecio": {
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "501A",
+          "semestre": 5
+        },
+        "2": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "502B",
+          "semestre": 5
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "grupo": "502J",
+          "semestre": 5
+        },
+        "9": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "grupo": "502J",
+          "semestre": 5
+        },
+        "10": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "grupo": "502J",
+          "semestre": 5
+        },
+        "11": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "grupo": "502J",
+          "semestre": 5
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "grupo": "502J",
+          "semestre": 5
+        },
+        "9": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "grupo": "502J",
+          "semestre": 5
+        },
+        "10": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "grupo": "502J",
+          "semestre": 5
+        },
+        "11": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "grupo": "502J",
+          "semestre": 5
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "grupo": "502J",
+          "semestre": 5
+        },
+        "9": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "grupo": "502J",
+          "semestre": 5
+        },
+        "10": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "grupo": "502J",
+          "semestre": 5
+        },
+        "11": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "grupo": "502J",
+          "semestre": 5
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "501A",
+          "semestre": 5
+        },
+        "2": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "501A",
+          "semestre": 5
+        },
+        "3": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "502B",
+          "semestre": 5
+        },
+        "4": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "502B",
+          "semestre": 5
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "501A",
+          "semestre": 5
+        },
+        "2": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "501A",
+          "semestre": 5
+        },
+        "3": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "502B",
+          "semestre": 5
+        },
+        "4": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "502B",
+          "semestre": 5
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      }
+    },
+    "estadisticas": {
+      "horasAsignadas": 22,
+      "horasRequeridas": 22,
+      "porcentajeCompletado": "100.0"
+    }
+  },
   "Cepeda Ramos Yuridia Lizbeth": {
     "horario": {
       "Lunes": {
@@ -1869,22 +2308,22 @@
           "semestre": 1
         },
         "5": {
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "104D",
+          "semestre": 1
+        },
+        "6": {
           "materia": "Temas selectos de Matemáticas II",
           "abreviatura": "TSDM2",
           "grupo": "503C",
           "semestre": 5
         },
-        "6": {
+        "7": {
           "materia": "Temas selectos de Matemáticas II",
           "abreviatura": "TSDM2",
           "grupo": "502B",
           "semestre": 5
-        },
-        "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
         },
         "8": {
           "materia": null,
@@ -1955,10 +2394,10 @@
           "semestre": null
         },
         "5": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "302B",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": null,
@@ -2031,7 +2470,7 @@
         "3": {
           "materia": "Temas selectos de Matemáticas II",
           "abreviatura": "TSDM2",
-          "grupo": "504D",
+          "grupo": "503C",
           "semestre": 5
         },
         "4": {
@@ -2041,10 +2480,10 @@
           "semestre": 5
         },
         "5": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "grupo": "504D",
+          "semestre": 5
         },
         "6": {
           "materia": null,
@@ -2053,10 +2492,10 @@
           "semestre": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "grupo": "503C",
+          "semestre": 5
         },
         "8": {
           "materia": null,
@@ -2103,16 +2542,16 @@
       },
       "Viernes": {
         "1": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "grupo": "302B",
+          "semestre": 3
         },
         "2": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "grupo": "302B",
+          "semestre": 3
         },
         "3": {
           "materia": "Temas selectos de Matemáticas II",
@@ -2123,7 +2562,7 @@
         "4": {
           "materia": "Temas selectos de Matemáticas II",
           "abreviatura": "TSDM2",
-          "grupo": "504D",
+          "grupo": "503C",
           "semestre": 5
         },
         "5": {
@@ -2133,10 +2572,10 @@
           "semestre": 5
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "grupo": "504D",
+          "semestre": 5
         },
         "7": {
           "materia": null,
@@ -2189,9 +2628,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 30,
+      "horasAsignadas": 33,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "75.0"
+      "porcentajeCompletado": "82.5"
     }
   },
   "De La Fuente Escobedo Luis Ramón": {
@@ -2258,16 +2697,16 @@
           "semestre": 1
         },
         "11": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "grupo": "502J",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "12": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "grupo": "502J",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "13": {
           "materia": null,
@@ -2326,10 +2765,10 @@
           "semestre": null
         },
         "8": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "grupo": "502J",
-          "semestre": 5
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "grupo": "105K",
+          "semestre": 1
         },
         "9": {
           "materia": null,
@@ -2340,7 +2779,7 @@
         "10": {
           "materia": "Tutorías",
           "abreviatura": "TUTOR",
-          "grupo": "105K",
+          "grupo": "104J",
           "semestre": 1
         },
         "11": {
@@ -2512,26 +2951,26 @@
         "10": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
           "abreviatura": "CHIS2",
-          "grupo": "503K",
+          "grupo": "502J",
           "semestre": 5
         },
         "11": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
           "abreviatura": "CHIS2",
-          "grupo": "503K",
+          "grupo": "502J",
           "semestre": 5
         },
         "12": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "grupo": "503K",
+          "semestre": 5
         },
         "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "grupo": "503K",
+          "semestre": 5
         },
         "14": {
           "materia": null,
@@ -2584,16 +3023,16 @@
           "semestre": null
         },
         "8": {
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "grupo": "502J",
+          "semestre": 5
+        },
+        "9": {
           "materia": null,
           "abreviatura": null,
           "grupo": null,
           "semestre": null
-        },
-        "9": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "104J",
-          "semestre": 1
         },
         "10": {
           "materia": null,
@@ -2631,6 +3070,445 @@
       "horasAsignadas": 18,
       "horasRequeridas": 20,
       "porcentajeCompletado": "90.0"
+    }
+  },
+  "Diaz Mendoza Alan Eduardo": {
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "2": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "3": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "4": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "5": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "505E",
+          "semestre": 5
+        },
+        "6": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "505E",
+          "semestre": 5
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "2": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "3": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "4": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "5": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "505E",
+          "semestre": 5
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "2": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "3": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "4": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "2": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "3": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "4": {
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMA3",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "5": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "503C",
+          "semestre": 5
+        },
+        "6": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "504D",
+          "semestre": 5
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "503C",
+          "semestre": 5
+        },
+        "2": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "503C",
+          "semestre": 5
+        },
+        "3": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "504D",
+          "semestre": 5
+        },
+        "4": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "504D",
+          "semestre": 5
+        },
+        "5": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "505E",
+          "semestre": 5
+        },
+        "6": {
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "505E",
+          "semestre": 5
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      }
+    },
+    "estadisticas": {
+      "horasAsignadas": 27,
+      "horasRequeridas": 34,
+      "porcentajeCompletado": "79.4"
     }
   },
   "De la Rosa Ortega Gerardo": {
@@ -2715,10 +3593,10 @@
           "semestre": 3
         },
         "14": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "502J",
+          "semestre": 5
         }
       },
       "Martes": {
@@ -2735,8 +3613,8 @@
           "semestre": null
         },
         "3": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
           "grupo": null,
           "semestre": null
         },
@@ -2747,8 +3625,8 @@
           "semestre": null
         },
         "5": {
-          "materia": null,
-          "abreviatura": null,
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
           "grupo": null,
           "semestre": null
         },
@@ -2773,7 +3651,7 @@
         "9": {
           "materia": "Inglés V",
           "abreviatura": "ING5",
-          "grupo": "502J",
+          "grupo": "503K",
           "semestre": 5
         },
         "10": {
@@ -2783,16 +3661,16 @@
           "semestre": 5
         },
         "11": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "grupo": "503K",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "12": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "502J",
-          "semestre": 5
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "grupo": "302H",
+          "semestre": 3
         },
         "13": {
           "materia": "Inglés III",
@@ -2801,10 +3679,10 @@
           "semestre": 3
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "502J",
+          "semestre": 5
         }
       },
       "Miercoles": {
@@ -2853,14 +3731,14 @@
         "8": {
           "materia": "Inglés V",
           "abreviatura": "ING5",
-          "grupo": "502J",
+          "grupo": "503K",
           "semestre": 5
         },
         "9": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "grupo": "502J",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "10": {
           "materia": null,
@@ -2875,10 +3753,10 @@
           "semestre": null
         },
         "12": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "grupo": "301G",
-          "semestre": 3
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "502J",
+          "semestre": 5
         },
         "13": {
           "materia": "Inglés III",
@@ -2887,10 +3765,10 @@
           "semestre": 3
         },
         "14": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "304J",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         }
       },
       "Jueves": {
@@ -2961,10 +3839,10 @@
           "semestre": 5
         },
         "12": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "grupo": "503K",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "13": {
           "materia": "Inglés III",
@@ -3043,13 +3921,13 @@
         "11": {
           "materia": "Inglés III",
           "abreviatura": "ING3",
-          "grupo": "305K",
+          "grupo": "302H",
           "semestre": 3
         },
         "12": {
           "materia": "Inglés III",
           "abreviatura": "ING3",
-          "grupo": "301G",
+          "grupo": "305K",
           "semestre": 3
         },
         "13": {
@@ -3067,9 +3945,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 42,
+      "horasAsignadas": 40,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "105.0"
+      "porcentajeCompletado": "100.0"
     }
   },
   "De León Flores Jorge Isidro": {
@@ -3521,9 +4399,9 @@
           "semestre": 1
         },
         "2": {
-          "materia": "C. Sociales",
-          "abreviatura": "CSOC",
-          "grupo": "101A",
+          "materia": "Humanidades I",
+          "abreviatura": "HUM1",
+          "grupo": "106F",
           "semestre": 1
         },
         "3": {
@@ -3533,10 +4411,10 @@
           "semestre": 1
         },
         "4": {
-          "materia": "Humanidades I",
-          "abreviatura": "HUM1",
-          "grupo": "106F",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
           "materia": "Multidisciplinarias",
@@ -3945,9 +4823,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 34,
+      "horasAsignadas": 33,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "85.0"
+      "porcentajeCompletado": "82.5"
     }
   },
   "González López José Luis": {
@@ -3996,16 +4874,16 @@
           "semestre": null
         },
         "8": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "grupo": "502J",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "grupo": "502J",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "10": {
           "materia": null,
@@ -4020,16 +4898,16 @@
           "semestre": null
         },
         "12": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "grupo": "502J",
+          "semestre": 5
         },
         "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "grupo": "502J",
+          "semestre": 5
         },
         "14": {
           "materia": null,
@@ -4100,16 +4978,16 @@
           "semestre": 5
         },
         "11": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "grupo": "502J",
-          "semestre": 5
-        },
-        "12": {
           "materia": null,
           "abreviatura": null,
           "grupo": null,
           "semestre": null
+        },
+        "12": {
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "grupo": "502J",
+          "semestre": 5
         },
         "13": {
           "materia": "Pensamiento Matemático III",
@@ -4168,10 +5046,10 @@
           "semestre": null
         },
         "8": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "grupo": "503K",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": "Temas selectos de Matemáticas II",
@@ -4186,10 +5064,10 @@
           "semestre": 5
         },
         "11": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "grupo": "503K",
+          "semestre": 5
         },
         "12": {
           "materia": null,
@@ -4340,10 +5218,10 @@
           "semestre": null
         },
         "8": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "grupo": "502J",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": "Temas selectos de Matemáticas II",
@@ -4352,10 +5230,10 @@
           "semestre": 5
         },
         "10": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "grupo": "502J",
+          "semestre": 5
         },
         "11": {
           "materia": null,
@@ -4461,7 +5339,7 @@
         "12": {
           "materia": "Tutorías",
           "abreviatura": "TUTOR",
-          "grupo": "101G",
+          "grupo": "102H",
           "semestre": 1
         },
         "13": {
@@ -4565,16 +5443,16 @@
       },
       "Miercoles": {
         "1": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPMP5",
-          "grupo": "505E",
-          "semestre": 5
+          "materia": "Cultura Digital I",
+          "abreviatura": "CD1",
+          "grupo": "106F",
+          "semestre": 1
         },
         "2": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPMP5",
-          "grupo": "505E",
-          "semestre": 5
+          "materia": "Cultura Digital I",
+          "abreviatura": "CD1",
+          "grupo": "106F",
+          "semestre": 1
         },
         "3": {
           "materia": "Modulo profesional",
@@ -4583,16 +5461,16 @@
           "semestre": 5
         },
         "4": {
-          "materia": "Cultura Digital I",
-          "abreviatura": "CD1",
-          "grupo": "106F",
-          "semestre": 1
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMP5",
+          "grupo": "505E",
+          "semestre": 5
         },
         "5": {
-          "materia": "Cultura Digital I",
-          "abreviatura": "CD1",
-          "grupo": "106F",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": null,
@@ -4755,10 +5633,10 @@
           "semestre": null
         },
         "4": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "106F",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
           "materia": null,
@@ -4823,25 +5701,25 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 35,
+      "horasAsignadas": 33,
       "horasRequeridas": 34,
-      "porcentajeCompletado": "102.9"
+      "porcentajeCompletado": "97.1"
     }
   },
   "Heredia Blanco Laura Esmeralda": {
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "504D",
+          "semestre": 5
         },
         "2": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "504D",
+          "semestre": 5
         },
         "3": {
           "materia": "Asesorías Académicas",
@@ -4856,26 +5734,26 @@
           "semestre": null
         },
         "5": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
           "grupo": null,
           "semestre": null
         },
         "6": {
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
           "materia": "Multidisciplinarias",
           "abreviatura": "MULTI",
           "grupo": null,
           "semestre": null
         },
-        "7": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
-          "grupo": null,
-          "semestre": null
-        },
         "8": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
           "grupo": null,
           "semestre": null
         },
@@ -4898,14 +5776,14 @@
           "semestre": null
         },
         "12": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
           "grupo": null,
           "semestre": null
         },
@@ -4918,26 +5796,26 @@
       },
       "Martes": {
         "1": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "504D",
+          "semestre": 5
         },
         "2": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "504D",
+          "semestre": 5
         },
         "3": {
-          "materia": null,
-          "abreviatura": null,
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
           "grupo": null,
           "semestre": null
         },
         "4": {
-          "materia": null,
-          "abreviatura": null,
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
           "grupo": null,
           "semestre": null
         },
@@ -5028,16 +5906,16 @@
           "semestre": null
         },
         "5": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "503C",
+          "semestre": 5
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "503C",
+          "semestre": 5
         },
         "7": {
           "materia": null,
@@ -5092,38 +5970,38 @@
         "1": {
           "materia": "La energía en los procesos de la vida diaria",
           "abreviatura": "LEPDV",
-          "grupo": "504D",
+          "grupo": "503C",
           "semestre": 5
         },
         "2": {
           "materia": "La energía en los procesos de la vida diaria",
           "abreviatura": "LEPDV",
-          "grupo": "504D",
+          "grupo": "503C",
           "semestre": 5
         },
         "3": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "501A",
+          "semestre": 5
         },
         "4": {
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "501A",
+          "semestre": 5
+        },
+        "5": {
           "materia": null,
           "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
-        "5": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "503C",
-          "semestre": 5
-        },
         "6": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "503C",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
           "materia": null,
@@ -5176,28 +6054,28 @@
       },
       "Viernes": {
         "1": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "503C",
-          "semestre": 5
-        },
-        "2": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "504D",
-          "semestre": 5
-        },
-        "3": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "504D",
-          "semestre": 5
-        },
-        "4": {
           "materia": null,
           "abreviatura": null,
           "grupo": null,
           "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "501A",
+          "semestre": 5
+        },
+        "4": {
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "501A",
+          "semestre": 5
         },
         "5": {
           "materia": null,
@@ -5226,26 +6104,26 @@
         "9": {
           "materia": "La materia y sus interacciones",
           "abreviatura": "LMYSI",
-          "grupo": "103I",
+          "grupo": "101G",
           "semestre": 1
         },
         "10": {
           "materia": "La materia y sus interacciones",
           "abreviatura": "LMYSI",
-          "grupo": "103I",
+          "grupo": "102H",
           "semestre": 1
         },
         "11": {
           "materia": "La materia y sus interacciones",
           "abreviatura": "LMYSI",
-          "grupo": "102H",
+          "grupo": "103I",
           "semestre": 1
         },
         "12": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "grupo": "103I",
+          "semestre": 1
         },
         "13": {
           "materia": null,
@@ -5262,9 +6140,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 35,
+      "horasAsignadas": 41,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "87.5"
+      "porcentajeCompletado": "102.5"
     }
   },
   "Hernández Barrera J. Trinidad": {
@@ -5301,44 +6179,44 @@
           "semestre": null
         },
         "6": {
-          "materia": "Investigación",
-          "abreviatura": "INVES",
-          "grupo": null,
-          "semestre": null
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "grupo": "303C",
+          "semestre": 3
         },
         "7": {
-          "materia": "Investigación",
-          "abreviatura": "INVES",
-          "grupo": null,
-          "semestre": null
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "grupo": "303C",
+          "semestre": 3
         },
         "8": {
-          "materia": "Investigación",
-          "abreviatura": "INVES",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "9": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": "Investigación",
+          "abreviatura": "INVES",
           "grupo": null,
           "semestre": null
         },
         "10": {
+          "materia": "Investigación",
+          "abreviatura": "INVES",
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
           "materia": "Multidisciplinarias",
           "abreviatura": "MULTI",
           "grupo": null,
           "semestre": null
         },
-        "11": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
-          "grupo": null,
-          "semestre": null
-        },
         "12": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
           "grupo": null,
           "semestre": null
         },
@@ -5369,40 +6247,40 @@
           "semestre": 1
         },
         "3": {
-          "materia": "Investigación",
-          "abreviatura": "INVES",
+          "materia": "Concursos",
+          "abreviatura": "CONCU",
           "grupo": null,
           "semestre": null
         },
         "4": {
-          "materia": "Investigación",
-          "abreviatura": "INVES",
+          "materia": "Concursos",
+          "abreviatura": "CONCU",
           "grupo": null,
           "semestre": null
         },
         "5": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
           "abreviatura": "EIEYD",
-          "grupo": "303C",
+          "grupo": "301A",
           "semestre": 3
         },
         "6": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
           "abreviatura": "EIEYD",
-          "grupo": "303C",
+          "grupo": "301A",
           "semestre": 3
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "grupo": "302B",
+          "semestre": 3
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "grupo": "302B",
+          "semestre": 3
         },
         "9": {
           "materia": "Investigación",
@@ -5417,26 +6295,26 @@
           "semestre": null
         },
         "11": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": "Investigación",
+          "abreviatura": "INVES",
           "grupo": null,
           "semestre": null
         },
         "12": {
+          "materia": "Investigación",
+          "abreviatura": "INVES",
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
           "materia": "Multidisciplinarias",
           "abreviatura": "MULTI",
           "grupo": null,
           "semestre": null
         },
-        "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
         "14": {
-          "materia": null,
-          "abreviatura": null,
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
           "grupo": null,
           "semestre": null
         }
@@ -5455,28 +6333,28 @@
           "semestre": 1
         },
         "3": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "4": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "103C",
-          "semestre": 1
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "502B",
+          "semestre": 5
         },
         "6": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "grupo": "303C",
-          "semestre": 3
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "502B",
+          "semestre": 5
         },
         "7": {
           "materia": null,
@@ -5541,22 +6419,22 @@
           "semestre": 1
         },
         "3": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "grupo": "103C",
+          "semestre": 1
         },
         "4": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "grupo": "103C",
+          "semestre": 1
         },
         "5": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "grupo": "103C",
+          "semestre": 1
         },
         "6": {
           "materia": "La energía en los procesos de la vida diaria",
@@ -5633,16 +6511,16 @@
           "semestre": 1
         },
         "4": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "grupo": "301A",
+          "semestre": 3
         },
         "5": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "grupo": "301A",
+          "semestre": 3
         },
         "6": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
@@ -5651,10 +6529,10 @@
           "semestre": 3
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "grupo": "302B",
+          "semestre": 3
         },
         "8": {
           "materia": null,
@@ -5701,9 +6579,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 42,
+      "horasAsignadas": 44,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "105.0"
+      "porcentajeCompletado": "110.0"
     }
   },
   "Hernández González Felipe": {
@@ -5723,9 +6601,9 @@
         },
         "3": {
           "materia": "Modulo profesional",
-          "abreviatura": "MPEL3",
-          "grupo": "306F",
-          "semestre": 3
+          "abreviatura": "MPEL5",
+          "grupo": "508H",
+          "semestre": 5
         },
         "4": {
           "materia": "Modulo profesional",
@@ -5746,10 +6624,10 @@
           "semestre": 5
         },
         "7": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
           "materia": null,
@@ -5809,9 +6687,9 @@
         },
         "3": {
           "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "grupo": "508H",
-          "semestre": 5
+          "abreviatura": "MPEL3",
+          "grupo": "306F",
+          "semestre": 3
         },
         "4": {
           "materia": "Modulo profesional",
@@ -5832,10 +6710,10 @@
           "semestre": 5
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "abreviatura": "MPEL5",
+          "grupo": "508H",
+          "semestre": 5
         },
         "8": {
           "materia": null,
@@ -5895,9 +6773,9 @@
         },
         "3": {
           "materia": "Modulo profesional",
-          "abreviatura": "MPEL3",
-          "grupo": "306F",
-          "semestre": 3
+          "abreviatura": "MPEL5",
+          "grupo": "508H",
+          "semestre": 5
         },
         "4": {
           "materia": "Modulo profesional",
@@ -5918,10 +6796,10 @@
           "semestre": 5
         },
         "7": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
           "materia": null,
@@ -5986,10 +6864,10 @@
           "semestre": 3
         },
         "4": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": "Modulo profesional",
+          "abreviatura": "MPEL3",
+          "grupo": "306F",
+          "semestre": 3
         },
         "5": {
           "materia": "Modulo profesional",
@@ -5998,10 +6876,10 @@
           "semestre": 3
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "grupo": "306F",
+          "semestre": 3
         },
         "7": {
           "materia": null,
@@ -6054,10 +6932,10 @@
       },
       "Viernes": {
         "1": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "306F",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
           "materia": null,
@@ -6072,10 +6950,10 @@
           "semestre": null
         },
         "4": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "grupo": "508H",
+          "semestre": 5
         },
         "5": {
           "materia": null,
@@ -6296,9 +7174,9 @@
         },
         "11": {
           "materia": "Modulo profesional",
-          "abreviatura": "MPEL3",
-          "grupo": "305K",
-          "semestre": 3
+          "abreviatura": "MPEL5",
+          "grupo": "503K",
+          "semestre": 5
         },
         "12": {
           "materia": "Modulo profesional",
@@ -6313,10 +7191,10 @@
           "semestre": 5
         },
         "14": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "grupo": "503K",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         }
       },
       "Miercoles": {
@@ -6382,9 +7260,9 @@
         },
         "11": {
           "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "grupo": "503K",
-          "semestre": 5
+          "abreviatura": "MPEL3",
+          "grupo": "305K",
+          "semestre": 3
         },
         "12": {
           "materia": "Modulo profesional",
@@ -6393,10 +7271,10 @@
           "semestre": 5
         },
         "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "abreviatura": "MPEL5",
+          "grupo": "503K",
+          "semestre": 5
         },
         "14": {
           "materia": null,
@@ -6479,16 +7357,16 @@
           "semestre": 3
         },
         "13": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "503K",
-          "semestre": 5
-        },
-        "14": {
           "materia": null,
           "abreviatura": null,
           "grupo": null,
           "semestre": null
+        },
+        "14": {
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "grupo": "503K",
+          "semestre": 5
         }
       },
       "Viernes": {
@@ -6547,10 +7425,10 @@
           "semestre": 5
         },
         "10": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "305K",
-          "semestre": 3
+          "materia": "Modulo profesional",
+          "abreviatura": "MPEL5",
+          "grupo": "503K",
+          "semestre": 5
         },
         "11": {
           "materia": "Modulo profesional",
@@ -7235,10 +8113,10 @@
           "semestre": null
         },
         "7": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "303C",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
           "materia": null,
@@ -7401,10 +8279,10 @@
           "semestre": 1
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "grupo": "303C",
+          "semestre": 3
         },
         "7": {
           "materia": null,
@@ -7468,14 +8346,14 @@
         "1": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
           "abreviatura": "CHIS2",
-          "grupo": "504D",
+          "grupo": "508H",
           "semestre": 5
         },
         "2": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "grupo": "504D",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
           "materia": null,
@@ -7490,10 +8368,10 @@
           "semestre": null
         },
         "5": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "grupo": "503C",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
@@ -7514,10 +8392,10 @@
           "semestre": 5
         },
         "9": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "grupo": "503K",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "10": {
           "materia": "Estudios Literarios",
@@ -7552,10 +8430,10 @@
       },
       "Martes": {
         "1": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "grupo": "504D",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
           "materia": null,
@@ -7662,10 +8540,10 @@
           "semestre": null
         },
         "5": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "grupo": "503C",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": null,
@@ -7692,16 +8570,16 @@
           "semestre": null
         },
         "10": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "grupo": "502J",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "11": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "grupo": "502J",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "12": {
           "materia": null,
@@ -7710,10 +8588,10 @@
           "semestre": null
         },
         "13": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "grupo": "503K",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "14": {
           "materia": null,
@@ -7726,37 +8604,37 @@
         "1": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
           "abreviatura": "CHIS2",
-          "grupo": "505E",
+          "grupo": "504D",
           "semestre": 5
         },
         "2": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
           "abreviatura": "CHIS2",
-          "grupo": "505E",
+          "grupo": "504D",
           "semestre": 5
         },
         "3": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
           "abreviatura": "CHIS2",
-          "grupo": "507G",
+          "grupo": "505E",
           "semestre": 5
         },
         "4": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
           "abreviatura": "CHIS2",
-          "grupo": "507G",
+          "grupo": "505E",
           "semestre": 5
         },
         "5": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
           "abreviatura": "CHIS2",
-          "grupo": "508H",
+          "grupo": "507G",
           "semestre": 5
         },
         "6": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
           "abreviatura": "CHIS2",
-          "grupo": "508H",
+          "grupo": "507G",
           "semestre": 5
         },
         "7": {
@@ -7780,26 +8658,26 @@
         "10": {
           "materia": "Estudios Literarios",
           "abreviatura": "ESTL",
-          "grupo": "502J",
+          "grupo": "503K",
           "semestre": 5
         },
         "11": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "grupo": "503K",
+          "semestre": 5
         },
         "12": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "grupo": "502J",
+          "semestre": 5
         },
         "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "grupo": "502J",
+          "semestre": 5
         },
         "14": {
           "materia": null,
@@ -7812,19 +8690,19 @@
         "1": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
           "abreviatura": "CHIS2",
-          "grupo": "506F",
+          "grupo": "504D",
           "semestre": 5
         },
         "2": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "grupo": "505E",
+          "semestre": 5
         },
         "3": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
           "abreviatura": "CHIS2",
-          "grupo": "508H",
+          "grupo": "507G",
           "semestre": 5
         },
         "4": {
@@ -7834,16 +8712,16 @@
           "semestre": null
         },
         "5": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "grupo": "508H",
+          "semestre": 5
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "grupo": "508H",
+          "semestre": 5
         },
         "7": {
           "materia": null,
@@ -7870,10 +8748,10 @@
           "semestre": null
         },
         "11": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "grupo": "502J",
+          "semestre": 5
         },
         "12": {
           "materia": "Estudios Literarios",
@@ -7896,9 +8774,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 23,
+      "horasAsignadas": 22,
       "horasRequeridas": 29,
-      "porcentajeCompletado": "79.3"
+      "porcentajeCompletado": "75.9"
     }
   },
   "López Torres Juan Antonio": {
@@ -9401,15 +10279,15 @@
         },
         "2": {
           "materia": "Modulo profesional",
-          "abreviatura": "MPDG5",
-          "grupo": "504D",
-          "semestre": 5
+          "abreviatura": "MPDG3",
+          "grupo": "304D",
+          "semestre": 3
         },
         "3": {
           "materia": "Modulo profesional",
-          "abreviatura": "MPDG5",
-          "grupo": "504D",
-          "semestre": 5
+          "abreviatura": "MPDG3",
+          "grupo": "304D",
+          "semestre": 3
         },
         "4": {
           "materia": "Modulo profesional",
@@ -9424,16 +10302,16 @@
           "semestre": 5
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "grupo": "504D",
+          "semestre": 5
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Modulo profesional",
+          "abreviatura": "MPDG5",
+          "grupo": "504D",
+          "semestre": 5
         },
         "8": {
           "materia": null,
@@ -9566,16 +10444,16 @@
       },
       "Viernes": {
         "1": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "504D",
-          "semestre": 5
-        },
-        "2": {
           "materia": null,
           "abreviatura": null,
           "grupo": null,
           "semestre": null
+        },
+        "2": {
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "grupo": "504D",
+          "semestre": 5
         },
         "3": {
           "materia": null,
@@ -9652,49 +10530,221 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 41,
+      "horasAsignadas": 43,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "102.5"
+      "porcentajeCompletado": "107.5"
     }
   },
-  "Moran Lerma Karla Valeria": {
+  "Martinez Hernandez Cynthia Brenda": {
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Humanidades I",
-          "abreviatura": "HUM1",
-          "grupo": "104D",
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "grupo": "106F",
           "semestre": 1
         },
         "2": {
-          "materia": "Humanidades I",
-          "abreviatura": "HUM1",
-          "grupo": "104D",
-          "semestre": 1
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
+          "grupo": null,
+          "semestre": null
         },
         "3": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
         },
         "4": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
         },
         "5": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "grupo": "305E",
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "grupo": "302B",
           "semestre": 3
         },
         "6": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "grupo": "305E",
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "grupo": "104J",
+          "semestre": 1
+        },
+        "11": {
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "grupo": "106F",
+          "semestre": 1
+        },
+        "4": {
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "grupo": "303C",
           "semestre": 3
+        },
+        "6": {
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "grupo": "303C",
+          "semestre": 3
+        },
+        "7": {
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
           "materia": null,
@@ -9745,6 +10795,273 @@
           "semestre": null
         }
       },
+      "Jueves": {
+        "1": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "grupo": "302B",
+          "semestre": 3
+        },
+        "7": {
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "grupo": "302B",
+          "semestre": 3
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "grupo": "303C",
+          "semestre": 3
+        },
+        "2": {
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "grupo": "106F",
+          "semestre": 1
+        },
+        "3": {
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "grupo": "106F",
+          "semestre": 1
+        },
+        "4": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "grupo": "302B",
+          "semestre": 3
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "grupo": "104J",
+          "semestre": 1
+        },
+        "10": {
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "grupo": "104J",
+          "semestre": 1
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      }
+    },
+    "estadisticas": {
+      "horasAsignadas": 32,
+      "horasRequeridas": 40,
+      "porcentajeCompletado": "80.0"
+    }
+  },
+  "Moran Lerma Karla Valeria": {
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": "Humanidades I",
+          "abreviatura": "HUM1",
+          "grupo": "104D",
+          "semestre": 1
+        },
+        "2": {
+          "materia": "Humanidades I",
+          "abreviatura": "HUM1",
+          "grupo": "104D",
+          "semestre": 1
+        },
+        "3": {
+          "materia": "Humanidades I",
+          "abreviatura": "HUM1",
+          "grupo": "101A",
+          "semestre": 1
+        },
+        "4": {
+          "materia": "Humanidades I",
+          "abreviatura": "HUM1",
+          "grupo": "101A",
+          "semestre": 1
+        },
+        "5": {
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "grupo": "306F",
+          "semestre": 3
+        },
+        "6": {
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "7": {
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "grupo": "301A",
+          "semestre": 3
+        },
+        "8": {
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "grupo": "304D",
+          "semestre": 3
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
       "Martes": {
         "1": {
           "materia": null,
@@ -9753,22 +11070,22 @@
           "semestre": null
         },
         "2": {
-          "materia": "Lengua y Comunicación III",
-          "abreviatura": "LYC3",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "4": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
           "materia": "Humanidades II",
@@ -9785,13 +11102,13 @@
         "7": {
           "materia": "Humanidades II",
           "abreviatura": "HUM2",
-          "grupo": "306F",
+          "grupo": "301A",
           "semestre": 3
         },
         "8": {
           "materia": "Humanidades II",
           "abreviatura": "HUM2",
-          "grupo": "306F",
+          "grupo": "301A",
           "semestre": 3
         },
         "9": {
@@ -9869,16 +11186,16 @@
           "semestre": 3
         },
         "7": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "grupo": "306F",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "grupo": "306F",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": null,
@@ -9955,10 +11272,10 @@
           "semestre": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "grupo": "306F",
+          "semestre": 3
         },
         "8": {
           "materia": "Humanidades I",
@@ -10005,16 +11322,16 @@
       },
       "Viernes": {
         "1": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "301A",
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "grupo": "306F",
           "semestre": 3
         },
         "2": {
-          "materia": "Lengua y Comunicación III",
-          "abreviatura": "LYC3",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": "Humanidades I",
+          "abreviatura": "HUM1",
+          "grupo": "101A",
+          "semestre": 1
         },
         "3": {
           "materia": "Lengua y Comunicación III",
@@ -10023,28 +11340,28 @@
           "semestre": 3
         },
         "4": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "grupo": "305E",
+          "semestre": 3
         },
         "5": {
           "materia": "Humanidades II",
           "abreviatura": "HUM2",
-          "grupo": "304D",
+          "grupo": "305E",
           "semestre": 3
         },
         "6": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "grupo": "304D",
-          "semestre": 3
-        },
-        "7": {
           "materia": null,
           "abreviatura": null,
           "grupo": null,
           "semestre": null
+        },
+        "7": {
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "grupo": "304D",
+          "semestre": 3
         },
         "8": {
           "materia": "Humanidades I",
@@ -10091,9 +11408,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 34,
+      "horasAsignadas": 33,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "85.0"
+      "porcentajeCompletado": "82.5"
     }
   },
   "Pérez Abrego Erika Aideé": {
@@ -10148,10 +11465,10 @@
           "semestre": 1
         },
         "9": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "503K",
+          "semestre": 5
         },
         "10": {
           "materia": "Lengua y Comunicación I",
@@ -10172,8 +11489,8 @@
           "semestre": null
         },
         "13": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
           "grupo": null,
           "semestre": null
         },
@@ -10216,16 +11533,16 @@
           "semestre": null
         },
         "6": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
           "grupo": null,
           "semestre": null
         },
         "7": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "grupo": "506F",
+          "semestre": 5
         },
         "8": {
           "materia": "La energía en los procesos de la vida diaria",
@@ -10234,10 +11551,10 @@
           "semestre": 5
         },
         "9": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "503K",
-          "semestre": 5
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
+          "grupo": null,
+          "semestre": null
         },
         "10": {
           "materia": "Lengua y Comunicación I",
@@ -10264,8 +11581,8 @@
           "semestre": null
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
           "grupo": null,
           "semestre": null
         }
@@ -10350,48 +11667,48 @@
           "semestre": null
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "503K",
+          "semestre": 5
         }
       },
       "Jueves": {
         "1": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "507G",
-          "semestre": 5
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "grupo": "105E",
+          "semestre": 1
         },
         "2": {
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "grupo": "105E",
+          "semestre": 1
+        },
+        "3": {
           "materia": "La energía en los procesos de la vida diaria",
           "abreviatura": "LEPDV",
           "grupo": "507G",
           "semestre": 5
         },
-        "3": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
         "4": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "507G",
+          "semestre": 5
         },
         "5": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
           "materia": null,
@@ -10446,7 +11763,7 @@
         "1": {
           "materia": "La energía en los procesos de la vida diaria",
           "abreviatura": "LEPDV",
-          "grupo": "507G",
+          "grupo": "506F",
           "semestre": 5
         },
         "2": {
@@ -10456,28 +11773,28 @@
           "semestre": 5
         },
         "3": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "4": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "507G",
+          "semestre": 5
         },
         "5": {
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "507G",
+          "semestre": 5
+        },
+        "6": {
           "materia": null,
           "abreviatura": null,
           "grupo": null,
           "semestre": null
-        },
-        "6": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "506F",
-          "semestre": 5
         },
         "7": {
           "materia": null,
@@ -10522,22 +11839,108 @@
           "semestre": null
         },
         "14": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "503K",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         }
       }
     },
     "estadisticas": {
-      "horasAsignadas": 43,
+      "horasAsignadas": 44,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "107.5"
+      "porcentajeCompletado": "110.0"
     }
   },
   "Ramírez Solís Erik": {
     "horario": {
       "Lunes": {
+        "1": {
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "102H",
+          "semestre": 1
+        },
+        "9": {
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "102H",
+          "semestre": 1
+        },
+        "10": {
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Martes": {
         "1": {
           "materia": "Pensamiento Matemático I",
           "abreviatura": "PM1",
@@ -10551,16 +11954,188 @@
           "semestre": 1
         },
         "3": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "101A",
+          "semestre": 1
+        },
+        "4": {
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "101A",
+          "semestre": 1
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
-        "4": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+        "6": {
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
+        },
+        "7": {
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "grupo": "501A",
+          "semestre": 5
+        },
+        "8": {
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "102H",
+          "semestre": 1
+        },
+        "9": {
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "102H",
+          "semestre": 1
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "105E",
+          "semestre": 1
+        },
+        "2": {
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "105E",
+          "semestre": 1
+        },
+        "3": {
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "106F",
+          "semestre": 1
+        },
+        "4": {
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "106F",
+          "semestre": 1
+        },
+        "5": {
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "grupo": "505E",
+          "semestre": 5
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "101G",
+          "semestre": 1
+        },
+        "11": {
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "101G",
+          "semestre": 1
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "grupo": "505E",
+          "semestre": 5
+        },
+        "2": {
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "grupo": "505E",
+          "semestre": 5
+        },
+        "3": {
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "105E",
+          "semestre": 1
+        },
+        "4": {
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "105E",
+          "semestre": 1
         },
         "5": {
           "materia": "Temas selectos de Matemáticas II",
@@ -10569,274 +12144,16 @@
           "semestre": 5
         },
         "6": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "grupo": "501A",
+          "semestre": 5
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "8": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "102H",
-          "semestre": 1
-        },
-        "9": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "102H",
-          "semestre": 1
-        },
-        "10": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
-          "grupo": null,
-          "semestre": null
-        },
-        "11": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
-          "grupo": null,
-          "semestre": null
-        },
-        "12": {
           "materia": "Tutorías",
           "abreviatura": "TUTOR",
-          "grupo": "102H",
-          "semestre": 1
-        },
-        "13": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
-          "grupo": null,
-          "semestre": null
-        },
-        "14": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
-          "grupo": null,
-          "semestre": null
-        }
-      },
-      "Martes": {
-        "1": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
-          "grupo": null,
-          "semestre": null
-        },
-        "2": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
-          "grupo": null,
-          "semestre": null
-        },
-        "3": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "101A",
-          "semestre": 1
-        },
-        "4": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "101A",
-          "semestre": 1
-        },
-        "5": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
-          "grupo": null,
-          "semestre": null
-        },
-        "6": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
-          "grupo": null,
-          "semestre": null
-        },
-        "7": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
-          "grupo": null,
-          "semestre": null
-        },
-        "8": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "102H",
-          "semestre": 1
-        },
-        "9": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "102H",
-          "semestre": 1
-        },
-        "10": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "11": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "12": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "14": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        }
-      },
-      "Miercoles": {
-        "1": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "105E",
-          "semestre": 1
-        },
-        "2": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "105E",
-          "semestre": 1
-        },
-        "3": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "101A",
-          "semestre": 1
-        },
-        "4": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "101A",
-          "semestre": 1
-        },
-        "5": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "9": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "10": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "101G",
-          "semestre": 1
-        },
-        "11": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "101G",
-          "semestre": 1
-        },
-        "12": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "14": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        }
-      },
-      "Jueves": {
-        "1": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "2": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "3": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "105E",
-          "semestre": 1
-        },
-        "4": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "105E",
-          "semestre": 1
-        },
-        "5": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "grupo": "505E",
+          "grupo": "501A",
           "semestre": 5
-        },
-        "6": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "grupo": "505E",
-          "semestre": 5
-        },
-        "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
         },
         "8": {
           "materia": null,
@@ -10889,10 +12206,10 @@
           "semestre": null
         },
         "2": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "106F",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
           "materia": "Temas selectos de Matemáticas II",
@@ -10907,16 +12224,16 @@
           "semestre": 5
         },
         "5": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "grupo": "501A",
+          "semestre": 5
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "grupo": "501A",
+          "semestre": 5
         },
         "7": {
           "materia": null,
@@ -10969,9 +12286,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 37,
+      "horasAsignadas": 41,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "92.5"
+      "porcentajeCompletado": "102.5"
     }
   },
   "Razo Hernandez Víctor Miguel": {
@@ -11435,28 +12752,28 @@
           "semestre": 1
         },
         "4": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés I",
+          "abreviatura": "ING1",
+          "grupo": "106F",
+          "semestre": 1
         },
         "5": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "grupo": "302B",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "grupo": "305E",
+          "semestre": 3
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "grupo": "305E",
+          "semestre": 3
         },
         "8": {
           "materia": "Inglés I",
@@ -11471,10 +12788,10 @@
           "semestre": 1
         },
         "10": {
-          "materia": "Inglés I",
-          "abreviatura": "ING1",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "11": {
           "materia": null,
@@ -11505,14 +12822,14 @@
         "1": {
           "materia": "Inglés I",
           "abreviatura": "ING1",
-          "grupo": "106F",
+          "grupo": "103C",
           "semestre": 1
         },
         "2": {
-          "materia": "Inglés I",
-          "abreviatura": "ING1",
-          "grupo": "106F",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
           "materia": "Inglés I",
@@ -11527,16 +12844,16 @@
           "semestre": null
         },
         "5": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "grupo": "302B",
+          "semestre": 3
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "grupo": "302B",
+          "semestre": 3
         },
         "7": {
           "materia": null,
@@ -11547,7 +12864,7 @@
         "8": {
           "materia": "Inglés I",
           "abreviatura": "ING1",
-          "grupo": "105K",
+          "grupo": "103I",
           "semestre": 1
         },
         "9": {
@@ -11557,21 +12874,21 @@
           "semestre": 1
         },
         "10": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés I",
+          "abreviatura": "ING1",
+          "grupo": "105K",
+          "semestre": 1
         },
         "11": {
           "materia": "Inglés I",
           "abreviatura": "ING1",
-          "grupo": "101G",
+          "grupo": "104J",
           "semestre": 1
         },
         "12": {
           "materia": "Inglés I",
           "abreviatura": "ING1",
-          "grupo": "101G",
+          "grupo": "104J",
           "semestre": 1
         },
         "13": {
@@ -11589,10 +12906,10 @@
       },
       "Miercoles": {
         "1": {
-          "materia": "Inglés I",
-          "abreviatura": "ING1",
-          "grupo": "106F",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
           "materia": "Inglés I",
@@ -11613,16 +12930,16 @@
           "semestre": null
         },
         "5": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "grupo": "302B",
+          "semestre": 3
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "grupo": "305E",
+          "semestre": 3
         },
         "7": {
           "materia": null,
@@ -11643,10 +12960,10 @@
           "semestre": 1
         },
         "10": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés I",
+          "abreviatura": "ING1",
+          "grupo": "104J",
+          "semestre": 1
         },
         "11": {
           "materia": null,
@@ -11687,16 +13004,16 @@
           "semestre": 1
         },
         "3": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés I",
+          "abreviatura": "ING1",
+          "grupo": "106F",
+          "semestre": 1
         },
         "4": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés I",
+          "abreviatura": "ING1",
+          "grupo": "106F",
+          "semestre": 1
         },
         "5": {
           "materia": null,
@@ -11705,16 +13022,16 @@
           "semestre": null
         },
         "6": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "grupo": "302B",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "grupo": "302B",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
           "materia": null,
@@ -11815,16 +13132,16 @@
           "semestre": 1
         },
         "10": {
-          "materia": "Inglés I",
-          "abreviatura": "ING1",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "11": {
-          "materia": "Inglés I",
-          "abreviatura": "ING1",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "12": {
           "materia": null,
@@ -11847,9 +13164,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 30,
-      "horasRequeridas": 36,
-      "porcentajeCompletado": "83.3"
+      "horasAsignadas": 33,
+      "horasRequeridas": 39,
+      "porcentajeCompletado": "84.6"
     }
   },
   "Reyes Norberto Mildred Yasmín": {
@@ -11868,10 +13185,10 @@
           "semestre": 5
         },
         "3": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
+          "grupo": null,
+          "semestre": null
         },
         "4": {
           "materia": "Asesorías Académicas",
@@ -11892,14 +13209,14 @@
           "semestre": 5
         },
         "7": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
           "grupo": null,
           "semestre": null
         },
         "8": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
           "grupo": null,
           "semestre": null
         },
@@ -11910,14 +13227,14 @@
           "semestre": null
         },
         "10": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
           "grupo": null,
           "semestre": null
         },
         "11": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -11950,14 +13267,14 @@
         "2": {
           "materia": "Temas selectos de Matemáticas II",
           "abreviatura": "TSDM2",
-          "grupo": "507G",
+          "grupo": "508H",
           "semestre": 5
         },
         "3": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "grupo": "508H",
+          "semestre": 5
         },
         "4": {
           "materia": null,
@@ -12144,10 +13461,10 @@
           "semestre": null
         },
         "6": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "507G",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
           "materia": null,
@@ -12202,20 +13519,20 @@
         "1": {
           "materia": "Temas selectos de Matemáticas II",
           "abreviatura": "TSDM2",
-          "grupo": "508H",
+          "grupo": "507G",
           "semestre": 5
         },
         "2": {
           "materia": "Temas selectos de Matemáticas II",
           "abreviatura": "TSDM2",
-          "grupo": "508H",
+          "grupo": "507G",
           "semestre": 5
         },
         "3": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Temas selectos de Matemáticas II",
+          "abreviatura": "TSDM2",
+          "grupo": "508H",
+          "semestre": 5
         },
         "4": {
           "materia": "Temas selectos de Matemáticas II",
@@ -12278,17 +13595,17 @@
           "semestre": 3
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "grupo": "303I",
+          "semestre": 3
         }
       }
     },
     "estadisticas": {
-      "horasAsignadas": 37,
+      "horasAsignadas": 38,
       "horasRequeridas": 36,
-      "porcentajeCompletado": "102.8"
+      "porcentajeCompletado": "105.6"
     }
   },
   "Rodríguez Sánchez Diana Laura": {
@@ -12758,28 +14075,28 @@
           "semestre": 1
         },
         "5": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "grupo": "101A",
+          "semestre": 1
         },
         "6": {
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "grupo": "101A",
+          "semestre": 1
+        },
+        "7": {
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "grupo": "501A",
+          "semestre": 5
+        },
+        "8": {
           "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
           "abreviatura": "CHIS2",
           "grupo": "502B",
           "semestre": 5
-        },
-        "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
         },
         "9": {
           "materia": null,
@@ -12844,16 +14161,16 @@
           "semestre": 1
         },
         "5": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "grupo": "501A",
-          "semestre": 5
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "grupo": "101A",
+          "semestre": 1
         },
         "6": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "grupo": "501A",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
           "materia": null,
@@ -12912,10 +14229,10 @@
           "semestre": 5
         },
         "2": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "grupo": "501A",
+          "semestre": 5
         },
         "3": {
           "materia": null,
@@ -13078,16 +14395,16 @@
       },
       "Viernes": {
         "1": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "grupo": "502B",
+          "semestre": 5
         },
         "2": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
+          "abreviatura": "CHIS2",
+          "grupo": "502B",
+          "semestre": 5
         },
         "3": {
           "materia": null,
@@ -13164,9 +14481,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 12,
+      "horasAsignadas": 16,
       "horasRequeridas": 16,
-      "porcentajeCompletado": "75.0"
+      "porcentajeCompletado": "100.0"
     }
   },
   "Santoyo Arroyo María Patricia": {
@@ -14137,15 +15454,15 @@
       },
       "Martes": {
         "1": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
           "materia": "Inglés V",
           "abreviatura": "ING5",
-          "grupo": "508H",
+          "grupo": "507G",
           "semestre": 5
         },
         "3": {
@@ -14193,14 +15510,14 @@
         "10": {
           "materia": "Pensamiento Matemático I",
           "abreviatura": "PM1",
-          "grupo": "104J",
+          "grupo": "103I",
           "semestre": 1
         },
         "11": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "12": {
           "materia": null,
@@ -14277,16 +15594,16 @@
           "semestre": null
         },
         "10": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "11": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "12": {
           "materia": null,
@@ -14311,13 +15628,13 @@
         "1": {
           "materia": "Inglés V",
           "abreviatura": "ING5",
-          "grupo": "506F",
+          "grupo": "507G",
           "semestre": 5
         },
         "2": {
           "materia": "Inglés V",
           "abreviatura": "ING5",
-          "grupo": "506F",
+          "grupo": "507G",
           "semestre": 5
         },
         "3": {
@@ -14335,14 +15652,14 @@
         "5": {
           "materia": "Inglés V",
           "abreviatura": "ING5",
-          "grupo": "507G",
+          "grupo": "508H",
           "semestre": 5
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "508H",
+          "semestre": 5
         },
         "7": {
           "materia": null,
@@ -14363,16 +15680,16 @@
           "semestre": 1
         },
         "10": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "104J",
+          "semestre": 1
         },
         "11": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "104J",
+          "semestre": 1
         },
         "12": {
           "materia": null,
@@ -14395,16 +15712,16 @@
       },
       "Viernes": {
         "1": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "508H",
+          "semestre": 5
         },
         "2": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "508H",
+          "semestre": 5
         },
         "3": {
           "materia": null,
@@ -14419,22 +15736,22 @@
           "semestre": null
         },
         "5": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "grupo": "507G",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "8": {
           "materia": null,
@@ -14481,24 +15798,24 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 24,
+      "horasAsignadas": 22,
       "horasRequeridas": 27,
-      "porcentajeCompletado": "88.9"
+      "porcentajeCompletado": "81.5"
     }
   },
   "Silva Camacho Sandra Catalina": {
     "horario": {
       "Lunes": {
         "1": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
+          "grupo": null,
+          "semestre": null
         },
         "2": {
           "materia": "Estudios Literarios",
           "abreviatura": "ESTL",
-          "grupo": "508H",
+          "grupo": "501A",
           "semestre": 5
         },
         "3": {
@@ -14514,16 +15831,16 @@
           "semestre": 5
         },
         "5": {
-          "materia": "Lengua y Comunicación III",
-          "abreviatura": "LYC3",
-          "grupo": "306F",
-          "semestre": 3
-        },
-        "6": {
           "materia": "Asesorías Académicas",
           "abreviatura": "ASEAC",
           "grupo": null,
           "semestre": null
+        },
+        "6": {
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "grupo": "502B",
+          "semestre": 5
         },
         "7": {
           "materia": "Estudios Literarios",
@@ -14532,10 +15849,10 @@
           "semestre": 5
         },
         "8": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "9": {
           "materia": "Asesorías Académicas",
@@ -14544,8 +15861,8 @@
           "semestre": null
         },
         "10": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
           "grupo": null,
           "semestre": null
         },
@@ -14568,28 +15885,28 @@
           "semestre": null
         },
         "14": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
           "grupo": null,
           "semestre": null
         }
       },
       "Martes": {
         "1": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "grupo": "501A",
+          "semestre": 5
         },
         "2": {
           "materia": "Estudios Literarios",
           "abreviatura": "ESTL",
-          "grupo": "504D",
+          "grupo": "501A",
           "semestre": 5
         },
         "3": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
           "grupo": "507G",
           "semestre": 5
         },
@@ -14602,30 +15919,30 @@
         "5": {
           "materia": "Estudios Literarios",
           "abreviatura": "ESTL",
-          "grupo": "505E",
+          "grupo": "503C",
           "semestre": 5
         },
         "6": {
           "materia": "Estudios Literarios",
           "abreviatura": "ESTL",
-          "grupo": "505E",
+          "grupo": "502B",
           "semestre": 5
         },
         "7": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "grupo": "506F",
-          "semestre": 5
-        },
-        "8": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
+        "8": {
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "grupo": "505E",
+          "semestre": 5
+        },
         "9": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
           "grupo": null,
           "semestre": null
         },
@@ -14648,8 +15965,8 @@
           "semestre": null
         },
         "13": {
-          "materia": null,
-          "abreviatura": null,
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
           "grupo": null,
           "semestre": null
         },
@@ -14668,16 +15985,16 @@
           "semestre": 5
         },
         "2": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "501A",
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "grupo": "504D",
           "semestre": 5
         },
         "3": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "grupo": "504D",
+          "semestre": 5
         },
         "4": {
           "materia": null,
@@ -14692,22 +16009,22 @@
           "semestre": 3
         },
         "6": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
           "grupo": "503C",
           "semestre": 5
         },
-        "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "grupo": "503C",
+          "semestre": 5
         },
         "9": {
           "materia": null,
@@ -14748,52 +16065,52 @@
       },
       "Jueves": {
         "1": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "grupo": "503C",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "grupo": "503C",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
           "materia": "Estudios Literarios",
           "abreviatura": "ESTL",
-          "grupo": "502B",
+          "grupo": "504D",
           "semestre": 5
         },
         "4": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
           "materia": "Estudios Literarios",
           "abreviatura": "ESTL",
-          "grupo": "504D",
+          "grupo": "505E",
           "semestre": 5
         },
         "6": {
           "materia": "Estudios Literarios",
           "abreviatura": "ESTL",
-          "grupo": "504D",
+          "grupo": "505E",
           "semestre": 5
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "grupo": "508H",
+          "semestre": 5
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "grupo": "508H",
+          "semestre": 5
         },
         "9": {
           "materia": null,
@@ -14842,38 +16159,38 @@
         "2": {
           "materia": "Lengua y Comunicación III",
           "abreviatura": "LYC3",
-          "grupo": "306F",
+          "grupo": "305E",
           "semestre": 3
         },
         "3": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "grupo": "306F",
+          "semestre": 3
         },
         "4": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "grupo": "306F",
+          "semestre": 3
         },
         "5": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "grupo": "505E",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "grupo": "507G",
+          "semestre": 5
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Estudios Literarios",
+          "abreviatura": "ESTL",
+          "grupo": "506F",
+          "semestre": 5
         },
         "8": {
           "materia": null,
@@ -14920,9 +16237,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 40,
+      "horasAsignadas": 42,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "100.0"
+      "porcentajeCompletado": "105.0"
     }
   },
   "Solís Rieboles Ulises": {
@@ -14983,22 +16300,22 @@
           "semestre": null
         },
         "10": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "502J",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "11": {
-          "materia": "La materia y sus interacciones",
-          "abreviatura": "LMYSI",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "12": {
-          "materia": "La materia y sus interacciones",
-          "abreviatura": "LMYSI",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "grupo": "303I",
+          "semestre": 3
         },
         "13": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
@@ -15009,7 +16326,7 @@
         "14": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
           "abreviatura": "EIEYD",
-          "grupo": "303I",
+          "grupo": "304J",
           "semestre": 3
         }
       },
@@ -15045,16 +16362,16 @@
           "semestre": null
         },
         "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "505E",
+          "semestre": 5
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "505E",
+          "semestre": 5
         },
         "8": {
           "materia": null,
@@ -15069,10 +16386,10 @@
           "semestre": null
         },
         "10": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "502J",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "11": {
           "materia": null,
@@ -15087,15 +16404,15 @@
           "semestre": 3
         },
         "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "502J",
+          "semestre": 5
         },
         "14": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
           "abreviatura": "EIEYD",
-          "grupo": "303I",
+          "grupo": "305K",
           "semestre": 3
         }
       },
@@ -15125,10 +16442,10 @@
           "semestre": null
         },
         "5": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "505E",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": "La energía en los procesos de la vida diaria",
@@ -15137,10 +16454,10 @@
           "semestre": 5
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "505E",
+          "semestre": 5
         },
         "8": {
           "materia": null,
@@ -15163,25 +16480,25 @@
         "11": {
           "materia": "La materia y sus interacciones",
           "abreviatura": "LMYSI",
-          "grupo": "105K",
+          "grupo": "104J",
           "semestre": 1
         },
         "12": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "grupo": "304J",
-          "semestre": 3
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "grupo": "104J",
+          "semestre": 1
         },
         "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
           "abreviatura": "EIEYD",
           "grupo": "304J",
-          "semestre": 3
-        },
-        "14": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "303I",
           "semestre": 3
         }
       },
@@ -15199,16 +16516,16 @@
           "semestre": null
         },
         "3": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "505E",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "4": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "505E",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "5": {
           "materia": null,
@@ -15241,10 +16558,10 @@
           "semestre": null
         },
         "10": {
-          "materia": "La materia y sus interacciones",
-          "abreviatura": "LMYSI",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "11": {
           "materia": "La materia y sus interacciones",
@@ -15265,24 +16582,24 @@
           "semestre": 3
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "grupo": "303I",
+          "semestre": 3
         }
       },
       "Viernes": {
         "1": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "2": {
           "materia": "Tutorías",
           "abreviatura": "TUTOR",
           "grupo": "505E",
           "semestre": 5
+        },
+        "2": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
           "materia": null,
@@ -15327,28 +16644,28 @@
           "semestre": 3
         },
         "10": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "502J",
-          "semestre": 5
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "grupo": "304J",
+          "semestre": 3
         },
         "11": {
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "grupo": "104J",
+          "semestre": 1
+        },
+        "12": {
           "materia": "La energía en los procesos de la vida diaria",
           "abreviatura": "LEPDV",
           "grupo": "502J",
           "semestre": 5
         },
-        "12": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
         "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "502J",
+          "semestre": 5
         },
         "14": {
           "materia": null,
@@ -15359,9 +16676,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 30,
+      "horasAsignadas": 29,
       "horasRequeridas": 32,
-      "porcentajeCompletado": "93.8"
+      "porcentajeCompletado": "90.6"
     }
   },
   "Torres Quiñones Norma Elena": {
@@ -15374,10 +16691,10 @@
           "semestre": null
         },
         "2": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "508H",
+          "semestre": 5
         },
         "3": {
           "materia": "La materia y sus interacciones",
@@ -15392,28 +16709,28 @@
           "semestre": 1
         },
         "5": {
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "grupo": "106F",
+          "semestre": 1
+        },
+        "6": {
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "grupo": "106F",
+          "semestre": 1
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
           "materia": "Asesorías Académicas",
           "abreviatura": "ASEAC",
           "grupo": null,
           "semestre": null
-        },
-        "6": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "grupo": "304D",
-          "semestre": 3
-        },
-        "7": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "grupo": "304D",
-          "semestre": 3
-        },
-        "8": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "304D",
-          "semestre": 3
         },
         "9": {
           "materia": "Asesorías Académicas",
@@ -15454,10 +16771,10 @@
       },
       "Martes": {
         "1": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "508H",
+          "semestre": 5
         },
         "2": {
           "materia": "Asesorías Académicas",
@@ -15492,36 +16809,36 @@
         "7": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
           "abreviatura": "EIEYD",
-          "grupo": "304D",
+          "grupo": "306F",
           "semestre": 3
         },
         "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
           "materia": "Asesorías Académicas",
           "abreviatura": "ASEAC",
           "grupo": null,
           "semestre": null
         },
-        "9": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
-          "grupo": null,
-          "semestre": null
-        },
         "10": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": "Asesorías Académicas",
+          "abreviatura": "ASEAC",
           "grupo": null,
           "semestre": null
         },
         "11": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
           "grupo": null,
           "semestre": null
         },
         "12": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": "Multidisciplinarias",
+          "abreviatura": "MULTI",
           "grupo": null,
           "semestre": null
         },
@@ -15532,30 +16849,30 @@
           "semestre": null
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
           "grupo": null,
           "semestre": null
         }
       },
       "Miercoles": {
         "1": {
+          "materia": "Comisión",
+          "abreviatura": "COMIS",
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
           "materia": null,
           "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
-        "2": {
-          "materia": "La materia y sus interacciones",
-          "abreviatura": "LMYSI",
-          "grupo": "106F",
-          "semestre": 1
-        },
         "3": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "4": {
           "materia": null,
@@ -15564,15 +16881,15 @@
           "semestre": null
         },
         "5": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "grupo": "306F",
+          "semestre": 3
         },
         "6": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
           "abreviatura": "EIEYD",
-          "grupo": "305E",
+          "grupo": "306F",
           "semestre": 3
         },
         "7": {
@@ -15582,10 +16899,10 @@
           "semestre": 3
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "grupo": "305E",
+          "semestre": 3
         },
         "9": {
           "materia": null,
@@ -15644,10 +16961,10 @@
           "semestre": 5
         },
         "4": {
-          "materia": "La materia y sus interacciones",
-          "abreviatura": "LMYSI",
-          "grupo": "106F",
-          "semestre": 1
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "508H",
+          "semestre": 5
         },
         "5": {
           "materia": null,
@@ -15656,22 +16973,22 @@
           "semestre": null
         },
         "6": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "305E",
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "grupo": "304D",
           "semestre": 3
         },
         "7": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
           "abreviatura": "EIEYD",
-          "grupo": "306F",
+          "grupo": "304D",
           "semestre": 3
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "grupo": "304D",
+          "semestre": 3
         },
         "9": {
           "materia": null,
@@ -15724,33 +17041,33 @@
           "semestre": 1
         },
         "3": {
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "grupo": "305E",
+          "semestre": 3
+        },
+        "4": {
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "grupo": "106F",
+          "semestre": 1
+        },
+        "5": {
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "grupo": "106F",
+          "semestre": 1
+        },
+        "6": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
           "abreviatura": "EIEYD",
           "grupo": "305E",
           "semestre": 3
         },
-        "4": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "508H",
-          "semestre": 5
-        },
-        "5": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "508H",
-          "semestre": 5
-        },
-        "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
         "7": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
           "abreviatura": "EIEYD",
-          "grupo": "306F",
+          "grupo": "305E",
           "semestre": 3
         },
         "8": {
@@ -15798,9 +17115,448 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 43,
+      "horasAsignadas": 45,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "107.5"
+      "porcentajeCompletado": "112.5"
+    }
+  },
+  "Torres Vargas Mayra": {
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "grupo": "101G",
+          "semestre": 1
+        },
+        "13": {
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "grupo": "101G",
+          "semestre": 1
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "grupo": "102H",
+          "semestre": 1
+        },
+        "13": {
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "grupo": "102H",
+          "semestre": 1
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "grupo": "103I",
+          "semestre": 1
+        },
+        "10": {
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "grupo": "305K",
+          "semestre": 3
+        },
+        "11": {
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "grupo": "305K",
+          "semestre": 3
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      }
+    },
+    "estadisticas": {
+      "horasAsignadas": 7,
+      "horasRequeridas": 20,
+      "porcentajeCompletado": "35.0"
     }
   },
   "Villasana García Rafael": {
@@ -15873,10 +17629,10 @@
           "semestre": null
         },
         "12": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "grupo": "303I",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "13": {
           "materia": null,
@@ -15887,7 +17643,7 @@
         "14": {
           "materia": "Humanidades II",
           "abreviatura": "HUM2",
-          "grupo": "304J",
+          "grupo": "303I",
           "semestre": 3
         }
       },
@@ -15959,8 +17715,8 @@
           "semestre": null
         },
         "12": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
           "grupo": "304J",
           "semestre": 3
         },
@@ -15971,10 +17727,10 @@
           "semestre": null
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "grupo": "303I",
+          "semestre": 3
         }
       },
       "Miercoles": {
@@ -16045,16 +17801,16 @@
           "semestre": null
         },
         "12": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "grupo": "304J",
+          "semestre": 3
         },
         "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "grupo": "304J",
+          "semestre": 3
         },
         "14": {
           "materia": "Humanidades II",
@@ -16211,10 +17967,10 @@
           "semestre": null
         },
         "11": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "grupo": "304J",
+          "semestre": 3
         },
         "12": {
           "materia": "Humanidades II",
@@ -16237,9 +17993,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 14,
+      "horasAsignadas": 17,
       "horasRequeridas": 17,
-      "porcentajeCompletado": "82.4"
+      "porcentajeCompletado": "100.0"
     }
   },
   "Zapata Aldape Bertha Alicia": {
@@ -16270,28 +18026,28 @@
           "semestre": null
         },
         "5": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "grupo": "305E",
+          "semestre": 3
         },
         "6": {
           "materia": "Pensamiento Matemático III",
           "abreviatura": "PM3",
-          "grupo": "303C",
+          "grupo": "304D",
           "semestre": 3
         },
         "7": {
           "materia": "Pensamiento Matemático III",
           "abreviatura": "PM3",
-          "grupo": "303C",
+          "grupo": "304D",
           "semestre": 3
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "grupo": "305E",
+          "semestre": 3
         },
         "9": {
           "materia": null,
@@ -16356,10 +18112,10 @@
           "semestre": null
         },
         "5": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "grupo": "306F",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": "Pensamiento Matemático III",
@@ -16370,13 +18126,13 @@
         "7": {
           "materia": "Pensamiento Matemático III",
           "abreviatura": "PM3",
-          "grupo": "305E",
+          "grupo": "303C",
           "semestre": 3
         },
         "8": {
           "materia": "Pensamiento Matemático III",
           "abreviatura": "PM3",
-          "grupo": "305E",
+          "grupo": "303C",
           "semestre": 3
         },
         "9": {
@@ -16418,16 +18174,16 @@
       },
       "Miercoles": {
         "1": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
           "materia": null,
@@ -16442,27 +18198,27 @@
           "semestre": null
         },
         "5": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "grupo": "306F",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "grupo": "306F",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
           "materia": "Pensamiento Matemático III",
           "abreviatura": "PM3",
-          "grupo": "304D",
+          "grupo": "303C",
           "semestre": 3
         },
         "8": {
           "materia": "Pensamiento Matemático III",
           "abreviatura": "PM3",
-          "grupo": "304D",
+          "grupo": "303C",
           "semestre": 3
         },
         "9": {
@@ -16504,16 +18260,16 @@
       },
       "Jueves": {
         "1": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "2": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "grupo": "301A",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "3": {
           "materia": null,
@@ -16536,13 +18292,13 @@
         "6": {
           "materia": "Pensamiento Matemático III",
           "abreviatura": "PM3",
-          "grupo": "304D",
+          "grupo": "305E",
           "semestre": 3
         },
         "7": {
           "materia": "Pensamiento Matemático III",
           "abreviatura": "PM3",
-          "grupo": "304D",
+          "grupo": "301A",
           "semestre": 3
         },
         "8": {
@@ -16596,40 +18352,40 @@
           "semestre": null
         },
         "2": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "grupo": "306F",
+          "semestre": 3
         },
         "3": {
           "materia": "Pensamiento Matemático III",
           "abreviatura": "PM3",
-          "grupo": "303C",
+          "grupo": "304D",
           "semestre": 3
         },
         "4": {
           "materia": "Pensamiento Matemático III",
           "abreviatura": "PM3",
-          "grupo": "303C",
+          "grupo": "304D",
           "semestre": 3
         },
         "5": {
           "materia": "Pensamiento Matemático III",
           "abreviatura": "PM3",
-          "grupo": "305E",
+          "grupo": "306F",
           "semestre": 3
         },
         "6": {
           "materia": "Pensamiento Matemático III",
           "abreviatura": "PM3",
-          "grupo": "305E",
+          "grupo": "301A",
           "semestre": 3
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "grupo": "301A",
+          "semestre": 3
         },
         "8": {
           "materia": null,
@@ -16676,9 +18432,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 20,
+      "horasAsignadas": 17,
       "horasRequeridas": 20,
-      "porcentajeCompletado": "100.0"
+      "porcentajeCompletado": "85.0"
     }
   }
 }

@@ -1105,16 +1105,39 @@ class GeneradorHorarios {
     }
 }
 
-// ================== EJECUCIÓN OPTIMIZADA DEL PROGRAMA ==================
-try {
-    const generador = new GeneradorHorarios(materias, grupos, profesores, config);
-    generador.ejecutarGeneracionCompleta();
+// ================== EJECUCIÓN DEL PROGRAMA ==================
+function ejecutarGeneracion() {
+    let generacionLista = false;
 
-    // Mostrar horarios si se desea (comentar para menos salida)
-    generador.imprimirHorariosGrupales();
-    generador.imprimirAsignacionesProfesores();
+    try {
+        const generador = new GeneradorHorarios(materias, grupos, profesores, config);
+        generador.ejecutarGeneracionCompleta();
 
-} catch (error) {
-    console.error("❌ Error durante la generación de horarios:", error);
-    process.exit(1);
+        // Mostrar horarios en consola
+        generador.imprimirHorariosGrupales();
+        generador.imprimirAsignacionesProfesores();
+
+        generacionLista = true; 
+        console.log("Generación de horarios completada ");
+    } catch (error) {
+        console.error("Error durante la generación de horarios:", error);
+        process.exit(1);
+    }
+
+    return generacionLista;
 }
+
+// ================== PRUEBA Y DEBUG ==================
+try {
+        const generador = new GeneradorHorarios(materias, grupos, profesores, config);
+        generador.ejecutarGeneracionCompleta();
+
+        // Mostrar horarios en consola
+        generador.imprimirHorariosGrupales();
+        generador.imprimirAsignacionesProfesores();
+
+        console.log("Generación de horarios completada ");
+    } catch (error) {
+        console.error("Error durante la generación de horarios:", error);
+        process.exit(1);
+    }
