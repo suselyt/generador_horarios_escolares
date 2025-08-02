@@ -596,7 +596,7 @@
         "12": {
           "materia": "Lengua y Comunicación III",
           "abreviatura": "LYC3",
-          "grupo": "301G",
+          "grupo": "304J",
           "semestre": 3
         },
         "13": {
@@ -606,10 +606,10 @@
           "semestre": 3
         },
         "14": {
-          "materia": "Lengua y Comunicación III",
-          "abreviatura": "LYC3",
-          "grupo": "304J",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         }
       },
       "Miercoles": {
@@ -872,9 +872,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 18,
+      "horasAsignadas": 17,
       "horasRequeridas": 20,
-      "porcentajeCompletado": "90.0"
+      "porcentajeCompletado": "85.0"
     }
   },
   "Barrera Cerda Walter Alan": {
@@ -4609,7 +4609,7 @@
         "8": {
           "materia": "Humanidades I",
           "abreviatura": "HUM1",
-          "grupo": "105E",
+          "grupo": "104J",
           "semestre": 1
         },
         "9": {
@@ -4619,10 +4619,10 @@
           "semestre": 1
         },
         "10": {
-          "materia": "Humanidades I",
-          "abreviatura": "HUM1",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "11": {
           "materia": null,
@@ -4823,9 +4823,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 34,
+      "horasAsignadas": 33,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "85.0"
+      "porcentajeCompletado": "82.5"
     }
   },
   "González López José Luis": {
@@ -5499,7 +5499,7 @@
         "10": {
           "materia": "Cultura Digital I",
           "abreviatura": "CD1",
-          "grupo": "102H",
+          "grupo": "103I",
           "semestre": 1
         },
         "11": {
@@ -5509,10 +5509,10 @@
           "semestre": 1
         },
         "12": {
-          "materia": "Cultura Digital I",
-          "abreviatura": "CD1",
-          "grupo": "103I",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "13": {
           "materia": null,
@@ -5701,9 +5701,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 34,
+      "horasAsignadas": 33,
       "horasRequeridas": 34,
-      "porcentajeCompletado": "100.0"
+      "porcentajeCompletado": "97.1"
     }
   },
   "Heredia Blanco Laura Esmeralda": {
@@ -6126,16 +6126,16 @@
           "semestre": 1
         },
         "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "14": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
           "abreviatura": "EIEYD",
           "grupo": "301G",
           "semestre": 3
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         }
       }
     },
@@ -12960,16 +12960,16 @@
           "semestre": 1
         },
         "10": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "11": {
           "materia": "Inglés I",
           "abreviatura": "ING1",
           "grupo": "104J",
           "semestre": 1
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "12": {
           "materia": null,
@@ -13595,17 +13595,17 @@
           "semestre": 3
         },
         "14": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "303I",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         }
       }
     },
     "estadisticas": {
-      "horasAsignadas": 38,
+      "horasAsignadas": 37,
       "horasRequeridas": 36,
-      "porcentajeCompletado": "105.6"
+      "porcentajeCompletado": "102.8"
     }
   },
   "Rodríguez Sánchez Diana Laura": {
@@ -14906,10 +14906,10 @@
           "semestre": null
         },
         "13": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "301G",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "14": {
           "materia": null,
@@ -14920,9 +14920,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 49,
+      "horasAsignadas": 48,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "122.5"
+      "porcentajeCompletado": "120.0"
     }
   },
   "Santoyo Arroyo Mario Alonso": {
@@ -15155,10 +15155,10 @@
           "semestre": 1
         },
         "10": {
-          "materia": "Lengua y Comunicación I",
-          "abreviatura": "LYC1",
-          "grupo": "103I",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "11": {
           "materia": null,
@@ -15359,9 +15359,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 31,
+      "horasAsignadas": 30,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "77.5"
+      "porcentajeCompletado": "75.0"
     }
   },
   "Santoyo Torres Jose Alberto": {
@@ -16480,7 +16480,7 @@
         "11": {
           "materia": "La materia y sus interacciones",
           "abreviatura": "LMYSI",
-          "grupo": "105K",
+          "grupo": "104J",
           "semestre": 1
         },
         "12": {
@@ -16490,10 +16490,10 @@
           "semestre": 1
         },
         "13": {
-          "materia": "La materia y sus interacciones",
-          "abreviatura": "LMYSI",
-          "grupo": "104J",
-          "semestre": 1
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "14": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
@@ -16676,9 +16676,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 30,
+      "horasAsignadas": 29,
       "horasRequeridas": 32,
-      "porcentajeCompletado": "93.8"
+      "porcentajeCompletado": "90.6"
     }
   },
   "Torres Quiñones Norma Elena": {
@@ -17715,10 +17715,10 @@
           "semestre": null
         },
         "12": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "304J",
-          "semestre": 3
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "13": {
           "materia": null,
@@ -17993,9 +17993,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 17,
+      "horasAsignadas": 16,
       "horasRequeridas": 17,
-      "porcentajeCompletado": "100.0"
+      "porcentajeCompletado": "94.1"
     }
   },
   "Zapata Aldape Bertha Alicia": {
