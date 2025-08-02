@@ -887,26 +887,51 @@ class GeneradorHorarios {
     }
 
     generarHorariosGrupales() {
-        console.log("\n=== GENERANDO HORARIOS GRUPALES ===");
-        for (const profesor of this.profesores) {
-            for (const dia of this.dias) {
-                for (let bloque = 1; bloque <= this.totalBloques; bloque++) {
-                    const bProfesor = profesor.horario[dia][bloque];
-                    if (bProfesor.materia && bProfesor.grupo) {
-                        const grupo = this.grupos.find(g => g.nomenclatura === bProfesor.grupo);
-                        if (grupo && this.validarTurnoGrupo(grupo, bloque)) {
+    console.log("\n=== GENERANDO HORARIOS GRUPALES ===");
+
+    for (const profesor of this.profesores) {
+        for (const dia of this.dias) {
+            for (let bloque = 1; bloque <= this.totalBloques; bloque++) {
+                const bProfesor = profesor.horario[dia][bloque];
+
+                if (!bProfesor.materia) continue;
+
+                // Caso especial: extracurriculares
+                if (bProfesor.materia.toLowerCase().startsWith("extracurricular")) {
+                    const matchSemestre = bProfesor.materia.match(/(\d+)/); // Buscar número de semestre
+                    if (matchSemestre) {
+                        const semestre = parseInt(matchSemestre[1]);
+                        const gruposSemestre = this.grupos.filter(
+                            g => g.semestre === semestre && this.validarTurnoGrupo(g, bloque)
+                        );
+
+                        for (const grupo of gruposSemestre) {
                             grupo.horario[dia][bloque] = {
-                                materia: bProfesor.materia,
-                                abreviatura: bProfesor.abreviatura,
-                                docente: profesor.nombre,
+                                materia: "Extracurricular",
+                                abreviatura: null,
+                                docente: null,
                                 aula: null
                             };
                         }
                     }
                 }
+                // Caso normal
+                else if (bProfesor.grupo) {
+                    const grupo = this.grupos.find(g => g.nomenclatura === bProfesor.grupo);
+                    if (grupo && this.validarTurnoGrupo(grupo, bloque)) {
+                        grupo.horario[dia][bloque] = {
+                            materia: bProfesor.materia,
+                            abreviatura: bProfesor.abreviatura,
+                            docente: profesor.nombre,
+                            aula: null
+                        };
+                    }
+                }
             }
         }
     }
+}
+
 
     // ================== Utilidades para estadísticas mejoradas ==================
     calcularHorasAsignadasProfesor(profesor) {

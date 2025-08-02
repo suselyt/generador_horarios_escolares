@@ -27,10 +27,10 @@
           "semestre": 1
         },
         "5": {
-          "materia": "C. Sociales",
-          "abreviatura": "CSOC",
-          "grupo": "105E",
-          "semestre": 1
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMM5",
+          "grupo": "501A",
+          "semestre": 5
         },
         "6": {
           "materia": "Modulo profesional",
@@ -45,10 +45,10 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "grupo": "105E",
+          "semestre": 1
         },
         "9": {
           "materia": null,
@@ -113,10 +113,10 @@
           "semestre": 1
         },
         "5": {
-          "materia": "C. Sociales",
-          "abreviatura": "CSOC",
-          "grupo": "106F",
-          "semestre": 1
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMM5",
+          "grupo": "501A",
+          "semestre": 5
         },
         "6": {
           "materia": "Modulo profesional",
@@ -131,10 +131,10 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "grupo": "106F",
+          "semestre": 1
         },
         "9": {
           "materia": null,
@@ -205,10 +205,10 @@
           "semestre": 5
         },
         "6": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "grupo": "302B",
-          "semestre": 3
+          "materia": "Modulo profesional",
+          "abreviatura": "MPMM5",
+          "grupo": "501A",
+          "semestre": 5
         },
         "7": {
           "materia": "Humanidades II",
@@ -433,9 +433,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 23,
+      "horasAsignadas": 25,
       "horasRequeridas": 29,
-      "porcentajeCompletado": "79.3"
+      "porcentajeCompletado": "86.2"
     }
   },
   "Ávalos Ramos Grecia": {
@@ -911,16 +911,16 @@
           "semestre": 3
         },
         "6": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "grupo": "306F",
-          "semestre": 3
-        },
-        "7": {
           "materia": null,
           "abreviatura": null,
           "grupo": null,
           "semestre": null
+        },
+        "7": {
+          "materia": "Inglés III",
+          "abreviatura": "ING3",
+          "grupo": "306F",
+          "semestre": 3
         },
         "8": {
           "materia": "Concursos",
@@ -2228,10 +2228,10 @@
           "semestre": 1
         },
         "6": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "grupo": "302B",
-          "semestre": 3
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "104D",
+          "semestre": 1
         },
         "7": {
           "materia": "Pensamiento Matemático III",
@@ -2314,15 +2314,15 @@
           "semestre": 1
         },
         "6": {
-          "materia": "Temas selectos de Matemáticas II",
-          "abreviatura": "TSDM2",
-          "grupo": "503C",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "7": {
           "materia": "Temas selectos de Matemáticas II",
           "abreviatura": "TSDM2",
-          "grupo": "502B",
+          "grupo": "503C",
           "semestre": 5
         },
         "8": {
@@ -2628,9 +2628,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 33,
+      "horasAsignadas": 32,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "82.5"
+      "porcentajeCompletado": "80.0"
     }
   },
   "De La Fuente Escobedo Luis Ramón": {
@@ -3102,7 +3102,7 @@
         "5": {
           "materia": "Inglés V",
           "abreviatura": "ING5",
-          "grupo": "505E",
+          "grupo": "503C",
           "semestre": 5
         },
         "6": {
@@ -4583,9 +4583,9 @@
           "semestre": 1
         },
         "4": {
-          "materia": "Humanidades I",
-          "abreviatura": "HUM1",
-          "grupo": "105E",
+          "materia": "C. Sociales",
+          "abreviatura": "CSOC",
+          "grupo": "104D",
           "semestre": 1
         },
         "5": {
@@ -4609,7 +4609,7 @@
         "8": {
           "materia": "Humanidades I",
           "abreviatura": "HUM1",
-          "grupo": "104J",
+          "grupo": "105E",
           "semestre": 1
         },
         "9": {
@@ -4619,10 +4619,10 @@
           "semestre": 1
         },
         "10": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Humanidades I",
+          "abreviatura": "HUM1",
+          "grupo": "104J",
+          "semestre": 1
         },
         "11": {
           "materia": null,
@@ -4823,9 +4823,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 33,
+      "horasAsignadas": 34,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "82.5"
+      "porcentajeCompletado": "85.0"
     }
   },
   "González López José Luis": {
@@ -5499,7 +5499,7 @@
         "10": {
           "materia": "Cultura Digital I",
           "abreviatura": "CD1",
-          "grupo": "103I",
+          "grupo": "102H",
           "semestre": 1
         },
         "11": {
@@ -5509,10 +5509,10 @@
           "semestre": 1
         },
         "12": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Cultura Digital I",
+          "abreviatura": "CD1",
+          "grupo": "103I",
+          "semestre": 1
         },
         "13": {
           "materia": null,
@@ -5701,9 +5701,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 33,
+      "horasAsignadas": 34,
       "horasRequeridas": 34,
-      "porcentajeCompletado": "97.1"
+      "porcentajeCompletado": "100.0"
     }
   },
   "Heredia Blanco Laura Esmeralda": {
@@ -6179,10 +6179,10 @@
           "semestre": null
         },
         "6": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "grupo": "303C",
-          "semestre": 3
+          "materia": "Investigación",
+          "abreviatura": "INVES",
+          "grupo": null,
+          "semestre": null
         },
         "7": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
@@ -6345,10 +6345,10 @@
           "semestre": null
         },
         "5": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "grupo": "502B",
-          "semestre": 5
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "grupo": "303C",
+          "semestre": 3
         },
         "6": {
           "materia": "La energía en los procesos de la vida diaria",
@@ -6357,10 +6357,10 @@
           "semestre": 5
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "grupo": "502B",
+          "semestre": 5
         },
         "8": {
           "materia": null,
@@ -6579,9 +6579,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 44,
+      "horasAsignadas": 45,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "110.0"
+      "porcentajeCompletado": "112.5"
     }
   },
   "Hernández González Felipe": {
@@ -6607,9 +6607,9 @@
         },
         "4": {
           "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "grupo": "508H",
-          "semestre": 5
+          "abreviatura": "MPEL3",
+          "grupo": "306F",
+          "semestre": 3
         },
         "5": {
           "materia": "Modulo profesional",
@@ -6698,10 +6698,10 @@
           "semestre": 5
         },
         "5": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "grupo": "508H",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": "Modulo profesional",
@@ -6779,9 +6779,9 @@
         },
         "4": {
           "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "grupo": "508H",
-          "semestre": 5
+          "abreviatura": "MPEL3",
+          "grupo": "306F",
+          "semestre": 3
         },
         "5": {
           "materia": "Modulo profesional",
@@ -7018,9 +7018,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 30,
+      "horasAsignadas": 29,
       "horasRequeridas": 33,
-      "porcentajeCompletado": "90.9"
+      "porcentajeCompletado": "87.9"
     }
   },
   "Herrera García Marco Iván": {
@@ -7937,7 +7937,7 @@
         "6": {
           "materia": "Cultura Digital I",
           "abreviatura": "CD1",
-          "grupo": "103C",
+          "grupo": "102B",
           "semestre": 1
         },
         "7": {
@@ -7947,10 +7947,10 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Cultura Digital I",
+          "abreviatura": "CD1",
+          "grupo": "103C",
+          "semestre": 1
         },
         "9": {
           "materia": "Multidisciplinarias",
@@ -8335,9 +8335,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 33,
+      "horasAsignadas": 34,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "82.5"
+      "porcentajeCompletado": "85.0"
     }
   },
   "Lerma Martínez Luis Enrique": {
@@ -10119,9 +10119,9 @@
         },
         "4": {
           "materia": "Modulo profesional",
-          "abreviatura": "MPDG5",
-          "grupo": "504D",
-          "semestre": 5
+          "abreviatura": "MPDG3",
+          "grupo": "304D",
+          "semestre": 3
         },
         "5": {
           "materia": "Modulo profesional",
@@ -10205,9 +10205,9 @@
         },
         "4": {
           "materia": "Modulo profesional",
-          "abreviatura": "MPDG5",
-          "grupo": "504D",
-          "semestre": 5
+          "abreviatura": "MPDG3",
+          "grupo": "304D",
+          "semestre": 3
         },
         "5": {
           "materia": "Modulo profesional",
@@ -10296,10 +10296,10 @@
           "semestre": 5
         },
         "5": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPDG5",
-          "grupo": "504D",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": "Modulo profesional",
@@ -10530,9 +10530,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 43,
+      "horasAsignadas": 42,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "107.5"
+      "porcentajeCompletado": "105.0"
     }
   },
   "Martinez Hernandez Cynthia Brenda": {
@@ -11174,9 +11174,9 @@
           "semestre": 1
         },
         "5": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "grupo": "304D",
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "grupo": "301A",
           "semestre": 3
         },
         "6": {
@@ -11186,10 +11186,10 @@
           "semestre": 3
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "grupo": "304D",
+          "semestre": 3
         },
         "8": {
           "materia": null,
@@ -11408,9 +11408,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 33,
+      "horasAsignadas": 34,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "82.5"
+      "porcentajeCompletado": "85.0"
     }
   },
   "Pérez Abrego Erika Aideé": {
@@ -12048,7 +12048,7 @@
         "4": {
           "materia": "Pensamiento Matemático I",
           "abreviatura": "PM1",
-          "grupo": "106F",
+          "grupo": "101A",
           "semestre": 1
         },
         "5": {
@@ -12070,10 +12070,10 @@
           "semestre": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Pensamiento Matemático I",
+          "abreviatura": "PM1",
+          "grupo": "106F",
+          "semestre": 1
         },
         "9": {
           "materia": null,
@@ -12286,9 +12286,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 41,
+      "horasAsignadas": 42,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "102.5"
+      "porcentajeCompletado": "105.0"
     }
   },
   "Razo Hernandez Víctor Miguel": {
@@ -12960,16 +12960,16 @@
           "semestre": 1
         },
         "10": {
-          "materia": "Inglés I",
-          "abreviatura": "ING1",
-          "grupo": "104J",
-          "semestre": 1
-        },
-        "11": {
           "materia": null,
           "abreviatura": null,
           "grupo": null,
           "semestre": null
+        },
+        "11": {
+          "materia": "Inglés I",
+          "abreviatura": "ING1",
+          "grupo": "104J",
+          "semestre": 1
         },
         "12": {
           "materia": null,
@@ -15155,10 +15155,10 @@
           "semestre": 1
         },
         "10": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "grupo": "103I",
+          "semestre": 1
         },
         "11": {
           "materia": null,
@@ -15359,9 +15359,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 30,
+      "horasAsignadas": 31,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "75.0"
+      "porcentajeCompletado": "77.5"
     }
   },
   "Santoyo Torres Jose Alberto": {
@@ -15917,15 +15917,15 @@
           "semestre": null
         },
         "5": {
-          "materia": "Estudios Literarios",
-          "abreviatura": "ESTL",
-          "grupo": "503C",
-          "semestre": 5
+          "materia": "Lengua y Comunicación III",
+          "abreviatura": "LYC3",
+          "grupo": "306F",
+          "semestre": 3
         },
         "6": {
           "materia": "Estudios Literarios",
           "abreviatura": "ESTL",
-          "grupo": "502B",
+          "grupo": "503C",
           "semestre": 5
         },
         "7": {
@@ -16480,7 +16480,7 @@
         "11": {
           "materia": "La materia y sus interacciones",
           "abreviatura": "LMYSI",
-          "grupo": "104J",
+          "grupo": "105K",
           "semestre": 1
         },
         "12": {
@@ -16490,10 +16490,10 @@
           "semestre": 1
         },
         "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "grupo": "104J",
+          "semestre": 1
         },
         "14": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
@@ -16676,9 +16676,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 29,
+      "horasAsignadas": 30,
       "horasRequeridas": 32,
-      "porcentajeCompletado": "90.6"
+      "porcentajeCompletado": "93.8"
     }
   },
   "Torres Quiñones Norma Elena": {
@@ -16809,14 +16809,14 @@
         "7": {
           "materia": "Ecosistemas: interacciones, energía y dinámica",
           "abreviatura": "EIEYD",
-          "grupo": "306F",
+          "grupo": "304D",
           "semestre": 3
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "grupo": "306F",
+          "semestre": 3
         },
         "9": {
           "materia": "Asesorías Académicas",
@@ -17115,9 +17115,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 45,
+      "horasAsignadas": 46,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "112.5"
+      "porcentajeCompletado": "115.0"
     }
   },
   "Torres Vargas Mayra": {

@@ -43,7 +43,7 @@
           "aula": null
         },
         "7": {
-          "materia": null,
+          "materia": "Extracurricular",
           "abreviatura": null,
           "docente": null,
           "aula": null
@@ -87,7 +87,7 @@
           "aula": null
         },
         "6": {
-          "materia": null,
+          "materia": "Extracurricular",
           "abreviatura": null,
           "docente": null,
           "aula": null
@@ -137,7 +137,7 @@
           "aula": null
         },
         "6": {
-          "materia": null,
+          "materia": "Extracurricular",
           "abreviatura": null,
           "docente": null,
           "aula": null
@@ -313,7 +313,7 @@
           "aula": null
         },
         "7": {
-          "materia": null,
+          "materia": "Extracurricular",
           "abreviatura": null,
           "docente": null,
           "aula": null
@@ -357,7 +357,7 @@
           "aula": null
         },
         "6": {
-          "materia": null,
+          "materia": "Extracurricular",
           "abreviatura": null,
           "docente": null,
           "aula": null
@@ -401,7 +401,7 @@
           "aula": null
         },
         "5": {
-          "materia": null,
+          "materia": "Extracurricular",
           "abreviatura": null,
           "docente": null,
           "aula": null
@@ -577,9 +577,9 @@
           "aula": null
         },
         "6": {
-          "materia": "Cultura Digital I",
-          "abreviatura": "CD1",
-          "docente": "Jasso Anaya Luis Fernando",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -627,7 +627,7 @@
           "aula": null
         },
         "6": {
-          "materia": null,
+          "materia": "Extracurricular",
           "abreviatura": null,
           "docente": null,
           "aula": null
@@ -671,7 +671,7 @@
           "aula": null
         },
         "5": {
-          "materia": null,
+          "materia": "Extracurricular",
           "abreviatura": null,
           "docente": null,
           "aula": null
@@ -853,7 +853,7 @@
           "aula": null
         },
         "7": {
-          "materia": null,
+          "materia": "Extracurricular",
           "abreviatura": null,
           "docente": null,
           "aula": null
@@ -897,7 +897,7 @@
           "aula": null
         },
         "6": {
-          "materia": null,
+          "materia": "Extracurricular",
           "abreviatura": null,
           "docente": null,
           "aula": null
@@ -941,7 +941,7 @@
           "aula": null
         },
         "5": {
-          "materia": null,
+          "materia": "Extracurricular",
           "abreviatura": null,
           "docente": null,
           "aula": null
@@ -1111,9 +1111,9 @@
           "aula": null
         },
         "5": {
-          "materia": "C. Sociales",
-          "abreviatura": "CSOC",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "6": {
@@ -1167,7 +1167,7 @@
           "aula": null
         },
         "6": {
-          "materia": null,
+          "materia": "Extracurricular",
           "abreviatura": null,
           "docente": null,
           "aula": null
@@ -1205,9 +1205,9 @@
           "aula": null
         },
         "4": {
-          "materia": "Humanidades I",
-          "abreviatura": "HUM1",
-          "docente": "González de la Fuente Samuel",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "5": {
@@ -1393,7 +1393,7 @@
           "aula": null
         },
         "7": {
-          "materia": null,
+          "materia": "Extracurricular",
           "abreviatura": null,
           "docente": null,
           "aula": null
@@ -1431,9 +1431,9 @@
           "aula": null
         },
         "5": {
-          "materia": "C. Sociales",
-          "abreviatura": "CSOC",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "6": {
@@ -1475,9 +1475,9 @@
           "aula": null
         },
         "4": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "docente": "Ramírez Solís Erik",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "5": {
@@ -1627,9 +1627,9 @@
     "horario": {
       "Lunes": {
         "8": {
-          "materia": "Humanidades I",
-          "abreviatura": "HUM1",
-          "docente": "González de la Fuente Samuel",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "9": {
@@ -1671,9 +1671,9 @@
       },
       "Martes": {
         "8": {
-          "materia": "Humanidades I",
-          "abreviatura": "HUM1",
-          "docente": "González de la Fuente Samuel",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "9": {
@@ -1715,9 +1715,9 @@
       },
       "Miercoles": {
         "8": {
-          "materia": "Cultura Digital I",
-          "abreviatura": "CD1",
-          "docente": "Guadalupe de la Cruz Romualdo",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "9": {
@@ -1867,9 +1867,9 @@
     "horario": {
       "Lunes": {
         "8": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "docente": "Ramírez Solís Erik",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "9": {
@@ -1911,9 +1911,9 @@
       },
       "Martes": {
         "8": {
-          "materia": "Pensamiento Matemático I",
-          "abreviatura": "PM1",
-          "docente": "Ramírez Solís Erik",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "9": {
@@ -2195,9 +2195,9 @@
       },
       "Miercoles": {
         "8": {
-          "materia": "Lengua y Comunicación I",
-          "abreviatura": "LYC1",
-          "docente": "Santoyo Arroyo Mario Alonso",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "9": {
@@ -2207,9 +2207,9 @@
           "aula": null
         },
         "10": {
-          "materia": "Cultura Digital I",
-          "abreviatura": "CD1",
-          "docente": "Guadalupe de la Cruz Romualdo",
+          "materia": "Lengua y Comunicación I",
+          "abreviatura": "LYC1",
+          "docente": "Santoyo Arroyo Mario Alonso",
           "aula": null
         },
         "11": {
@@ -2219,9 +2219,9 @@
           "aula": null
         },
         "12": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Cultura Digital I",
+          "abreviatura": "CD1",
+          "docente": "Guadalupe de la Cruz Romualdo",
           "aula": null
         },
         "13": {
@@ -2347,9 +2347,9 @@
     "horario": {
       "Lunes": {
         "8": {
-          "materia": "C. Sociales",
-          "abreviatura": "CSOC",
-          "docente": "De La Fuente Escobedo Luis Ramón",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "9": {
@@ -2391,9 +2391,9 @@
       },
       "Martes": {
         "8": {
-          "materia": "Cultura Digital I",
-          "abreviatura": "CD1",
-          "docente": "Guadalupe de la Cruz Romualdo",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "9": {
@@ -2435,9 +2435,9 @@
       },
       "Miercoles": {
         "8": {
-          "materia": "Humanidades I",
-          "abreviatura": "HUM1",
-          "docente": "González de la Fuente Samuel",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "9": {
@@ -2447,15 +2447,15 @@
           "aula": null
         },
         "10": {
-          "materia": "Inglés I",
-          "abreviatura": "ING1",
-          "docente": "Rodríguez Peláez Carolina",
+          "materia": "Humanidades I",
+          "abreviatura": "HUM1",
+          "docente": "González de la Fuente Samuel",
           "aula": null
         },
         "11": {
-          "materia": "La materia y sus interacciones",
-          "abreviatura": "LMYSI",
-          "docente": "Solís Rieboles Ulises",
+          "materia": "Inglés I",
+          "abreviatura": "ING1",
+          "docente": "Rodríguez Peláez Carolina",
           "aula": null
         },
         "12": {
@@ -2465,9 +2465,9 @@
           "aula": null
         },
         "13": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "La materia y sus interacciones",
+          "abreviatura": "LMYSI",
+          "docente": "Solís Rieboles Ulises",
           "aula": null
         },
         "14": {
@@ -2587,9 +2587,9 @@
     "horario": {
       "Lunes": {
         "8": {
-          "materia": "Lengua y Comunicación I",
-          "abreviatura": "LYC1",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "9": {
@@ -2631,9 +2631,9 @@
       },
       "Martes": {
         "8": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "De La Fuente Escobedo Luis Ramón",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "9": {
@@ -2675,9 +2675,9 @@
       },
       "Miercoles": {
         "8": {
-          "materia": "Lengua y Comunicación I",
-          "abreviatura": "LYC1",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "9": {
@@ -2863,9 +2863,9 @@
           "aula": null
         },
         "7": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -2913,9 +2913,9 @@
           "aula": null
         },
         "7": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -2963,7 +2963,7 @@
           "aula": null
         },
         "7": {
-          "materia": null,
+          "materia": "Extracurricular",
           "abreviatura": null,
           "docente": null,
           "aula": null
@@ -3127,9 +3127,9 @@
           "aula": null
         },
         "6": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Cepeda Ramos Yuridia Lizbeth",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -3183,9 +3183,9 @@
           "aula": null
         },
         "7": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Hernández Barrera J. Trinidad",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "8": {
@@ -3227,9 +3227,9 @@
           "aula": null
         },
         "6": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -3397,9 +3397,9 @@
           "aula": null
         },
         "6": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Hernández Barrera J. Trinidad",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -3761,9 +3761,9 @@
           "aula": null
         },
         "5": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "6": {
@@ -3993,7 +3993,7 @@
           "aula": null
         },
         "7": {
-          "materia": null,
+          "materia": "Extracurricular",
           "abreviatura": null,
           "docente": null,
           "aula": null
@@ -4207,9 +4207,9 @@
           "aula": null
         },
         "6": {
-          "materia": "Inglés III",
-          "abreviatura": "ING3",
-          "docente": "Barrera Cerda Walter Alan",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -4263,15 +4263,15 @@
           "aula": null
         },
         "7": {
-          "materia": "Ecosistemas: interacciones, energía y dinámica",
-          "abreviatura": "EIEYD",
-          "docente": "Torres Quiñones Norma Elena",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Ecosistemas: interacciones, energía y dinámica",
+          "abreviatura": "EIEYD",
+          "docente": "Torres Quiñones Norma Elena",
           "aula": null
         }
       },
@@ -4313,7 +4313,7 @@
           "aula": null
         },
         "7": {
-          "materia": null,
+          "materia": "Extracurricular",
           "abreviatura": null,
           "docente": null,
           "aula": null
@@ -5677,9 +5677,9 @@
           "aula": null
         },
         "6": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPMM5",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -5727,9 +5727,9 @@
           "aula": null
         },
         "6": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPMM5",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -5777,9 +5777,9 @@
           "aula": null
         },
         "6": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPMM5",
-          "docente": "Acosta García Javier Alfonso",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -6041,9 +6041,9 @@
           "aula": null
         },
         "5": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Hernández Barrera J. Trinidad",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "6": {
@@ -6053,9 +6053,9 @@
           "aula": null
         },
         "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Hernández Barrera J. Trinidad",
           "aula": null
         },
         "8": {
@@ -6217,9 +6217,9 @@
           "aula": null
         },
         "6": {
-          "materia": "Conciencia Histórica II: México durante el expansionismo capitalista",
-          "abreviatura": "CHIS2",
-          "docente": "Lerma Martínez Luis Enrique",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -6261,21 +6261,21 @@
           "aula": null
         },
         "5": {
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
+          "aula": null
+        },
+        "6": {
           "materia": "Estudios Literarios",
           "abreviatura": "ESTL",
           "docente": "Silva Camacho Sandra Catalina",
           "aula": null
         },
-        "6": {
+        "7": {
           "materia": "Temas selectos de Matemáticas II",
           "abreviatura": "TSDM2",
           "docente": "Cepeda Ramos Yuridia Lizbeth",
-          "aula": null
-        },
-        "7": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
           "aula": null
         },
         "8": {
@@ -6317,9 +6317,9 @@
           "aula": null
         },
         "6": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Heredia Blanco Laura Esmeralda",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "7": {
@@ -6475,9 +6475,9 @@
           "aula": null
         },
         "4": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPDG5",
-          "docente": "Martínez González Sanjuana Maribel",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "5": {
@@ -6525,9 +6525,9 @@
           "aula": null
         },
         "4": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPDG5",
-          "docente": "Martínez González Sanjuana Maribel",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "5": {
@@ -6581,9 +6581,9 @@
           "aula": null
         },
         "5": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPDG5",
-          "docente": "Martínez González Sanjuana Maribel",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "6": {
@@ -6751,9 +6751,9 @@
           "aula": null
         },
         "5": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "docente": "Diaz Mendoza Alan Eduardo",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "6": {
@@ -7555,9 +7555,9 @@
           "aula": null
         },
         "4": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "docente": "Hernández González Felipe",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "5": {
@@ -7611,9 +7611,9 @@
           "aula": null
         },
         "5": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "docente": "Hernández González Felipe",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "6": {
@@ -7655,9 +7655,9 @@
           "aula": null
         },
         "4": {
-          "materia": "Modulo profesional",
-          "abreviatura": "MPEL5",
-          "docente": "Hernández González Felipe",
+          "materia": "Extracurricular",
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "5": {
