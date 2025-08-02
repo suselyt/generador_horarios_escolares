@@ -93,7 +93,9 @@ class GeneradorHorarios {
 
     grupoTieneClases(grupo, dia, bloque) {
         for (const profesor of this.profesores) {
-            if (profesor.horario[dia][bloque].grupo === grupo.nomenclatura) return true;
+            const entrada = profesor.horario[dia][bloque];
+            if (entrada.grupo === grupo.nomenclatura) return true;
+            if (entrada.semestre && entrada.semestre === grupo.semestre && entrada.materia?.toLowerCase().includes("extracurricular")) return true;
         }
         return false;
     }
@@ -817,22 +819,36 @@ class GeneradorHorarios {
 
             for (const dia of this.dias) {
                 let clases = [];
+                let extras = [];
                 for (let b = bloqueInicio; b <= bloqueFin; b++) {
-                    if (grupo.horario[dia][b]?.materia) {
-                        clases.push({
-                            ...grupo.horario[dia][b],
-                            bloqueOriginal: b
-                        });
+                    const info = grupo.horario[dia][b];
+                    if (info?.materia) {
+                        if (info.materia === "Extracurricular") {
+                            extras.push({ ...info, bloqueOriginal: b });
+                        } else {
+                            clases.push({ ...info, bloqueOriginal: b });
+                        }
                     }
                 }
 
-                // Si no hay clases en este día, continuar
-                if (clases.length === 0) continue;
+                if (clases.length === 0 && extras.length === 0) continue;
 
-                // Recolocar clases en bloques compactos
-                clases.forEach((clase, i) => {
-                    const nuevoBloque = bloqueInicio + i;
-                    grupo.horario[dia][nuevoBloque] = {
+                // Limpiar día
+                for (let b = bloqueInicio; b <= bloqueFin; b++) {
+                    grupo.horario[dia][b] = { materia: null, abreviatura: null, docente: null, aula: null };
+                }
+
+                const bloquesReservados = extras.map(e => e.bloqueOriginal);
+                let bloqueActual = bloqueInicio;
+
+                // Recolocar clases en bloques compactos evitando extracurriculares
+                for (const clase of clases) {
+                    while (bloquesReservados.includes(bloqueActual) && bloqueActual <= bloqueFin) {
+                        bloqueActual++;
+                    }
+                    if (bloqueActual > bloqueFin) break;
+
+                    grupo.horario[dia][bloqueActual] = {
                         materia: clase.materia,
                         abreviatura: clase.abreviatura,
                         docente: clase.docente,
@@ -842,11 +858,10 @@ class GeneradorHorarios {
                     // Actualizar en el horario del profesor si es necesario
                     if (clase.docente) {
                         const profesor = this.profesores.find(p => p.nombre === clase.docente);
-                        if (profesor && nuevoBloque !== clase.bloqueOriginal) {
-                            // Limpiar bloque anterior
+                        if (profesor && bloqueActual !== clase.bloqueOriginal) {
                             profesor.horario[dia][clase.bloqueOriginal] = { materia: null, abreviatura: null, grupo: null, semestre: null };
                             // Asignar nuevo bloque
-                            profesor.horario[dia][nuevoBloque] = {
+                            profesor.horario[dia][bloqueActual] = {
                                 materia: clase.materia,
                                 abreviatura: clase.abreviatura,
                                 grupo: grupo.nomenclatura,
@@ -854,7 +869,18 @@ class GeneradorHorarios {
                             };
                         }
                     }
-                });
+                bloqueActual++;
+                }
+
+                // Reinsertar extracurriculares en sus bloques originales
+                for (const extra of extras) {
+                    grupo.horario[dia][extra.bloqueOriginal] = {
+                        materia: extra.materia,
+                        abreviatura: extra.abreviatura,
+                        docente: extra.docente,
+                        aula: extra.aula
+                    };
+                }
             }
         }
     }
@@ -963,6 +989,64 @@ class GeneradorHorarios {
         }
         return huecos;
     }
+
+    // ================== Validación de coherencia ==================
+    validarCoherenciaHorarios() {
+        console.log("\n=== VALIDANDO COHERENCIA ENTRE HORARIOS ===");
+        let errores = 0;
+
+        for (const profesor of this.profesores) {
+            for (const dia of this.dias) {
+                for (let bloque = 1; bloque <= this.totalBloques; bloque++) {
+                    const asignacionProfesor = profesor.horario[dia][bloque];
+                    if (!asignacionProfesor.materia) continue;
+
+                    // Validar extracurriculares
+                    if (asignacionProfesor.materia.toLowerCase().includes("extracurricular")) {
+                        const match = asignacionProfesor.materia.match(/(\d+)° Semestre/);
+                        if (match) {
+                            const semestre = parseInt(match[1]);
+                            const gruposMatutinos = this.grupos.filter(g =>
+                                g.semestre === semestre && g.turno === "Matutino"
+                            );
+
+                            for (const grupo of gruposMatutinos) {
+                                if (this.validarTurnoGrupo(grupo, bloque)) {
+                                    const asignacionGrupo = grupo.horario[dia][bloque];
+                                    if (!asignacionGrupo?.materia || asignacionGrupo.materia !== "Extracurricular") {
+                                        console.error(`❌ ERROR: Profesor ${profesor.nombre} tiene extracurricular en ${dia} bloque ${bloque}, pero grupo ${grupo.nomenclatura} no la tiene`);
+                                        errores++;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    // Validar materias normales
+                    else if (asignacionProfesor.grupo) {
+                        const grupo = this.grupos.find(g => g.nomenclatura === asignacionProfesor.grupo);
+                        if (grupo && this.validarTurnoGrupo(grupo, bloque)) {
+                            const asignacionGrupo = grupo.horario[dia][bloque];
+                            if (!asignacionGrupo?.materia ||
+                                asignacionGrupo.materia !== asignacionProfesor.materia ||
+                                asignacionGrupo.docente !== profesor.nombre) {
+                                console.error(`❌ ERROR: Inconsistencia en ${dia} bloque ${bloque} - Profesor ${profesor.nombre} tiene ${asignacionProfesor.materia} con grupo ${asignacionProfesor.grupo}, pero el grupo tiene ${asignacionGrupo?.materia || 'vacío'}`);
+                                errores++;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        if (errores === 0) {
+            console.log("✅ Todos los horarios están coherentes");
+        } else {
+            console.log(`❌ Se encontraron ${errores} errores de coherencia`);
+        }
+
+        return errores === 0;
+    }
+
 
     // ================== Nuevo: Estadísticas detalladas ==================
     mostrarEstadisticasDetalladas() {
@@ -1109,11 +1193,17 @@ class GeneradorHorarios {
         this.generarHorariosDocentes();
         this.generarHorariosGrupales();
 
+        console.log("\n=== VALIDANDO COHERENCIA ===");
+        this.validarCoherenciaHorarios();
+
         console.log("\n=== BALANCEANDO DISTRIBUCIÓN ===");
         this.balancearDistribucionDiaria();
 
         console.log("\n=== REORGANIZANDO HORARIOS ===");
         this.reorganizarHorariosGrupalesYDocentes();
+
+         console.log("\n=== VALIDANDO COHERENCIA FINAL ===");
+        this.validarCoherenciaHorarios();
 
         console.log("\n=== ESTADÍSTICAS FINALES ===");
         this.mostrarEstadisticas();
