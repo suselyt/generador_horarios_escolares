@@ -3272,10 +3272,10 @@
           "semestre": 3
         },
         "5": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "grupo": "504D",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": null,
@@ -3290,10 +3290,10 @@
           "semestre": 5
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "504D",
+          "semestre": 5
         },
         "9": {
           "materia": null,
@@ -15564,10 +15564,10 @@
           "semestre": 5
         },
         "5": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "grupo": "506F",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         },
         "6": {
           "materia": null,
@@ -15582,10 +15582,10 @@
           "semestre": 5
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "grupo": "506F",
+          "semestre": 5
         },
         "9": {
           "materia": null,

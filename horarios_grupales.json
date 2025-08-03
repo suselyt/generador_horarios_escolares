@@ -6581,9 +6581,9 @@
           "aula": null
         },
         "5": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "docente": "Diaz Mendoza Alan Eduardo",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "6": {
@@ -6599,9 +6599,9 @@
           "aula": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Diaz Mendoza Alan Eduardo",
           "aula": null
         }
       },
@@ -6707,7 +6707,7 @@
       }
     },
     "estadisticas": {
-      "huecos": 2,
+      "huecos": 3,
       "totalHoras": 32,
       "horasPorDia": {
         "Lunes": 6,
@@ -7121,9 +7121,9 @@
           "aula": null
         },
         "5": {
-          "materia": "Inglés V",
-          "abreviatura": "ING5",
-          "docente": "Santoyo Torres Jose Alberto",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "6": {
@@ -7139,9 +7139,9 @@
           "aula": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Inglés V",
+          "abreviatura": "ING5",
+          "docente": "Santoyo Torres Jose Alberto",
           "aula": null
         }
       },
@@ -7247,7 +7247,7 @@
       }
     },
     "estadisticas": {
-      "huecos": 1,
+      "huecos": 2,
       "totalHoras": 33,
       "horasPorDia": {
         "Lunes": 7,
