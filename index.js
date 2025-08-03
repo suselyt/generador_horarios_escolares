@@ -1234,21 +1234,12 @@ class GeneradorHorarios {
     exportarHorariosGrupalesJSON() {
         const horariosGrupales = {};
         for (const grupo of this.grupos) {
-            const stats = this.estadisticasGrupos.get(grupo.nomenclatura);
-            const huecos = this.calcularHuecosGrupo(grupo);
             horariosGrupales[grupo.nomenclatura] = {
                 grupo: grupo.nomenclatura,
                 semestre: grupo.semestre,
                 turno: grupo.turno,
                 carrera: grupo.carrera,
                 horario: grupo.horario,
-                estadisticas: {
-                    huecos: huecos,
-                    sinHuecos: huecos === 0,
-                    totalHoras: stats?.totalHoras || 0,
-                    horasPorDia: stats?.horasPorDia || {},
-                    promedioDiario: stats ? (stats.totalHoras / this.dias.filter(dia => stats.horasPorDia[dia] > 0).length).toFixed(1) : 0
-                }
             };
         }
         fs.writeFileSync('horarios_grupales.json', JSON.stringify(horariosGrupales, null, 2));
@@ -1258,15 +1249,8 @@ class GeneradorHorarios {
     exportarHorariosProfesoresJSON() {
         const horariosProfesor = {};
         for (const profesor of this.profesores) {
-            const horasAsignadas = this.calcularHorasAsignadasProfesor(profesor);
             horariosProfesor[profesor.nombre] = {
                 horario: profesor.horario,
-                estadisticas: {
-                    horasAsignadas: horasAsignadas,
-                    horasRequeridas: profesor.horas_semanales_totales || 0,
-                    porcentajeCompletado: profesor.horas_semanales_totales > 0 ?
-                        ((horasAsignadas / profesor.horas_semanales_totales) * 100).toFixed(1) : 0
-                }
             };
         }
         fs.writeFileSync('horarios_profesores.json', JSON.stringify(horariosProfesor, null, 2));
