@@ -899,8 +899,8 @@
           "semestre": null
         },
         "4": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -917,14 +917,14 @@
           "semestre": 3
         },
         "7": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "8": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -1271,445 +1271,6 @@
           "abreviatura": "ING3",
           "grupo": "306F",
           "semestre": 3
-        },
-        "9": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "10": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "11": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "12": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "14": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        }
-      }
-    },
-    "estadisticas": {
-      "horasAsignadas": 18,
-      "horasRequeridas": 15,
-      "porcentajeCompletado": "120.0"
-    }
-  },
-  "Benítez Espín Marcela": {
-    "horario": {
-      "Lunes": {
-        "1": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
-          "grupo": null,
-          "semestre": null
-        },
-        "2": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
-          "grupo": null,
-          "semestre": null
-        },
-        "3": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
-          "grupo": null,
-          "semestre": null
-        },
-        "4": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
-          "grupo": null,
-          "semestre": null
-        },
-        "5": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
-          "grupo": null,
-          "semestre": null
-        },
-        "6": {
-          "materia": "Extracurricular: Pintura - 5° Semestre",
-          "abreviatura": "PINTU",
-          "grupo": "Semestre 5",
-          "semestre": 5
-        },
-        "7": {
-          "materia": "Extracurricular: Pintura - 3° Semestre",
-          "abreviatura": "PINTU",
-          "grupo": "Semestre 3",
-          "semestre": 3
-        },
-        "8": {
-          "materia": "Extracurricular: Pintura - 1° Semestre",
-          "abreviatura": "PINTU",
-          "grupo": "Semestre 1",
-          "semestre": 1
-        },
-        "9": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
-          "grupo": null,
-          "semestre": null
-        },
-        "10": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "11": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "12": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "14": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        }
-      },
-      "Martes": {
-        "1": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "2": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "3": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "4": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "5": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "6": {
-          "materia": "Extracurricular: Pintura - 5° Semestre",
-          "abreviatura": "PINTU",
-          "grupo": "Semestre 5",
-          "semestre": 5
-        },
-        "7": {
-          "materia": "Extracurricular: Pintura - 3° Semestre",
-          "abreviatura": "PINTU",
-          "grupo": "Semestre 3",
-          "semestre": 3
-        },
-        "8": {
-          "materia": "Extracurricular: Pintura - 1° Semestre",
-          "abreviatura": "PINTU",
-          "grupo": "Semestre 1",
-          "semestre": 1
-        },
-        "9": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "10": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "11": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "12": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "14": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        }
-      },
-      "Miercoles": {
-        "1": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "2": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "3": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "4": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "5": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "6": {
-          "materia": "Extracurricular: Pintura - 5° Semestre",
-          "abreviatura": "PINTU",
-          "grupo": "Semestre 5",
-          "semestre": 5
-        },
-        "7": {
-          "materia": "Extracurricular: Pintura - 3° Semestre",
-          "abreviatura": "PINTU",
-          "grupo": "Semestre 3",
-          "semestre": 3
-        },
-        "8": {
-          "materia": "Extracurricular: Pintura - 1° Semestre",
-          "abreviatura": "PINTU",
-          "grupo": "Semestre 1",
-          "semestre": 1
-        },
-        "9": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "10": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "11": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "12": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "14": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        }
-      },
-      "Jueves": {
-        "1": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "2": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "3": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "4": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "5": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "9": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "10": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "11": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "12": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "13": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "14": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        }
-      },
-      "Viernes": {
-        "1": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "2": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "3": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "4": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "5": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "6": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "7": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
-        },
-        "8": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
         },
         "9": {
           "materia": null,
@@ -1751,8 +1312,447 @@
     },
     "estadisticas": {
       "horasAsignadas": 15,
+      "horasRequeridas": 15,
+      "porcentajeCompletado": "100.0"
+    }
+  },
+  "Benítez Espín Marcela": {
+    "horario": {
+      "Lunes": {
+        "1": {
+          "materia": "Concursos",
+          "abreviatura": "CONCU",
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": "Concursos",
+          "abreviatura": "CONCU",
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": "Concursos",
+          "abreviatura": "CONCU",
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": "Extracurricular: Pintura - 5° Semestre",
+          "abreviatura": "PINTU",
+          "grupo": "Semestre 5",
+          "semestre": 5
+        },
+        "7": {
+          "materia": "Extracurricular: Pintura - 3° Semestre",
+          "abreviatura": "PINTU",
+          "grupo": "Semestre 3",
+          "semestre": 3
+        },
+        "8": {
+          "materia": "Extracurricular: Pintura - 1° Semestre",
+          "abreviatura": "PINTU",
+          "grupo": "Semestre 1",
+          "semestre": 1
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Martes": {
+        "1": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": "Extracurricular: Pintura - 5° Semestre",
+          "abreviatura": "PINTU",
+          "grupo": "Semestre 5",
+          "semestre": 5
+        },
+        "7": {
+          "materia": "Extracurricular: Pintura - 3° Semestre",
+          "abreviatura": "PINTU",
+          "grupo": "Semestre 3",
+          "semestre": 3
+        },
+        "8": {
+          "materia": "Extracurricular: Pintura - 1° Semestre",
+          "abreviatura": "PINTU",
+          "grupo": "Semestre 1",
+          "semestre": 1
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Miercoles": {
+        "1": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": "Extracurricular: Pintura - 5° Semestre",
+          "abreviatura": "PINTU",
+          "grupo": "Semestre 5",
+          "semestre": 5
+        },
+        "7": {
+          "materia": "Extracurricular: Pintura - 3° Semestre",
+          "abreviatura": "PINTU",
+          "grupo": "Semestre 3",
+          "semestre": 3
+        },
+        "8": {
+          "materia": "Extracurricular: Pintura - 1° Semestre",
+          "abreviatura": "PINTU",
+          "grupo": "Semestre 1",
+          "semestre": 1
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Jueves": {
+        "1": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      },
+      "Viernes": {
+        "1": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "2": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "3": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "4": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "5": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "6": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "7": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "8": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "9": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "10": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "12": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "13": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
+        "14": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        }
+      }
+    },
+    "estadisticas": {
+      "horasAsignadas": 12,
       "horasRequeridas": 12,
-      "porcentajeCompletado": "125.0"
+      "porcentajeCompletado": "100.0"
     }
   },
   "Carmona Olivares Carlos Melecio": {
@@ -2264,20 +2264,20 @@
           "semestre": null
         },
         "12": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "14": {
-          "materia": "Asesorías de alumnos para concurso",
-          "abreviatura": "ASECO",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         }
@@ -2628,9 +2628,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 38,
+      "horasAsignadas": 35,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "95.0"
+      "porcentajeCompletado": "87.5"
     }
   },
   "De La Fuente Escobedo Luis Ramón": {
@@ -2649,14 +2649,14 @@
           "semestre": null
         },
         "3": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "4": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -3067,9 +3067,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 19,
+      "horasAsignadas": 17,
       "horasRequeridas": 20,
-      "porcentajeCompletado": "95.0"
+      "porcentajeCompletado": "85.0"
     }
   },
   "Diaz Mendoza Alan Eduardo": {
@@ -3551,8 +3551,8 @@
           "semestre": null
         },
         "7": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -3601,32 +3601,32 @@
       },
       "Martes": {
         "1": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "2": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "3": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "4": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "5": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -3945,9 +3945,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 43,
+      "horasAsignadas": 37,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "107.5"
+      "porcentajeCompletado": "92.5"
     }
   },
   "De León Flores Jorge Isidro": {
@@ -3972,14 +3972,14 @@
           "semestre": null
         },
         "4": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "5": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -4002,8 +4002,8 @@
           "semestre": 1
         },
         "9": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -4384,9 +4384,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 15,
+      "horasAsignadas": 12,
       "horasRequeridas": 12,
-      "porcentajeCompletado": "125.0"
+      "porcentajeCompletado": "100.0"
     }
   },
   "González de la Fuente Samuel": {
@@ -4491,26 +4491,26 @@
           "semestre": 1
         },
         "3": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "4": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "5": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "6": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -4823,9 +4823,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 40,
+      "horasAsignadas": 36,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "100.0"
+      "porcentajeCompletado": "90.0"
     }
   },
   "González López José Luis": {
@@ -4838,8 +4838,8 @@
           "semestre": null
         },
         "2": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -5262,9 +5262,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 21,
+      "horasAsignadas": 20,
       "horasRequeridas": 20,
-      "porcentajeCompletado": "105.0"
+      "porcentajeCompletado": "100.0"
     }
   },
   "Guadalupe de la Cruz Romualdo": {
@@ -5325,20 +5325,20 @@
           "semestre": null
         },
         "10": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "11": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "12": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -5349,8 +5349,8 @@
           "semestre": 1
         },
         "14": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         }
@@ -5381,8 +5381,8 @@
           "semestre": 5
         },
         "5": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -5701,9 +5701,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 39,
+      "horasAsignadas": 34,
       "horasRequeridas": 34,
-      "porcentajeCompletado": "114.7"
+      "porcentajeCompletado": "100.0"
     }
   },
   "Heredia Blanco Laura Esmeralda": {
@@ -5758,14 +5758,14 @@
           "semestre": null
         },
         "9": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -5776,14 +5776,14 @@
           "semestre": 1
         },
         "12": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -5808,8 +5808,8 @@
           "semestre": 5
         },
         "3": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -5826,8 +5826,8 @@
           "semestre": 5
         },
         "6": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -6140,9 +6140,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 44,
+      "horasAsignadas": 38,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "110.0"
+      "porcentajeCompletado": "95.0"
     }
   },
   "Hernández Barrera J. Trinidad": {
@@ -6247,14 +6247,14 @@
           "semestre": 1
         },
         "3": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "4": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -6271,8 +6271,8 @@
           "semestre": 3
         },
         "7": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -6283,38 +6283,38 @@
           "semestre": 3
         },
         "9": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Investigación",
-          "abreviatura": "INVES",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "11": {
-          "materia": "Investigación",
-          "abreviatura": "INVES",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "12": {
-          "materia": "Investigación",
-          "abreviatura": "INVES",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Investigación",
-          "abreviatura": "INVES",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "14": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         }
@@ -6333,8 +6333,8 @@
           "semestre": 1
         },
         "3": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -6579,9 +6579,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 50,
+      "horasAsignadas": 40,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "125.0"
+      "porcentajeCompletado": "100.0"
     }
   },
   "Hernández González Felipe": {
@@ -6630,14 +6630,14 @@
           "semestre": null
         },
         "8": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "9": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -7018,9 +7018,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 33,
+      "horasAsignadas": 31,
       "horasRequeridas": 33,
-      "porcentajeCompletado": "100.0"
+      "porcentajeCompletado": "93.9"
     }
   },
   "Herrera García Marco Iván": {
@@ -7045,20 +7045,20 @@
           "semestre": null
         },
         "4": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "5": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "6": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -7277,10 +7277,10 @@
           "semestre": 5
         },
         "14": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "grupo": "503K",
-          "semestre": 5
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
         }
       },
       "Jueves": {
@@ -7363,10 +7363,10 @@
           "semestre": null
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
-          "grupo": null,
-          "semestre": null
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "grupo": "503K",
+          "semestre": 5
         }
       },
       "Viernes": {
@@ -7457,9 +7457,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 36,
+      "horasAsignadas": 33,
       "horasRequeridas": 34,
-      "porcentajeCompletado": "105.9"
+      "porcentajeCompletado": "97.1"
     }
   },
   "Herrera García Brenda Itzel": {
@@ -7971,20 +7971,20 @@
           "semestre": null
         },
         "12": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "14": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         }
@@ -8033,8 +8033,8 @@
           "semestre": 1
         },
         "8": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -8335,9 +8335,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 40,
+      "horasAsignadas": 36,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "100.0"
+      "porcentajeCompletado": "90.0"
     }
   },
   "Lerma Martínez Luis Enrique": {
@@ -8935,20 +8935,20 @@
           "semestre": null
         },
         "12": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "14": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         }
@@ -8979,88 +8979,88 @@
           "semestre": 5
         },
         "5": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "6": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "7": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "8": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "9": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "11": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "12": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "14": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         }
       },
       "Jueves": {
         "1": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "2": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "3": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "4": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -9213,9 +9213,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 46,
+      "horasAsignadas": 29,
       "horasRequeridas": 29,
-      "porcentajeCompletado": "158.6"
+      "porcentajeCompletado": "100.0"
     }
   },
   "López Vázquez José": {
@@ -10216,56 +10216,56 @@
           "semestre": null
         },
         "6": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "7": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "8": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "9": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "11": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "12": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "14": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         }
@@ -10530,9 +10530,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 48,
+      "horasAsignadas": 39,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "120.0"
+      "porcentajeCompletado": "97.5"
     }
   },
   "Martinez Hernandez Cynthia Brenda": {
@@ -10617,22 +10617,22 @@
           "semestre": null
         },
         "14": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         }
       },
       "Martes": {
         "1": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "2": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -10643,8 +10643,8 @@
           "semestre": 1
         },
         "4": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -10655,32 +10655,32 @@
           "semestre": 3
         },
         "6": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "7": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "8": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "9": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -10969,9 +10969,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 32,
+      "horasAsignadas": 23,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "80.0"
+      "porcentajeCompletado": "57.5"
     }
   },
   "Moran Lerma Karla Valeria": {
@@ -11022,7 +11022,7 @@
         "8": {
           "materia": "Humanidades II",
           "abreviatura": "HUM2",
-          "grupo": "301A",
+          "grupo": "304D",
           "semestre": 3
         },
         "9": {
@@ -11108,7 +11108,7 @@
         "8": {
           "materia": "Humanidades II",
           "abreviatura": "HUM2",
-          "grupo": "304D",
+          "grupo": "301A",
           "semestre": 3
         },
         "9": {
@@ -11527,20 +11527,20 @@
           "semestre": null
         },
         "5": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "6": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "7": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -11551,38 +11551,38 @@
           "semestre": 5
         },
         "9": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
-          "grupo": null,
-          "semestre": null
-        },
-        "11": {
           "materia": "Lengua y Comunicación I",
           "abreviatura": "LYC1",
           "grupo": "101G",
           "semestre": 1
         },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "grupo": null,
+          "semestre": null
+        },
         "12": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "14": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         }
@@ -11669,7 +11669,7 @@
         "14": {
           "materia": "La energía en los procesos de la vida diaria",
           "abreviatura": "LEPDV",
-          "grupo": "501I",
+          "grupo": "503K",
           "semestre": 5
         }
       },
@@ -11841,15 +11841,15 @@
         "14": {
           "materia": "La energía en los procesos de la vida diaria",
           "abreviatura": "LEPDV",
-          "grupo": "503K",
+          "grupo": "501I",
           "semestre": 5
         }
       }
     },
     "estadisticas": {
-      "horasAsignadas": 44,
+      "horasAsignadas": 36,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "110.0"
+      "porcentajeCompletado": "90.0"
     }
   },
   "Ramírez Solís Erik": {
@@ -11916,26 +11916,26 @@
           "semestre": 1
         },
         "11": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "12": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "14": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         }
@@ -11978,8 +11978,8 @@
           "semestre": 1
         },
         "7": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -12002,8 +12002,8 @@
           "semestre": 1
         },
         "11": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -12286,9 +12286,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 43,
+      "horasAsignadas": 37,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "107.5"
+      "porcentajeCompletado": "92.5"
     }
   },
   "Razo Hernandez Víctor Miguel": {
@@ -12313,14 +12313,14 @@
           "semestre": null
         },
         "4": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "5": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -12343,8 +12343,8 @@
           "semestre": 1
         },
         "9": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -12725,9 +12725,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 15,
+      "horasAsignadas": 12,
       "horasRequeridas": 12,
-      "porcentajeCompletado": "125.0"
+      "porcentajeCompletado": "100.0"
     }
   },
   "Rodríguez Peláez Carolina": {
@@ -13227,14 +13227,14 @@
           "semestre": null
         },
         "10": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "11": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -13265,8 +13265,8 @@
           "semestre": 5
         },
         "2": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -13603,9 +13603,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 39,
+      "horasAsignadas": 36,
       "horasRequeridas": 36,
-      "porcentajeCompletado": "108.3"
+      "porcentajeCompletado": "100.0"
     }
   },
   "Rodríguez Sánchez Diana Laura": {
@@ -14648,14 +14648,14 @@
           "semestre": null
         },
         "13": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "14": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         }
@@ -14686,20 +14686,20 @@
           "semestre": 5
         },
         "5": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "6": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "7": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -14728,28 +14728,28 @@
           "semestre": 3
         },
         "12": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "14": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         }
       },
       "Jueves": {
         "1": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -14920,9 +14920,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 48,
+      "horasAsignadas": 39,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "120.0"
+      "porcentajeCompletado": "97.5"
     }
   },
   "Santoyo Arroyo Mario Alonso": {
@@ -15879,34 +15879,34 @@
           "semestre": null
         },
         "13": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "14": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         }
       },
       "Martes": {
         "1": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "2": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "3": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -15941,14 +15941,14 @@
           "semestre": 5
         },
         "9": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -16237,9 +16237,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 44,
+      "horasAsignadas": 37,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "110.0"
+      "porcentajeCompletado": "92.5"
     }
   },
   "Solís Rieboles Ulises": {
@@ -16258,14 +16258,14 @@
           "semestre": null
         },
         "3": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "4": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -16676,9 +16676,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 28,
+      "horasAsignadas": 26,
       "horasRequeridas": 32,
-      "porcentajeCompletado": "87.5"
+      "porcentajeCompletado": "81.3"
     }
   },
   "Torres Quiñones Norma Elena": {
@@ -16777,8 +16777,8 @@
           "semestre": null
         },
         "2": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -16807,8 +16807,8 @@
           "semestre": 3
         },
         "7": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -16819,46 +16819,46 @@
           "semestre": 3
         },
         "9": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "10": {
-          "materia": "Asesorías Académicas",
-          "abreviatura": "ASEAC",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "11": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "12": {
-          "materia": "Multidisciplinarias",
-          "abreviatura": "MULTI",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "13": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "14": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         }
       },
       "Miercoles": {
         "1": {
-          "materia": "Comisión",
-          "abreviatura": "COMIS",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -17115,9 +17115,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 46,
+      "horasAsignadas": 37,
       "horasRequeridas": 40,
-      "porcentajeCompletado": "115.0"
+      "porcentajeCompletado": "92.5"
     }
   },
   "Torres Vargas Mayra": {
@@ -17581,20 +17581,20 @@
           "semestre": null
         },
         "4": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "5": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
         "6": {
-          "materia": "Concursos",
-          "abreviatura": "CONCU",
+          "materia": null,
+          "abreviatura": null,
           "grupo": null,
           "semestre": null
         },
@@ -17993,9 +17993,9 @@
       }
     },
     "estadisticas": {
-      "horasAsignadas": 15,
+      "horasAsignadas": 12,
       "horasRequeridas": 17,
-      "porcentajeCompletado": "88.2"
+      "porcentajeCompletado": "70.6"
     }
   },
   "Zapata Aldape Bertha Alicia": {
@@ -18046,7 +18046,7 @@
         "8": {
           "materia": "Pensamiento Matemático III",
           "abreviatura": "PM3",
-          "grupo": "306F",
+          "grupo": "301A",
           "semestre": 3
         },
         "9": {
@@ -18132,7 +18132,7 @@
         "8": {
           "materia": "Pensamiento Matemático III",
           "abreviatura": "PM3",
-          "grupo": "301A",
+          "grupo": "306F",
           "semestre": 3
         },
         "9": {

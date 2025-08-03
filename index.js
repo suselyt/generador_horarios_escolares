@@ -142,12 +142,13 @@ class GeneradorHorarios {
         if (materia) {
             const materiaObj = this.materias.find(m => m.id === (materia.id || materia));
             if (materiaObj) {
+                const horasEnEsteDia = this.contarHorasMateriaPorDia(grupo, materia, dia);
+                if (materiaObj.tipo === "tronco_comun" && horasEnEsteDia > 0) return false;
                 const maxHorasPorDia = this.calcularMaxHorasPorDia(materiaObj);
-                if (this.contarHorasMateriaPorDia(grupo, materia, dia) >= maxHorasPorDia) return false;
+                if (horasEnEsteDia >= maxHorasPorDia) return false;
 
                 // Nuevo: evitar concentrar todas las horas de una materia en pocos días
                 const horasYaAsignadas = this.contarHorasMateriaTotalGrupo(grupo, materia);
-                const horasEnEsteDia = this.contarHorasMateriaPorDia(grupo, materia, dia);
 
                 // Si ya tiene horas en este día y hay otros días disponibles, preferir distribuir
                 if (horasEnEsteDia > 0 && horasYaAsignadas < materiaObj.horas_semanales) {
@@ -593,8 +594,21 @@ class GeneradorHorarios {
             for (const actividad of actividades) {
                 if (actividad.nombre === "Tutorías") continue;
 
-                let horasPorAsignar = actividad.horas;
-                console.log(`Asignando ${actividad.nombre} (${horasPorAsignar}h) a ${profesor.nombre}`);
+                let horasYaAsignadas = 0;
+                for (const dia of this.dias) {
+                    for (let bloque = 1; bloque <= this.totalBloques; bloque++) {
+                        if (profesor.horario[dia][bloque].materia === actividad.nombre) {
+                            horasYaAsignadas++;
+                        }
+                    }
+                }
+
+                let horasPorAsignar = Math.max(actividad.horas - horasYaAsignadas, 0);
+                if (horasPorAsignar === 0) {
+                    console.log(`Asignando ${actividad.nombre} (0h restantes) a ${profesor.nombre}`);
+                    continue;
+                }
+                console.log(`Asignando ${actividad.nombre} (${horasPorAsignar}h restantes) a ${profesor.nombre}`);
 
                 // Priorizar bloques recomendados de no asignar
                 const bloquesPreferidos = profesor.bloques_recomendados_no_asignar || [];

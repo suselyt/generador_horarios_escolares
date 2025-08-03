@@ -1683,15 +1683,15 @@
           "aula": null
         },
         "10": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
-          "aula": null
-        },
-        "11": {
           "materia": "Lengua y Comunicación I",
           "abreviatura": "LYC1",
           "docente": "Pérez Abrego Erika Aideé",
+          "aula": null
+        },
+        "11": {
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         },
         "12": {
@@ -2869,9 +2869,9 @@
           "aula": null
         },
         "8": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         }
       },
@@ -2919,9 +2919,9 @@
           "aula": null
         },
         "8": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Moran Lerma Karla Valeria",
           "aula": null
         }
       },
@@ -3679,9 +3679,9 @@
           "aula": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Humanidades II",
+          "abreviatura": "HUM2",
+          "docente": "Moran Lerma Karla Valeria",
           "aula": null
         }
       },
@@ -3729,9 +3729,9 @@
           "aula": null
         },
         "8": {
-          "materia": "Humanidades II",
-          "abreviatura": "HUM2",
-          "docente": "Moran Lerma Karla Valeria",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         }
       },
@@ -3890,8 +3890,8 @@
       "huecos": 1,
       "totalHoras": 35,
       "horasPorDia": {
-        "Lunes": 6,
-        "Martes": 7,
+        "Lunes": 7,
+        "Martes": 6,
         "Miercoles": 7,
         "Jueves": 7,
         "Viernes": 8
@@ -4219,9 +4219,9 @@
           "aula": null
         },
         "8": {
-          "materia": "Pensamiento Matemático III",
-          "abreviatura": "PM3",
-          "docente": "Zapata Aldape Bertha Alicia",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         }
       },
@@ -4269,9 +4269,9 @@
           "aula": null
         },
         "8": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Pensamiento Matemático III",
+          "abreviatura": "PM3",
+          "docente": "Zapata Aldape Bertha Alicia",
           "aula": null
         }
       },
@@ -4430,8 +4430,8 @@
       "huecos": 3,
       "totalHoras": 33,
       "horasPorDia": {
-        "Lunes": 7,
-        "Martes": 6,
+        "Lunes": 6,
+        "Martes": 7,
         "Miercoles": 7,
         "Jueves": 7,
         "Viernes": 6
@@ -7931,9 +7931,9 @@
           "aula": null
         },
         "14": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         }
       },
@@ -8019,9 +8019,9 @@
           "aula": null
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Pérez Abrego Erika Aideé",
           "aula": null
         }
       }
@@ -8032,9 +8032,9 @@
       "horasPorDia": {
         "Lunes": 6,
         "Martes": 7,
-        "Miercoles": 7,
+        "Miercoles": 6,
         "Jueves": 7,
-        "Viernes": 6
+        "Viernes": 7
       },
       "promedioDiario": "6.6"
     }
@@ -8411,9 +8411,9 @@
           "aula": null
         },
         "14": {
-          "materia": "Tutorías",
-          "abreviatura": "TUTOR",
-          "docente": "Herrera García Marco Iván",
+          "materia": "La energía en los procesos de la vida diaria",
+          "abreviatura": "LEPDV",
+          "docente": "Pérez Abrego Erika Aideé",
           "aula": null
         }
       },
@@ -8455,9 +8455,9 @@
           "aula": null
         },
         "14": {
-          "materia": null,
-          "abreviatura": null,
-          "docente": null,
+          "materia": "Tutorías",
+          "abreviatura": "TUTOR",
+          "docente": "Herrera García Marco Iván",
           "aula": null
         }
       },
@@ -8499,9 +8499,9 @@
           "aula": null
         },
         "14": {
-          "materia": "La energía en los procesos de la vida diaria",
-          "abreviatura": "LEPDV",
-          "docente": "Pérez Abrego Erika Aideé",
+          "materia": null,
+          "abreviatura": null,
+          "docente": null,
           "aula": null
         }
       }
@@ -8513,8 +8513,8 @@
         "Lunes": 6,
         "Martes": 6,
         "Miercoles": 6,
-        "Jueves": 6,
-        "Viernes": 7
+        "Jueves": 7,
+        "Viernes": 6
       },
       "promedioDiario": "6.2"
     }
