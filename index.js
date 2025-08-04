@@ -1,11 +1,46 @@
 const fs = require('fs'); // módulo para leer archivos
 
-// ================== Carga de datos ==================
-const materias = JSON.parse(fs.readFileSync("materias.json", "utf8"));
-const grupos = JSON.parse(fs.readFileSync("grupos.json", "utf8"));
-const profesores = JSON.parse(fs.readFileSync("profesores.json", "utf8"));
-const config = JSON.parse(fs.readFileSync("config.json", "utf8"));
+// ================== Carga de datos sin DB (descomentar lineas para usar) ==================
+// const materias = JSON.parse(fs.readFileSync("./filesToAvoidUsingDB/materias.json", "utf8"));
+// const grupos = JSON.parse(fs.readFileSync("./filesToAvoidUsingDB/grupos.json", "utf8"));
+// const profesores = JSON.parse(fs.readFileSync("./filesToAvoidUsingDB/profesores.json", "utf8"));
+// const config = JSON.parse(fs.readFileSync("./filesToAvoidUsingDB/config.json", "utf8"));
 
+// ================== Conexión a DB ==================
+const conectarDB = require('./db');
+const { Materia, Profesor, Grupo, Config } = require('./models/esquemas');
+
+async function cargarDatos() {
+    await conectarDB();
+
+    const materias = await Materia.find();
+    const profesores = await Profesor.find().populate('materias.materia');
+    const grupos = await Grupo.find();
+    const config = await Config.findOne();
+
+    // normalizar _id para que siempre sea string
+    const materiasNormalizadas = materias.map(m => ({
+        ...m.toObject(),
+        _id: String(m._id) // Simplificar la normalización
+    }));
+
+    const profesoresNormalizados = profesores.map(p => {
+        const profesorObj = p.toObject();
+
+        return {
+            ...profesorObj,
+            materias: profesorObj.materias.map(mp => ({
+                ...mp,
+                materia: mp.materia && typeof mp.materia === 'object' && mp.materia._id
+                    ? String(mp.materia._id) // Si está populado, usar el _id
+                    : String(mp.materia) // Si no está populado, ya debería ser string
+            }))
+        };
+    });
+
+    return { materias: materiasNormalizadas, profesores: profesoresNormalizados, grupos, config };
+}
+// ================== INICIO DE ALGORITMO ==================
 class GeneradorHorarios {
     constructor(materias, grupos, profesores, config) {
         this.materias = materias;
@@ -15,7 +50,6 @@ class GeneradorHorarios {
         this.dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"];
         this.totalBloques = config.bloques_matutino + config.bloques_vespertino - 1;
 
-        // Nuevo: estadísticas para mejor distribución
         this.estadisticasGrupos = new Map();
         this.inicializarEstadisticas();
     }
@@ -76,7 +110,14 @@ class GeneradorHorarios {
         }
     }
 
-    // ================== Utilidades de validación mejoradas ==================
+    // ================== Utilidad para usar _id ==================
+    buscarMateriaPorId(materiaRef) {
+        if (!materiaRef) return null;
+        const idString = String(materiaRef._id || materiaRef);
+        return this.materias.find(m => String(m._id) === idString);
+    }
+
+    // ================== Utilidades de validación ==================
     esMatutino(bloque) {
         return bloque <= this.config.bloque_fin_matutino;
     }
@@ -100,16 +141,16 @@ class GeneradorHorarios {
         return false;
     }
 
-    contarHorasMateriaPorDia(grupo, materia, dia) {
-        let contador = 0;
-        const materiaId = materia.id || materia;
-        const materiaInfo = this.materias.find(m => m.id === materiaId);
-        const materiaNombre = materiaInfo ? materiaInfo.nombre : materiaId;
+    contarHorasMateriaPorDia(grupo, materiaRef, dia) {
+        const materiaInfo = this.buscarMateriaPorId(materiaRef);
+        if (!materiaInfo) return 0;
 
+        let contador = 0;
         for (const profesor of this.profesores) {
             for (let bloque = 1; bloque <= this.totalBloques; bloque++) {
-                if (profesor.horario[dia][bloque].grupo === grupo.nomenclatura &&
-                    profesor.horario[dia][bloque].materia === materiaNombre) {
+                const asignacion = profesor.horario?.[dia]?.[bloque];
+                if (asignacion?.grupo === grupo.nomenclatura &&
+                    asignacion.materia === materiaInfo.nombre) { // ✅ Comparar con NOMBRE
                     contador++;
                 }
             }
@@ -117,80 +158,45 @@ class GeneradorHorarios {
         return contador;
     }
 
-    contarHorasMateriaTotalGrupo(grupo, materia) {
+    contarHorasMateriaTotalGrupo(grupo, materiaRef) {
         let total = 0;
-        const materiaId = materia.id || materia;
-        const materiaInfo = this.materias.find(m => m.id === materiaId);
-        const materiaNombre = materiaInfo ? materiaInfo.nombre : materiaId;
-
         for (const dia of this.dias) {
-            total += this.contarHorasMateriaPorDia(grupo, materia, dia);
+            total += this.contarHorasMateriaPorDia(grupo, materiaRef, dia);
         }
         return total;
     }
 
-    calcularMaxHorasPorDia(materia) {
-        return materia.tipo === "modulo_profesional" ? 5 : 2;
+    calcularMaxHorasPorDia(materiaRef) {
+        const materiaInfo = this.buscarMateriaPorId(materiaRef);
+        if (!materiaInfo) return 0;
+        return materiaInfo.tipo === "modulo_profesional" ? 5 : 2;
     }
 
-    // ================== NUEVA FUNCIÓN: Encontrar el primer bloque libre en el día ==================
-    encontrarPrimerBloqueLibreEnDia(grupo, dia) {
-        let bloqueInicio = grupo.turno === "Matutino" ? 1 : this.config.bloque_inicio_vespertino;
-        let bloqueFin = grupo.turno === "Matutino" ? this.config.bloque_fin_matutino : this.totalBloques;
-
-        for (let bloque = bloqueInicio; bloque <= bloqueFin; bloque++) {
-            if (!this.grupoTieneClases(grupo, dia, bloque)) {
-                return bloque;
-            }
-        }
-        return null;
-    }
-
-    // ================== NUEVA FUNCIÓN: Verificar si bloques consecutivos están libres ==================
-    verificarBloquesConsecutivosLibres(grupo, dia, bloqueInicio, cantidad) {
-        let bloqueFin = grupo.turno === "Matutino" ? this.config.bloque_fin_matutino : this.totalBloques;
-
-        if (bloqueInicio + cantidad - 1 > bloqueFin) return false;
-
-        for (let i = 0; i < cantidad; i++) {
-            if (this.grupoTieneClases(grupo, dia, bloqueInicio + i)) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    cumpleRestricciones(dia, bloque, profesor, grupo, materia) {
+    // ================== Verificar si bloques consecutivos están libres ==================
+    cumpleRestricciones(dia, bloque, profesor, grupo, materiaRef) {
         if (profesor.horario[dia][bloque].materia != null) return false;
         if (grupo.horario?.[dia]?.[bloque]?.materia) return false;
         if (!this.validarTurnoGrupo(grupo, bloque)) return false;
         if (profesor.bloques_recomendados_no_asignar?.includes(bloque)) return false;
 
-        if (materia) {
-            const materiaObj = this.materias.find(m => m.id === (materia.id || materia));
-            if (materiaObj) {
-                const horasEnEsteDia = this.contarHorasMateriaPorDia(grupo, materia, dia);
+        const materiaObj = this.buscarMateriaPorId(materiaRef);
+        if (materiaObj) {
+            const horasEnEsteDia = this.contarHorasMateriaPorDia(grupo, materiaRef, dia);
 
-                // RESTRICCIÓN TRONCO COMÚN: Solo una vez por día, máximo 2 horas consecutivas
-                if (materiaObj.tipo === "tronco_comun" && horasEnEsteDia > 0) return false;
+            if (materiaObj.tipo === "tronco_comun" && horasEnEsteDia > 0) return false;
+            if (materiaObj.tipo === "modulo_profesional" && horasEnEsteDia > 0) return false;
 
-                // RESTRICCIÓN MÓDULO PROFESIONAL: Solo una vez por día, máximo 5 horas consecutivas
-                if (materiaObj.tipo === "modulo_profesional" && horasEnEsteDia > 0) return false;
+            const maxHorasPorDia = this.calcularMaxHorasPorDia(materiaRef);
+            if (horasEnEsteDia >= maxHorasPorDia) return false;
 
-                const maxHorasPorDia = this.calcularMaxHorasPorDia(materiaObj);
-                if (horasEnEsteDia >= maxHorasPorDia) return false;
-
-                // Distribución mejorada: no concentrar todas las horas en pocos días
-                const horasYaAsignadas = this.contarHorasMateriaTotalGrupo(grupo, materia);
-                if (horasEnEsteDia > 0 && horasYaAsignadas < materiaObj.horas_semanales) {
-                    const diasConEstaMateria = this.dias.filter(d =>
-                        this.contarHorasMateriaPorDia(grupo, materia, d) > 0
-                    ).length;
-
-                    const maxDias = materiaObj.tipo === "modulo_profesional" ? 3 : 2;
-                    if (diasConEstaMateria >= maxDias && horasYaAsignadas >= materiaObj.horas_semanales) {
-                        return false;
-                    }
+            const horasYaAsignadas = this.contarHorasMateriaTotalGrupo(grupo, materiaRef);
+            if (horasEnEsteDia > 0 && horasYaAsignadas < materiaObj.horas_semanales) {
+                const diasConEstaMateria = this.dias.filter(d =>
+                    this.contarHorasMateriaPorDia(grupo, materiaRef, d) > 0
+                ).length;
+                const maxDias = materiaObj.tipo === "modulo_profesional" ? 3 : 2;
+                if (diasConEstaMateria >= maxDias && horasYaAsignadas >= materiaObj.horas_semanales) {
+                    return false;
                 }
             }
         }
@@ -201,28 +207,35 @@ class GeneradorHorarios {
         return true;
     }
 
-    // ================== Asignación MEJORADA sin crear huecos ==================
-    asignarMateria(dia, bloque, profesor, grupo, materiaId) {
-        const materia = this.materias.find(m => m.id === materiaId);
-        const registro = {
-            materia: materia ? materia.nombre : materiaId,
-            abreviatura: materia ? materia.abreviatura || null : null,
+    // ================== Asignación sin crear huecos ==================
+    asignarMateria(dia, bloque, profesor, grupo, materiaRef) {
+        const materiaInfo = this.buscarMateriaPorId(materiaRef);
+
+        if (!materiaInfo) {
+            console.error(` ERROR: No se pudo encontrar materia con referencia:`, materiaRef);
+            console.error(`   Tipo de referencia:`, typeof materiaRef);
+            console.error(`   Materias disponibles:`, this.materias.map(m => ({ id: m._id, nombre: m.nombre })));
+            return;
+        }
+
+        const registroProfesor = {
+            materia: materiaInfo.nombre,
+            abreviatura: materiaInfo.abreviatura || null,
             grupo: grupo.nomenclatura,
             semestre: grupo.semestre
         };
 
-        profesor.horario[dia][bloque] = registro;
+        profesor.horario[dia][bloque] = registroProfesor;
 
         if (grupo.horario?.[dia]?.[bloque]) {
             grupo.horario[dia][bloque] = {
-                materia: registro.materia,
-                abreviatura: registro.abreviatura,
+                materia: materiaInfo.nombre, // Usar el _id normalizado
+                abreviatura: materiaInfo.abreviatura,
                 docente: profesor.nombre,
                 aula: null
             };
         }
 
-        // Actualizar estadísticas
         const stats = this.estadisticasGrupos.get(grupo.nomenclatura);
         if (stats) {
             stats.horasPorDia[dia]++;
@@ -230,7 +243,8 @@ class GeneradorHorarios {
         }
     }
 
-    // ================== NUEVA FUNCIÓN: Encontrar bloques consecutivos SIN CREAR HUECOS ==================
+
+    // ================== Encontrar bloques consecutivos SIN CREAR HUECOS ==================
     encontrarBloquesConsecutivosSinHuecos(dia, profesor, grupo, materia, cantidadHoras) {
         let bloqueInicio = grupo.turno === "Matutino" ? 1 : this.config.bloque_inicio_vespertino;
         let bloqueFin = grupo.turno === "Matutino" ? this.config.bloque_fin_matutino : this.totalBloques;
@@ -258,7 +272,7 @@ class GeneradorHorarios {
         return null;
     }
 
-    // ================== NUEVA FUNCIÓN: Verificar si una asignación crearía hueco ==================
+    // ================== Verificar si una asignación crearía hueco ==================
     verificarSiCreaHueco(grupo, dia, bloqueInicio, cantidadHoras) {
         let bloqueInicioGrupo = grupo.turno === "Matutino" ? 1 : this.config.bloque_inicio_vespertino;
         let bloqueFinGrupo = grupo.turno === "Matutino" ? this.config.bloque_fin_matutino : this.totalBloques;
@@ -297,13 +311,13 @@ class GeneradorHorarios {
         const bloques = this.encontrarBloquesConsecutivosSinHuecos(dia, profesor, grupo, materia, cantidadHoras);
         if (!bloques) return false;
         for (const bloque of bloques) {
-            const materiaId = materia ? (materia.id || materia) : null;
+            const materiaId = materia ? (materia._id || materia) : null;
             this.asignarMateria(dia, bloque, profesor, grupo, materiaId);
         }
         return true;
     }
 
-    // ================== NUEVA FUNCIÓN: Encontrar mejor día considerando huecos ==================
+    // ================== Encontrar mejor día considerando huecos ==================
     encontrarMejorDiaParaAsignarSinHuecos(profesor, grupo, materia, cantidadHoras) {
         const diasDisponibles = [];
 
@@ -341,7 +355,7 @@ class GeneradorHorarios {
         return diasDisponibles.length > 0 ? diasDisponibles[0] : null;
     }
 
-    // ================== Asignar módulo profesional MEJORADO ==================
+    // ================== Asignar módulo profesional  ==================
     asignarModuloProfesional() {
         console.log("Iniciando asignación de módulos profesionales...");
 
@@ -349,8 +363,8 @@ class GeneradorHorarios {
             if (!profesor.materias) continue;
 
             for (const materiaProfesor of profesor.materias) {
-                const materia = this.materias.find(m => m.id === materiaProfesor.id);
-                if (!materia || materia.tipo !== "modulo_profesional") continue;
+                const materiaObj = this.buscarMateriaPorId(materiaProfesor.materia);
+                if (!materiaObj || materiaObj.tipo !== "modulo_profesional") continue;
 
                 const gruposAsignados = materiaProfesor.grupos_preferidos_asignar || [];
 
@@ -359,23 +373,27 @@ class GeneradorHorarios {
                     if (!grupo) continue;
 
                     let horasAsignadas = 0;
-                    console.log(`Asignando ${materia.nombre} (${materia.horas_semanales}h) a grupo ${grupoNom}`);
+                    console.log(`Asignando ${materiaObj.nombre} (${materiaObj.horas_semanales}h) a grupo ${grupoNom}`);
 
-                    while (horasAsignadas < materia.horas_semanales) {
+                    while (horasAsignadas < materiaObj.horas_semanales) {
                         let asignado = false;
-                        const horasFaltantes = materia.horas_semanales - horasAsignadas;
+                        const horasFaltantes = materiaObj.horas_semanales - horasAsignadas;
 
                         let tamañoOptimo;
-                        if (materia.horas_semanales === 17 && horasFaltantes === 5) {
+                        if (materiaObj.horas_semanales === 17 && horasFaltantes === 5) {
                             tamañoOptimo = 5;
                         } else {
                             tamañoOptimo = Math.min(4, horasFaltantes);
                         }
 
                         for (let tam = tamañoOptimo; tam >= 1 && !asignado; tam--) {
-                            const mejorDia = this.encontrarMejorDiaParaAsignarSinHuecos(profesor, grupo, materia, tam);
+                            const mejorDia = this.encontrarMejorDiaParaAsignarSinHuecos(
+                                profesor, grupo, materiaProfesor.materia, tam
+                            );
                             if (mejorDia) {
-                                if (this.asignarBloquesConsecutivosSinHuecos(mejorDia.dia, profesor, grupo, materia, tam)) {
+                                if (this.asignarBloquesConsecutivosSinHuecos(
+                                    mejorDia.dia, profesor, grupo, materiaProfesor.materia, tam
+                                )) {
                                     horasAsignadas += tam;
                                     asignado = true;
                                     console.log(`  → Asignado ${tam}h en ${mejorDia.dia}`);
@@ -384,7 +402,7 @@ class GeneradorHorarios {
                         }
 
                         if (!asignado) {
-                            console.warn(`  ⚠ No se pudieron asignar más horas para ${materia.nombre} al grupo ${grupoNom}. Asignadas: ${horasAsignadas}/${materia.horas_semanales}`);
+                            console.warn(`  ⚠ No se pudieron asignar más horas para ${materiaObj.nombre} al grupo ${grupoNom}. Asignadas: ${horasAsignadas}/${materiaObj.horas_semanales}`);
                             break;
                         }
                     }
@@ -393,7 +411,7 @@ class GeneradorHorarios {
         }
     }
 
-    // ================== Asignar tronco común MEJORADO ==================
+    // ================== Asignar tronco común ==================
     asignarTroncoComun() {
         console.log("Iniciando asignación de tronco común...");
 
@@ -401,8 +419,8 @@ class GeneradorHorarios {
             if (!profesor.materias) continue;
 
             for (const materiaProfesor of profesor.materias) {
-                const materia = this.materias.find(m => m.id === materiaProfesor.id);
-                if (!materia || materia.tipo !== "tronco_comun") continue;
+                const materiaObj = this.buscarMateriaPorId(materiaProfesor.materia);
+                if (!materiaObj || materiaObj.tipo !== "tronco_comun") continue;
 
                 const gruposAsignados = materiaProfesor.grupos_preferidos_asignar || [];
 
@@ -411,17 +429,21 @@ class GeneradorHorarios {
                     if (!grupo) continue;
 
                     let horasAsignadas = 0;
-                    console.log(`Asignando ${materia.nombre} (${materia.horas_semanales}h) a grupo ${grupoNom}`);
+                    console.log(`Asignando ${materiaObj.nombre} (${materiaObj.horas_semanales}h) a grupo ${grupoNom}`);
 
-                    while (horasAsignadas < materia.horas_semanales) {
+                    while (horasAsignadas < materiaObj.horas_semanales) {
                         let asignado = false;
-                        const horasFaltantes = materia.horas_semanales - horasAsignadas;
+                        const horasFaltantes = materiaObj.horas_semanales - horasAsignadas;
                         let tamañoOptimo = Math.min(2, horasFaltantes);
 
                         for (let tam = tamañoOptimo; tam >= 1 && !asignado; tam--) {
-                            const mejorDia = this.encontrarMejorDiaParaAsignarSinHuecos(profesor, grupo, materia, tam);
+                            const mejorDia = this.encontrarMejorDiaParaAsignarSinHuecos(
+                                profesor, grupo, materiaProfesor.materia, tam
+                            );
                             if (mejorDia) {
-                                if (this.asignarBloquesConsecutivosSinHuecos(mejorDia.dia, profesor, grupo, materia, tam)) {
+                                if (this.asignarBloquesConsecutivosSinHuecos(
+                                    mejorDia.dia, profesor, grupo, materiaProfesor.materia, tam
+                                )) {
                                     horasAsignadas += tam;
                                     asignado = true;
                                     console.log(`  → Asignado ${tam}h en ${mejorDia.dia}`);
@@ -430,7 +452,7 @@ class GeneradorHorarios {
                         }
 
                         if (!asignado) {
-                            console.warn(`  ⚠ No se pudieron asignar más horas para ${materia.nombre} al grupo ${grupoNom}. Asignadas: ${horasAsignadas}/${materia.horas_semanales}`);
+                            console.warn(`  ⚠ No se pudieron asignar más horas para ${materiaObj.nombre} al grupo ${grupoNom}. Asignadas: ${horasAsignadas}/${materiaObj.horas_semanales}`);
                             break;
                         }
                     }
@@ -439,7 +461,7 @@ class GeneradorHorarios {
         }
     }
 
-    // ================== Asignar extracurriculares MEJORADO - Últimos bloques ==================
+    // ================== Asignar extracurriculares - Últimos bloques ==================
     asignarExtracurriculares() {
         console.log("Iniciando asignación de extracurriculares...");
 
@@ -558,20 +580,7 @@ class GeneradorHorarios {
         }
     }
 
-    contarHorasExtracurricularAsignadas(profesor, nombreActividad) {
-        let total = 0;
-        for (const dia of this.dias) {
-            for (let bloque = 1; bloque <= this.totalBloques; bloque++) {
-                const entrada = profesor.horario[dia][bloque];
-                if (entrada?.materia?.toLowerCase().includes(nombreActividad.toLowerCase())) {
-                    total++;
-                }
-            }
-        }
-        return total;
-    }
-
-    // ================== Tutorías MEJORADO ==================
+    // ================== Tutorías ==================
     asignarTutorias() {
         console.log("Iniciando asignación de tutorías...");
 
@@ -702,9 +711,7 @@ class GeneradorHorarios {
         }
     }
 
-
-
-    // ================== Asignar fortalecimiento académico MEJORADO ==================
+    // ================== Asignar fortalecimiento académico ==================
     asignarFortalecimientoAcademico() {
         console.log("Iniciando asignación de fortalecimiento académico...");
 
@@ -765,7 +772,7 @@ class GeneradorHorarios {
         }
     }
 
-    // ================== Completar horas de profesores MEJORADO ==================
+    // ================== Completar horas de profesores ==================
     completarHorasProfesores() {
         console.log("Completando horas faltantes de profesores...");
 
@@ -784,7 +791,7 @@ class GeneradorHorarios {
                 for (const materiaProfesor of profesor.materias) {
                     if (horasCompletadas >= horasFaltantes) break;
 
-                    const materia = this.materias.find(m => m.id === materiaProfesor.id);
+                    const materia = this.buscarMateriaPorId(materiaProfesor.materia);
                     if (!materia) continue;
 
                     const gruposAsignados = materiaProfesor.grupos_preferidos_asignar || [];
@@ -894,7 +901,7 @@ class GeneradorHorarios {
         }
     }
 
-    // ================== Balancear distribución diaria MEJORADO ==================
+    // ================== Balancear distribución diaria ==================
     balancearDistribucionDiaria() {
         console.log("Balanceando distribución diaria de grupos...");
 
@@ -925,9 +932,6 @@ class GeneradorHorarios {
             }
         }
     }
-
-    // ================== ELIMINAR: reorganizarHorariosGrupalesYDocentes (ya no necesario) ==================
-    // Esta función se elimina porque ahora asignamos sin crear huecos desde el inicio
 
     // ================== Generar horarios principales ==================
     generarHorariosDocentes() {
@@ -961,7 +965,6 @@ class GeneradorHorarios {
             for (const dia of this.dias) {
                 for (let bloque = 1; bloque <= this.totalBloques; bloque++) {
                     const bProfesor = profesor.horario[dia][bloque];
-
                     if (!bProfesor.materia) continue;
 
                     // Caso especial: extracurriculares
@@ -971,7 +974,6 @@ class GeneradorHorarios {
                             const gruposSemestre = this.grupos.filter(
                                 g => g.semestre === semestre && g.turno === "Matutino"
                             );
-
                             for (const grupo of gruposSemestre) {
                                 if (this.validarTurnoGrupo(grupo, bloque) && !grupo.horario[dia][bloque]?.materia) {
                                     grupo.horario[dia][bloque] = {
@@ -1035,7 +1037,7 @@ class GeneradorHorarios {
         return huecos;
     }
 
-    // ================== Validación de coherencia MEJORADA ==================
+    // ================== Validación de coherencia ==================
     validarCoherenciaHorarios() {
         console.log("\n=== VALIDANDO COHERENCIA ENTRE HORARIOS ===");
         let errores = 0;
@@ -1104,7 +1106,9 @@ class GeneradorHorarios {
 
                     const profesor = asignacionGrupo.docente ? this.profesores.find(p => p.nombre === asignacionGrupo.docente) : null;
                     const asignacionProfesor = profesor?.horario[dia][bloque];
-                    if (!profesor || !asignacionProfesor || asignacionProfesor.grupo !== grupo.nomenclatura || asignacionProfesor.materia !== asignacionGrupo.materia) {
+                    if (!profesor || !asignacionProfesor ||
+                        asignacionProfesor.grupo !== grupo.nomenclatura ||
+                        asignacionProfesor.materia !== asignacionGrupo.materia) {
                         console.error(`❌ ERROR: Grupo ${grupo.nomenclatura} tiene ${asignacionGrupo.materia} con ${asignacionGrupo.docente || 'N/A'} en ${dia} bloque ${bloque}, pero no coincide con horario docente`);
                         errores++;
                     }
@@ -1184,10 +1188,6 @@ class GeneradorHorarios {
         }
     }
 
-    mostrarEstadisticas() {
-        this.mostrarEstadisticasDetalladas();
-    }
-
     imprimirHorariosGrupales() {
         console.log("\n=== HORARIOS GRUPALES ===");
         for (const grupo of this.grupos) {
@@ -1257,9 +1257,9 @@ class GeneradorHorarios {
         console.log("✅ Horarios profesores exportados a horarios_profesores.json");
     }
 
-    // ================== Proceso principal optimizado ==================
+    // ================== Proceso principal ==================
     ejecutarGeneracionCompleta() {
-        console.log("🚀 INICIANDO GENERACIÓN OPTIMIZADA DE HORARIOS SIN HUECOS");
+        console.log("INICIANDO GENERACIÓNDE HORARIOS");
         console.log("═".repeat(70));
 
         this.generarHorariosDocentes();
@@ -1272,7 +1272,7 @@ class GeneradorHorarios {
         this.balancearDistribucionDiaria();
 
         console.log("\n=== ESTADÍSTICAS FINALES ===");
-        this.mostrarEstadisticas();
+        this.mostrarEstadisticasDetalladas();
 
         console.log("\n=== EXPORTANDO RESULTADOS ===");
         this.exportarHorariosGrupalesJSON();
@@ -1288,11 +1288,29 @@ class GeneradorHorarios {
     }
 }
 
-// ================== EJECUCIÓN DEL PROGRAMA ==================
-function ejecutarGeneracion() {
+// ================== PRUEBA Y DEBUG sin DB (descomentar linea para q funcione)==================
+// try {
+//     const generador = new GeneradorHorarios(materias, grupos, profesores, config);
+//     const exitoso = generador.ejecutarGeneracionCompleta();
+
+//     // Mostrar horarios en consola
+//     generador.imprimirHorariosGrupales();
+//     generador.imprimirAsignacionesProfesores();
+
+//     console.log(`Generación de horarios ${exitoso ? 'completada exitosamente SIN HUECOS' : 'completada con errores o huecos'}`);
+// } catch (error) {
+//     console.error("Error durante la generación de horarios:", error);
+//     process.exit(1);
+// }
+
+// ================== PRUEBA Y DEBUG CON DB ==================
+
+async function iniciarGenerador() {
     let generacionLista = false;
 
     try {
+        const { materias, grupos, profesores, config } = await cargarDatos();
+
         const generador = new GeneradorHorarios(materias, grupos, profesores, config);
         const exitoso = generador.ejecutarGeneracionCompleta();
 
@@ -1301,7 +1319,7 @@ function ejecutarGeneracion() {
         generador.imprimirAsignacionesProfesores();
 
         generacionLista = exitoso;
-        console.log(`Generación de horarios ${exitoso ? 'completada exitosamente' : 'completada con errores'}`);
+        console.log(`Generación de horarios ${exitoso ? 'completada exitosamente SIN HUECOS' : 'completada con errores o huecos'}`);
     } catch (error) {
         console.error("Error durante la generación de horarios:", error);
         process.exit(1);
@@ -1310,17 +1328,4 @@ function ejecutarGeneracion() {
     return generacionLista;
 }
 
-// ================== PRUEBA Y DEBUG ==================
-try {
-    const generador = new GeneradorHorarios(materias, grupos, profesores, config);
-    const exitoso = generador.ejecutarGeneracionCompleta();
-
-    // Mostrar horarios en consola
-    generador.imprimirHorariosGrupales();
-    generador.imprimirAsignacionesProfesores();
-
-    console.log(`Generación de horarios ${exitoso ? 'completada exitosamente SIN HUECOS' : 'completada con errores o huecos'}`);
-} catch (error) {
-    console.error("Error durante la generación de horarios:", error);
-    process.exit(1);
-}
+iniciarGenerador();
