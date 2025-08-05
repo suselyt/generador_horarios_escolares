@@ -1,16 +1,47 @@
 const fs = require('fs'); // módulo para leer archivos
 
-// ================== Carga de datos sin DB (descomentar lineas para usar) ==================
-// const materias = JSON.parse(fs.readFileSync("./filesToAvoidUsingDB/materias.json", "utf8"));
-// const grupos = JSON.parse(fs.readFileSync("./filesToAvoidUsingDB/grupos.json", "utf8"));
-// const profesores = JSON.parse(fs.readFileSync("./filesToAvoidUsingDB/profesores.json", "utf8"));
-// const config = JSON.parse(fs.readFileSync("./filesToAvoidUsingDB/config.json", "utf8"));
+// Maneja los _id provenientes de MongoDB o JSON
+function normalizarId(id) {
+    if (!id) return id;
+    // Si viene como { $oid: "..." }
+    if (typeof id === 'object') {
+        if (id.$oid) return String(id.$oid);
+        // ObjectId de mongoose u objetos con toString personalizado
+        if (typeof id.toString === 'function' && id.toString !== Object.prototype.toString) {
+            const str = id.toString();
+            if (str !== '[object Object]') return str;
+        }
+        if (id._id && id._id !== id) return normalizarId(id._id);
+    }
+    return String(id);
+}
 
-// ================== Conexión a DB ==================
-const conectarDB = require('./db');
-const { Materia, Profesor, Grupo, Config } = require('./models/esquemas');
+/**
+ * ================== ORIGEN DE DATOS  ==================
+ * Por default el generador usa la base de datos (MongoDB).
+ * Para trabajar sin DB y usar los archivos JSON:
+ *  1) Descomenta la línea `cargarDatos = cargarDatosDesdeArchivos`. (linea 73)
+ *  2) Comenta la asignación de MongoDB.
+ * Para volver a la base de datos invierte los pasos anteriores.
+ */
 
-async function cargarDatos() {
+async function cargarDatosDesdeArchivos() {
+    const materias = JSON.parse(fs.readFileSync("./filesToAvoidUsingDB/materias.json", "utf8"))
+        .map(m => ({ ...m, _id: normalizarId(m._id) }));
+    const grupos = JSON.parse(fs.readFileSync("./filesToAvoidUsingDB/grupos.json", "utf8"));
+    const profesores = JSON.parse(fs.readFileSync("./filesToAvoidUsingDB/profesores.json", "utf8"))
+        .map(p => ({
+            ...p,
+            materias: p.materias?.map(mp => ({ ...mp, materia: normalizarId(mp.materia) })) || []
+        }));
+    const config = JSON.parse(fs.readFileSync("./filesToAvoidUsingDB/config.json", "utf8"));
+
+    return { materias, grupos, profesores, config };
+}
+
+async function cargarDatosDesdeDB() {
+    const conectarDB = require('./db');
+    const { Materia, Profesor, Grupo, Config } = require('./models/esquemas');
     await conectarDB();
 
     const materias = await Materia.find();
@@ -21,7 +52,7 @@ async function cargarDatos() {
     // normalizar _id para que siempre sea string
     const materiasNormalizadas = materias.map(m => ({
         ...m.toObject(),
-        _id: String(m._id) // Simplificar la normalización
+        _id: normalizarId(m._id)
     }));
 
     const profesoresNormalizados = profesores.map(p => {
@@ -31,15 +62,18 @@ async function cargarDatos() {
             ...profesorObj,
             materias: profesorObj.materias.map(mp => ({
                 ...mp,
-                materia: mp.materia && typeof mp.materia === 'object' && mp.materia._id
-                    ? String(mp.materia._id) // Si está populado, usar el _id
-                    : String(mp.materia) // Si no está populado, ya debería ser string
+                materia: normalizarId(mp.materia && mp.materia._id ? mp.materia._id : mp.materia)
             }))
         };
     });
 
     return { materias: materiasNormalizadas, profesores: profesoresNormalizados, grupos, config };
 }
+
+// ======= Selecciona el origen de datos comentando/descomentando UNA de las siguientes líneas =======
+const cargarDatos = cargarDatosDesdeDB; // <-- usar MongoDB
+// const cargarDatos = cargarDatosDesdeArchivos; // <-- usar archivos JSON
+
 // ================== INICIO DE ALGORITMO ==================
 class GeneradorHorarios {
     constructor(materias, grupos, profesores, config) {
@@ -113,8 +147,8 @@ class GeneradorHorarios {
     // ================== Utilidad para usar _id ==================
     buscarMateriaPorId(materiaRef) {
         if (!materiaRef) return null;
-        const idString = String(materiaRef._id || materiaRef);
-        return this.materias.find(m => String(m._id) === idString);
+        const idString = normalizarId(materiaRef);
+        return this.materias.find(m => normalizarId(m._id) === idString);
     }
 
     // ================== Utilidades de validación ==================
@@ -311,7 +345,7 @@ class GeneradorHorarios {
         const bloques = this.encontrarBloquesConsecutivosSinHuecos(dia, profesor, grupo, materia, cantidadHoras);
         if (!bloques) return false;
         for (const bloque of bloques) {
-            const materiaId = materia ? (materia._id || materia) : null;
+            const materiaId = materia ? normalizarId(materia._id || materia) : null;
             this.asignarMateria(dia, bloque, profesor, grupo, materiaId);
         }
         return true;
@@ -1250,6 +1284,7 @@ class GeneradorHorarios {
         const horariosProfesor = {};
         for (const profesor of this.profesores) {
             horariosProfesor[profesor.nombre] = {
+                abreviatura: profesor.abreviatura || null,
                 horario: profesor.horario,
             };
         }
