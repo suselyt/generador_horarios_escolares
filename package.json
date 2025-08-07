@@ -13,6 +13,7 @@
     "jest": "^30.0.4"
   },
   "dependencies": {
+    "dotenv": "^17.2.1",
     "mongoose": "^8.17.0"
   }
 }
