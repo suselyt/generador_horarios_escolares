@@ -37,7 +37,7 @@ Puede funcionar en dos modos:
 **A) Usando MongoDB Atlas**
 1. Crea un archivo `.env` en la raíz con una de estas opciones:
 ```env
-MONGODB_URI=mongodb+srv://<user>:<pass>@<cluster>/<db>?retryWrites=true&w=majority&appName=<cluster-name>
+MONGODB_URI=mongodb+srv://<user>:<pass>@<cluster>/<db>?retryWrites=true&w=majority&appName=<cluster-name>```
 2. Comenta la línea 75 en index.js y descomenta la línea 74
 
 **B) Usando MongoDB Atlas**
